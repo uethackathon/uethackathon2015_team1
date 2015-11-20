@@ -10,7 +10,7 @@
 
 @implementation School
 
-- (School*) getObjectFromJSON:(NSDictionary *)dict {
++ (School*) getObjectFromJSON:(NSDictionary *)dict {
     School *school = [[School alloc] init];
     school.schoolId = [[dict objectForKey:@"id"] integerValue];
     school.name = [dict objectForKey:@"name"];
