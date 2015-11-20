@@ -92,10 +92,9 @@ giá">
                                 <constraint firstAttribute="width" constant="3" id="qS2-JR-CaO"/>
                             </constraints>
                         </imageView>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8e-R0-HEY">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8e-R0-HEY">
                             <rect key="frame" x="0.0" y="0.0" width="61" height="60"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                            <state key="normal" title="Mô Tả"/>
+                            <state key="normal" image="img_mota.png"/>
                             <connections>
                                 <action selector="btnDescribleClicked:" destination="-1" eventType="touchUpInside" id="fDK-ZP-Ht3"/>
                             </connections>
@@ -171,6 +170,7 @@ giá">
     </objects>
     <resources>
         <image name="bg_btn.png" width="1080" height="200"/>
+        <image name="img_mota.png" width="40" height="20"/>
         <image name="separate.png" width="2" height="67"/>
     </resources>
 </document>

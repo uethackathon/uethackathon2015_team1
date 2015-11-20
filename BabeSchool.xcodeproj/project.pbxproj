@@ -19,6 +19,7 @@
 		12601B701BFF54A50070F8D2 /* SchoolDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B6E1BFF54A50070F8D2 /* SchoolDetailViewController.xib */; };
 		12601BD01BFF66110070F8D2 /* bg_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BCE1BFF66110070F8D2 /* bg_btn.png */; settings = {ASSET_TAGS = (); }; };
 		12601BD11BFF66110070F8D2 /* separate.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BCF1BFF66110070F8D2 /* separate.png */; settings = {ASSET_TAGS = (); }; };
+		12601BD51BFF70B30070F8D2 /* img_mota.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BD41BFF70B30070F8D2 /* img_mota.png */; settings = {ASSET_TAGS = (); }; };
 		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
 		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
 		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
@@ -85,6 +86,7 @@
 		12601B6E1BFF54A50070F8D2 /* SchoolDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolDetailViewController.xib; sourceTree = "<group>"; };
 		12601BCE1BFF66110070F8D2 /* bg_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_btn.png; sourceTree = "<group>"; };
 		12601BCF1BFF66110070F8D2 /* separate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = separate.png; sourceTree = "<group>"; };
+		12601BD41BFF70B30070F8D2 /* img_mota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_mota.png; sourceTree = "<group>"; };
 		51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSchoolViewController.h; sourceTree = "<group>"; };
 		51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSchoolViewController.m; sourceTree = "<group>"; };
 		51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListSchoolViewController.xib; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 		125CF4021BFF3BF60049D6D8 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				12601BD41BFF70B30070F8D2 /* img_mota.png */,
 				12601BCE1BFF66110070F8D2 /* bg_btn.png */,
 				12601BCF1BFF66110070F8D2 /* separate.png */,
 				51CBB2D01BFF6346007040E3 /* Resource */,
@@ -459,6 +462,7 @@
 				12601B6B1BFF51E20070F8D2 /* test_3.jpeg in Resources */,
 				12601B651BFF4FCE0070F8D2 /* FunctionViewController.xib in Resources */,
 				51CBB2CE1BFF6344007040E3 /* img4_2.png in Resources */,
+				12601BD51BFF70B30070F8D2 /* img_mota.png in Resources */,
 				12601B6A1BFF51E20070F8D2 /* test_2.jpeg in Resources */,
 				51CBB2CD1BFF6344007040E3 /* img4_1.png in Resources */,
 				51CBB2CC1BFF6344007040E3 /* img3_3.png in Resources */,
