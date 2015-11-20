@@ -7,7 +7,10 @@
 //
 
 #import "FunctionViewController.h"
-
+#import "LiveStreamViewController.h"
+#import "ThucDonViewController.h"
+#import "SucKhoeViewController.h"
+#import "ThongBaoViewController.h"
 @interface FunctionViewController ()
 
 @end
@@ -22,6 +25,22 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)btnThucDonClicked:(id)sender {
+    ThucDonViewController *thucDonVC =[[ThucDonViewController alloc]initWithNibName:@"ThucDonViewController" bundle:nil];
+    [self.navigationController pushViewController:thucDonVC animated:YES];
+}
+- (IBAction)btnSucKhoeClicked:(id)sender {
+    SucKhoeViewController *sucKhoeVC =[[SucKhoeViewController alloc]initWithNibName:@"SucKhoeViewController" bundle:nil];
+    [self.navigationController pushViewController:sucKhoeVC animated:YES];
+}
+- (IBAction)btnThongBaoClicked:(id)sender {
+    ThongBaoViewController *thongBaoVC =[[ThongBaoViewController alloc]initWithNibName:@"ThongBaoViewController" bundle:nil];
+    [self.navigationController pushViewController:thongBaoVC animated:YES];
+}
+- (IBAction)btnLiveStreamClicked:(id)sender {
+    LiveStreamViewController *liveVC =[[LiveStreamViewController alloc]initWithNibName:@"LiveStreamViewController" bundle:nil];
+    [self.navigationController pushViewController:liveVC animated:YES];
 }
 
 /*

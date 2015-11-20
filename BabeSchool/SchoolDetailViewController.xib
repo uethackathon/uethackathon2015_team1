@@ -9,6 +9,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SchoolDetailViewController">
             <connections>
                 <outlet property="rateView" destination="vNs-9i-xTS" id="dE6-Hb-seY"/>
+                <outlet property="textDetail" destination="wFL-CB-rNS" id="8YF-n6-or9"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="viewDetaild" destination="Kl4-Cc-qDS" id="bHp-NQ-FLl"/>
                 <outlet property="viewSlideImage" destination="SCm-27-eCD" id="6na-MF-RWy"/>
@@ -33,7 +34,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnF-Ce-5cZ">
-                            <rect key="frame" x="129" y="0.0" width="61" height="60"/>
+                            <rect key="frame" x="161" y="0.0" width="77" height="60"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                             <state key="normal" image="img_danhgia.png">
                                 <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -43,55 +44,42 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9T-0n-W2Z">
-                            <rect key="frame" x="193" y="0.0" width="61" height="60"/>
+                            <rect key="frame" x="241" y="0.0" width="77" height="60"/>
                             <state key="normal" image="img_map.png"/>
                             <connections>
                                 <action selector="btnMapClicked:" destination="-1" eventType="touchUpInside" id="pil-hb-4Ng"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egm-cI-a7I">
-                            <rect key="frame" x="64" y="0.0" width="61" height="60"/>
+                            <rect key="frame" x="80" y="0.0" width="77" height="60"/>
                             <state key="normal" image="img_thuchi.png"/>
                             <connections>
                                 <action selector="btnCostingClicked:" destination="-1" eventType="touchUpInside" id="ZxU-Hi-qwB"/>
                             </connections>
                         </button>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separate.png" translatesAutoresizingMaskIntoConstraints="NO" id="VxV-lK-i7U">
-                            <rect key="frame" x="61" y="0.0" width="3" height="60"/>
+                            <rect key="frame" x="77" y="0.0" width="3" height="60"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="3" id="DvM-dk-0dO"/>
                             </constraints>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separate.png" translatesAutoresizingMaskIntoConstraints="NO" id="K6H-Xf-ahe">
-                            <rect key="frame" x="126" y="0.0" width="3" height="60"/>
+                            <rect key="frame" x="158" y="0.0" width="3" height="60"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="3" id="zLo-yq-hM4"/>
                             </constraints>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separate.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZaD-VT-qhl">
-                            <rect key="frame" x="190" y="0.0" width="3" height="60"/>
+                            <rect key="frame" x="238" y="0.0" width="3" height="60"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="3" id="dyV-yP-sb2"/>
                             </constraints>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separate.png" translatesAutoresizingMaskIntoConstraints="NO" id="vGG-IH-879">
-                            <rect key="frame" x="254" y="0.0" width="3" height="60"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="3" id="qS2-JR-CaO"/>
-                            </constraints>
-                        </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8e-R0-HEY">
-                            <rect key="frame" x="0.0" y="0.0" width="61" height="60"/>
+                            <rect key="frame" x="0.0" y="0.0" width="77" height="60"/>
                             <state key="normal" image="img_mota.png"/>
                             <connections>
                                 <action selector="btnDescribleClicked:" destination="-1" eventType="touchUpInside" id="fDK-ZP-Ht3"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZmB-TV-eSw">
-                            <rect key="frame" x="257" y="0.0" width="63" height="60"/>
-                            <state key="normal" image="img_login.png"/>
-                            <connections>
-                                <action selector="btnMapClicked:" destination="-1" eventType="touchUpInside" id="j0u-57-1Z1"/>
                             </connections>
                         </button>
                     </subviews>
@@ -102,12 +90,8 @@
                         <constraint firstItem="K6H-Xf-ahe" firstAttribute="top" secondItem="EfP-cY-bQe" secondAttribute="top" id="7sF-Vu-NIZ"/>
                         <constraint firstItem="ZaD-VT-qhl" firstAttribute="leading" secondItem="YnF-Ce-5cZ" secondAttribute="trailing" id="8Ft-6v-O6t"/>
                         <constraint firstItem="Egm-cI-a7I" firstAttribute="top" secondItem="EfP-cY-bQe" secondAttribute="top" id="D98-6X-S02"/>
-                        <constraint firstAttribute="trailing" secondItem="ZmB-TV-eSw" secondAttribute="trailing" id="DEo-1X-cE9"/>
                         <constraint firstItem="VxV-lK-i7U" firstAttribute="top" secondItem="EfP-cY-bQe" secondAttribute="top" id="Eb7-jU-55h"/>
-                        <constraint firstItem="vGG-IH-879" firstAttribute="top" secondItem="EfP-cY-bQe" secondAttribute="top" id="GlF-UR-0Cc"/>
-                        <constraint firstItem="ZmB-TV-eSw" firstAttribute="top" secondItem="EfP-cY-bQe" secondAttribute="top" id="Kxz-g7-Tqc"/>
                         <constraint firstAttribute="bottom" secondItem="Egm-cI-a7I" secondAttribute="bottom" id="LAJ-ai-lvn"/>
-                        <constraint firstAttribute="bottom" secondItem="vGG-IH-879" secondAttribute="bottom" id="NSI-Jw-sXi"/>
                         <constraint firstAttribute="bottom" secondItem="z8e-R0-HEY" secondAttribute="bottom" id="PMw-uj-B0Y"/>
                         <constraint firstAttribute="bottom" secondItem="YnF-Ce-5cZ" secondAttribute="bottom" id="RUu-Qs-M8F"/>
                         <constraint firstItem="J9T-0n-W2Z" firstAttribute="top" secondItem="EfP-cY-bQe" secondAttribute="top" id="Rmc-qO-8DL"/>
@@ -123,17 +107,14 @@
                         <constraint firstAttribute="bottom" secondItem="h4R-gD-ddc" secondAttribute="bottom" id="a4Z-B5-AHX"/>
                         <constraint firstItem="YnF-Ce-5cZ" firstAttribute="top" secondItem="EfP-cY-bQe" secondAttribute="top" id="eQu-0O-5Bb"/>
                         <constraint firstItem="Egm-cI-a7I" firstAttribute="leading" secondItem="VxV-lK-i7U" secondAttribute="trailing" id="fc1-TU-5xQ"/>
-                        <constraint firstAttribute="bottom" secondItem="ZmB-TV-eSw" secondAttribute="bottom" id="fxn-Gp-M8R"/>
                         <constraint firstItem="z8e-R0-HEY" firstAttribute="leading" secondItem="EfP-cY-bQe" secondAttribute="leading" id="gWo-DI-Xud"/>
                         <constraint firstItem="J9T-0n-W2Z" firstAttribute="width" secondItem="YnF-Ce-5cZ" secondAttribute="width" id="oUD-bh-FU3"/>
                         <constraint firstItem="z8e-R0-HEY" firstAttribute="top" secondItem="EfP-cY-bQe" secondAttribute="top" id="pKe-lE-Eg7"/>
                         <constraint firstItem="YnF-Ce-5cZ" firstAttribute="width" secondItem="Egm-cI-a7I" secondAttribute="width" id="sP1-Yh-NsV"/>
-                        <constraint firstItem="ZmB-TV-eSw" firstAttribute="leading" secondItem="vGG-IH-879" secondAttribute="trailing" id="sVS-NP-1lA"/>
                         <constraint firstItem="K6H-Xf-ahe" firstAttribute="leading" secondItem="Egm-cI-a7I" secondAttribute="trailing" constant="1" id="vZa-PO-gAo"/>
                         <constraint firstAttribute="bottom" secondItem="ZaD-VT-qhl" secondAttribute="bottom" id="vpA-qk-q05"/>
-                        <constraint firstItem="vGG-IH-879" firstAttribute="leading" secondItem="J9T-0n-W2Z" secondAttribute="trailing" id="wMh-zr-8AJ"/>
                         <constraint firstItem="h4R-gD-ddc" firstAttribute="leading" secondItem="EfP-cY-bQe" secondAttribute="leading" id="wjK-cB-SAm"/>
-                        <constraint firstItem="z8e-R0-HEY" firstAttribute="width" secondItem="h4R-gD-ddc" secondAttribute="width" multiplier="1/5" constant="-3" id="ydf-1k-roF"/>
+                        <constraint firstItem="z8e-R0-HEY" firstAttribute="width" secondItem="h4R-gD-ddc" secondAttribute="width" multiplier="1/4" constant="-3" id="ydf-1k-roF"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kl4-Cc-qDS" userLabel="map">
@@ -143,8 +124,20 @@
                             <rect key="frame" x="50" y="48" width="58" height="84"/>
                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wFL-CB-rNS">
+                            <rect key="frame" x="8" y="10" width="304" height="296"/>
+                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="wFL-CB-rNS" secondAttribute="bottom" constant="22" id="0lr-Kn-nwe"/>
+                        <constraint firstAttribute="trailing" secondItem="wFL-CB-rNS" secondAttribute="trailing" constant="8" id="MYB-YZ-rWR"/>
+                        <constraint firstItem="wFL-CB-rNS" firstAttribute="top" secondItem="Kl4-Cc-qDS" secondAttribute="top" constant="10" id="NmZ-j8-wQn"/>
+                        <constraint firstItem="wFL-CB-rNS" firstAttribute="leading" secondItem="Kl4-Cc-qDS" secondAttribute="leading" constant="8" id="lhE-KC-EKK"/>
+                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -166,7 +159,6 @@
     <resources>
         <image name="bg_btn.png" width="1080" height="200"/>
         <image name="img_danhgia.png" width="160" height="80"/>
-        <image name="img_login.png" width="160" height="80"/>
         <image name="img_map.png" width="160" height="80"/>
         <image name="img_mota.png" width="160" height="80"/>
         <image name="img_thuchi.png" width="160" height="80"/>

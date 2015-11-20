@@ -12,9 +12,6 @@
 		12601B4A1BFF49D30070F8D2 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B491BFF49D30070F8D2 /* School.m */; };
 		12601B641BFF4FCE0070F8D2 /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B621BFF4FCE0070F8D2 /* FunctionViewController.m */; };
 		12601B651BFF4FCE0070F8D2 /* FunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B631BFF4FCE0070F8D2 /* FunctionViewController.xib */; };
-		12601B691BFF51E20070F8D2 /* test_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12601B661BFF51E20070F8D2 /* test_1.jpeg */; };
-		12601B6A1BFF51E20070F8D2 /* test_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12601B671BFF51E20070F8D2 /* test_2.jpeg */; };
-		12601B6B1BFF51E20070F8D2 /* test_3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12601B681BFF51E20070F8D2 /* test_3.jpeg */; };
 		12601B6F1BFF54A50070F8D2 /* SchoolDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B6D1BFF54A50070F8D2 /* SchoolDetailViewController.m */; };
 		12601B701BFF54A50070F8D2 /* SchoolDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B6E1BFF54A50070F8D2 /* SchoolDetailViewController.xib */; };
 		12601BD01BFF66110070F8D2 /* bg_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BCE1BFF66110070F8D2 /* bg_btn.png */; };
@@ -24,6 +21,15 @@
 		12601BE31BFF748C0070F8D2 /* img_mota.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BDE1BFF748C0070F8D2 /* img_mota.png */; };
 		12601BE41BFF748C0070F8D2 /* img_thuchi.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BDF1BFF748C0070F8D2 /* img_thuchi.png */; };
 		12601BE81BFF76740070F8D2 /* img_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BE71BFF76740070F8D2 /* img_login.png */; };
+		12601BEC1BFF88100070F8D2 /* LiveStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BEA1BFF88100070F8D2 /* LiveStreamViewController.m */; settings = {ASSET_TAGS = (); }; };
+		12601BED1BFF88100070F8D2 /* LiveStreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BEB1BFF88100070F8D2 /* LiveStreamViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		12601BF11BFF88680070F8D2 /* ThucDonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BEF1BFF88680070F8D2 /* ThucDonViewController.m */; settings = {ASSET_TAGS = (); }; };
+		12601BF21BFF88680070F8D2 /* ThucDonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BF01BFF88680070F8D2 /* ThucDonViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		12601BF61BFF88800070F8D2 /* SucKhoeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BF41BFF88800070F8D2 /* SucKhoeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		12601BF71BFF88800070F8D2 /* SucKhoeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BF51BFF88800070F8D2 /* SucKhoeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		12601BFB1BFF888F0070F8D2 /* ThongBaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BF91BFF888F0070F8D2 /* ThongBaoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		12601BFC1BFF888F0070F8D2 /* ThongBaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BFA1BFF888F0070F8D2 /* ThongBaoViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		12601C001BFF8E3E0070F8D2 /* bg_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BFF1BFF8E3E0070F8D2 /* bg_menu@2x.png */; settings = {ASSET_TAGS = (); }; };
 		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
 		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
 		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
@@ -50,7 +56,6 @@
 		B7F896246B16724A7E847B8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17461C75361181AA8523F47 /* libPods.a */; };
 		C3B39EC71BFF374D00C4A0EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC61BFF374D00C4A0EB /* main.m */; };
 		C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */; };
-		C3B39ECD1BFF374D00C4A0EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39ECC1BFF374D00C4A0EB /* ViewController.m */; };
 		C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3B39ED11BFF374D00C4A0EB /* BabeSchool.xcdatamodeld */; };
 		C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B39ED41BFF374D00C4A0EB /* Assets.xcassets */; };
 		C3B39ED81BFF374D00C4A0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B39ED61BFF374D00C4A0EB /* LaunchScreen.storyboard */; };
@@ -85,9 +90,6 @@
 		12601B611BFF4FCE0070F8D2 /* FunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionViewController.h; sourceTree = "<group>"; };
 		12601B621BFF4FCE0070F8D2 /* FunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionViewController.m; sourceTree = "<group>"; };
 		12601B631BFF4FCE0070F8D2 /* FunctionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunctionViewController.xib; sourceTree = "<group>"; };
-		12601B661BFF51E20070F8D2 /* test_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_1.jpeg; sourceTree = "<group>"; };
-		12601B671BFF51E20070F8D2 /* test_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_2.jpeg; sourceTree = "<group>"; };
-		12601B681BFF51E20070F8D2 /* test_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_3.jpeg; sourceTree = "<group>"; };
 		12601B6C1BFF54A50070F8D2 /* SchoolDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolDetailViewController.h; sourceTree = "<group>"; };
 		12601B6D1BFF54A50070F8D2 /* SchoolDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolDetailViewController.m; sourceTree = "<group>"; };
 		12601B6E1BFF54A50070F8D2 /* SchoolDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolDetailViewController.xib; sourceTree = "<group>"; };
@@ -98,6 +100,19 @@
 		12601BDE1BFF748C0070F8D2 /* img_mota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_mota.png; sourceTree = "<group>"; };
 		12601BDF1BFF748C0070F8D2 /* img_thuchi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_thuchi.png; sourceTree = "<group>"; };
 		12601BE71BFF76740070F8D2 /* img_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_login.png; sourceTree = "<group>"; };
+		12601BE91BFF88100070F8D2 /* LiveStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveStreamViewController.h; sourceTree = "<group>"; };
+		12601BEA1BFF88100070F8D2 /* LiveStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveStreamViewController.m; sourceTree = "<group>"; };
+		12601BEB1BFF88100070F8D2 /* LiveStreamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveStreamViewController.xib; sourceTree = "<group>"; };
+		12601BEE1BFF88680070F8D2 /* ThucDonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThucDonViewController.h; sourceTree = "<group>"; };
+		12601BEF1BFF88680070F8D2 /* ThucDonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThucDonViewController.m; sourceTree = "<group>"; };
+		12601BF01BFF88680070F8D2 /* ThucDonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThucDonViewController.xib; sourceTree = "<group>"; };
+		12601BF31BFF88800070F8D2 /* SucKhoeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SucKhoeViewController.h; sourceTree = "<group>"; };
+		12601BF41BFF88800070F8D2 /* SucKhoeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SucKhoeViewController.m; sourceTree = "<group>"; };
+		12601BF51BFF88800070F8D2 /* SucKhoeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SucKhoeViewController.xib; sourceTree = "<group>"; };
+		12601BF81BFF888F0070F8D2 /* ThongBaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThongBaoViewController.h; sourceTree = "<group>"; };
+		12601BF91BFF888F0070F8D2 /* ThongBaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThongBaoViewController.m; sourceTree = "<group>"; };
+		12601BFA1BFF888F0070F8D2 /* ThongBaoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThongBaoViewController.xib; sourceTree = "<group>"; };
+		12601BFF1BFF8E3E0070F8D2 /* bg_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_menu@2x.png"; sourceTree = "<group>"; };
 		51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSchoolViewController.h; sourceTree = "<group>"; };
 		51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSchoolViewController.m; sourceTree = "<group>"; };
 		51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListSchoolViewController.xib; sourceTree = "<group>"; };
@@ -133,8 +148,6 @@
 		C3B39EC61BFF374D00C4A0EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3B39EC81BFF374D00C4A0EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C3B39ECB1BFF374D00C4A0EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C3B39ECC1BFF374D00C4A0EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C3B39ED21BFF374D00C4A0EB /* BabeSchool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabeSchool.xcdatamodel; sourceTree = "<group>"; };
 		C3B39ED41BFF374D00C4A0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3B39ED71BFF374D00C4A0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -179,9 +192,6 @@
 				12601BCE1BFF66110070F8D2 /* bg_btn.png */,
 				12601BCF1BFF66110070F8D2 /* separate.png */,
 				51CBB2D01BFF6346007040E3 /* Resource */,
-				12601B661BFF51E20070F8D2 /* test_1.jpeg */,
-				12601B671BFF51E20070F8D2 /* test_2.jpeg */,
-				12601B681BFF51E20070F8D2 /* test_3.jpeg */,
 				12601B451BFF484C0070F8D2 /* RateView.h */,
 				12601B461BFF484C0070F8D2 /* RateView.m */,
 				125CF4031BFF3C040049D6D8 /* KASlideShow.h */,
@@ -203,9 +213,22 @@
 		12601B4B1BFF4A5F0070F8D2 /* Funtion View */ = {
 			isa = PBXGroup;
 			children = (
+				12601BFF1BFF8E3E0070F8D2 /* bg_menu@2x.png */,
 				12601B611BFF4FCE0070F8D2 /* FunctionViewController.h */,
 				12601B621BFF4FCE0070F8D2 /* FunctionViewController.m */,
 				12601B631BFF4FCE0070F8D2 /* FunctionViewController.xib */,
+				12601BE91BFF88100070F8D2 /* LiveStreamViewController.h */,
+				12601BEA1BFF88100070F8D2 /* LiveStreamViewController.m */,
+				12601BEB1BFF88100070F8D2 /* LiveStreamViewController.xib */,
+				12601BEE1BFF88680070F8D2 /* ThucDonViewController.h */,
+				12601BEF1BFF88680070F8D2 /* ThucDonViewController.m */,
+				12601BF01BFF88680070F8D2 /* ThucDonViewController.xib */,
+				12601BF31BFF88800070F8D2 /* SucKhoeViewController.h */,
+				12601BF41BFF88800070F8D2 /* SucKhoeViewController.m */,
+				12601BF51BFF88800070F8D2 /* SucKhoeViewController.xib */,
+				12601BF81BFF888F0070F8D2 /* ThongBaoViewController.h */,
+				12601BF91BFF888F0070F8D2 /* ThongBaoViewController.m */,
+				12601BFA1BFF888F0070F8D2 /* ThongBaoViewController.xib */,
 			);
 			name = "Funtion View";
 			sourceTree = "<group>";
@@ -355,8 +378,6 @@
 				125CF4021BFF3BF60049D6D8 /* Support */,
 				C3B39EC81BFF374D00C4A0EB /* AppDelegate.h */,
 				C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */,
-				C3B39ECB1BFF374D00C4A0EB /* ViewController.h */,
-				C3B39ECC1BFF374D00C4A0EB /* ViewController.m */,
 				C3B39ED41BFF374D00C4A0EB /* Assets.xcassets */,
 				C3B39ED61BFF374D00C4A0EB /* LaunchScreen.storyboard */,
 				C3B39ED91BFF374D00C4A0EB /* Info.plist */,
@@ -501,6 +522,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51CBB2AA1BFF49D3007040E3 /* LoginViewController.xib in Resources */,
+				12601BF21BFF88680070F8D2 /* ThucDonViewController.xib in Resources */,
 				51CBB2C61BFF6344007040E3 /* img1_3.png in Resources */,
 				12601BE31BFF748C0070F8D2 /* img_mota.png in Resources */,
 				12601BD11BFF66110070F8D2 /* separate.png in Resources */,
@@ -509,17 +531,19 @@
 				12601B701BFF54A50070F8D2 /* SchoolDetailViewController.xib in Resources */,
 				51CBB2C41BFF6344007040E3 /* img1_1.png in Resources */,
 				12601BE41BFF748C0070F8D2 /* img_thuchi.png in Resources */,
+				12601BFC1BFF888F0070F8D2 /* ThongBaoViewController.xib in Resources */,
+				12601BED1BFF88100070F8D2 /* LiveStreamViewController.xib in Resources */,
 				51CBB2CB1BFF6344007040E3 /* img3_2.png in Resources */,
-				12601B6B1BFF51E20070F8D2 /* test_3.jpeg in Resources */,
 				12601B651BFF4FCE0070F8D2 /* FunctionViewController.xib in Resources */,
 				51CBB2CE1BFF6344007040E3 /* img4_2.png in Resources */,
-				12601B6A1BFF51E20070F8D2 /* test_2.jpeg in Resources */,
 				51D4497B1BFF7F21001121C7 /* schools.json in Resources */,
 				51CBB2CD1BFF6344007040E3 /* img4_1.png in Resources */,
 				51CBB2CC1BFF6344007040E3 /* img3_3.png in Resources */,
 				12601BE11BFF748C0070F8D2 /* img_danhgia.png in Resources */,
+				12601BF71BFF88800070F8D2 /* SucKhoeViewController.xib in Resources */,
 				C3B39ED81BFF374D00C4A0EB /* LaunchScreen.storyboard in Resources */,
 				12601BE81BFF76740070F8D2 /* img_login.png in Resources */,
+				12601C001BFF8E3E0070F8D2 /* bg_menu@2x.png in Resources */,
 				51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */,
 				51CBB2C81BFF6344007040E3 /* img2_2.png in Resources */,
 				51CBB2CF1BFF6344007040E3 /* img4_3.png in Resources */,
@@ -531,7 +555,6 @@
 				51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */,
 				51CBB2C91BFF6344007040E3 /* img2_3.png in Resources */,
 				12601BE21BFF748C0070F8D2 /* img_map.png in Resources */,
-				12601B691BFF51E20070F8D2 /* test_1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,14 +615,16 @@
 				51D449811BFF87C7001121C7 /* User.m in Sources */,
 				12601B641BFF4FCE0070F8D2 /* FunctionViewController.m in Sources */,
 				51CBB2A91BFF49D3007040E3 /* LoginViewController.m in Sources */,
-				C3B39ECD1BFF374D00C4A0EB /* ViewController.m in Sources */,
 				12601B471BFF484C0070F8D2 /* RateView.m in Sources */,
+				12601BFB1BFF888F0070F8D2 /* ThongBaoViewController.m in Sources */,
 				12601B4A1BFF49D30070F8D2 /* School.m in Sources */,
 				12601B6F1BFF54A50070F8D2 /* SchoolDetailViewController.m in Sources */,
 				51D449851BFF9234001121C7 /* MyLib.m in Sources */,
 				C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */,
+				12601BF11BFF88680070F8D2 /* ThucDonViewController.m in Sources */,
 				51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */,
 				C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */,
+				12601BF61BFF88800070F8D2 /* SucKhoeViewController.m in Sources */,
 				51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */,
 				125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */,
 				C3B39EC71BFF374D00C4A0EB /* main.m in Sources */,
