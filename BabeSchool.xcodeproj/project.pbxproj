@@ -51,16 +51,13 @@
 /* Begin PBXFileReference section */
 		125CF4031BFF3C040049D6D8 /* KASlideShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KASlideShow.h; sourceTree = "<group>"; };
 		125CF4041BFF3C040049D6D8 /* KASlideShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KASlideShow.m; sourceTree = "<group>"; };
-		12601B401BFF44380070F8D2 /* SchoolDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolDetailViewController.h; sourceTree = "<group>"; };
-		12601B411BFF44380070F8D2 /* SchoolDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolDetailViewController.m; sourceTree = "<group>"; };
-		12601B421BFF44380070F8D2 /* SchoolDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolDetailViewController.xib; sourceTree = "<group>"; };
 		12601B451BFF484C0070F8D2 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
 		12601B461BFF484C0070F8D2 /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
 		12601B481BFF49D30070F8D2 /* SchoolModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolModal.h; sourceTree = "<group>"; };
 		12601B491BFF49D30070F8D2 /* SchoolModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolModal.m; sourceTree = "<group>"; };
-		12601B4C1BFF4A6C0070F8D2 /* FunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionViewController.h; sourceTree = "<group>"; };
-		12601B4D1BFF4A6C0070F8D2 /* FunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionViewController.m; sourceTree = "<group>"; };
-		12601B4E1BFF4A6C0070F8D2 /* FunctionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunctionViewController.xib; sourceTree = "<group>"; };
+		12601B5C1BFF4E2A0070F8D2 /* SchoolDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolDetailViewController.h; sourceTree = "<group>"; };
+		12601B5D1BFF4E2A0070F8D2 /* SchoolDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolDetailViewController.m; sourceTree = "<group>"; };
+		12601B5E1BFF4E2A0070F8D2 /* SchoolDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolDetailViewController.xib; sourceTree = "<group>"; };
 		51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSchoolViewController.h; sourceTree = "<group>"; };
 		51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSchoolViewController.m; sourceTree = "<group>"; };
 		51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListSchoolViewController.xib; sourceTree = "<group>"; };
@@ -133,9 +130,9 @@
 		12601B3F1BFF441F0070F8D2 /* School Detail */ = {
 			isa = PBXGroup;
 			children = (
-				12601B401BFF44380070F8D2 /* SchoolDetailViewController.h */,
-				12601B411BFF44380070F8D2 /* SchoolDetailViewController.m */,
-				12601B421BFF44380070F8D2 /* SchoolDetailViewController.xib */,
+				12601B5C1BFF4E2A0070F8D2 /* SchoolDetailViewController.h */,
+				12601B5D1BFF4E2A0070F8D2 /* SchoolDetailViewController.m */,
+				12601B5E1BFF4E2A0070F8D2 /* SchoolDetailViewController.xib */,
 			);
 			name = "School Detail";
 			sourceTree = "<group>";
@@ -143,9 +140,6 @@
 		12601B4B1BFF4A5F0070F8D2 /* Funtion View */ = {
 			isa = PBXGroup;
 			children = (
-				12601B4C1BFF4A6C0070F8D2 /* FunctionViewController.h */,
-				12601B4D1BFF4A6C0070F8D2 /* FunctionViewController.m */,
-				12601B4E1BFF4A6C0070F8D2 /* FunctionViewController.xib */,
 			);
 			name = "Funtion View";
 			sourceTree = "<group>";
@@ -384,11 +378,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				51CBB2AA1BFF49D3007040E3 /* LoginViewController.xib in Resources */,
+				12601B601BFF4E2A0070F8D2 /* SchoolDetailViewController.xib in Resources */,
 				C3B39ED81BFF374D00C4A0EB /* LaunchScreen.storyboard in Resources */,
-				12601B441BFF44380070F8D2 /* SchoolDetailViewController.xib in Resources */,
 				51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */,
 				C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */,
-				12601B501BFF4A6C0070F8D2 /* FunctionViewController.xib in Resources */,
 				51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,14 +442,13 @@
 			files = (
 				51CBB2A91BFF49D3007040E3 /* LoginViewController.m in Sources */,
 				C3B39ECD1BFF374D00C4A0EB /* ViewController.m in Sources */,
-				12601B431BFF44380070F8D2 /* SchoolDetailViewController.m in Sources */,
 				12601B471BFF484C0070F8D2 /* RateView.m in Sources */,
 				12601B4A1BFF49D30070F8D2 /* SchoolModal.m in Sources */,
 				C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */,
 				51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */,
-				12601B4F1BFF4A6C0070F8D2 /* FunctionViewController.m in Sources */,
 				C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */,
 				51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */,
+				12601B5F1BFF4E2A0070F8D2 /* SchoolDetailViewController.m in Sources */,
 				125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */,
 				C3B39EC71BFF374D00C4A0EB /* main.m in Sources */,
 			);
