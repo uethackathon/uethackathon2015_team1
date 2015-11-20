@@ -9,7 +9,6 @@
 #import "ListSchoolViewController.h"
 #import "SchoolCell.h"
 #import "LoginViewController.h"
-#import "SchoolDetailViewController.h"
 
 @interface ListSchoolViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableSchools;
