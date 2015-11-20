@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 125CF4041BFF3C040049D6D8 /* KASlideShow.m */; };
-		12601B471BFF484C0070F8D2 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B461BFF484C0070F8D2 /* RateView.m */; settings = {ASSET_TAGS = (); }; };
-		12601B4A1BFF49D30070F8D2 /* SchoolModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B491BFF49D30070F8D2 /* SchoolModal.m */; settings = {ASSET_TAGS = (); }; };
-		12601B641BFF4FCE0070F8D2 /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B621BFF4FCE0070F8D2 /* FunctionViewController.m */; settings = {ASSET_TAGS = (); }; };
-		12601B651BFF4FCE0070F8D2 /* FunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B631BFF4FCE0070F8D2 /* FunctionViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		12601B691BFF51E20070F8D2 /* test_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12601B661BFF51E20070F8D2 /* test_1.jpeg */; settings = {ASSET_TAGS = (); }; };
-		12601B6A1BFF51E20070F8D2 /* test_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12601B671BFF51E20070F8D2 /* test_2.jpeg */; settings = {ASSET_TAGS = (); }; };
-		12601B6B1BFF51E20070F8D2 /* test_3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12601B681BFF51E20070F8D2 /* test_3.jpeg */; settings = {ASSET_TAGS = (); }; };
-		12601B6F1BFF54A50070F8D2 /* SchoolDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B6D1BFF54A50070F8D2 /* SchoolDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
-		12601B701BFF54A50070F8D2 /* SchoolDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B6E1BFF54A50070F8D2 /* SchoolDetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		12601B471BFF484C0070F8D2 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B461BFF484C0070F8D2 /* RateView.m */; };
+		12601B4A1BFF49D30070F8D2 /* SchoolModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B491BFF49D30070F8D2 /* SchoolModal.m */; };
+		12601B641BFF4FCE0070F8D2 /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B621BFF4FCE0070F8D2 /* FunctionViewController.m */; };
+		12601B651BFF4FCE0070F8D2 /* FunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B631BFF4FCE0070F8D2 /* FunctionViewController.xib */; };
+		12601B691BFF51E20070F8D2 /* test_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12601B661BFF51E20070F8D2 /* test_1.jpeg */; };
+		12601B6A1BFF51E20070F8D2 /* test_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12601B671BFF51E20070F8D2 /* test_2.jpeg */; };
+		12601B6B1BFF51E20070F8D2 /* test_3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12601B681BFF51E20070F8D2 /* test_3.jpeg */; };
+		12601B6F1BFF54A50070F8D2 /* SchoolDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B6D1BFF54A50070F8D2 /* SchoolDetailViewController.m */; };
+		12601B701BFF54A50070F8D2 /* SchoolDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B6E1BFF54A50070F8D2 /* SchoolDetailViewController.xib */; };
 		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
 		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
 		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
