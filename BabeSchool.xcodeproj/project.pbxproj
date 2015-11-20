@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 125CF4041BFF3C040049D6D8 /* KASlideShow.m */; };
-		12601B431BFF44380070F8D2 /* SchoolDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B411BFF44380070F8D2 /* SchoolDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
-		12601B441BFF44380070F8D2 /* SchoolDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B421BFF44380070F8D2 /* SchoolDetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		12601B471BFF484C0070F8D2 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B461BFF484C0070F8D2 /* RateView.m */; settings = {ASSET_TAGS = (); }; };
-		12601B4A1BFF49D30070F8D2 /* SchoolModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B491BFF49D30070F8D2 /* SchoolModal.m */; settings = {ASSET_TAGS = (); }; };
-		12601B4F1BFF4A6C0070F8D2 /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B4D1BFF4A6C0070F8D2 /* FunctionViewController.m */; settings = {ASSET_TAGS = (); }; };
-		12601B501BFF4A6C0070F8D2 /* FunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B4E1BFF4A6C0070F8D2 /* FunctionViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		12601B431BFF44380070F8D2 /* SchoolDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B411BFF44380070F8D2 /* SchoolDetailViewController.m */; };
+		12601B441BFF44380070F8D2 /* SchoolDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B421BFF44380070F8D2 /* SchoolDetailViewController.xib */; };
+		12601B471BFF484C0070F8D2 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B461BFF484C0070F8D2 /* RateView.m */; };
+		12601B4A1BFF49D30070F8D2 /* SchoolModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B491BFF49D30070F8D2 /* SchoolModal.m */; };
+		12601B4F1BFF4A6C0070F8D2 /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B4D1BFF4A6C0070F8D2 /* FunctionViewController.m */; };
+		12601B501BFF4A6C0070F8D2 /* FunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B4E1BFF4A6C0070F8D2 /* FunctionViewController.xib */; };
 		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
 		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
 		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
