@@ -18,5 +18,5 @@
 @property (assign,nonatomic) CGFloat local_y;
 @property (strong,nonatomic) NSString *mobile;
 @property (strong,nonatomic) NSArray *arrayImages;
-- (School*) getObjectFromJSON: (NSDictionary*) dict;
++ (School*) getObjectFromJSON: (NSDictionary*) dict;
 @end

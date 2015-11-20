@@ -20,4 +20,9 @@
     // Configure the view for the selected state
 }
 
+- (void) bindData:(School *)school {
+    _lbName.text = school.name;
+    _lbAddress.text = school.address;
+    _imgAvatar.image = [UIImage imageNamed:[school.arrayImages objectAtIndex:0]];
+}
 @end

@@ -1,4 +1,4 @@
-[
+{ "data" : [
     {
         "id" : "1",
         "name" : "Trường Mầm Non Hoa Phượng",
@@ -55,3 +55,4 @@
         "imgs": ["img4_1.png", "img4_2.png", "img4_3.png"]
     }
 ]
+}
