@@ -7,9 +7,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SchoolDetailViewController">
             <connections>
-                <outlet property="rateView" destination="vNs-9i-xTS" id="xTN-CK-Bw5"/>
+                <outlet property="rateView" destination="vNs-9i-xTS" id="dE6-Hb-seY"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
-                <outlet property="viewDetaild" destination="Kl4-Cc-qDS" id="LkK-Hv-DA9"/>
+                <outlet property="viewDetaild" destination="Kl4-Cc-qDS" id="bHp-NQ-FLl"/>
                 <outlet property="viewSlideImage" destination="SCm-27-eCD" id="6na-MF-RWy"/>
             </connections>
         </placeholder>
@@ -18,22 +18,15 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SCm-27-eCD" userLabel="slide">
-                    <rect key="frame" x="0.0" y="13" width="320" height="184"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SCm-27-eCD" userLabel="slide">
+                    <rect key="frame" x="0.0" y="17" width="320" height="180"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="Mdk-To-ZQE"/>
+                    </constraints>
                 </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kl4-Cc-qDS" userLabel="map">
-                    <rect key="frame" x="0.0" y="266" width="320" height="302"/>
-                    <subviews>
-                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vNs-9i-xTS" customClass="RateView">
-                            <rect key="frame" x="0.0" y="59" width="320" height="135"/>
-                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                        </view>
-                    </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EfP-cY-bQe" userLabel="control">
-                    <rect key="frame" x="0.0" y="193" width="320" height="60"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EfP-cY-bQe" userLabel="control">
+                    <rect key="frame" x="0.0" y="197" width="320" height="60"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8e-R0-HEY">
                             <rect key="frame" x="14" y="15" width="46" height="30"/>
@@ -72,9 +65,34 @@
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="0bo-im-hbv"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kl4-Cc-qDS" userLabel="map">
+                    <rect key="frame" x="0.0" y="257" width="320" height="311"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vNs-9i-xTS" customClass="RateView">
+                            <rect key="frame" x="0.0" y="94" width="320" height="135"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="SCm-27-eCD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="0EK-dq-qge"/>
+                <constraint firstItem="EfP-cY-bQe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CYe-R6-i1x"/>
+                <constraint firstItem="SCm-27-eCD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="17" id="DQj-wa-TjB"/>
+                <constraint firstAttribute="trailing" secondItem="Kl4-Cc-qDS" secondAttribute="trailing" id="HDK-XW-hAP"/>
+                <constraint firstItem="Kl4-Cc-qDS" firstAttribute="top" secondItem="EfP-cY-bQe" secondAttribute="bottom" id="RBC-at-hxB"/>
+                <constraint firstAttribute="trailing" secondItem="EfP-cY-bQe" secondAttribute="trailing" id="YeA-me-d7m"/>
+                <constraint firstItem="Kl4-Cc-qDS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dlE-wS-vGh"/>
+                <constraint firstAttribute="trailing" secondItem="SCm-27-eCD" secondAttribute="trailing" id="npj-tH-dJU"/>
+                <constraint firstAttribute="bottom" secondItem="Kl4-Cc-qDS" secondAttribute="bottom" id="t9I-kg-d98"/>
+                <constraint firstItem="EfP-cY-bQe" firstAttribute="top" secondItem="SCm-27-eCD" secondAttribute="bottom" id="x5o-Je-MEO"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>
