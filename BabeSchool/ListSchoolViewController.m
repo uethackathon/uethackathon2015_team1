@@ -9,6 +9,7 @@
 #import "ListSchoolViewController.h"
 #import "SchoolCell.h"
 #import "LoginViewController.h"
+#import "SchoolDetailViewController.h"
 
 @interface ListSchoolViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableSchools;
@@ -75,6 +76,8 @@
 }
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    SchoolDetailViewController *schoolDetailVC = [[SchoolDetailViewController alloc] initWithNibName:@"SchoolDetailViewController" bundle:nil];
+    [self.navigationController pushViewController:schoolDetailVC animated:YES];
 }
 /*
 #pragma mark - Navigation
