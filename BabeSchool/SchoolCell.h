@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SchoolCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *lbName;
+@property (weak, nonatomic) IBOutlet UILabel *lbAddress;
+@property (weak, nonatomic) IBOutlet UILabel *lbDescription;
+
 
 @end
