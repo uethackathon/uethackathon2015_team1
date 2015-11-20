@@ -1,0 +1,77 @@
+[
+    {
+        "id" : "1",
+        "name" : "Trường Mầm Non Hoa Phượng",
+        "address" : "238 Bà Triệu, Lê Đại Hành, Hai Bà Trưng, Hà Nội,",
+        "describle" : "Trường có truyền thống lâu đời,Địa chỉ tại Cầu Giấy Hà Nội",
+        "mobile":"+84 4 38227630",
+        "thu chi" : "HKI 2013-2014 : 3.000.000/nHKII 2013-2014:3.400.000",
+        "longlatitud": "21.014818",
+        "latitude": "105.849237",
+        "imgs":[
+        		{"img1_1":"img1_1"},
+ 				{"img1_2":"img1_2"},
+ 				{"img1_3":"img1_3"},
+        ]      
+    },
+    {
+        "id" : "2",
+        "name" : "Trường Mẫu Giáo Việt Triều Hữu Nghị",
+        "address" : "Phạm Ngọc Thạch, Trung Tự, Đống Đa, Hà Nội",
+        "describle" : "Trường có truyền thống lâu đời,Địa chỉ tại Cầu Giấy Hà Nội",
+        "mobile":"+84 4 3852 3838",
+        "thu chi" : "HKI 2013-2014 : 3.000.000/nHKII 2013-2014:3.400.000",
+        "longlatitud": "21.009793",
+        "latitude": "105.834748",
+        "imgs":[
+        		{"img2_1":"img2_1"},
+ 				{"img2_2":"img2_2"},
+ 				{"img2_3":"img2_3"},
+        ]     
+    },
+     {
+        "id" : "3",
+        "name" : "Trường Mẫu giáo Bách Khoa",
+        "address" : "68B Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",
+        "describle" : "Trường có truyền thống lâu đời,Địa chỉ tại Cầu Giấy Hà Nội",
+        "mobile":"+84 4 3868 4968",
+        "thu chi" : "HKI 2013-2014 : 3.000.000/nHKII 2013-2014:3.400.000",
+        "longlatitud": "21.003273",
+        "latitude": "105.844858",
+        "imgs":[
+        		{"img3_1":"img3_1"},
+ 				{"img3_2":"img3_2"},
+ 				{"img3_3":"img3_3"},
+        ]
+    },
+    {
+        "id" : "4",
+        "name" : "Trường Mẫu Giáo Sao Sáng",
+        "address" : "5 Nguyễn Thượng Hiền, Nguyễn Du, Hai Bà Trưng, Hà Nội",
+        "describle" : "Trường có truyền thống lâu đời,Địa chỉ tại Cầu Giấy Hà Nội",
+        "mobile":"+84 4 3942 4238",
+        "thu chi" : "HKI 2013-2014 : 3.000.000/nHKII 2013-2014:3.400.000",
+        "longlatitud": "21.019146",
+        "latitude": "105.843809",
+        "imgs":[
+        		{"img4_1":"img4_1"},
+ 				{"img4_2":"img4_2"},
+ 				{"img4_3":"img4_3"},
+        ]
+    },
+    {
+        "id" : "5",
+        "name" : "Trường Mẫu Giáo Chim Non",
+        "address" : "86 Lò Đúc, Phạm Đình Hồ, Hai Bà Trưng, Hà Nội",
+        "describle" : "Trường có truyền thống lâu đời,Địa chỉ tại Cầu Giấy Hà Nội",
+        "mobile":"+84 4 3971 4881",
+        "thu chi" : "HKI 2013-2014 : 3.000.000/nHKII 2013-2014:3.400.000",
+        "longlatitud": "21.015356",
+        "latitude": "105.857324",
+        "imgs":[
+        		{"img5_1":"img5_1"},
+ 				{"img5_2":"img5_2"},
+ 				{"img5_3":"img5_3"},
+        ]
+    }
+]
