@@ -15,6 +15,8 @@
 		12601B691BFF51E20070F8D2 /* test_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12601B661BFF51E20070F8D2 /* test_1.jpeg */; settings = {ASSET_TAGS = (); }; };
 		12601B6A1BFF51E20070F8D2 /* test_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12601B671BFF51E20070F8D2 /* test_2.jpeg */; settings = {ASSET_TAGS = (); }; };
 		12601B6B1BFF51E20070F8D2 /* test_3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12601B681BFF51E20070F8D2 /* test_3.jpeg */; settings = {ASSET_TAGS = (); }; };
+		12601B6F1BFF54A50070F8D2 /* SchoolDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B6D1BFF54A50070F8D2 /* SchoolDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		12601B701BFF54A50070F8D2 /* SchoolDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B6E1BFF54A50070F8D2 /* SchoolDetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
 		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
 		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
@@ -62,6 +64,9 @@
 		12601B661BFF51E20070F8D2 /* test_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_1.jpeg; sourceTree = "<group>"; };
 		12601B671BFF51E20070F8D2 /* test_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_2.jpeg; sourceTree = "<group>"; };
 		12601B681BFF51E20070F8D2 /* test_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_3.jpeg; sourceTree = "<group>"; };
+		12601B6C1BFF54A50070F8D2 /* SchoolDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolDetailViewController.h; sourceTree = "<group>"; };
+		12601B6D1BFF54A50070F8D2 /* SchoolDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolDetailViewController.m; sourceTree = "<group>"; };
+		12601B6E1BFF54A50070F8D2 /* SchoolDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolDetailViewController.xib; sourceTree = "<group>"; };
 		51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSchoolViewController.h; sourceTree = "<group>"; };
 		51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSchoolViewController.m; sourceTree = "<group>"; };
 		51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListSchoolViewController.xib; sourceTree = "<group>"; };
@@ -137,6 +142,9 @@
 		12601B3F1BFF441F0070F8D2 /* School Detail */ = {
 			isa = PBXGroup;
 			children = (
+				12601B6C1BFF54A50070F8D2 /* SchoolDetailViewController.h */,
+				12601B6D1BFF54A50070F8D2 /* SchoolDetailViewController.m */,
+				12601B6E1BFF54A50070F8D2 /* SchoolDetailViewController.xib */,
 			);
 			name = "School Detail";
 			sourceTree = "<group>";
@@ -385,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51CBB2AA1BFF49D3007040E3 /* LoginViewController.xib in Resources */,
+				12601B701BFF54A50070F8D2 /* SchoolDetailViewController.xib in Resources */,
 				12601B6B1BFF51E20070F8D2 /* test_3.jpeg in Resources */,
 				12601B651BFF4FCE0070F8D2 /* FunctionViewController.xib in Resources */,
 				12601B6A1BFF51E20070F8D2 /* test_2.jpeg in Resources */,
@@ -455,6 +464,7 @@
 				C3B39ECD1BFF374D00C4A0EB /* ViewController.m in Sources */,
 				12601B471BFF484C0070F8D2 /* RateView.m in Sources */,
 				12601B4A1BFF49D30070F8D2 /* SchoolModal.m in Sources */,
+				12601B6F1BFF54A50070F8D2 /* SchoolDetailViewController.m in Sources */,
 				C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */,
 				51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */,
 				C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */,
