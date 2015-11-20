@@ -22,7 +22,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self setupNavigationBar];
-    [GMSServices provideAPIKey:@"AIzaSyDZuKzTS6dQu5YMfdpjXsNPuJYD4-dRV5g"];
+    [GMSServices provideAPIKey:@"AIzaSyCUNayYeGzz0Jz3WSjCGloQqVrk7IYx68s"];
     ListSchoolViewController *listSchoolVC = [[ListSchoolViewController alloc] initWithNibName:@"ListSchoolViewController" bundle:nil];
     
     UINavigationController *navMain = [[UINavigationController alloc] initWithRootViewController:listSchoolVC];
