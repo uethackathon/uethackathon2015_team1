@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 125CF4041BFF3C040049D6D8 /* KASlideShow.m */; };
+		12601B431BFF44380070F8D2 /* SchoolDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B411BFF44380070F8D2 /* SchoolDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		12601B441BFF44380070F8D2 /* SchoolDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B421BFF44380070F8D2 /* SchoolDetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		12601B471BFF484C0070F8D2 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B461BFF484C0070F8D2 /* RateView.m */; settings = {ASSET_TAGS = (); }; };
+		12601B4A1BFF49D30070F8D2 /* SchoolModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B491BFF49D30070F8D2 /* SchoolModal.m */; settings = {ASSET_TAGS = (); }; };
+		12601B4F1BFF4A6C0070F8D2 /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B4D1BFF4A6C0070F8D2 /* FunctionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		12601B501BFF4A6C0070F8D2 /* FunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B4E1BFF4A6C0070F8D2 /* FunctionViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
+		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
+		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
+		51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2A21BFF3ED1007040E3 /* SchoolCell.xib */; };
+		51CBB2A91BFF49D3007040E3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A71BFF49D3007040E3 /* LoginViewController.m */; };
+		51CBB2AA1BFF49D3007040E3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2A81BFF49D3007040E3 /* LoginViewController.xib */; };
 		B7F896246B16724A7E847B8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17461C75361181AA8523F47 /* libPods.a */; };
 		C3B39EC71BFF374D00C4A0EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC61BFF374D00C4A0EB /* main.m */; };
 		C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */; };
 		C3B39ECD1BFF374D00C4A0EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39ECC1BFF374D00C4A0EB /* ViewController.m */; };
-		C3B39ED01BFF374D00C4A0EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B39ECE1BFF374D00C4A0EB /* Main.storyboard */; };
 		C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3B39ED11BFF374D00C4A0EB /* BabeSchool.xcdatamodeld */; };
 		C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B39ED41BFF374D00C4A0EB /* Assets.xcassets */; };
 		C3B39ED81BFF374D00C4A0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B39ED61BFF374D00C4A0EB /* LaunchScreen.storyboard */; };
@@ -37,6 +49,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		125CF4031BFF3C040049D6D8 /* KASlideShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KASlideShow.h; sourceTree = "<group>"; };
+		125CF4041BFF3C040049D6D8 /* KASlideShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KASlideShow.m; sourceTree = "<group>"; };
+		12601B401BFF44380070F8D2 /* SchoolDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolDetailViewController.h; sourceTree = "<group>"; };
+		12601B411BFF44380070F8D2 /* SchoolDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolDetailViewController.m; sourceTree = "<group>"; };
+		12601B421BFF44380070F8D2 /* SchoolDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolDetailViewController.xib; sourceTree = "<group>"; };
+		12601B451BFF484C0070F8D2 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
+		12601B461BFF484C0070F8D2 /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		12601B481BFF49D30070F8D2 /* SchoolModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolModal.h; sourceTree = "<group>"; };
+		12601B491BFF49D30070F8D2 /* SchoolModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolModal.m; sourceTree = "<group>"; };
+		12601B4C1BFF4A6C0070F8D2 /* FunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionViewController.h; sourceTree = "<group>"; };
+		12601B4D1BFF4A6C0070F8D2 /* FunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionViewController.m; sourceTree = "<group>"; };
+		12601B4E1BFF4A6C0070F8D2 /* FunctionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunctionViewController.xib; sourceTree = "<group>"; };
+		51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSchoolViewController.h; sourceTree = "<group>"; };
+		51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSchoolViewController.m; sourceTree = "<group>"; };
+		51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListSchoolViewController.xib; sourceTree = "<group>"; };
+		51CBB2A01BFF3ED0007040E3 /* SchoolCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolCell.h; sourceTree = "<group>"; };
+		51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolCell.m; sourceTree = "<group>"; };
+		51CBB2A21BFF3ED1007040E3 /* SchoolCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolCell.xib; sourceTree = "<group>"; };
+		51CBB2A61BFF49D3007040E3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		51CBB2A71BFF49D3007040E3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		51CBB2A81BFF49D3007040E3 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		A02661D9D79C61F4AEDFD976 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B17461C75361181AA8523F47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C5F5C44223DB30D15FF2FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +79,6 @@
 		C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C3B39ECB1BFF374D00C4A0EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C3B39ECC1BFF374D00C4A0EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C3B39ECF1BFF374D00C4A0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3B39ED21BFF374D00C4A0EB /* BabeSchool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabeSchool.xcdatamodel; sourceTree = "<group>"; };
 		C3B39ED41BFF374D00C4A0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3B39ED71BFF374D00C4A0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -85,6 +117,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		125CF4021BFF3BF60049D6D8 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				12601B481BFF49D30070F8D2 /* SchoolModal.h */,
+				12601B491BFF49D30070F8D2 /* SchoolModal.m */,
+				12601B451BFF484C0070F8D2 /* RateView.h */,
+				12601B461BFF484C0070F8D2 /* RateView.m */,
+				125CF4031BFF3C040049D6D8 /* KASlideShow.h */,
+				125CF4041BFF3C040049D6D8 /* KASlideShow.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		12601B3F1BFF441F0070F8D2 /* School Detail */ = {
+			isa = PBXGroup;
+			children = (
+				12601B401BFF44380070F8D2 /* SchoolDetailViewController.h */,
+				12601B411BFF44380070F8D2 /* SchoolDetailViewController.m */,
+				12601B421BFF44380070F8D2 /* SchoolDetailViewController.xib */,
+			);
+			name = "School Detail";
+			sourceTree = "<group>";
+		};
+		12601B4B1BFF4A5F0070F8D2 /* Funtion View */ = {
+			isa = PBXGroup;
+			children = (
+				12601B4C1BFF4A6C0070F8D2 /* FunctionViewController.h */,
+				12601B4D1BFF4A6C0070F8D2 /* FunctionViewController.m */,
+				12601B4E1BFF4A6C0070F8D2 /* FunctionViewController.xib */,
+			);
+			name = "Funtion View";
+			sourceTree = "<group>";
+		};
+		51CBB2981BFF3D7A007040E3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				51CBB2A51BFF49BE007040E3 /* Login */,
+				51CBB29E1BFF3DAE007040E3 /* School  */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		51CBB29E1BFF3DAE007040E3 /* School  */ = {
+			isa = PBXGroup;
+			children = (
+				12601B4B1BFF4A5F0070F8D2 /* Funtion View */,
+				12601B3F1BFF441F0070F8D2 /* School Detail */,
+				51CBB29F1BFF3E41007040E3 /* ListSchool */,
+			);
+			name = "School ";
+			sourceTree = "<group>";
+		};
+		51CBB29F1BFF3E41007040E3 /* ListSchool */ = {
+			isa = PBXGroup;
+			children = (
+				51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */,
+				51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */,
+				51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */,
+				51CBB2A01BFF3ED0007040E3 /* SchoolCell.h */,
+				51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */,
+				51CBB2A21BFF3ED1007040E3 /* SchoolCell.xib */,
+			);
+			name = ListSchool;
+			sourceTree = "<group>";
+		};
+		51CBB2A51BFF49BE007040E3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				51CBB2A61BFF49D3007040E3 /* LoginViewController.h */,
+				51CBB2A71BFF49D3007040E3 /* LoginViewController.m */,
+				51CBB2A81BFF49D3007040E3 /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		7079E567A92BBB7ADF54141E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,11 +234,12 @@
 		C3B39EC41BFF374D00C4A0EB /* BabeSchool */ = {
 			isa = PBXGroup;
 			children = (
+				51CBB2981BFF3D7A007040E3 /* ViewController */,
+				125CF4021BFF3BF60049D6D8 /* Support */,
 				C3B39EC81BFF374D00C4A0EB /* AppDelegate.h */,
 				C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */,
 				C3B39ECB1BFF374D00C4A0EB /* ViewController.h */,
 				C3B39ECC1BFF374D00C4A0EB /* ViewController.m */,
-				C3B39ECE1BFF374D00C4A0EB /* Main.storyboard */,
 				C3B39ED41BFF374D00C4A0EB /* Assets.xcassets */,
 				C3B39ED61BFF374D00C4A0EB /* LaunchScreen.storyboard */,
 				C3B39ED91BFF374D00C4A0EB /* Info.plist */,
@@ -275,9 +383,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CBB2AA1BFF49D3007040E3 /* LoginViewController.xib in Resources */,
 				C3B39ED81BFF374D00C4A0EB /* LaunchScreen.storyboard in Resources */,
+				12601B441BFF44380070F8D2 /* SchoolDetailViewController.xib in Resources */,
+				51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */,
 				C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */,
-				C3B39ED01BFF374D00C4A0EB /* Main.storyboard in Resources */,
+				12601B501BFF4A6C0070F8D2 /* FunctionViewController.xib in Resources */,
+				51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,9 +447,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CBB2A91BFF49D3007040E3 /* LoginViewController.m in Sources */,
 				C3B39ECD1BFF374D00C4A0EB /* ViewController.m in Sources */,
+				12601B431BFF44380070F8D2 /* SchoolDetailViewController.m in Sources */,
+				12601B471BFF484C0070F8D2 /* RateView.m in Sources */,
+				12601B4A1BFF49D30070F8D2 /* SchoolModal.m in Sources */,
 				C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */,
+				51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */,
+				12601B4F1BFF4A6C0070F8D2 /* FunctionViewController.m in Sources */,
 				C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */,
+				51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */,
+				125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */,
 				C3B39EC71BFF374D00C4A0EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,14 +494,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C3B39ECE1BFF374D00C4A0EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3B39ECF1BFF374D00C4A0EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C3B39ED61BFF374D00C4A0EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -410,9 +522,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -429,9 +542,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e4f4b82a-5683-4be7-a00c-12a54c64faaf";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -453,9 +567,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -466,8 +581,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e4f4b82a-5683-4be7-a00c-12a54c64faaf";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
