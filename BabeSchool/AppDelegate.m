@@ -44,6 +44,7 @@
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
                                                            [UIColor whiteColor], NSForegroundColorAttributeName, [UIFont boldSystemFontOfSize:16], NSFontAttributeName,nil]];
     
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 }
 - (void)applicationWillResignActive:(UIApplication *)application {

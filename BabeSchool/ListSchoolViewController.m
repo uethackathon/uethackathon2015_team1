@@ -11,6 +11,8 @@
 #import "LoginViewController.h"
 #import "SchoolDetailViewController.h"
 #import "School.h"
+#import "MyLib.h"
+#import "FunctionViewController.h"
 
 @interface ListSchoolViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableSchools;
@@ -42,12 +44,22 @@
 
 - (void) setupNavigationBar {
     self.navigationItem.title = @"Danh sách trường";
-    UIButton *btnLogin = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 30)];
-    [btnLogin setTitle:@"Đăng nhập" forState:UIControlStateNormal];
-    [btnLogin setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    btnLogin.titleLabel.font = [UIFont systemFontOfSize:16];
-    [btnLogin addTarget:self action:@selector(btnLoginClick:) forControlEvents:UIControlEventTouchUpInside];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnLogin];
+    if (![MyLib logined]) {
+        UIButton *btnLogin = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 30)];
+        [btnLogin setTitle:@"Login" forState:UIControlStateNormal];
+        btnLogin.titleLabel.font = [UIFont systemFontOfSize:16];
+        btnLogin.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        [btnLogin addTarget:self action:@selector(btnLoginClick:) forControlEvents:UIControlEventTouchUpInside];
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnLogin];
+    }
+    else {
+        UIButton *btnFunction = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 30)];
+        [btnFunction setTitle:@"Function" forState:UIControlStateNormal];
+        btnFunction.titleLabel.font = [UIFont systemFontOfSize:16];
+        btnFunction.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        [btnFunction addTarget:self action:@selector(btnFunctionClick:) forControlEvents:UIControlEventTouchUpInside];
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnFunction];
+    }
 }
 
 - (void) bindData {
@@ -69,6 +81,11 @@
 - (void) btnLoginClick: (UIButton*)button {
     LoginViewController *loginVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
     [self.navigationController pushViewController:loginVC animated:YES];
+}
+
+- (void) btnFunctionClick: (UIButton*)button {
+    FunctionViewController *function = [[FunctionViewController alloc] initWithNibName:@"FunctionViewController" bundle:nil];
+    [self.navigationController pushViewController:function animated:YES];
 }
 
 #pragma mark - Setup Table School 
