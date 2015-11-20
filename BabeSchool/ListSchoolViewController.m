@@ -9,6 +9,7 @@
 #import "ListSchoolViewController.h"
 #import "SchoolCell.h"
 #import "LoginViewController.h"
+#import "SchoolDetailViewController.h"
 
 @interface ListSchoolViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableSchools;
@@ -23,6 +24,11 @@
     [super viewDidLoad];
     [self setupNavigationBar];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Setup View Controller
@@ -40,6 +46,7 @@
     LoginViewController *loginVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
     [self.navigationController pushViewController:loginVC animated:YES];
 }
+
 #pragma mark - Setup Table School 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
@@ -68,9 +75,7 @@
     return UITableViewAutomaticDimension;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 }
 /*
 #pragma mark - Navigation
