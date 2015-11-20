@@ -24,13 +24,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // coordinate -33.86,151.20 at zoom level 6.
-
-    //    // Do any additional setup after loading the view from its nib.
     
     [self InitSomeView];
-    // Create a GMSCameraPosition that tells the map to display the
-    // coordinate -33.86,151.20 at zoom level 6.
     
     
 }
@@ -40,10 +35,12 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)btnDescribleClicked:(id)sender {
+    UITextField *text = [[UITextField alloc]init];
 }
 - (IBAction)btnCostingClicked:(id)sender {
 }
 - (IBAction)btnRateClicked:(id)sender {
+    [self.rateView setHidden:NO];
     self.rateView.notSelectedImage = [UIImage imageNamed:@"kermit_empty.png"];
     self.rateView.halfSelectedImage = [UIImage imageNamed:@"kermit_half.png"];
     self.rateView.fullSelectedImage = [UIImage imageNamed:@"kermit_full.png"];
@@ -54,8 +51,8 @@
     
 }
 - (IBAction)btnMapClicked:(id)sender {
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:21.014818
-                                                            longitude:105.849237
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:self.modal.local_x
+                                                            longitude:self.modal.local_y
                                                                  zoom:15];
     mapView_ = [GMSMapView mapWithFrame:self.viewDetaild.frame camera:camera];
     mapView_.myLocationEnabled = YES;
@@ -63,7 +60,7 @@
     
     // Creates a marker in the center of the map.
     GMSMarker *marker = [[GMSMarker alloc] init];
-    marker.position = CLLocationCoordinate2DMake(21.014818, 105.849237);
+    marker.position = CLLocationCoordinate2DMake(self.modal.local_x, self.modal.local_y);
     marker.title = @"Sydney";
     marker.snippet = @"Australia";
     marker.map = mapView_;    // Create a GMSCameraPosition that tells the map to display the
@@ -74,8 +71,6 @@
 }
 -(void)InitSomeView{
     [self.rateView setHidden:YES];
-    self.local_x=33.3;
-    self.local_x=100;
     _slideshow = [[KASlideShow alloc] initWithFrame:CGRectMake(0,0,320,250)];
     [_slideshow setDelay:3]; // Delay between transitions
     [_slideshow setTransitionDuration:1]; // Transition duration
