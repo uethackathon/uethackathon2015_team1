@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 125CF4041BFF3C040049D6D8 /* KASlideShow.m */; settings = {ASSET_TAGS = (); }; };
+		125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 125CF4041BFF3C040049D6D8 /* KASlideShow.m */; };
+		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
+		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
+		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
+		51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2A21BFF3ED1007040E3 /* SchoolCell.xib */; };
 		B7F896246B16724A7E847B8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17461C75361181AA8523F47 /* libPods.a */; };
 		C3B39EC71BFF374D00C4A0EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC61BFF374D00C4A0EB /* main.m */; };
 		C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */; };
@@ -39,6 +43,12 @@
 /* Begin PBXFileReference section */
 		125CF4031BFF3C040049D6D8 /* KASlideShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KASlideShow.h; sourceTree = "<group>"; };
 		125CF4041BFF3C040049D6D8 /* KASlideShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KASlideShow.m; sourceTree = "<group>"; };
+		51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSchoolViewController.h; sourceTree = "<group>"; };
+		51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSchoolViewController.m; sourceTree = "<group>"; };
+		51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListSchoolViewController.xib; sourceTree = "<group>"; };
+		51CBB2A01BFF3ED0007040E3 /* SchoolCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolCell.h; sourceTree = "<group>"; };
+		51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolCell.m; sourceTree = "<group>"; };
+		51CBB2A21BFF3ED1007040E3 /* SchoolCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolCell.xib; sourceTree = "<group>"; };
 		A02661D9D79C61F4AEDFD976 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B17461C75361181AA8523F47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C5F5C44223DB30D15FF2FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +105,35 @@
 			name = Support;
 			sourceTree = "<group>";
 		};
+		51CBB2981BFF3D7A007040E3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				51CBB29E1BFF3DAE007040E3 /* School  */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		51CBB29E1BFF3DAE007040E3 /* School  */ = {
+			isa = PBXGroup;
+			children = (
+				51CBB29F1BFF3E41007040E3 /* ListSchool */,
+			);
+			name = "School ";
+			sourceTree = "<group>";
+		};
+		51CBB29F1BFF3E41007040E3 /* ListSchool */ = {
+			isa = PBXGroup;
+			children = (
+				51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */,
+				51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */,
+				51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */,
+				51CBB2A01BFF3ED0007040E3 /* SchoolCell.h */,
+				51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */,
+				51CBB2A21BFF3ED1007040E3 /* SchoolCell.xib */,
+			);
+			name = ListSchool;
+			sourceTree = "<group>";
+		};
 		7079E567A92BBB7ADF54141E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +176,7 @@
 		C3B39EC41BFF374D00C4A0EB /* BabeSchool */ = {
 			isa = PBXGroup;
 			children = (
+				51CBB2981BFF3D7A007040E3 /* ViewController */,
 				125CF4021BFF3BF60049D6D8 /* Support */,
 				C3B39EC81BFF374D00C4A0EB /* AppDelegate.h */,
 				C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */,
@@ -287,7 +327,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3B39ED81BFF374D00C4A0EB /* LaunchScreen.storyboard in Resources */,
+				51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */,
 				C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */,
+				51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +404,9 @@
 			files = (
 				C3B39ECD1BFF374D00C4A0EB /* ViewController.m in Sources */,
 				C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */,
+				51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */,
 				C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */,
+				51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */,
 				125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */,
 				C3B39EC71BFF374D00C4A0EB /* main.m in Sources */,
 			);
