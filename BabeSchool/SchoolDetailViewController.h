@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface SchoolDetailViewController : UIViewController
+#import "KASlideShow.h"
+@interface SchoolDetailViewController : UIViewController<KASlideShowDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *btnDescrible;
 @property (weak, nonatomic) IBOutlet UIButton *btnCosting;
 @property (assign,nonatomic) CGFloat local_x;

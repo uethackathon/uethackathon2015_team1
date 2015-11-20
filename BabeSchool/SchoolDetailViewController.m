@@ -19,6 +19,7 @@
 
 @implementation SchoolDetailViewController {
     GMSMapView *mapView_;
+    KASlideShow *_slideshow;
 }
 
 - (void)viewDidLoad {
@@ -26,6 +27,20 @@
     //    // Do any additional setup after loading the view from its nib.
     
     [self InitSomeView];
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:self.local_x
+                                                            longitude:self.local_y
+                                                                 zoom:16];
+    mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    mapView_.myLocationEnabled = YES;
+    
+    
+    // Creates a marker in the center of the map.
+    GMSMarker *marker = [[GMSMarker alloc] init];
+    marker.position = CLLocationCoordinate2DMake(self.local_x, self.local_y);
+    marker.title = @"Sydney";
+    marker.snippet = @"Australia";
+    marker.map = mapView_;
+    [self.viewDetaild addSubview: mapView_];
     // Create a GMSCameraPosition that tells the map to display the
     // coordinate -33.86,151.20 at zoom level 6.
     
@@ -50,39 +65,45 @@
     
 }
 - (IBAction)btnMapClicked:(id)sender {
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:self.local_x
-                                                            longitude:self.local_y
-                                                                 zoom:16];
-    mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
-    mapView_.myLocationEnabled = YES;
-    self.viewDetaild = mapView_;
     
-    // Creates a marker in the center of the map.
-    GMSMarker *marker = [[GMSMarker alloc] init];
-    marker.position = CLLocationCoordinate2DMake(self.local_x, self.local_y);
-    marker.title = @"Sydney";
-    marker.snippet = @"Australia";
-    marker.map = mapView_;
     
 }
 - (IBAction)btnLoginClicked:(id)sender {
 }
 -(void)InitSomeView{
-    KASlideShow *_slideshow = [[KASlideShow alloc] initWithFrame:CGRectMake(0,0,320,250)];
+    self.local_x=33.3;
+    self.local_x=100;
+    _slideshow = [[KASlideShow alloc] initWithFrame:CGRectMake(0,0,320,250)];
     [_slideshow setDelay:3]; // Delay between transitions
     [_slideshow setTransitionDuration:1]; // Transition duration
     [_slideshow setTransitionType:KASlideShowTransitionFade]; // Choose a transition type (fade or slide)
     [_slideshow setImagesContentMode:UIViewContentModeScaleAspectFill]; // Choose a content mode for images to display
-    [_slideshow addImagesFromResources:@[@"test_1.jpeg",@"test_2.jpeg",@"test_3.jpeg"]]; // Add images from resources
+    [_slideshow addImagesFromResources:@[@"img1_1.png",@"img1_2.png",@"img1_2.png"]]; // Add images from resources
     [_slideshow addGesture:KASlideShowGestureTap]; // Gesture to go previous/next directly on the image
     [self.viewSlideImage addSubview: _slideshow];
-    
+    _slideshow.delegate = self;
+
+    UISwipeGestureRecognizer * swipeleft=[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(swipeleft:)];
+    swipeleft.direction=UISwipeGestureRecognizerDirectionLeft;
+    [self.viewSlideImage addGestureRecognizer:swipeleft];
+    UISwipeGestureRecognizer * swiperight=[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(swiperight:)];
+    swiperight.direction=UISwipeGestureRecognizerDirectionRight;
+    [self.viewSlideImage addGestureRecognizer:swiperight];
 }
 
 - (void)rateView:(RateView *)rateView ratingDidChange:(float)rating {
     //    self.statusLabel.text = [NSString stringWithFormat:@"Rating: %f", rating];
 }
+-(void)swipeleft:(UISwipeGestureRecognizer*)gestureRecognizer
+{
+    [_slideshow previous];
+}
 
+-(void)swiperight:(UISwipeGestureRecognizer*)gestureRecognizer
+{
+    //Do what you want here
+    [_slideshow next];
+}
 
 /*
 #pragma mark - Navigation
