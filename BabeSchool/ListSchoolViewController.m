@@ -10,6 +10,7 @@
 #import "SchoolCell.h"
 #import "LoginViewController.h"
 #import "SchoolDetailViewController.h"
+
 @interface ListSchoolViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableSchools;
 
@@ -23,6 +24,11 @@
     [super viewDidLoad];
     [self setupNavigationBar];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Setup View Controller
@@ -40,6 +46,7 @@
     LoginViewController *loginVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
     [self.navigationController pushViewController:loginVC animated:YES];
 }
+
 #pragma mark - Setup Table School 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
@@ -67,13 +74,10 @@
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return UITableViewAutomaticDimension;
 }
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    SchoolDetailViewController *detail =[[SchoolDetailViewController alloc]initWithNibName:@"SchoolDetailViewController" bundle:nil];
-    [self.navigationController pushViewController:detail animated:YES];
-}
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    SchoolDetailViewController *schoolDetailVC = [[SchoolDetailViewController alloc] initWithNibName:@"SchoolDetailViewController" bundle:nil];
+    [self.navigationController pushViewController:schoolDetailVC animated:YES];
 }
 /*
 #pragma mark - Navigation

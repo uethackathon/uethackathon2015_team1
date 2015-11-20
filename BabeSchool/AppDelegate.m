@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 #import "ListSchoolViewController.h"
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define NAV_BAR_COLOR 0xabd80
+
 @import GoogleMaps;
 @interface AppDelegate ()
 
@@ -17,6 +21,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [self setupNavigationBar];
     [GMSServices provideAPIKey:@"AIzaSyDZuKzTS6dQu5YMfdpjXsNPuJYD4-dRV5g"];
     ListSchoolViewController *listSchoolVC = [[ListSchoolViewController alloc] initWithNibName:@"ListSchoolViewController" bundle:nil];
     
@@ -30,6 +35,17 @@
     return YES;
 }
 
+- (void) setupNavigationBar {
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(NAV_BAR_COLOR)];
+    if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
+        [UINavigationBar appearance].translucent = NO;
+    }
+    
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor whiteColor], NSForegroundColorAttributeName, [UIFont boldSystemFontOfSize:16], NSFontAttributeName,nil]];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
