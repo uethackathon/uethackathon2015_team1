@@ -16,13 +16,6 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Jw-LD-iYb">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                </imageView>
-                <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lWc-8X-8XZ">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Oye-Q8-lqx">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -32,25 +25,14 @@
                     </connections>
                 </tableView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.96862745100000003" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="7Jw-LD-iYb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NdJ-On-vf8"/>
-                <constraint firstItem="lWc-8X-8XZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OV1-ev-LJz"/>
                 <constraint firstItem="Oye-Q8-lqx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SZh-G0-lnV"/>
-                <constraint firstAttribute="bottom" secondItem="7Jw-LD-iYb" secondAttribute="bottom" id="UXJ-Gt-Hwd"/>
-                <constraint firstAttribute="bottom" secondItem="lWc-8X-8XZ" secondAttribute="bottom" id="Wos-N5-hkO"/>
                 <constraint firstItem="Oye-Q8-lqx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ZTt-HR-o1L"/>
-                <constraint firstAttribute="trailing" secondItem="lWc-8X-8XZ" secondAttribute="trailing" id="gEQ-4m-i1D"/>
-                <constraint firstItem="7Jw-LD-iYb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jG2-NU-dLE"/>
-                <constraint firstAttribute="trailing" secondItem="7Jw-LD-iYb" secondAttribute="trailing" id="oIV-Ou-Ghy"/>
-                <constraint firstItem="lWc-8X-8XZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="p6t-yH-5lv"/>
                 <constraint firstAttribute="bottom" secondItem="Oye-Q8-lqx" secondAttribute="bottom" id="rgk-ws-RQ4"/>
                 <constraint firstAttribute="trailing" secondItem="Oye-Q8-lqx" secondAttribute="trailing" id="ujM-jK-Qf1"/>
             </constraints>
             <point key="canvasLocation" x="272" y="326"/>
         </view>
     </objects>
-    <resources>
-        <image name="background.png" width="320" height="568"/>
-    </resources>
 </document>
