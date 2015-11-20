@@ -1,29 +1,29 @@
 //
-//  MainViewController.m
-//  test15
+//  SchoolDetailViewController.m
+//  BabeSchool
 //
-//  Created by thjnh195 on 11/18/15.
-//  Copyright © 2015 thjnh195. All rights reserved.
+//  Created by thjnh195 on 11/20/15.
+//  Copyright © 2015 Nguyễn Chí Hoàng. All rights reserved.
 //
 
 #import "SchoolDetailViewController.h"
 #import "KASlideShow.h"
 #import "RateView.h"
 @import GoogleMaps;
-@interface MainViewController ()<RateViewDelegate>
+@interface SchoolDetailViewController ()<RateViewDelegate>
 @property (weak, nonatomic) IBOutlet UIView *viewSlideImage;
 @property (weak, nonatomic) IBOutlet UIView *viewDetaild;
 @property (weak, nonatomic) IBOutlet RateView *rateView;
 
 @end
 
-@implementation MainViewController {
+@implementation SchoolDetailViewController {
     GMSMapView *mapView_;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    // Do any additional setup after loading the view from its nib.
+    //    // Do any additional setup after loading the view from its nib.
     
     [self InitSomeView];
     // Create a GMSCameraPosition that tells the map to display the
@@ -47,10 +47,9 @@
     self.rateView.editable = YES;
     self.rateView.maxRating = 5;
     self.rateView.delegate = self;
-
+    
 }
 - (IBAction)btnMapClicked:(id)sender {
-//    AIzaSyDZuKzTS6dQu5YMfdpjXsNPuJYD4-dRV5g
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:self.local_x
                                                             longitude:self.local_y
                                                                  zoom:16];
@@ -81,8 +80,10 @@
 }
 
 - (void)rateView:(RateView *)rateView ratingDidChange:(float)rating {
-//    self.statusLabel.text = [NSString stringWithFormat:@"Rating: %f", rating];
+    //    self.statusLabel.text = [NSString stringWithFormat:@"Rating: %f", rating];
 }
+
+
 /*
 #pragma mark - Navigation
 

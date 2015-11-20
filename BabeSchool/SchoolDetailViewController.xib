@@ -7,10 +7,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SchoolDetailViewController">
             <connections>
-                <outlet property="rateView" destination="6AS-bC-cC3" id="jDg-p9-hL5"/>
+                <outlet property="rateView" destination="vNs-9i-xTS" id="xTN-CK-Bw5"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
-                <outlet property="viewDetaild" destination="xqH-MA-sNQ" id="Wba-0H-ghM"/>
-                <outlet property="viewSlideImage" destination="PV5-3W-b8W" id="YV5-mb-nQd"/>
+                <outlet property="viewDetaild" destination="Kl4-Cc-qDS" id="LkK-Hv-DA9"/>
+                <outlet property="viewSlideImage" destination="SCm-27-eCD" id="6na-MF-RWy"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -18,60 +18,60 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xqH-MA-sNQ" userLabel="map" customClass="StarRatingControl">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SCm-27-eCD" userLabel="slide">
+                    <rect key="frame" x="0.0" y="13" width="320" height="184"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kl4-Cc-qDS" userLabel="map">
                     <rect key="frame" x="0.0" y="266" width="320" height="302"/>
                     <subviews>
-                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6AS-bC-cC3" customClass="RateView">
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vNs-9i-xTS" customClass="RateView">
                             <rect key="frame" x="0.0" y="59" width="320" height="135"/>
                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lyH-GG-E0V" userLabel="control">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EfP-cY-bQe" userLabel="control">
                     <rect key="frame" x="0.0" y="193" width="320" height="60"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBi-MC-7gZ">
-                            <rect key="frame" x="8" y="15" width="48" height="30"/>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8e-R0-HEY">
+                            <rect key="frame" x="14" y="15" width="46" height="30"/>
                             <state key="normal" title="Mô Tả"/>
                             <connections>
-                                <action selector="btnDescribleClicked:" destination="-1" eventType="touchUpInside" id="m9l-Sz-eh6"/>
+                                <action selector="btnDescribleClicked:" destination="-1" eventType="touchUpInside" id="fDK-ZP-Ht3"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xf7-gK-Csg">
-                            <rect key="frame" x="64" y="15" width="56" height="30"/>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egm-cI-a7I">
+                            <rect key="frame" x="80" y="15" width="46" height="30"/>
                             <state key="normal" title="Thu chi"/>
                             <connections>
-                                <action selector="btnCostingClicked:" destination="-1" eventType="touchUpInside" id="8Ab-6H-oO2"/>
+                                <action selector="btnCostingClicked:" destination="-1" eventType="touchUpInside" id="ZxU-Hi-qwB"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wga-xJ-bB8">
-                            <rect key="frame" x="128" y="15" width="65" height="30"/>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnF-Ce-5cZ">
+                            <rect key="frame" x="137" y="15" width="46" height="30"/>
                             <state key="normal" title="Đánh Giá"/>
                             <connections>
-                                <action selector="btnRateClicked:" destination="-1" eventType="touchUpInside" id="6oI-hr-aNS"/>
+                                <action selector="btnRateClicked:" destination="-1" eventType="touchUpInside" id="gAm-uQ-PI6"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zh7-ym-ToA">
-                            <rect key="frame" x="206" y="15" width="46" height="30"/>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9T-0n-W2Z">
+                            <rect key="frame" x="191" y="15" width="46" height="30"/>
                             <state key="normal" title="map"/>
                             <connections>
-                                <action selector="btnMapClicked:" destination="-1" eventType="touchUpInside" id="v9i-ts-gm8"/>
+                                <action selector="btnMapClicked:" destination="-1" eventType="touchUpInside" id="pil-hb-4Ng"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUm-ic-Cl3">
-                            <rect key="frame" x="260" y="15" width="46" height="30"/>
-                            <state key="normal" title="Login"/>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ta-q9-DPb">
+                            <rect key="frame" x="252" y="15" width="46" height="30"/>
+                            <state key="normal" title="Đăng nhập"/>
                             <connections>
-                                <action selector="btnLoginClicked:" destination="-1" eventType="touchUpInside" id="uYe-aN-lyL"/>
+                                <action selector="btnLoginClicked:" destination="-1" eventType="touchUpInside" id="oTi-55-3hy"/>
                             </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PV5-3W-b8W" userLabel="slide">
-                    <rect key="frame" x="23" y="16" width="274" height="163"/>
-                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
