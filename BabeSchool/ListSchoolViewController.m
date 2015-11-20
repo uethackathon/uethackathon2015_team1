@@ -10,6 +10,7 @@
 #import "SchoolCell.h"
 #import "LoginViewController.h"
 #import "SchoolDetailViewController.h"
+#import "School.h"
 
 @interface ListSchoolViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableSchools;
@@ -24,6 +25,7 @@
     [super viewDidLoad];
     [self setupViewController];
     [self setupNavigationBar];
+    [self bindData];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -44,6 +46,13 @@
     btnLogin.titleLabel.font = [UIFont systemFontOfSize:16];
     [btnLogin addTarget:self action:@selector(btnLoginClick:) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnLogin];
+}
+
+- (void) bindData {
+//    NSString *jsonFilePath = [NSBundle mainBundle] pathForResource:<#(nullable NSString *)#> ofType:<#(nullable NSString *)#>
+//    NSData *jsonData = [NSData dataWithContentsOfFile:@"schools.json"];
+//    NSDictionary *dictSchools = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
+//    NSLog(@"%@", dictSchools);
 }
 
 #pragma mark - Setup Button Action

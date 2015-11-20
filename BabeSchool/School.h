@@ -8,11 +8,15 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface SchoolModal : NSObject
-@property (assign,nonatomic) NSInteger id;
+@interface School : NSObject
+@property (assign,nonatomic) NSInteger schoolId;
 @property (strong,nonatomic) NSString *name;
+@property (strong,nonatomic) NSString *address;
 @property (strong,nonatomic) NSString *describle;
 @property (strong,nonatomic) NSString *costring;
 @property (assign,nonatomic) CGFloat local_x;
 @property (assign,nonatomic) CGFloat local_y;
+@property (strong,nonatomic) NSString *mobile;
+@property (strong,nonatomic) NSArray *arrayImages;
+- (School*) getObjectFromJSON: (NSDictionary*) dict;
 @end
