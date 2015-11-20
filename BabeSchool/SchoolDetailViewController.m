@@ -50,6 +50,7 @@
 
 }
 - (IBAction)btnMapClicked:(id)sender {
+//    AIzaSyDZuKzTS6dQu5YMfdpjXsNPuJYD4-dRV5g
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:self.local_x
                                                             longitude:self.local_y
                                                                  zoom:16];
