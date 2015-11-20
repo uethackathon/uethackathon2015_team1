@@ -9,7 +9,7 @@
 #import "ListSchoolViewController.h"
 #import "SchoolCell.h"
 #import "LoginViewController.h"
-
+#import "SchoolDetailViewController.h"
 @interface ListSchoolViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableSchools;
 
@@ -67,7 +67,10 @@
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return UITableViewAutomaticDimension;
 }
-
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    SchoolDetailViewController *detail =[[SchoolDetailViewController alloc]initWithNibName:@"SchoolDetailViewController" bundle:nil];
+    [self.navigationController pushViewController:detail animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
