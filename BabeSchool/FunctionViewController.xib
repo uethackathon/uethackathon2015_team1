@@ -15,40 +15,91 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_function.png" translatesAutoresizingMaskIntoConstraints="NO" id="vrE-e2-sm1">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36I-Jq-v8c">
-                    <rect key="frame" x="137" y="166" width="46" height="30"/>
+                    <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWc-ub-JXU">
-                    <rect key="frame" x="95" y="160" width="131" height="30"/>
-                    <state key="normal" title="Theo dõi sức khoẻ"/>
-                    <connections>
-                        <action selector="btnSucKhoeClicked:" destination="-1" eventType="touchUpInside" id="mG8-3R-xKJ"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVu-Zz-Mh2">
-                    <rect key="frame" x="87" y="242" width="147" height="30"/>
-                    <state key="normal" title="Thông báo "/>
-                    <connections>
-                        <action selector="btnThongBaoClicked:" destination="-1" eventType="touchUpInside" id="up5-ks-dKQ"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1N-Wq-1Pa">
-                    <rect key="frame" x="103" y="305" width="115" height="30"/>
-                    <state key="normal" title="Live Stream"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1N-Wq-1Pa">
+                    <rect key="frame" x="50" y="305" width="220" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Live Stream" backgroundImage="img_btn.png">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
                     <connections>
                         <action selector="btnLiveStreamClicked:" destination="-1" eventType="touchUpInside" id="fyU-B9-KuU"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rF-gl-MMm">
-                    <rect key="frame" x="76" y="102" width="172" height="30"/>
-                    <state key="normal" title="Xem thực đơn Hôm nay"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8B-gC-iaX">
+                    <rect key="frame" x="50" y="385" width="220" height="50"/>
+                    <state key="normal" title="Trò chơi" backgroundImage="img_btn.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rF-gl-MMm">
+                    <rect key="frame" x="50" y="65" width="220" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="emM-70-tKa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Xem thực đơn Hôm nay" backgroundImage="img_btn.png">
+                        <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                    </state>
                     <connections>
                         <action selector="btnThucDonClicked:" destination="-1" eventType="touchUpInside" id="BiM-1v-5VH"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWc-ub-JXU">
+                    <rect key="frame" x="50" y="145" width="220" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Theo dõi sức khoẻ" backgroundImage="img_btn.png">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnSucKhoeClicked:" destination="-1" eventType="touchUpInside" id="mG8-3R-xKJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVu-Zz-Mh2">
+                    <rect key="frame" x="50" y="225" width="220" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Thông báo " backgroundImage="img_btn.png">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnThongBaoClicked:" destination="-1" eventType="touchUpInside" id="up5-ks-dKQ"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="CVu-Zz-Mh2" firstAttribute="height" secondItem="fWc-ub-JXU" secondAttribute="height" id="1Ib-rE-Eea"/>
+                <constraint firstItem="CVu-Zz-Mh2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="1fk-LQ-xdq"/>
+                <constraint firstItem="fWc-ub-JXU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="1z1-vN-b9D"/>
+                <constraint firstItem="I8B-gC-iaX" firstAttribute="height" secondItem="a1N-Wq-1Pa" secondAttribute="height" id="3aZ-rW-Olh"/>
+                <constraint firstItem="fWc-ub-JXU" firstAttribute="top" secondItem="5rF-gl-MMm" secondAttribute="bottom" constant="30" id="7sl-Dd-laM"/>
+                <constraint firstItem="vrE-e2-sm1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="A3S-Ed-VRJ"/>
+                <constraint firstAttribute="trailing" secondItem="fWc-ub-JXU" secondAttribute="trailing" constant="50" id="CeE-Ix-wzo"/>
+                <constraint firstItem="fWc-ub-JXU" firstAttribute="height" secondItem="5rF-gl-MMm" secondAttribute="height" id="I4O-qg-yfd"/>
+                <constraint firstAttribute="trailing" secondItem="I8B-gC-iaX" secondAttribute="trailing" constant="50" id="OHn-Lj-1na"/>
+                <constraint firstItem="a1N-Wq-1Pa" firstAttribute="height" secondItem="CVu-Zz-Mh2" secondAttribute="height" id="ORz-MT-eB9"/>
+                <constraint firstItem="a1N-Wq-1Pa" firstAttribute="top" secondItem="CVu-Zz-Mh2" secondAttribute="bottom" constant="30" id="Saa-JZ-bp5"/>
+                <constraint firstItem="a1N-Wq-1Pa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="Tux-gZ-vsv"/>
+                <constraint firstItem="CVu-Zz-Mh2" firstAttribute="top" secondItem="fWc-ub-JXU" secondAttribute="bottom" constant="30" id="U88-Fi-ndc"/>
+                <constraint firstItem="5rF-gl-MMm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="YIS-ge-5Kq"/>
+                <constraint firstAttribute="trailing" secondItem="a1N-Wq-1Pa" secondAttribute="trailing" constant="50" id="ZwM-g1-q0X"/>
+                <constraint firstAttribute="bottom" secondItem="vrE-e2-sm1" secondAttribute="bottom" id="eBO-2v-mqT"/>
+                <constraint firstItem="I8B-gC-iaX" firstAttribute="top" secondItem="a1N-Wq-1Pa" secondAttribute="bottom" constant="30" id="gx2-9e-vr9"/>
+                <constraint firstAttribute="trailing" secondItem="vrE-e2-sm1" secondAttribute="trailing" id="i4B-Ju-b1T"/>
+                <constraint firstAttribute="trailing" secondItem="CVu-Zz-Mh2" secondAttribute="trailing" constant="50" id="meZ-zK-fKM"/>
+                <constraint firstItem="I8B-gC-iaX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="rFL-Kj-AEt"/>
+                <constraint firstAttribute="trailing" secondItem="5rF-gl-MMm" secondAttribute="trailing" constant="50" id="uj6-jC-xm1"/>
+                <constraint firstItem="5rF-gl-MMm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="65" id="wjA-qE-fvr"/>
+                <constraint firstItem="vrE-e2-sm1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="z6J-ea-7ci"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>
+    <resources>
+        <image name="bg_function.png" width="320" height="568"/>
+        <image name="img_btn.png" width="459" height="107"/>
+    </resources>
 </document>
