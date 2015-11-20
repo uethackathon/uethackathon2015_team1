@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		125CF3FB1BFF3AF30049D6D8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 125CF3F91BFF3AF30049D6D8 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		125CF3FC1BFF3AF30049D6D8 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 125CF3FA1BFF3AF30049D6D8 /* DetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		B7F896246B16724A7E847B8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17461C75361181AA8523F47 /* libPods.a */; };
 		C3B39EC71BFF374D00C4A0EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC61BFF374D00C4A0EB /* main.m */; };
 		C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */; };
 		C3B39ECD1BFF374D00C4A0EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39ECC1BFF374D00C4A0EB /* ViewController.m */; };
-		C3B39ED01BFF374D00C4A0EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B39ECE1BFF374D00C4A0EB /* Main.storyboard */; };
 		C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3B39ED11BFF374D00C4A0EB /* BabeSchool.xcdatamodeld */; };
 		C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B39ED41BFF374D00C4A0EB /* Assets.xcassets */; };
 		C3B39ED81BFF374D00C4A0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B39ED61BFF374D00C4A0EB /* LaunchScreen.storyboard */; };
@@ -37,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		125CF3F81BFF3AF30049D6D8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		125CF3F91BFF3AF30049D6D8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		125CF3FA1BFF3AF30049D6D8 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		A02661D9D79C61F4AEDFD976 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B17461C75361181AA8523F47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C5F5C44223DB30D15FF2FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +50,6 @@
 		C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C3B39ECB1BFF374D00C4A0EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C3B39ECC1BFF374D00C4A0EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C3B39ECF1BFF374D00C4A0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3B39ED21BFF374D00C4A0EB /* BabeSchool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabeSchool.xcdatamodel; sourceTree = "<group>"; };
 		C3B39ED41BFF374D00C4A0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3B39ED71BFF374D00C4A0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -129,9 +132,11 @@
 			children = (
 				C3B39EC81BFF374D00C4A0EB /* AppDelegate.h */,
 				C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */,
+				125CF3F81BFF3AF30049D6D8 /* DetailViewController.h */,
+				125CF3F91BFF3AF30049D6D8 /* DetailViewController.m */,
+				125CF3FA1BFF3AF30049D6D8 /* DetailViewController.xib */,
 				C3B39ECB1BFF374D00C4A0EB /* ViewController.h */,
 				C3B39ECC1BFF374D00C4A0EB /* ViewController.m */,
-				C3B39ECE1BFF374D00C4A0EB /* Main.storyboard */,
 				C3B39ED41BFF374D00C4A0EB /* Assets.xcassets */,
 				C3B39ED61BFF374D00C4A0EB /* LaunchScreen.storyboard */,
 				C3B39ED91BFF374D00C4A0EB /* Info.plist */,
@@ -278,7 +283,7 @@
 			files = (
 				C3B39ED81BFF374D00C4A0EB /* LaunchScreen.storyboard in Resources */,
 				C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */,
-				C3B39ED01BFF374D00C4A0EB /* Main.storyboard in Resources */,
+				125CF3FC1BFF3AF30049D6D8 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +359,7 @@
 				C3B39ECD1BFF374D00C4A0EB /* ViewController.m in Sources */,
 				C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */,
 				C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */,
+				125CF3FB1BFF3AF30049D6D8 /* DetailViewController.m in Sources */,
 				C3B39EC71BFF374D00C4A0EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,14 +396,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C3B39ECE1BFF374D00C4A0EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3B39ECF1BFF374D00C4A0EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C3B39ED61BFF374D00C4A0EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
