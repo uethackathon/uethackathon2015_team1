@@ -7,10 +7,11 @@
 //
 
 #import "ThucDonViewController.h"
-
+#import "foodmenu.h"
 @interface ThucDonViewController (){
-    
+    NSMutableArray *arrayFoods;
 }
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -18,6 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    arrayFoods = [[NSMutableArray alloc]init];
+    [self bindData];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -26,10 +29,11 @@
     // Dispose of any resources that can be recreated.
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 2;
+    foodmenu *food =[arrayFoods objectAtIndex:section];
+    return  [food.arrayFoods count];
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 3;
+    return 2;
 }
 - (nullable NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
     if (section==0) {
@@ -41,14 +45,31 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell= [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault  reuseIdentifier:@"Cell"];
-    cell.textLabel.text=@"SHIT";
+    
+    foodmenu *food =[arrayFoods objectAtIndex:indexPath.section];
+    NSLog(@"%d",indexPath.row);
+    cell.textLabel.text=[food.arrayFoods objectAtIndex:indexPath.row];
     [cell setBackgroundColor:[UIColor clearColor]];
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
 }
-
+- (void) bindData {
+    NSURL *jsonFilePath = [[NSBundle mainBundle] URLForResource:@"menu" withExtension:@"json"];
+    NSData *jsonData = [NSData dataWithContentsOfURL:jsonFilePath];
+    NSDictionary *dictSchools = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
+    NSArray *array = [dictSchools objectForKey:@"data"];
+    
+    for (int index = 0; index < array.count; index++) {
+        foodmenu *food = [foodmenu getObjectFromJSON:[array objectAtIndex:index]];
+        if (food) {
+            [arrayFoods addObject:food];
+            
+        }
+    }
+    [self.tableView reloadData];
+}
 /*
 #pragma mark - Navigation
 
