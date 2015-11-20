@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ListSchoolViewController.h"
+@import GoogleMaps;
 @interface AppDelegate ()
 
 @end
@@ -16,6 +17,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [GMSServices provideAPIKey:@"AIzaSyDZuKzTS6dQu5YMfdpjXsNPuJYD4-dRV5g"];
+    ListSchoolViewController *listSchoolVC = [[ListSchoolViewController alloc] initWithNibName:@"ListSchoolViewController" bundle:nil];
+    
+    UINavigationController *navMain = [[UINavigationController alloc] initWithRootViewController:listSchoolVC];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = navMain;
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }
