@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface MyLib : NSObject
 + (BOOL) logined;
++ (NSString*) checkBMI: (CGFloat) height :(CGFloat) weight;
 @end

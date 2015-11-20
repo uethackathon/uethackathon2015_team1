@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SucKhoeViewController : UIViewController
+@interface SucKhoeViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
