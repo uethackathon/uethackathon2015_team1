@@ -22,6 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setupViewController];
     [self setupNavigationBar];
     // Do any additional setup after loading the view from its nib.
 }
@@ -32,6 +33,10 @@
 }
 
 #pragma mark - Setup View Controller
+- (void) setupViewController {
+    _tableSchools.separatorColor = [UIColor clearColor];
+}
+
 - (void) setupNavigationBar {
     UIButton *btnLogin = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 30)];
     [btnLogin setTitle:@"Đăng nhập" forState:UIControlStateNormal];
