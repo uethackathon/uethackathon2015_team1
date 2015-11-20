@@ -14,6 +14,39 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36I-Jq-v8c">
+                    <rect key="frame" x="137" y="166" width="46" height="30"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWc-ub-JXU">
+                    <rect key="frame" x="95" y="160" width="131" height="30"/>
+                    <state key="normal" title="Theo dõi sức khoẻ"/>
+                    <connections>
+                        <action selector="btnSucKhoeClicked:" destination="-1" eventType="touchUpInside" id="mG8-3R-xKJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVu-Zz-Mh2">
+                    <rect key="frame" x="87" y="242" width="147" height="30"/>
+                    <state key="normal" title="Thông báo "/>
+                    <connections>
+                        <action selector="btnThongBaoClicked:" destination="-1" eventType="touchUpInside" id="up5-ks-dKQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1N-Wq-1Pa">
+                    <rect key="frame" x="103" y="305" width="115" height="30"/>
+                    <state key="normal" title="Live Stream"/>
+                    <connections>
+                        <action selector="btnLiveStreamClicked:" destination="-1" eventType="touchUpInside" id="fyU-B9-KuU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rF-gl-MMm">
+                    <rect key="frame" x="76" y="102" width="172" height="30"/>
+                    <state key="normal" title="Xem thực đơn Hôm nay"/>
+                    <connections>
+                        <action selector="btnThucDonClicked:" destination="-1" eventType="touchUpInside" id="BiM-1v-5VH"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
