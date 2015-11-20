@@ -18,8 +18,8 @@
     school.describle = [dict objectForKey:@"describle"];
     school.mobile = [dict objectForKey:@"mobile"];
     school.costring = [dict objectForKey:@"costring"];
-    school.local_x = [[dict objectForKey:@"latitude"] integerValue];
-    school.local_y = [[dict objectForKey:@"longlatitud"] integerValue];
+    school.local_x = [[dict objectForKey:@"longlatitud"] integerValue];
+    school.local_y = [[dict objectForKey:@"latitude"] integerValue];
     school.arrayImages = [dict objectForKey:@"imgs"];
     return school;
 }
