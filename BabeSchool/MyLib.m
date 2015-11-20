@@ -15,7 +15,6 @@
 
 + (NSString*) checkBMI:(CGFloat)height :(CGFloat)weight {
     CGFloat bmi = weight / ((height/100) * (height/100));
-    NSLog(@"%f", bmi);
     if (bmi < 13.5) {
         return @"Thiếu cân";
     }
