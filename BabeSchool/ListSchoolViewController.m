@@ -68,6 +68,7 @@
         cell.lbName.text = @"Trường mầm non Hoa Hướng Dương";
         cell.lbAddress.text = @"Số 10, Hoàng Quốc Việt, Hà Nội";
         cell.lbDescription.text = @"Đây là một ngôi trường có truyền thống lâu năm, nằm trên đường Hoàng Quốc Việt, bla bla bla ...";
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     return cell;
 }
