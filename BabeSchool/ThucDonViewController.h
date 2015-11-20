@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ThucDonViewController : UIViewController
+@interface ThucDonViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 @end

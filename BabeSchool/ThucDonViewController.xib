@@ -19,23 +19,27 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                 </imageView>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uPc-lo-RQC">
-                    <rect key="frame" x="0.0" y="30" width="320" height="538"/>
+                    <rect key="frame" x="20" y="70" width="280" height="408"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <color key="sectionIndexColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="b6u-hT-YR2"/>
+                        <outlet property="delegate" destination="-1" id="Mao-BC-FPs"/>
+                    </connections>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="uPc-lo-RQC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CXG-7o-ee6"/>
+                <constraint firstItem="uPc-lo-RQC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="CXG-7o-ee6"/>
                 <constraint firstAttribute="trailing" secondItem="LTb-3F-fGa" secondAttribute="trailing" id="Eg1-FP-Le7"/>
                 <constraint firstAttribute="bottom" secondItem="LTb-3F-fGa" secondAttribute="bottom" id="KDI-q1-RS7"/>
-                <constraint firstAttribute="trailing" secondItem="uPc-lo-RQC" secondAttribute="trailing" id="LRj-MW-eNm"/>
-                <constraint firstItem="uPc-lo-RQC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="Z4C-Fc-nCo"/>
+                <constraint firstAttribute="trailing" secondItem="uPc-lo-RQC" secondAttribute="trailing" constant="20" id="LRj-MW-eNm"/>
+                <constraint firstItem="uPc-lo-RQC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="Z4C-Fc-nCo"/>
                 <constraint firstItem="LTb-3F-fGa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="eds-HV-oBS"/>
                 <constraint firstItem="LTb-3F-fGa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wWh-Tk-c7r"/>
-                <constraint firstAttribute="bottom" secondItem="uPc-lo-RQC" secondAttribute="bottom" id="xPb-Gf-yD6"/>
+                <constraint firstAttribute="bottom" secondItem="uPc-lo-RQC" secondAttribute="bottom" constant="90" id="xPb-Gf-yD6"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
