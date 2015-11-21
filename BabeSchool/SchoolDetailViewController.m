@@ -11,7 +11,7 @@
 #import "RateView.h"
 #import "LoginViewController.h"
 #import "FunctionViewController.h"
-
+#import "RateViewController.h"
 @import GoogleMaps;
 @interface SchoolDetailViewController ()<RateViewDelegate>
 @property (weak, nonatomic) IBOutlet UIView *viewSlideImage;
@@ -25,6 +25,7 @@
     GMSMapView *mapView_;
     KASlideShow *_slideshow;
     BOOL addedGoogleMap;
+    BOOL addedRate;
 }
 
 - (void)viewDidLoad {
@@ -50,16 +51,16 @@
     self.textDetail.font = [UIFont systemFontOfSize:17];
 }
 - (IBAction)btnRateClicked:(id)sender {
-    FunctionViewController *logVC =[[FunctionViewController alloc]initWithNibName:@"FunctionViewController" bundle:nil];
-    [self.navigationController pushViewController:logVC animated:YES];
-//    [self.rateView setHidden:NO];
-//    self.rateView.notSelectedImage = [UIImage imageNamed:@"kermit_empty.png"];
-//    self.rateView.halfSelectedImage = [UIImage imageNamed:@"kermit_half.png"];
-//    self.rateView.fullSelectedImage = [UIImage imageNamed:@"kermit_full.png"];
-//    self.rateView.rating = 0;
-//    self.rateView.editable = YES;
-//    self.rateView.maxRating = 5;
-//    self.rateView.delegate = self;
+    if (!addedRate) {
+        RateViewController *V2 = [[RateViewController alloc]initWithNibName:@"RateViewController" bundle:nil];//assuming V2 is name of your nib as well
+        [self addChildViewController:V2];
+        [V2 didMoveToParentViewController:self];
+        V2.view.frame =self.viewDetaild.bounds;
+        [self.viewDetaild addSubview:V2.view];
+        addedRate=YES;
+    }
+    
+
     
 }
 - (IBAction)btnMapClicked:(id)sender {
@@ -86,6 +87,7 @@
 -(void)InitSomeView{
     
     addedGoogleMap=NO;
+    addedRate=NO;
     [self.rateView setHidden:YES];
     [self.textDetail setHidden:YES];
     
@@ -126,6 +128,14 @@
     if(addedGoogleMap){
         [mapView_ removeFromSuperview];
         addedGoogleMap=NO;
+    }
+    if(addedRate){
+        for (UIViewController *subVC in self.childViewControllers){
+            [subVC willMoveToParentViewController:nil];
+            [subVC.view removeFromSuperview];
+            [subVC removeFromParentViewController];
+        }
+        addedRate=NO;
     }
     [self.textDetail setHidden:NO];
 }
