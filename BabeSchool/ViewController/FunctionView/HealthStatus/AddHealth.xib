@@ -60,11 +60,14 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNk-8E-TfQ">
-                    <rect key="frame" x="102" y="147" width="46" height="30"/>
+                    <rect key="frame" x="95" y="143" width="60" height="35"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="46" id="vi3-dh-CeQ"/>
+                        <constraint firstAttribute="height" constant="35" id="qOV-am-B1u"/>
+                        <constraint firstAttribute="width" constant="60" id="vi3-dh-CeQ"/>
                     </constraints>
-                    <state key="normal" title="Đăng"/>
+                    <state key="normal" title="Đăng" backgroundImage="img_btn.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5P-k6-09E">
                     <rect key="frame" x="220" y="10" width="20" height="20"/>
@@ -83,7 +86,7 @@
             </subviews>
             <color key="backgroundColor" red="0.3904368429115066" green="0.9137254901960784" blue="0.47843137254901791" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="hNk-8E-TfQ" firstAttribute="top" secondItem="SS4-mj-ylR" secondAttribute="bottom" constant="22" id="32G-Jl-MtI"/>
+                <constraint firstItem="hNk-8E-TfQ" firstAttribute="top" secondItem="SS4-mj-ylR" secondAttribute="bottom" constant="18" id="32G-Jl-MtI"/>
                 <constraint firstItem="LRS-UG-d5e" firstAttribute="top" secondItem="1GD-1N-xDV" secondAttribute="bottom" constant="19" id="5Jf-Rz-64c"/>
                 <constraint firstItem="eXx-MH-Tcm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="C3C-9O-W7S"/>
                 <constraint firstItem="Ruj-RK-GQz" firstAttribute="top" secondItem="1GD-1N-xDV" secondAttribute="bottom" constant="19" id="H0S-Lc-9BD"/>
@@ -114,5 +117,6 @@
     </objects>
     <resources>
         <image name="btn_cancel.png" width="32" height="32"/>
+        <image name="img_btn.png" width="459" height="107"/>
     </resources>
 </document>
