@@ -53,6 +53,7 @@
 - (IBAction)btnRateClicked:(id)sender {
     if (!addedRate) {
         RateViewController *V2 = [[RateViewController alloc]initWithNibName:@"RateViewController" bundle:nil];//assuming V2 is name of your nib as well
+        V2.schoolId=self.modal.schoolId;
         [self addChildViewController:V2];
         [V2 didMoveToParentViewController:self];
         V2.view.frame =self.viewDetaild.bounds;
