@@ -62,12 +62,13 @@
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gyk-Uk-iOj">
                         <rect key="frame" x="0.0" y="73" width="320" height="10"/>
-                        <color key="backgroundColor" red="0.96862745100000003" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="10" id="Yui-zi-lOh"/>
                         </constraints>
                     </view>
                 </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="Gyk-Uk-iOj" secondAttribute="bottom" constant="1" id="9rp-3e-guC"/>
                     <constraint firstAttribute="trailing" secondItem="Gyk-Uk-iOj" secondAttribute="trailing" id="Rcb-7I-QoB"/>
@@ -78,6 +79,7 @@
                     <constraint firstItem="jxo-Mi-PLf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xBj-cH-M4b"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="lbHeight" destination="d3J-Vi-c9t" id="9Yo-B4-Km6"/>
                 <outlet property="lbStatus" destination="vB1-Hv-bOh" id="4jG-Gl-e21"/>
