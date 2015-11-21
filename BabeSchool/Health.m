@@ -17,4 +17,13 @@
     health.date = [dict objectForKey:@"date"];
     return health;
 }
+
++ (Health*) getObjectFromParse:(PFObject *)healthParse {
+    Health *health = [[Health alloc] init];
+    health.healthId = [[healthParse objectForKey:@"healthId"] integerValue];
+    health.height = [[healthParse objectForKey:@"height"] floatValue];
+    health.weight = [[healthParse objectForKey:@"weight"] floatValue];
+    health.date = [healthParse objectForKey:@"date"];
+    return health;
+}
 @end

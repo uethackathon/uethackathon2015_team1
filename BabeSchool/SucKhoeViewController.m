@@ -11,6 +11,8 @@
 #import "Health.h"
 #import "KLCPopup.h"
 #import "AddHealth.h"
+#import <Parse/Parse.h>
+#import <MBProgressHUD.h>
 
 @interface SucKhoeViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableHealth;
@@ -21,7 +23,6 @@
     NSMutableArray *arrayHealths;
     KLCPopup *popup;
     AddHealth *addHealth;
-    NSMutableArray *arrayDict;
 }
 
 - (void)viewDidLoad {
@@ -59,22 +60,25 @@
 
 - (void) bindData {
     arrayHealths = [[NSMutableArray alloc] init];
-    arrayDict = [[NSMutableArray alloc] init];
-    
-    NSURL *jsonFilePath = [[NSBundle mainBundle] URLForResource:@"health" withExtension:@"json"];
-    NSData *jsonData = [NSData dataWithContentsOfURL:jsonFilePath];
-    NSDictionary *dictHealth = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
-    arrayDict = [dictHealth objectForKey:@"data"];
-    
-    for (int index = 0; index < arrayDict.count; index++) {
-        Health *health = [Health getObjectFromDict:[arrayDict objectAtIndex:index]];
-        if (health) {
-            [arrayHealths addObject:health];
-        }
-    }
-    [_tableHealth reloadData];
+    [self doLoadHealth];
 }
 
+- (void) doLoadHealth {
+    [arrayHealths removeAllObjects];
+    PFQuery *query = [PFQuery queryWithClassName:@"Health"];
+    [query orderByDescending:@"healthId"];
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    [query findObjectsInBackgroundWithBlock:^(NSArray * _Nullable objects, NSError * _Nullable error) {
+        [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+        for (int index = 0; index < objects.count; index++) {
+            Health *health = [Health getObjectFromParse:[objects objectAtIndex:index]];
+            if (health) {
+                [arrayHealths addObject:health];
+            }
+        }
+        [_tableHealth reloadData];
+    }];
+}
 #pragma mark - Setup Button Action
 - (void) btnAddClick: (UIButton*) button {
     Health *health = [arrayHealths objectAtIndex:0];
@@ -97,12 +101,18 @@
     dateFormatter.dateFormat = @"dd/MM/yyyy";
     
     Health *health = [arrayHealths objectAtIndex:0];
-    Health *newHealth = [[Health alloc] init];
-    newHealth.healthId = health.healthId++;
-    newHealth.height = [addHealth.txtHeight.text floatValue];
-    newHealth.weight = [addHealth.txtWeight.text floatValue];
-    newHealth.date = [dateFormatter stringFromDate:[NSDate date]];
     
+    PFObject *newHealth = [PFObject objectWithClassName:@"Health"];
+    newHealth[@"healthId"] = [NSNumber numberWithInteger:(health.healthId + 1)];
+    newHealth[@"height"] =  [NSNumber numberWithFloat:[addHealth.txtHeight.text floatValue]];
+    newHealth[@"weight"] = [NSNumber numberWithFloat:[addHealth.txtWeight.text floatValue]];
+    newHealth[@"date"] =  [dateFormatter stringFromDate:[NSDate date]];
+    
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    [newHealth saveInBackgroundWithBlock:^(BOOL succeeded, NSError * _Nullable error) {
+        [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+        [self doLoadHealth];
+    }];
     
     [popup dismiss:YES];
     addHealth.txtHeight.text = @"";
@@ -114,6 +124,7 @@
     addHealth.txtHeight.text = @"";
     addHealth.txtWeight.text = @"";
 }
+
 #pragma mark - Setup Table Health Status
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
