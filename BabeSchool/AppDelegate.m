@@ -12,6 +12,7 @@
 #import <Parse/Parse.h>
 #import "MyLib.h"
 #import "FunctionViewController.h"
+#import "BaseNavigationController.h"
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #define NAV_BAR_COLOR 0x0abd80
@@ -30,12 +31,13 @@
     [GMSServices provideAPIKey:@"AIzaSyCUNayYeGzz0Jz3WSjCGloQqVrk7IYx68s"];
     ListSchoolViewController *listSchoolVC = [[ListSchoolViewController alloc] initWithNibName:@"ListSchoolViewController" bundle:nil];
     FunctionViewController *functionVC = [[FunctionViewController alloc] initWithNibName:@"FunctionViewController" bundle:nil];
-    UINavigationController *navMain;
+    BaseNavigationController *navMain;
+
     if (![MyLib logined]) {
-         navMain = [[UINavigationController alloc] initWithRootViewController:listSchoolVC];
+         navMain = [[BaseNavigationController alloc] initWithRootViewController:listSchoolVC];
     }
     else {
-        navMain = [[UINavigationController alloc] initWithRootViewController:functionVC];
+        navMain = [[BaseNavigationController alloc] initWithRootViewController:functionVC];
     }
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
