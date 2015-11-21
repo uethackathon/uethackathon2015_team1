@@ -44,6 +44,7 @@
 		1277349A1C00101B00E811A5 /* VietBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127734981C00101B00E811A5 /* VietBLViewController.m */; };
 		1277349B1C00101B00E811A5 /* VietBLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127734991C00101B00E811A5 /* VietBLViewController.xib */; };
 		1277349E1C00154600E811A5 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1277349D1C00154600E811A5 /* Comment.m */; };
+		127734A01C002FA700E811A5 /* lauchscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1277349F1C002FA700E811A5 /* lauchscreen@2x.png */; settings = {ASSET_TAGS = (); }; };
 		513434A11BFFE387008858EE /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434A01BFFE387008858EE /* KLCPopup.m */; };
 		513434A31BFFE517008858EE /* AddHealth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434A21BFFE517008858EE /* AddHealth.xib */; };
 		513434A51BFFEAE3008858EE /* btn_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434A41BFFEAE3008858EE /* btn_cancel@2x.png */; };
@@ -163,6 +164,7 @@
 		127734991C00101B00E811A5 /* VietBLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VietBLViewController.xib; sourceTree = "<group>"; };
 		1277349C1C00154600E811A5 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
 		1277349D1C00154600E811A5 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		1277349F1C002FA700E811A5 /* lauchscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lauchscreen@2x.png"; sourceTree = "<group>"; };
 		5134349F1BFFE387008858EE /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
 		513434A01BFFE387008858EE /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		513434A21BFFE517008858EE /* AddHealth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddHealth.xib; sourceTree = "<group>"; };
@@ -380,6 +382,7 @@
 		51CBB2D01BFF6346007040E3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				1277349F1C002FA700E811A5 /* lauchscreen@2x.png */,
 				513434BB1C00145D008858EE /* btn_list@2x.png */,
 				513434B91C0012B7008858EE /* btn_logout@2x.png */,
 				513434B71C000F46008858EE /* btn_function@2x.png */,
@@ -713,6 +716,7 @@
 				12601B651BFF4FCE0070F8D2 /* FunctionViewController.xib in Resources */,
 				12601C041BFF99000070F8D2 /* img_btn.png in Resources */,
 				51CBB2CE1BFF6344007040E3 /* img4_2.png in Resources */,
+				127734A01C002FA700E811A5 /* lauchscreen@2x.png in Resources */,
 				51CBB2CD1BFF6344007040E3 /* img4_1.png in Resources */,
 				51CBB2CC1BFF6344007040E3 /* img3_3.png in Resources */,
 				513434B01C000368008858EE /* NoticeView.xib in Resources */,
