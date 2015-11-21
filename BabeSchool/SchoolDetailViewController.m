@@ -91,6 +91,8 @@
     
 }
 -(void)InitSomeView{
+    self.navigationController.title = @"Chi tiết";
+    
     
     addedGoogleMap=NO;
     addedRate=NO;
@@ -98,9 +100,10 @@
     [self.textDetail setHidden:YES];
     
     
-    _slideshow = [[KASlideShow alloc] initWithFrame:CGRectMake(0,0,320,250)];
+    _slideshow = [[KASlideShow alloc] init];
+    _slideshow.frame=self.viewSlideImage.bounds;
     [_slideshow setDelay:1.5]; // Delay between transitions
-    [_slideshow setTransitionDuration:1]; // Transition duration
+    [_slideshow setTransitionDuration:0.5]; // Transition duration
     [_slideshow setTransitionType:KASlideShowTransitionFade]; // Choose a transition type (fade or slide)
     [_slideshow setImagesContentMode:UIViewContentModeScaleAspectFill]; // Choose a content mode for images to display
     
