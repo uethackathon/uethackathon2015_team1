@@ -13,6 +13,8 @@
 #import "School.h"
 #import "MyLib.h"
 #import "FunctionViewController.h"
+#import <Parse/Parse.h>
+#import <MBProgressHUD.h>
 
 @interface ListSchoolViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableSchools;
@@ -63,18 +65,19 @@
 }
 
 - (void) bindData {
-    NSURL *jsonFilePath = [[NSBundle mainBundle] URLForResource:@"schools" withExtension:@"json"];
-    NSData *jsonData = [NSData dataWithContentsOfURL:jsonFilePath];
-    NSDictionary *dictSchools = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
-    NSArray *array = [dictSchools objectForKey:@"data"];
-
-    for (int index = 0; index < array.count; index++) {
-        School *school = [School getObjectFromJSON:[array objectAtIndex:index]];
-        if (school) {
-            [arraySchools addObject:school];
+    PFQuery *query = [PFQuery queryWithClassName:@"Schools"];
+    [query orderByAscending:@"schoolId"];
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    [query findObjectsInBackgroundWithBlock:^(NSArray * _Nullable objects, NSError * _Nullable error) {
+        [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+        for (int index = 0; index < objects.count; index++) {
+            School *school = [School getObjectFromParse:[objects objectAtIndex:index]];
+            if (school) {
+                [arraySchools addObject:school];
+            }
         }
-    }
-    [_tableSchools reloadData];
+        [_tableSchools reloadData];
+    }];
 }
 
 #pragma mark - Setup Button Action

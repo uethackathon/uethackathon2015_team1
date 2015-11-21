@@ -64,13 +64,11 @@
 		51CBB2CD1BFF6344007040E3 /* img4_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2C11BFF6344007040E3 /* img4_1.png */; };
 		51CBB2CE1BFF6344007040E3 /* img4_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2C21BFF6344007040E3 /* img4_2.png */; };
 		51CBB2CF1BFF6344007040E3 /* img4_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2C31BFF6344007040E3 /* img4_3.png */; };
-		51D4497B1BFF7F21001121C7 /* schools.json in Resources */ = {isa = PBXBuildFile; fileRef = 51D4497A1BFF7F21001121C7 /* schools.json */; };
 		51D4497D1BFF82E0001121C7 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 51D4497C1BFF82E0001121C7 /* users.json */; };
 		51D449811BFF87C7001121C7 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449801BFF87C7001121C7 /* User.m */; };
 		51D449851BFF9234001121C7 /* MyLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449841BFF9234001121C7 /* MyLib.m */; };
 		51D449A21BFF9C57001121C7 /* HealthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449A01BFF9C57001121C7 /* HealthCell.m */; };
 		51D449A31BFF9C57001121C7 /* HealthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51D449A11BFF9C57001121C7 /* HealthCell.xib */; };
-		51D449A51BFFA4A8001121C7 /* health.json in Resources */ = {isa = PBXBuildFile; fileRef = 51D449A41BFFA4A8001121C7 /* health.json */; };
 		51D449A81BFFA63C001121C7 /* Health.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449A71BFFA63B001121C7 /* Health.m */; };
 		51D449AE1BFFB70D001121C7 /* AddHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449AD1BFFB70D001121C7 /* AddHealth.m */; };
 		B7F896246B16724A7E847B8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17461C75361181AA8523F47 /* libPods.a */; };
@@ -172,7 +170,6 @@
 		51CBB2C11BFF6344007040E3 /* img4_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img4_1.png; sourceTree = "<group>"; };
 		51CBB2C21BFF6344007040E3 /* img4_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img4_2.png; sourceTree = "<group>"; };
 		51CBB2C31BFF6344007040E3 /* img4_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img4_3.png; sourceTree = "<group>"; };
-		51D4497A1BFF7F21001121C7 /* schools.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schools.json; sourceTree = "<group>"; };
 		51D4497C1BFF82E0001121C7 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		51D4497F1BFF87C7001121C7 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		51D449801BFF87C7001121C7 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
@@ -181,7 +178,6 @@
 		51D4499F1BFF9C57001121C7 /* HealthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthCell.h; sourceTree = "<group>"; };
 		51D449A01BFF9C57001121C7 /* HealthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthCell.m; sourceTree = "<group>"; };
 		51D449A11BFF9C57001121C7 /* HealthCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthCell.xib; sourceTree = "<group>"; };
-		51D449A41BFFA4A8001121C7 /* health.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = health.json; sourceTree = "<group>"; };
 		51D449A61BFFA63B001121C7 /* Health.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Health.h; sourceTree = "<group>"; };
 		51D449A71BFFA63B001121C7 /* Health.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Health.m; sourceTree = "<group>"; };
 		51D449AC1BFFB70D001121C7 /* AddHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddHealth.h; sourceTree = "<group>"; };
@@ -294,9 +290,6 @@
 		1277346D1BFFF77900E811A5 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				1277346E1BFFF79500E811A5 /* GameViewController.h */,
-				1277346F1BFFF79500E811A5 /* GameViewController.m */,
-				127734701BFFF79500E811A5 /* GameViewController.xib */,
 			);
 			name = Game;
 			sourceTree = "<group>";
@@ -368,9 +361,7 @@
 				51CBB2C31BFF6344007040E3 /* img4_3.png */,
 				51CBB2B41BFF5FCA007040E3 /* background@2x.png */,
 				12601C051BFF9DC00070F8D2 /* menu.json */,
-				51D4497A1BFF7F21001121C7 /* schools.json */,
 				51D4497C1BFF82E0001121C7 /* users.json */,
-				51D449A41BFFA4A8001121C7 /* health.json */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -664,12 +655,10 @@
 				51D449A31BFF9C57001121C7 /* HealthCell.xib in Resources */,
 				12601BFC1BFF888F0070F8D2 /* ThongBaoViewController.xib in Resources */,
 				12601BED1BFF88100070F8D2 /* LiveStreamViewController.xib in Resources */,
-				51D449A51BFFA4A8001121C7 /* health.json in Resources */,
 				51CBB2CB1BFF6344007040E3 /* img3_2.png in Resources */,
 				12601B651BFF4FCE0070F8D2 /* FunctionViewController.xib in Resources */,
 				12601C041BFF99000070F8D2 /* img_btn.png in Resources */,
 				51CBB2CE1BFF6344007040E3 /* img4_2.png in Resources */,
-				51D4497B1BFF7F21001121C7 /* schools.json in Resources */,
 				51CBB2CD1BFF6344007040E3 /* img4_1.png in Resources */,
 				51CBB2CC1BFF6344007040E3 /* img3_3.png in Resources */,
 				12601BE11BFF748C0070F8D2 /* img_danhgia.png in Resources */,
@@ -682,7 +671,6 @@
 				51CBB2C81BFF6344007040E3 /* img2_2.png in Resources */,
 				51CBB2CF1BFF6344007040E3 /* img4_3.png in Resources */,
 				12601BD01BFF66110070F8D2 /* bg_btn.png in Resources */,
-				127734721BFFF79500E811A5 /* GameViewController.xib in Resources */,
 				51CBB2CA1BFF6344007040E3 /* img3_1.png in Resources */,
 				51CBB2C51BFF6344007040E3 /* img1_2.png in Resources */,
 				51CBB2C71BFF6344007040E3 /* img2_1.png in Resources */,
@@ -769,7 +757,6 @@
 				125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */,
 				51D449AE1BFFB70D001121C7 /* AddHealth.m in Sources */,
 				513434A11BFFE387008858EE /* KLCPopup.m in Sources */,
-				127734711BFFF79500E811A5 /* GameViewController.m in Sources */,
 				51D449A81BFFA63C001121C7 /* Health.m in Sources */,
 				C3B39EC71BFF374D00C4A0EB /* main.m in Sources */,
 			);
