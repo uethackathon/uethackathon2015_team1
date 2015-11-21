@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FunctionViewController">
@@ -17,12 +17,15 @@
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_function.png" translatesAutoresizingMaskIntoConstraints="NO" id="vrE-e2-sm1">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <animations/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36I-Jq-v8c">
                     <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                    <animations/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1N-Wq-1Pa">
                     <rect key="frame" x="50" y="350" width="220" height="50"/>
+                    <animations/>
                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                     <state key="normal" title="Quan sát bé" backgroundImage="img_btn.png">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -33,6 +36,7 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Rh-lb-dAY">
                     <rect key="frame" x="50" y="270" width="220" height="50"/>
+                    <animations/>
                     <state key="normal" title="Hoạt động của trường" backgroundImage="img_btn.png"/>
                     <connections>
                         <action selector="btnHoatDongClicked:" destination="-1" eventType="touchUpInside" id="2dD-3K-23d"/>
@@ -40,6 +44,7 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rF-gl-MMm">
                     <rect key="frame" x="50" y="30" width="220" height="50"/>
+                    <animations/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="emM-70-tKa"/>
                     </constraints>
@@ -53,6 +58,7 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWc-ub-JXU">
                     <rect key="frame" x="50" y="110" width="220" height="50"/>
+                    <animations/>
                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                     <state key="normal" title="Theo dõi sức khoẻ" backgroundImage="img_btn.png">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -63,6 +69,7 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVu-Zz-Mh2">
                     <rect key="frame" x="50" y="190" width="220" height="50"/>
+                    <animations/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <state key="normal" title="Gửi thông báo cho trường" backgroundImage="img_btn.png">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -73,6 +80,7 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wom-w7-BEH">
                     <rect key="frame" x="287" y="535" width="25" height="25"/>
+                    <animations/>
                     <constraints>
                         <constraint firstAttribute="width" constant="25" id="Vgj-a7-jtv"/>
                         <constraint firstAttribute="height" constant="25" id="zPH-Ql-LV7"/>
@@ -86,12 +94,14 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8B-gC-iaX">
                     <rect key="frame" x="50" y="430" width="220" height="50"/>
+                    <animations/>
                     <state key="normal" title="Trò chơi" backgroundImage="img_btn.png"/>
                     <connections>
                         <action selector="btnGameClick:" destination="-1" eventType="touchUpInside" id="Sl7-Ny-fPH"/>
                     </connections>
                 </button>
             </subviews>
+            <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="CVu-Zz-Mh2" firstAttribute="height" secondItem="fWc-ub-JXU" secondAttribute="height" id="1Ib-rE-Eea"/>
