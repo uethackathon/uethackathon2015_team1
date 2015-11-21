@@ -29,7 +29,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"Các chức năng";
+    self.navigationItem.title = @"Chức Năng";
     self.navigationItem.hidesBackButton = YES;
     
     noticeView = [[[NSBundle mainBundle] loadNibNamed:@"NoticeView" owner:self options:nil] objectAtIndex:0];
@@ -71,7 +71,7 @@
     [self.navigationController pushViewController:sucKhoeVC animated:YES];
 }
 - (IBAction)btnThongBaoClicked:(id)sender {
-    [popup show];
+    [popup showAtCenter:CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/3.5) inView:self.view];
 }
 - (IBAction)btnLiveStreamClicked:(id)sender {
     if([Utils networkConnected]){

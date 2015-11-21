@@ -23,17 +23,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationController.title=@"Trực tiếp lớp học";
+    self.navigationItem.title=@"Trực tiếp lớp học";
     PFQuery *query = [PFQuery queryWithClassName:@"StreamData"];
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     [query findObjectsInBackgroundWithBlock:^(NSArray * _Nullable objects, NSError * _Nullable error) {
         if(!error){
-            NSLog(@"Successfully retrieved %d scores.", objects.count);
+            NSLog(@"Successfully retrieved %lu scores.", objects.count);
             @try{
+
+                if([[[objects objectAtIndex:0] valueForKey:@"status"] isEqualToString:@"0"]){
+                    [self fallToStream];
+                }
+                else{
+                    streamURL = [NSURL URLWithString:[[objects objectAtIndex:0] valueForKey:@"url"]];
+                    [self.webView loadRequest:[NSURLRequest requestWithURL:streamURL]];
+                    [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+                }
                 
-                streamURL = [NSURL URLWithString:[[objects objectAtIndex:0] valueForKey:@"url"]];
-                [self.webView loadRequest:[NSURLRequest requestWithURL:streamURL]];
-                [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
             }
             @catch(NSException *e){
                 [self fallToStream];
@@ -45,7 +51,7 @@
             
         }
     }];
-    
+
         
     
 

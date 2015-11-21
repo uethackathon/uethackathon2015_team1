@@ -40,7 +40,7 @@
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    return 400;
+    return 407;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
@@ -55,23 +55,6 @@
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     
-    
-    
-    
-//    UITableViewCell *cell= [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle  reuseIdentifier:@"Cell1"];
-//    //Setup array
-//    
-//    HoatDong *hoatdong =[arrayNot objectAtIndex:indexPath.row];
-//    cell.textLabel.lineBreakMode= NSLineBreakByWordWrapping;
-//    cell.textLabel.numberOfLines = 0;
-//    cell.textLabel.text=hoatdong.date;
-//    cell.textLabel.font=[UIFont systemFontOfSize:14.0];
-//    cell.detailTextLabel.text= [NSString stringWithFormat:@"%@",hoatdong.content];
-//    cell.detailTextLabel.textColor=[UIColor blueColor];
-//    cell.detailTextLabel.font=[UIFont systemFontOfSize:16.0];
-//    cell.detailTextLabel.lineBreakMode= NSLineBreakByWordWrapping;
-//    cell.detailTextLabel.numberOfLines = 0;
-//    [cell setBackgroundColor:[UIColor clearColor]];
     return cell;
 }
 -(void)getData{

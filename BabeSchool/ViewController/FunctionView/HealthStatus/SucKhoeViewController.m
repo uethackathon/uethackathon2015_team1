@@ -92,7 +92,7 @@
     else {
         UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 30)];
         view.backgroundColor = [UIColor blackColor];
-        [popup show];
+        [popup showAtCenter:CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/3.5) inView:self.view];
     }
 }
 
