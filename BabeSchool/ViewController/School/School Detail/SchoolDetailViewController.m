@@ -33,7 +33,9 @@
     [self btnDescribleClicked:nil]; //default is mo ta clicked
     
 }
-
+-(void)viewWillDisappear:(BOOL)animated{
+    [_slideshow stop];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -106,7 +108,7 @@
     [_slideshow addImagesFromResources:self.modal.arrayImages]; // Add images from resources
     [_slideshow addGesture:KASlideShowGestureTap]; // Gesture to go previous/next directly on the image
     [self.viewSlideImage addSubview: _slideshow];
-//    [_slideshow start];
+    [_slideshow start];
     _slideshow.delegate = self;
 
     UISwipeGestureRecognizer * swipeleft=[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(swipeleft:)];
