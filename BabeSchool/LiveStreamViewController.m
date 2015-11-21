@@ -10,7 +10,10 @@
 #import <MediaPlayer/MediaPlayer.h>
 #import <MBProgressHUD.h>
 #import "Utils.h"
-@interface LiveStreamViewController ()
+#import <Parse/Parse.h>
+@interface LiveStreamViewController (){
+    NSURL *streamURL;
+}
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (strong, nonatomic) MPMoviePlayerController *streamPlayer;
 @end
@@ -19,13 +22,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-        NSURL *streamURL = [NSURL URLWithString:@"http://a6e780.entrypoint.cloud.wowza.com/app-b91a/ngrp:ada445fe_all/playlist.m3u8"];
+    
+    self.navigationController.title=@"Trực tiếp lớp học";
+    PFQuery *query = [PFQuery queryWithClassName:@"StreamData"];
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    [query findObjectsInBackgroundWithBlock:^(NSArray * _Nullable objects, NSError * _Nullable error) {
+        if(!error){
+            NSLog(@"Successfully retrieved %d scores.", objects.count);
+            @try{
+                
+                streamURL = [NSURL URLWithString:[[objects objectAtIndex:0] valueForKey:@"url"]];
+                [self.webView loadRequest:[NSURLRequest requestWithURL:streamURL]];
+                [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+            }
+            @catch(NSException *e){
+                [self fallToStream];
+            }
+        }
+        else{
+            [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+            [self fallToStream];
+            
+        }
+    }];
+    
         
-        [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-        [self.webView loadRequest:[NSURLRequest requestWithURL:streamURL]];
-        
-        [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+    
 
     
     
@@ -36,7 +58,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)fallToStream{
+    UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"Opps" message:@"Hiện camera chưa sẵn sàng, quay lạ vào lúc khác" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alert show];
+    [self.navigationController popViewControllerAnimated:YES];
+}
 /*
 #pragma mark - Navigation
 
