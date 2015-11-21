@@ -44,6 +44,27 @@
 		1277349A1C00101B00E811A5 /* VietBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127734981C00101B00E811A5 /* VietBLViewController.m */; };
 		1277349B1C00101B00E811A5 /* VietBLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127734991C00101B00E811A5 /* VietBLViewController.xib */; };
 		1277349E1C00154600E811A5 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1277349D1C00154600E811A5 /* Comment.m */; };
+		127734B81C00350200E811A5 /* P200 Piano A#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A31C00350200E811A5 /* P200 Piano A#2.caf */; settings = {ASSET_TAGS = (); }; };
+		127734B91C00350200E811A5 /* P200 Piano A#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A41C00350200E811A5 /* P200 Piano A#3.caf */; settings = {ASSET_TAGS = (); }; };
+		127734BA1C00350200E811A5 /* P200 Piano A#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A51C00350200E811A5 /* P200 Piano A#4.caf */; settings = {ASSET_TAGS = (); }; };
+		127734BB1C00350200E811A5 /* P200 Piano A#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A61C00350200E811A5 /* P200 Piano A#5.caf */; settings = {ASSET_TAGS = (); }; };
+		127734BC1C00350200E811A5 /* P200 Piano A#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A71C00350200E811A5 /* P200 Piano A#7.caf */; settings = {ASSET_TAGS = (); }; };
+		127734BD1C00350200E811A5 /* P200 Piano C7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A81C00350200E811A5 /* P200 Piano C7.caf */; settings = {ASSET_TAGS = (); }; };
+		127734BE1C00350200E811A5 /* P200 Piano C10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A91C00350200E811A5 /* P200 Piano C10.caf */; settings = {ASSET_TAGS = (); }; };
+		127734BF1C00350200E811A5 /* P200 Piano D#8.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AA1C00350200E811A5 /* P200 Piano D#8.caf */; settings = {ASSET_TAGS = (); }; };
+		127734C01C00350200E811A5 /* P200 Piano D2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AB1C00350200E811A5 /* P200 Piano D2.caf */; settings = {ASSET_TAGS = (); }; };
+		127734C11C00350200E811A5 /* P200 Piano D3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AC1C00350200E811A5 /* P200 Piano D3.caf */; settings = {ASSET_TAGS = (); }; };
+		127734C21C00350200E811A5 /* P200 Piano D4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AD1C00350200E811A5 /* P200 Piano D4.caf */; settings = {ASSET_TAGS = (); }; };
+		127734C31C00350200E811A5 /* P200 Piano D5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AE1C00350200E811A5 /* P200 Piano D5.caf */; settings = {ASSET_TAGS = (); }; };
+		127734C41C00350200E811A5 /* P200 Piano D6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AF1C00350200E811A5 /* P200 Piano D6.caf */; settings = {ASSET_TAGS = (); }; };
+		127734C51C00350200E811A5 /* P200 Piano F#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B01C00350200E811A5 /* P200 Piano F#2.caf */; settings = {ASSET_TAGS = (); }; };
+		127734C61C00350200E811A5 /* P200 Piano F#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B11C00350200E811A5 /* P200 Piano F#3.caf */; settings = {ASSET_TAGS = (); }; };
+		127734C71C00350200E811A5 /* P200 Piano F#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B21C00350200E811A5 /* P200 Piano F#4.caf */; settings = {ASSET_TAGS = (); }; };
+		127734C81C00350200E811A5 /* P200 Piano F#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B31C00350200E811A5 /* P200 Piano F#5.caf */; settings = {ASSET_TAGS = (); }; };
+		127734C91C00350200E811A5 /* P200 Piano F#6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B41C00350200E811A5 /* P200 Piano F#6.caf */; settings = {ASSET_TAGS = (); }; };
+		127734CA1C00350200E811A5 /* P200 Piano F#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B51C00350200E811A5 /* P200 Piano F#7.caf */; settings = {ASSET_TAGS = (); }; };
+		127734CB1C00350200E811A5 /* P200 Piano G#9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B61C00350200E811A5 /* P200 Piano G#9.caf */; settings = {ASSET_TAGS = (); }; };
+		127734CC1C00350200E811A5 /* Piano.plist in Resources */ = {isa = PBXBuildFile; fileRef = 127734B71C00350200E811A5 /* Piano.plist */; settings = {ASSET_TAGS = (); }; };
 		513434A11BFFE387008858EE /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434A01BFFE387008858EE /* KLCPopup.m */; };
 		513434A31BFFE517008858EE /* AddHealth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434A21BFFE517008858EE /* AddHealth.xib */; };
 		513434A51BFFEAE3008858EE /* btn_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434A41BFFEAE3008858EE /* btn_cancel@2x.png */; };
@@ -64,27 +85,6 @@
 		513434CF1C002983008858EE /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434CE1C002983008858EE /* CoreMIDI.framework */; };
 		513434D11C00298B008858EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434D01C00298B008858EE /* AVFoundation.framework */; };
 		513434D31C002995008858EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434D21C002995008858EE /* AudioToolbox.framework */; };
-		513434F11C002A03008858EE /* P200 Piano A#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434DC1C002A03008858EE /* P200 Piano A#2.caf */; };
-		513434F21C002A03008858EE /* P200 Piano A#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434DD1C002A03008858EE /* P200 Piano A#3.caf */; };
-		513434F31C002A03008858EE /* P200 Piano A#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434DE1C002A03008858EE /* P200 Piano A#4.caf */; };
-		513434F41C002A03008858EE /* P200 Piano A#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434DF1C002A03008858EE /* P200 Piano A#5.caf */; };
-		513434F51C002A03008858EE /* P200 Piano A#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434E01C002A03008858EE /* P200 Piano A#7.caf */; };
-		513434F61C002A03008858EE /* P200 Piano C7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434E11C002A03008858EE /* P200 Piano C7.caf */; };
-		513434F71C002A03008858EE /* P200 Piano C10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434E21C002A03008858EE /* P200 Piano C10.caf */; };
-		513434F81C002A03008858EE /* P200 Piano D#8.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434E31C002A03008858EE /* P200 Piano D#8.caf */; };
-		513434F91C002A03008858EE /* P200 Piano D2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434E41C002A03008858EE /* P200 Piano D2.caf */; };
-		513434FA1C002A03008858EE /* P200 Piano D3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434E51C002A03008858EE /* P200 Piano D3.caf */; };
-		513434FB1C002A03008858EE /* P200 Piano D4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434E61C002A03008858EE /* P200 Piano D4.caf */; };
-		513434FC1C002A03008858EE /* P200 Piano D5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434E71C002A03008858EE /* P200 Piano D5.caf */; };
-		513434FD1C002A03008858EE /* P200 Piano D6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434E81C002A03008858EE /* P200 Piano D6.caf */; };
-		513434FE1C002A03008858EE /* P200 Piano F#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434E91C002A03008858EE /* P200 Piano F#2.caf */; };
-		513434FF1C002A03008858EE /* P200 Piano F#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434EA1C002A03008858EE /* P200 Piano F#3.caf */; };
-		513435001C002A03008858EE /* P200 Piano F#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434EB1C002A03008858EE /* P200 Piano F#4.caf */; };
-		513435011C002A03008858EE /* P200 Piano F#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434EC1C002A03008858EE /* P200 Piano F#5.caf */; };
-		513435021C002A03008858EE /* P200 Piano F#6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434ED1C002A03008858EE /* P200 Piano F#6.caf */; };
-		513435031C002A03008858EE /* P200 Piano F#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434EE1C002A03008858EE /* P200 Piano F#7.caf */; };
-		513435041C002A03008858EE /* P200 Piano G#9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434EF1C002A03008858EE /* P200 Piano G#9.caf */; };
-		513435051C002A03008858EE /* Piano.plist in Resources */ = {isa = PBXBuildFile; fileRef = 513434F01C002A03008858EE /* Piano.plist */; };
 		5134350A1C002E25008858EE /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513435091C002E25008858EE /* BaseNavigationController.m */; };
 		5134350C1C003042008858EE /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5134350B1C003042008858EE /* btn_back@2x.png */; };
 		51346C9F1C00342A00E3EDAE /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 51346C9B1C00342A00E3EDAE /* OpenALSupport.c */; };
@@ -194,6 +194,27 @@
 		127734991C00101B00E811A5 /* VietBLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VietBLViewController.xib; sourceTree = "<group>"; };
 		1277349C1C00154600E811A5 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
 		1277349D1C00154600E811A5 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		127734A31C00350200E811A5 /* P200 Piano A#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#2.caf"; path = "Sounds/P200 Piano A#2.caf"; sourceTree = "<group>"; };
+		127734A41C00350200E811A5 /* P200 Piano A#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#3.caf"; path = "Sounds/P200 Piano A#3.caf"; sourceTree = "<group>"; };
+		127734A51C00350200E811A5 /* P200 Piano A#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#4.caf"; path = "Sounds/P200 Piano A#4.caf"; sourceTree = "<group>"; };
+		127734A61C00350200E811A5 /* P200 Piano A#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#5.caf"; path = "Sounds/P200 Piano A#5.caf"; sourceTree = "<group>"; };
+		127734A71C00350200E811A5 /* P200 Piano A#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#7.caf"; path = "Sounds/P200 Piano A#7.caf"; sourceTree = "<group>"; };
+		127734A81C00350200E811A5 /* P200 Piano C7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano C7.caf"; path = "Sounds/P200 Piano C7.caf"; sourceTree = "<group>"; };
+		127734A91C00350200E811A5 /* P200 Piano C10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano C10.caf"; path = "Sounds/P200 Piano C10.caf"; sourceTree = "<group>"; };
+		127734AA1C00350200E811A5 /* P200 Piano D#8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D#8.caf"; path = "Sounds/P200 Piano D#8.caf"; sourceTree = "<group>"; };
+		127734AB1C00350200E811A5 /* P200 Piano D2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D2.caf"; path = "Sounds/P200 Piano D2.caf"; sourceTree = "<group>"; };
+		127734AC1C00350200E811A5 /* P200 Piano D3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D3.caf"; path = "Sounds/P200 Piano D3.caf"; sourceTree = "<group>"; };
+		127734AD1C00350200E811A5 /* P200 Piano D4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D4.caf"; path = "Sounds/P200 Piano D4.caf"; sourceTree = "<group>"; };
+		127734AE1C00350200E811A5 /* P200 Piano D5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D5.caf"; path = "Sounds/P200 Piano D5.caf"; sourceTree = "<group>"; };
+		127734AF1C00350200E811A5 /* P200 Piano D6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D6.caf"; path = "Sounds/P200 Piano D6.caf"; sourceTree = "<group>"; };
+		127734B01C00350200E811A5 /* P200 Piano F#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#2.caf"; path = "Sounds/P200 Piano F#2.caf"; sourceTree = "<group>"; };
+		127734B11C00350200E811A5 /* P200 Piano F#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#3.caf"; path = "Sounds/P200 Piano F#3.caf"; sourceTree = "<group>"; };
+		127734B21C00350200E811A5 /* P200 Piano F#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#4.caf"; path = "Sounds/P200 Piano F#4.caf"; sourceTree = "<group>"; };
+		127734B31C00350200E811A5 /* P200 Piano F#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#5.caf"; path = "Sounds/P200 Piano F#5.caf"; sourceTree = "<group>"; };
+		127734B41C00350200E811A5 /* P200 Piano F#6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#6.caf"; path = "Sounds/P200 Piano F#6.caf"; sourceTree = "<group>"; };
+		127734B51C00350200E811A5 /* P200 Piano F#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#7.caf"; path = "Sounds/P200 Piano F#7.caf"; sourceTree = "<group>"; };
+		127734B61C00350200E811A5 /* P200 Piano G#9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano G#9.caf"; path = "Sounds/P200 Piano G#9.caf"; sourceTree = "<group>"; };
+		127734B71C00350200E811A5 /* Piano.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Piano.plist; path = Sounds/Piano.plist; sourceTree = "<group>"; };
 		5134349F1BFFE387008858EE /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
 		513434A01BFFE387008858EE /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		513434A21BFFE517008858EE /* AddHealth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddHealth.xib; sourceTree = "<group>"; };
@@ -218,27 +239,6 @@
 		513434CE1C002983008858EE /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		513434D01C00298B008858EE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		513434D21C002995008858EE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		513434DC1C002A03008858EE /* P200 Piano A#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#2.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano A#2.caf"; sourceTree = "<group>"; };
-		513434DD1C002A03008858EE /* P200 Piano A#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#3.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano A#3.caf"; sourceTree = "<group>"; };
-		513434DE1C002A03008858EE /* P200 Piano A#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#4.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano A#4.caf"; sourceTree = "<group>"; };
-		513434DF1C002A03008858EE /* P200 Piano A#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#5.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano A#5.caf"; sourceTree = "<group>"; };
-		513434E01C002A03008858EE /* P200 Piano A#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#7.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano A#7.caf"; sourceTree = "<group>"; };
-		513434E11C002A03008858EE /* P200 Piano C7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano C7.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano C7.caf"; sourceTree = "<group>"; };
-		513434E21C002A03008858EE /* P200 Piano C10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano C10.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano C10.caf"; sourceTree = "<group>"; };
-		513434E31C002A03008858EE /* P200 Piano D#8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D#8.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano D#8.caf"; sourceTree = "<group>"; };
-		513434E41C002A03008858EE /* P200 Piano D2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D2.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano D2.caf"; sourceTree = "<group>"; };
-		513434E51C002A03008858EE /* P200 Piano D3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D3.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano D3.caf"; sourceTree = "<group>"; };
-		513434E61C002A03008858EE /* P200 Piano D4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D4.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano D4.caf"; sourceTree = "<group>"; };
-		513434E71C002A03008858EE /* P200 Piano D5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D5.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano D5.caf"; sourceTree = "<group>"; };
-		513434E81C002A03008858EE /* P200 Piano D6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D6.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano D6.caf"; sourceTree = "<group>"; };
-		513434E91C002A03008858EE /* P200 Piano F#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#2.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano F#2.caf"; sourceTree = "<group>"; };
-		513434EA1C002A03008858EE /* P200 Piano F#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#3.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano F#3.caf"; sourceTree = "<group>"; };
-		513434EB1C002A03008858EE /* P200 Piano F#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#4.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano F#4.caf"; sourceTree = "<group>"; };
-		513434EC1C002A03008858EE /* P200 Piano F#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#5.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano F#5.caf"; sourceTree = "<group>"; };
-		513434ED1C002A03008858EE /* P200 Piano F#6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#6.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano F#6.caf"; sourceTree = "<group>"; };
-		513434EE1C002A03008858EE /* P200 Piano F#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#7.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano F#7.caf"; sourceTree = "<group>"; };
-		513434EF1C002A03008858EE /* P200 Piano G#9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano G#9.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano G#9.caf"; sourceTree = "<group>"; };
-		513434F01C002A03008858EE /* Piano.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Piano.plist; path = ../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/Piano.plist; sourceTree = "<group>"; };
 		513435081C002E25008858EE /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		513435091C002E25008858EE /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		5134350B1C003042008858EE /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_back@2x.png"; path = "../../../Downloads/btn_back@2x.png"; sourceTree = "<group>"; };
@@ -432,27 +432,27 @@
 		513434D51C0029DC008858EE /* Sound */ = {
 			isa = PBXGroup;
 			children = (
-				513434DC1C002A03008858EE /* P200 Piano A#2.caf */,
-				513434DD1C002A03008858EE /* P200 Piano A#3.caf */,
-				513434DE1C002A03008858EE /* P200 Piano A#4.caf */,
-				513434DF1C002A03008858EE /* P200 Piano A#5.caf */,
-				513434E01C002A03008858EE /* P200 Piano A#7.caf */,
-				513434E11C002A03008858EE /* P200 Piano C7.caf */,
-				513434E21C002A03008858EE /* P200 Piano C10.caf */,
-				513434E31C002A03008858EE /* P200 Piano D#8.caf */,
-				513434E41C002A03008858EE /* P200 Piano D2.caf */,
-				513434E51C002A03008858EE /* P200 Piano D3.caf */,
-				513434E61C002A03008858EE /* P200 Piano D4.caf */,
-				513434E71C002A03008858EE /* P200 Piano D5.caf */,
-				513434E81C002A03008858EE /* P200 Piano D6.caf */,
-				513434E91C002A03008858EE /* P200 Piano F#2.caf */,
-				513434EA1C002A03008858EE /* P200 Piano F#3.caf */,
-				513434EB1C002A03008858EE /* P200 Piano F#4.caf */,
-				513434EC1C002A03008858EE /* P200 Piano F#5.caf */,
-				513434ED1C002A03008858EE /* P200 Piano F#6.caf */,
-				513434EE1C002A03008858EE /* P200 Piano F#7.caf */,
-				513434EF1C002A03008858EE /* P200 Piano G#9.caf */,
-				513434F01C002A03008858EE /* Piano.plist */,
+				127734A31C00350200E811A5 /* P200 Piano A#2.caf */,
+				127734A41C00350200E811A5 /* P200 Piano A#3.caf */,
+				127734A51C00350200E811A5 /* P200 Piano A#4.caf */,
+				127734A61C00350200E811A5 /* P200 Piano A#5.caf */,
+				127734A71C00350200E811A5 /* P200 Piano A#7.caf */,
+				127734A81C00350200E811A5 /* P200 Piano C7.caf */,
+				127734A91C00350200E811A5 /* P200 Piano C10.caf */,
+				127734AA1C00350200E811A5 /* P200 Piano D#8.caf */,
+				127734AB1C00350200E811A5 /* P200 Piano D2.caf */,
+				127734AC1C00350200E811A5 /* P200 Piano D3.caf */,
+				127734AD1C00350200E811A5 /* P200 Piano D4.caf */,
+				127734AE1C00350200E811A5 /* P200 Piano D5.caf */,
+				127734AF1C00350200E811A5 /* P200 Piano D6.caf */,
+				127734B01C00350200E811A5 /* P200 Piano F#2.caf */,
+				127734B11C00350200E811A5 /* P200 Piano F#3.caf */,
+				127734B21C00350200E811A5 /* P200 Piano F#4.caf */,
+				127734B31C00350200E811A5 /* P200 Piano F#5.caf */,
+				127734B41C00350200E811A5 /* P200 Piano F#6.caf */,
+				127734B51C00350200E811A5 /* P200 Piano F#7.caf */,
+				127734B61C00350200E811A5 /* P200 Piano G#9.caf */,
+				127734B71C00350200E811A5 /* Piano.plist */,
 			);
 			name = Sound;
 			sourceTree = "<group>";
@@ -829,74 +829,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				513434FA1C002A03008858EE /* P200 Piano D3.caf in Resources */,
-				513434F91C002A03008858EE /* P200 Piano D2.caf in Resources */,
-				513434FE1C002A03008858EE /* P200 Piano F#2.caf in Resources */,
 				51CBB2AA1BFF49D3007040E3 /* LoginViewController.xib in Resources */,
 				12601BF21BFF88680070F8D2 /* ThucDonViewController.xib in Resources */,
 				127734961C000F5600E811A5 /* RateViewController.xib in Resources */,
+				127734C31C00350200E811A5 /* P200 Piano D5.caf in Resources */,
 				513434C11C002168008858EE /* WriteComment.xib in Resources */,
+				127734C41C00350200E811A5 /* P200 Piano D6.caf in Resources */,
 				51CBB2C61BFF6344007040E3 /* img1_3.png in Resources */,
-				513434F41C002A03008858EE /* P200 Piano A#5.caf in Resources */,
 				12601BE31BFF748C0070F8D2 /* img_mota.png in Resources */,
+				127734BD1C00350200E811A5 /* P200 Piano C7.caf in Resources */,
 				12601BD11BFF66110070F8D2 /* separate.png in Resources */,
 				513434A51BFFEAE3008858EE /* btn_cancel@2x.png in Resources */,
 				51D4497D1BFF82E0001121C7 /* users.json in Resources */,
-				513434FB1C002A03008858EE /* P200 Piano D4.caf in Resources */,
 				51CBB2B51BFF5FCA007040E3 /* background@2x.png in Resources */,
-				513435031C002A03008858EE /* P200 Piano F#7.caf in Resources */,
-				513435051C002A03008858EE /* Piano.plist in Resources */,
 				12601B701BFF54A50070F8D2 /* SchoolDetailViewController.xib in Resources */,
 				51CBB2C41BFF6344007040E3 /* img1_1.png in Resources */,
 				12601BE41BFF748C0070F8D2 /* img_thuchi.png in Resources */,
 				51D449A31BFF9C57001121C7 /* HealthCell.xib in Resources */,
 				513434BC1C00145D008858EE /* btn_list@2x.png in Resources */,
 				12601BED1BFF88100070F8D2 /* LiveStreamViewController.xib in Resources */,
+				127734BB1C00350200E811A5 /* P200 Piano A#5.caf in Resources */,
+				127734BF1C00350200E811A5 /* P200 Piano D#8.caf in Resources */,
 				513434BA1C0012B7008858EE /* btn_logout@2x.png in Resources */,
 				51CBB2CB1BFF6344007040E3 /* img3_2.png in Resources */,
 				12601B651BFF4FCE0070F8D2 /* FunctionViewController.xib in Resources */,
+				127734C51C00350200E811A5 /* P200 Piano F#2.caf in Resources */,
 				12601C041BFF99000070F8D2 /* img_btn.png in Resources */,
 				51CBB2CE1BFF6344007040E3 /* img4_2.png in Resources */,
+				127734BC1C00350200E811A5 /* P200 Piano A#7.caf in Resources */,
 				51CBB2CD1BFF6344007040E3 /* img4_1.png in Resources */,
+				127734BE1C00350200E811A5 /* P200 Piano C10.caf in Resources */,
 				51CBB2CC1BFF6344007040E3 /* img3_3.png in Resources */,
 				513434B01C000368008858EE /* NoticeView.xib in Resources */,
+				127734C71C00350200E811A5 /* P200 Piano F#4.caf in Resources */,
 				12601BE11BFF748C0070F8D2 /* img_danhgia.png in Resources */,
-				513434F31C002A03008858EE /* P200 Piano A#4.caf in Resources */,
+				127734CB1C00350200E811A5 /* P200 Piano G#9.caf in Resources */,
 				12601BF71BFF88800070F8D2 /* SucKhoeViewController.xib in Resources */,
 				1277349B1C00101B00E811A5 /* VietBLViewController.xib in Resources */,
-				513435011C002A03008858EE /* P200 Piano F#5.caf in Resources */,
-				513435001C002A03008858EE /* P200 Piano F#4.caf in Resources */,
-				513434FC1C002A03008858EE /* P200 Piano D5.caf in Resources */,
+				127734BA1C00350200E811A5 /* P200 Piano A#4.caf in Resources */,
 				C3B39ED81BFF374D00C4A0EB /* LaunchScreen.storyboard in Resources */,
 				12601C021BFF95CA0070F8D2 /* bg_function@2x.png in Resources */,
+				127734C11C00350200E811A5 /* P200 Piano D3.caf in Resources */,
 				12601BE81BFF76740070F8D2 /* img_login.png in Resources */,
-				513434FD1C002A03008858EE /* P200 Piano D6.caf in Resources */,
+				127734B91C00350200E811A5 /* P200 Piano A#3.caf in Resources */,
 				12601C001BFF8E3E0070F8D2 /* bg_menu@2x.png in Resources */,
 				51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */,
+				127734C61C00350200E811A5 /* P200 Piano F#3.caf in Resources */,
 				513434B81C000F46008858EE /* btn_function@2x.png in Resources */,
 				51CBB2C81BFF6344007040E3 /* img2_2.png in Resources */,
 				51CBB2CF1BFF6344007040E3 /* img4_3.png in Resources */,
+				127734B81C00350200E811A5 /* P200 Piano A#2.caf in Resources */,
+				127734C21C00350200E811A5 /* P200 Piano D4.caf in Resources */,
 				12601BD01BFF66110070F8D2 /* bg_btn.png in Resources */,
 				5134350C1C003042008858EE /* btn_back@2x.png in Resources */,
 				51CBB2CA1BFF6344007040E3 /* img3_1.png in Resources */,
-				513434F71C002A03008858EE /* P200 Piano C10.caf in Resources */,
 				51CBB2C51BFF6344007040E3 /* img1_2.png in Resources */,
 				51CBB2C71BFF6344007040E3 /* img2_1.png in Resources */,
-				513434F21C002A03008858EE /* P200 Piano A#3.caf in Resources */,
-				513434FF1C002A03008858EE /* P200 Piano F#3.caf in Resources */,
-				513434F51C002A03008858EE /* P200 Piano A#7.caf in Resources */,
+				127734C81C00350200E811A5 /* P200 Piano F#5.caf in Resources */,
+				127734C01C00350200E811A5 /* P200 Piano D2.caf in Resources */,
 				513434B41C000E94008858EE /* btn_login@2x.png in Resources */,
-				513434F81C002A03008858EE /* P200 Piano D#8.caf in Resources */,
-				513435021C002A03008858EE /* P200 Piano F#6.caf in Resources */,
+				127734C91C00350200E811A5 /* P200 Piano F#6.caf in Resources */,
 				C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */,
-				513434F11C002A03008858EE /* P200 Piano A#2.caf in Resources */,
 				513434C61C002939008858EE /* PianoViewController.xib in Resources */,
-				513435041C002A03008858EE /* P200 Piano G#9.caf in Resources */,
-				513434F61C002A03008858EE /* P200 Piano C7.caf in Resources */,
 				51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */,
 				12601C061BFF9DC00070F8D2 /* menu.json in Resources */,
 				513434A31BFFE517008858EE /* AddHealth.xib in Resources */,
+				127734CC1C00350200E811A5 /* Piano.plist in Resources */,
 				51CBB2C91BFF6344007040E3 /* img2_3.png in Resources */,
+				127734CA1C00350200E811A5 /* P200 Piano F#7.caf in Resources */,
 				12601BE21BFF748C0070F8D2 /* img_map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
