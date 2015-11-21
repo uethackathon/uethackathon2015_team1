@@ -8,6 +8,7 @@
 
 #import "LiveStreamViewController.h"
 #import <MediaPlayer/MediaPlayer.h>
+#import <MBProgressHUD.h>
 @interface LiveStreamViewController ()
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (strong, nonatomic) MPMoviePlayerController *streamPlayer;
@@ -19,8 +20,10 @@
     [super viewDidLoad];
     NSURL *streamURL = [NSURL URLWithString:@"http://a6e780.entrypoint.cloud.wowza.com/app-b91a/ngrp:ada445fe_all/playlist.m3u8"];
     
-    
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     [self.webView loadRequest:[NSURLRequest requestWithURL:streamURL]];
+    
+    [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
     
 }
 

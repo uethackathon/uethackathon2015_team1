@@ -8,6 +8,7 @@
 
 #import "ThucDonViewController.h"
 #import "foodmenu.h"
+#import <MBProgressHUD.h>
 @interface ThucDonViewController (){
     NSMutableArray *arrayFoods;
 }
@@ -18,9 +19,10 @@
 @implementation ThucDonViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    arrayFoods = [[NSMutableArray alloc]init];
     [self bindData];
+    arrayFoods = [[NSMutableArray alloc]init];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -33,15 +35,10 @@
     return  [food.arrayFoods count];
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 2;
+    return [arrayFoods count];
 }
 - (nullable NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    if (section==0) {
-        return @"Bữa sáng";
-    }
-    else{
-        return @"Bữa Trưa";
-    }
+    return ((foodmenu*)[arrayFoods objectAtIndex:section]).name;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell= [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault  reuseIdentifier:@"Cell"];
@@ -56,19 +53,29 @@
     
 }
 - (void) bindData {
-    NSURL *jsonFilePath = [[NSBundle mainBundle] URLForResource:@"menu" withExtension:@"json"];
-    NSData *jsonData = [NSData dataWithContentsOfURL:jsonFilePath];
-    NSDictionary *dictSchools = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
-    NSArray *array = [dictSchools objectForKey:@"data"];
-    
-    for (int index = 0; index < array.count; index++) {
-        foodmenu *food = [foodmenu getObjectFromJSON:[array objectAtIndex:index]];
-        if (food) {
-            [arrayFoods addObject:food];
+    PFQuery *query = [PFQuery queryWithClassName:@"Menu"];
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
             
+            
+            // The find succeeded.
+            NSLog(@"Successfully retrieved %d scores.", objects.count);
+            // Do something with the found objects
+            for (PFObject *object in objects) {
+                NSLog(@"%@", object.objectId);
+                foodmenu *food = [foodmenu getObjectFromParse:object];
+                [arrayFoods addObject:food];
+            }
+            [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+            [self.tableView reloadData];
+        } else {
+            // Log details of the failure
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+            [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
         }
-    }
-    [self.tableView reloadData];
+    }];
+    
 }
 /*
 #pragma mark - Navigation
