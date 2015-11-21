@@ -37,7 +37,7 @@
     [noticeView.btnCancel addTarget:self action:@selector(btnCancelClick:) forControlEvents:UIControlEventTouchUpInside];
     [noticeView.layer setCornerRadius:5.0f];
     
-    UIButton *btnList = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 25)];
+    UIButton *btnList = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 60, 25)];
     [btnList setImage:[UIImage imageNamed:@"btn_list.png"] forState:UIControlStateNormal];
     btnList.titleLabel.font = [UIFont systemFontOfSize:16];
     btnList.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;

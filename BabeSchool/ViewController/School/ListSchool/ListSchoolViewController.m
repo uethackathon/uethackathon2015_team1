@@ -73,14 +73,14 @@
     [txtSearch addTarget:self action:@selector(searchFieldTextChanged:) forControlEvents:UIControlEventEditingChanged];
     self.navigationItem.titleView = txtSearch;
     if (![MyLib logined]) {
-        UIButton *btnLogin = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 25)];
+        UIButton *btnLogin = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 60, 25)];
         [btnLogin setImage:[UIImage imageNamed:@"btn_login.png"] forState:UIControlStateNormal];
         btnLogin.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
         [btnLogin addTarget:self action:@selector(btnLoginClick:) forControlEvents:UIControlEventTouchUpInside];
         self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnLogin];
     }
     else {
-        UIButton *btnFunction = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 25)];
+        UIButton *btnFunction = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 60, 25)];
         [btnFunction setImage:[UIImage imageNamed:@"btn_function.png"] forState:UIControlStateNormal];
         btnFunction.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
         [btnFunction addTarget:self action:@selector(btnFunctionClick:) forControlEvents:UIControlEventTouchUpInside];
