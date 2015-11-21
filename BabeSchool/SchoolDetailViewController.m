@@ -31,8 +31,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self InitSomeView];
-    [self btnDescribleClicked:nil];
+    [self InitSomeView]; // create some parameter
+    [self btnDescribleClicked:nil]; //default is mo ta clicked
     
 }
 
@@ -54,6 +54,7 @@
     [self checkBeforeCall];
     if (!addedRate) {
         RateViewController *V2 = [[RateViewController alloc]initWithNibName:@"RateViewController" bundle:nil];//assuming V2 is name of your nib as well
+        // Call Rate screen
         V2.schoolId=self.modal.schoolId;
         [self addChildViewController:V2];
         [V2 didMoveToParentViewController:self];
