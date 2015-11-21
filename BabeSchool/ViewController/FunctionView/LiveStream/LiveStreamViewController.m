@@ -30,10 +30,16 @@
         if(!error){
             NSLog(@"Successfully retrieved %lu scores.", objects.count);
             @try{
+
+                if([[[objects objectAtIndex:0] valueForKey:@"status"] isEqualToString:@"0"]){
+                    [self fallToStream];
+                }
+                else{
+                    streamURL = [NSURL URLWithString:[[objects objectAtIndex:0] valueForKey:@"url"]];
+                    [self.webView loadRequest:[NSURLRequest requestWithURL:streamURL]];
+                    [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+                }
                 
-                streamURL = [NSURL URLWithString:[[objects objectAtIndex:0] valueForKey:@"url"]];
-                [self.webView loadRequest:[NSURLRequest requestWithURL:streamURL]];
-                [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
             }
             @catch(NSException *e){
                 [self fallToStream];
@@ -45,7 +51,7 @@
             
         }
     }];
-    
+
         
     
 
