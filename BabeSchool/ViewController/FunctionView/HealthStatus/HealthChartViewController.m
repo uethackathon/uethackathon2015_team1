@@ -1,31 +1,27 @@
 //
-//  BaseNavigationController.m
+//  HealthChartViewController.m
 //  BabeSchool
 //
 //  Created by Truong Huu Thao on 11/21/15.
 //  Copyright © 2015 Nguyễn Chí Hoàng. All rights reserved.
 //
 
-#import "BaseNavigationController.h"
+#import "HealthChartViewController.h"
 
-@interface BaseNavigationController ()
+@interface HealthChartViewController ()
 
 @end
 
-@implementation BaseNavigationController
+@implementation HealthChartViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskPortrait;
 }
 
 /*

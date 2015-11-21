@@ -1,5 +1,5 @@
 //
-//  BaseNavigationController.h
+//  HealthChartViewController.h
 //  BabeSchool
 //
 //  Created by Truong Huu Thao on 11/21/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BaseNavigationController : UINavigationController
+@interface HealthChartViewController : UIViewController
 
 @end
