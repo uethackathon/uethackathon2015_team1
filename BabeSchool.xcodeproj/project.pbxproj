@@ -96,9 +96,6 @@
 		51A940941C008B2D00223A3B /* VietBLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A9408B1C008B2D00223A3B /* VietBLViewController.xib */; };
 		51A940951C008B2D00223A3B /* WriteComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A9408D1C008B2D00223A3B /* WriteComment.m */; };
 		51A940961C008B2D00223A3B /* WriteComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A9408E1C008B2D00223A3B /* WriteComment.xib */; };
-		51A9409A1C008B6200223A3B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940971C008B6200223A3B /* Bolts.framework */; };
-		51A9409B1C008B6200223A3B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940981C008B6200223A3B /* Parse.framework */; };
-		51A9409C1C008B6200223A3B /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940991C008B6200223A3B /* ParseUI.framework */; };
 		51A940B21C00A04500223A3B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940AF1C00A04500223A3B /* Reachability.m */; };
 		51A940B31C00A04500223A3B /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940B11C00A04500223A3B /* Utils.m */; };
 		51A940B61C00A04D00223A3B /* MyLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940B51C00A04D00223A3B /* MyLib.m */; };
@@ -124,6 +121,9 @@
 		51A940EB1C00A0BC00223A3B /* HealthChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940E21C00A0BC00223A3B /* HealthChartViewController.xib */; };
 		51A940EC1C00A0BC00223A3B /* SucKhoeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940E41C00A0BC00223A3B /* SucKhoeViewController.m */; };
 		51A940ED1C00A0BC00223A3B /* SucKhoeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940E51C00A0BC00223A3B /* SucKhoeViewController.xib */; };
+		51A940F11C00A1F700223A3B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940EE1C00A1F700223A3B /* Bolts.framework */; };
+		51A940F21C00A1F700223A3B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940EF1C00A1F700223A3B /* Parse.framework */; };
+		51A940F31C00A1F700223A3B /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940F01C00A1F700223A3B /* ParseUI.framework */; };
 		B7F896246B16724A7E847B8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17461C75361181AA8523F47 /* libPods.a */; };
 		C3B39EC71BFF374D00C4A0EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC61BFF374D00C4A0EB /* main.m */; };
 		C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */; };
@@ -280,9 +280,6 @@
 		51A9408C1C008B2D00223A3B /* WriteComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WriteComment.h; path = "ViewController/School/School Detail/WriteComment.h"; sourceTree = "<group>"; };
 		51A9408D1C008B2D00223A3B /* WriteComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WriteComment.m; path = "ViewController/School/School Detail/WriteComment.m"; sourceTree = "<group>"; };
 		51A9408E1C008B2D00223A3B /* WriteComment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WriteComment.xib; path = "ViewController/School/School Detail/WriteComment.xib"; sourceTree = "<group>"; };
-		51A940971C008B6200223A3B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Support/Parse Framework/Bolts.framework"; sourceTree = "<group>"; };
-		51A940981C008B6200223A3B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Support/Parse Framework/Parse.framework"; sourceTree = "<group>"; };
-		51A940991C008B6200223A3B /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "Support/Parse Framework/ParseUI.framework"; sourceTree = "<group>"; };
 		51A940A21C009EF800223A3B /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Downloads/ios-charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
 		51A940AE1C00A04500223A3B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Lib/OldLib/Reachability.h; sourceTree = "<group>"; };
 		51A940AF1C00A04500223A3B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Lib/OldLib/Reachability.m; sourceTree = "<group>"; };
@@ -323,6 +320,9 @@
 		51A940E31C00A0BC00223A3B /* SucKhoeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SucKhoeViewController.h; path = ViewController/FunctionView/HealthStatus/SucKhoeViewController.h; sourceTree = "<group>"; };
 		51A940E41C00A0BC00223A3B /* SucKhoeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SucKhoeViewController.m; path = ViewController/FunctionView/HealthStatus/SucKhoeViewController.m; sourceTree = "<group>"; };
 		51A940E51C00A0BC00223A3B /* SucKhoeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SucKhoeViewController.xib; path = ViewController/FunctionView/HealthStatus/SucKhoeViewController.xib; sourceTree = "<group>"; };
+		51A940EE1C00A1F700223A3B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Support/ParseFramework/Bolts.framework; sourceTree = "<group>"; };
+		51A940EF1C00A1F700223A3B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Support/ParseFramework/Parse.framework; sourceTree = "<group>"; };
+		51A940F01C00A1F700223A3B /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = Support/ParseFramework/ParseUI.framework; sourceTree = "<group>"; };
 		A02661D9D79C61F4AEDFD976 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B17461C75361181AA8523F47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C5F5C44223DB30D15FF2FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -355,11 +355,11 @@
 				127734671BFFE93600E811A5 /* libsqlite3.tbd in Frameworks */,
 				127734611BFFE6C400E811A5 /* Bolts.framework in Frameworks */,
 				127734621BFFE6C400E811A5 /* Parse.framework in Frameworks */,
-				51A9409A1C008B6200223A3B /* Bolts.framework in Frameworks */,
+				51A940F11C00A1F700223A3B /* Bolts.framework in Frameworks */,
 				127734631BFFE6C400E811A5 /* ParseUI.framework in Frameworks */,
-				51A9409B1C008B6200223A3B /* Parse.framework in Frameworks */,
+				51A940F21C00A1F700223A3B /* Parse.framework in Frameworks */,
 				B7F896246B16724A7E847B8D /* libPods.a in Frameworks */,
-				51A9409C1C008B6200223A3B /* ParseUI.framework in Frameworks */,
+				51A940F31C00A1F700223A3B /* ParseUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,9 +529,9 @@
 		51A93F7E1C00857400223A3B /* Parse Framework */ = {
 			isa = PBXGroup;
 			children = (
-				51A940971C008B6200223A3B /* Bolts.framework */,
-				51A940981C008B6200223A3B /* Parse.framework */,
-				51A940991C008B6200223A3B /* ParseUI.framework */,
+				51A940EE1C00A1F700223A3B /* Bolts.framework */,
+				51A940EF1C00A1F700223A3B /* Parse.framework */,
+				51A940F01C00A1F700223A3B /* ParseUI.framework */,
 			);
 			name = "Parse Framework";
 			sourceTree = "<group>";
@@ -1273,6 +1273,7 @@
 					"$(PROJECT_DIR)/BabeSchool",
 					"$(PROJECT_DIR)/BabeSchool/Support/Parse",
 					Framework,
+					"$(PROJECT_DIR)/BabeSchool/Support/ParseFramework",
 				);
 				INFOPLIST_FILE = BabeSchool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -1293,6 +1294,7 @@
 					"$(PROJECT_DIR)/BabeSchool",
 					"$(PROJECT_DIR)/BabeSchool/Support/Parse",
 					Framework,
+					"$(PROJECT_DIR)/BabeSchool/Support/ParseFramework",
 				);
 				INFOPLIST_FILE = BabeSchool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
