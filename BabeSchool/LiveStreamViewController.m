@@ -7,16 +7,21 @@
 //
 
 #import "LiveStreamViewController.h"
-
+#import <MediaPlayer/MediaPlayer.h>
 @interface LiveStreamViewController ()
-
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (strong, nonatomic) MPMoviePlayerController *streamPlayer;
 @end
 
 @implementation LiveStreamViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    NSURL *streamURL = [NSURL URLWithString:@"http://a6e780.entrypoint.cloud.wowza.com/app-b91a/ngrp:ada445fe_all/playlist.m3u8"];
+    
+    
+    [self.webView loadRequest:[NSURLRequest requestWithURL:streamURL]];
+    
 }
 
 - (void)didReceiveMemoryWarning {

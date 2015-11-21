@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.title = @"Chức năng";
+    self.navigationItem.title = @"Các chức năng";
     // Do any additional setup after loading the view from its nib.
 }
 

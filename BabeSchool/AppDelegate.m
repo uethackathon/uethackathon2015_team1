@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ListSchoolViewController.h"
+#import <Parse/Parse.h>
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #define NAV_BAR_COLOR 0x0abd80
@@ -30,7 +31,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = navMain;
     [self.window makeKeyAndVisible];
-    
+    [Parse setApplicationId:@"4mv9cjCD32ZHCBgogMXaB78fDvvvFeT08CjF2ksK"
+                  clientKey:@"xVqOAeYwep8oQDi90T76ocMbD6R62UpzYo0hYLKr"];
     // Override point for customization after application launch.
     return YES;
 }
