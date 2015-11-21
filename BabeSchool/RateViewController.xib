@@ -9,7 +9,7 @@
             <connections>
                 <outlet property="btnWriteComment" destination="bS5-0j-5JH" id="EUt-K1-KH5"/>
                 <outlet property="containerView" destination="w9x-aQ-gxd" id="8uA-Ub-3Ct"/>
-                <outlet property="tableView" destination="vjf-Za-daX" id="VxM-BV-Axt"/>
+                <outlet property="tableView" destination="3w8-vC-5wi" id="Ynp-Dc-Dbj"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -32,21 +32,22 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w9x-aQ-gxd">
                     <rect key="frame" x="0.0" y="39" width="301" height="250"/>
                     <subviews>
-                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="55" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vjf-Za-daX">
-                            <rect key="frame" x="0.0" y="0.0" width="301" height="250"/>
-                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3w8-vC-5wi">
+                            <rect key="frame" x="0.0" y="0.0" width="301" height="245"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="separatorColor" red="0.38930446769999999" green="0.74565972219999999" blue="0.2934796851" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <outlet property="dataSource" destination="-1" id="JuW-mC-Zgf"/>
-                                <outlet property="delegate" destination="-1" id="TD8-cm-CqV"/>
+                                <outlet property="dataSource" destination="-1" id="v6a-ZG-yY0"/>
+                                <outlet property="delegate" destination="-1" id="14r-Gu-fnz"/>
                             </connections>
                         </tableView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="trailing" secondItem="vjf-Za-daX" secondAttribute="trailing" id="a4Z-mM-qWi"/>
-                        <constraint firstAttribute="bottom" secondItem="vjf-Za-daX" secondAttribute="bottom" id="aUK-3p-DLg"/>
-                        <constraint firstItem="vjf-Za-daX" firstAttribute="top" secondItem="w9x-aQ-gxd" secondAttribute="top" id="dFM-Om-esR"/>
-                        <constraint firstItem="vjf-Za-daX" firstAttribute="leading" secondItem="w9x-aQ-gxd" secondAttribute="leading" id="eIF-jO-RDU"/>
+                        <constraint firstItem="3w8-vC-5wi" firstAttribute="leading" secondItem="w9x-aQ-gxd" secondAttribute="leading" id="A1L-hr-JTU"/>
+                        <constraint firstItem="3w8-vC-5wi" firstAttribute="top" secondItem="w9x-aQ-gxd" secondAttribute="top" id="idP-vg-TXP"/>
+                        <constraint firstAttribute="trailing" secondItem="3w8-vC-5wi" secondAttribute="trailing" id="mvj-GV-vDn"/>
+                        <constraint firstAttribute="bottom" secondItem="3w8-vC-5wi" secondAttribute="bottom" constant="5" id="pwz-4F-G8Y"/>
                     </constraints>
                 </view>
             </subviews>

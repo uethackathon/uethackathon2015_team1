@@ -35,7 +35,7 @@
         btnWriteComment.hidden = YES;
     }
     arrayComments =[[NSMutableArray alloc]init];
-    _tableView.separatorColor = [UIColor clearColor];
+//    _tableView.separatorColor = [UIColor clearColor];
     [self getData];
     
     writeComment = [[[NSBundle mainBundle] loadNibNamed:@"WriteComment" owner:self options:nil] objectAtIndex:0];
@@ -110,7 +110,7 @@
     return heightToAdd+30;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell *cell= [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle  reuseIdentifier:@"Cell"];
+    UITableViewCell *cell= [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle  reuseIdentifier:@"Cell1"];
     //Setup array
     
     Comment *cmt =[arrayComments objectAtIndex:indexPath.row];
@@ -118,10 +118,9 @@
     cell.textLabel.numberOfLines = 0;
     cell.textLabel.text=cmt.content;
     cell.textLabel.font=[UIFont systemFontOfSize:18.0];
-    cell.detailTextLabel.text= [NSString stringWithFormat:@"%@   %@", cmt.userName,cmt.date];
+    cell.detailTextLabel.text= [NSString stringWithFormat:@"%@      (%@)", cmt.userName,cmt.date];
     cell.detailTextLabel.textColor=[UIColor blueColor];
     cell.detailTextLabel.font=[UIFont systemFontOfSize:15.0];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     [cell setBackgroundColor:[UIColor clearColor]];
     return cell;
 }
