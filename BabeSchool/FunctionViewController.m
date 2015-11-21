@@ -11,6 +11,7 @@
 #import "ThucDonViewController.h"
 #import "SucKhoeViewController.h"
 #import "ThongBaoViewController.h"
+#import "Utils.h"
 @interface FunctionViewController ()
 
 @end
@@ -40,8 +41,15 @@
     [self.navigationController pushViewController:thongBaoVC animated:YES];
 }
 - (IBAction)btnLiveStreamClicked:(id)sender {
-    LiveStreamViewController *liveVC =[[LiveStreamViewController alloc]initWithNibName:@"LiveStreamViewController" bundle:nil];
-    [self.navigationController pushViewController:liveVC animated:YES];
+    if([Utils networkConnected]){
+        LiveStreamViewController *liveVC =[[LiveStreamViewController
+                                            alloc]initWithNibName:@"LiveStreamViewController" bundle:nil];
+        [self.navigationController pushViewController:liveVC animated:YES];
+    }
+    else{
+        UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"No Internet" message:@"Vui lòng kiểm tra kết nối mạng " delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alert show];
+    }
 }
 
 /*
