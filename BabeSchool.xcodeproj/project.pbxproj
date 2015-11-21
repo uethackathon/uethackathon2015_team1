@@ -86,9 +86,9 @@
 		513435041C002A03008858EE /* P200 Piano G#9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434EF1C002A03008858EE /* P200 Piano G#9.caf */; };
 		513435051C002A03008858EE /* Piano.plist in Resources */ = {isa = PBXBuildFile; fileRef = 513434F01C002A03008858EE /* Piano.plist */; };
 		5134350A1C002E25008858EE /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513435091C002E25008858EE /* BaseNavigationController.m */; };
-		5134350C1C003042008858EE /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5134350B1C003042008858EE /* btn_back@2x.png */; };
 		51346C9F1C00342A00E3EDAE /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 51346C9B1C00342A00E3EDAE /* OpenALSupport.c */; };
 		51346CA01C00342A00E3EDAE /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 51346C9E1C00342A00E3EDAE /* SoundBankPlayer.m */; };
+		51346CA21C00352F00E3EDAE /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51346CA11C00352F00E3EDAE /* btn_back@2x.png */; };
 		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
 		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
 		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
@@ -241,11 +241,11 @@
 		513434F01C002A03008858EE /* Piano.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Piano.plist; path = ../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/Piano.plist; sourceTree = "<group>"; };
 		513435081C002E25008858EE /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		513435091C002E25008858EE /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
-		5134350B1C003042008858EE /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_back@2x.png"; path = "../../../Downloads/btn_back@2x.png"; sourceTree = "<group>"; };
 		51346C9B1C00342A00E3EDAE /* OpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpenALSupport.c; sourceTree = "<group>"; };
 		51346C9C1C00342A00E3EDAE /* OpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenALSupport.h; sourceTree = "<group>"; };
 		51346C9D1C00342A00E3EDAE /* SoundBankPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundBankPlayer.h; sourceTree = "<group>"; };
 		51346C9E1C00342A00E3EDAE /* SoundBankPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundBankPlayer.m; sourceTree = "<group>"; };
+		51346CA11C00352F00E3EDAE /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@2x.png"; sourceTree = "<group>"; };
 		51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSchoolViewController.h; sourceTree = "<group>"; };
 		51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSchoolViewController.m; sourceTree = "<group>"; };
 		51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListSchoolViewController.xib; sourceTree = "<group>"; };
@@ -512,7 +512,7 @@
 		51CBB2D01BFF6346007040E3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				5134350B1C003042008858EE /* btn_back@2x.png */,
+				51346CA11C00352F00E3EDAE /* btn_back@2x.png */,
 				513434BB1C00145D008858EE /* btn_list@2x.png */,
 				513434B91C0012B7008858EE /* btn_logout@2x.png */,
 				513434B71C000F46008858EE /* btn_function@2x.png */,
@@ -877,7 +877,7 @@
 				51CBB2C81BFF6344007040E3 /* img2_2.png in Resources */,
 				51CBB2CF1BFF6344007040E3 /* img4_3.png in Resources */,
 				12601BD01BFF66110070F8D2 /* bg_btn.png in Resources */,
-				5134350C1C003042008858EE /* btn_back@2x.png in Resources */,
+				51346CA21C00352F00E3EDAE /* btn_back@2x.png in Resources */,
 				51CBB2CA1BFF6344007040E3 /* img3_1.png in Resources */,
 				513434F71C002A03008858EE /* P200 Piano C10.caf in Resources */,
 				51CBB2C51BFF6344007040E3 /* img1_2.png in Resources */,
