@@ -19,6 +19,10 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="vmm-2C-m0c">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                 </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BVu-89-ry3">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" red="0.64548698569999996" green="0.84829872849999999" blue="0.74076745129999999" alpha="0.63" colorSpace="calibratedRGB"/>
+                </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dd1-SB-Aeh">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -35,9 +39,13 @@
                 <constraint firstAttribute="trailing" secondItem="vmm-2C-m0c" secondAttribute="trailing" id="EBU-ef-MXJ"/>
                 <constraint firstItem="vmm-2C-m0c" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FFk-gA-qgv"/>
                 <constraint firstAttribute="trailing" secondItem="dd1-SB-Aeh" secondAttribute="trailing" id="K7a-XW-g90"/>
+                <constraint firstAttribute="trailing" secondItem="BVu-89-ry3" secondAttribute="trailing" id="QVt-xS-xD0"/>
+                <constraint firstItem="BVu-89-ry3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="WKd-N2-Pgp"/>
+                <constraint firstAttribute="bottom" secondItem="BVu-89-ry3" secondAttribute="bottom" id="X2w-pl-aW6"/>
                 <constraint firstAttribute="bottom" secondItem="dd1-SB-Aeh" secondAttribute="bottom" id="dXz-wO-dGk"/>
                 <constraint firstItem="dd1-SB-Aeh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="luR-Ay-Q3E"/>
                 <constraint firstItem="dd1-SB-Aeh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="w5v-1a-QS0"/>
+                <constraint firstItem="BVu-89-ry3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xZy-4c-Ql2"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
