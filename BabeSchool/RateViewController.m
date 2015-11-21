@@ -52,7 +52,7 @@
         [MBProgressHUD showHUDAddedTo:self.view animated:YES];
         PFObject *comment = [PFObject objectWithClassName:@"Comment"];
         comment[@"content"] = writeComment.txtContent.text;
-        comment[@"username"] = [[NSUserDefaults standardUserDefaults] objectForKey:@"user"];
+        comment[@"username"] = [[NSUserDefaults standardUserDefaults] objectForKey:@"username"];
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         dateFormatter.dateFormat = @"dd/MM/yyyy";
         comment[@"Date"] = [dateFormatter stringFromDate:[NSDate date]];
