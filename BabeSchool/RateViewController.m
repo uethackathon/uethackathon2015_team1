@@ -111,6 +111,8 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell= [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle  reuseIdentifier:@"Cell"];
+    //Setup array
+    
     Comment *cmt =[arrayComments objectAtIndex:indexPath.row];
     cell.textLabel.lineBreakMode= NSLineBreakByWordWrapping;
     cell.textLabel.numberOfLines = 0;
@@ -124,8 +126,10 @@
     return cell;
 }
 -(void)getData{
+    //Get Data from server
     [arrayComments removeAllObjects];
     PFQuery *query = [PFQuery queryWithClassName:@"Comment"];
+    [query orderByDescending:@"createdAt"];
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     [query whereKey:@"schoolId" equalTo:[NSString stringWithFormat:@"%d",self.schoolId]];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
