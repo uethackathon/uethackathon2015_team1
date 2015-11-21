@@ -51,6 +51,7 @@
     self.textDetail.font = [UIFont systemFontOfSize:17];
 }
 - (IBAction)btnRateClicked:(id)sender {
+    [self checkBeforeCall];
     if (!addedRate) {
         RateViewController *V2 = [[RateViewController alloc]initWithNibName:@"RateViewController" bundle:nil];//assuming V2 is name of your nib as well
         V2.schoolId=self.modal.schoolId;
