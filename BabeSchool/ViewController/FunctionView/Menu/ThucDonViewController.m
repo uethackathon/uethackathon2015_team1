@@ -21,8 +21,8 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    self.navigationItem.title = @"Thực đơn";
     [self bindData];
-    _tableView.separatorColor = [UIColor clearColor];
     arrayFoods = [[NSMutableArray alloc]init];
     // Do any additional setup after loading the view from its nib.
 }
@@ -31,6 +31,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+#pragma tableView
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     foodmenu *food =[arrayFoods objectAtIndex:section];
     return  [food.arrayFoods count];
@@ -45,14 +46,16 @@
     UITableViewCell *cell= [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault  reuseIdentifier:@"Cell"];
     
     foodmenu *food =[arrayFoods objectAtIndex:indexPath.section];
-    NSLog(@"%d",indexPath.row);
+    NSLog(@"%ld",(long)indexPath.row);
     cell.textLabel.text=[food.arrayFoods objectAtIndex:indexPath.row];
     [cell setBackgroundColor:[UIColor clearColor]];
     return cell;
 }
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+
+-(void) tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
+//    view.tintColor = [UIColor colorWithRed:179.0f green:164.0f blue:164.0f alpha:255.0];
 }
+
 - (void) bindData {
     PFQuery *query = [PFQuery queryWithClassName:@"Menu"];
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
@@ -61,7 +64,7 @@
             
             
             // The find succeeded.
-            NSLog(@"Successfully retrieved %d scores.", objects.count);
+            NSLog(@"Successfully retrieved %lu scores.", (unsigned long)objects.count);
             // Do something with the found objects
             for (PFObject *object in objects) {
                 NSLog(@"%@", object.objectId);

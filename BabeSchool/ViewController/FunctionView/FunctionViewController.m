@@ -29,7 +29,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"Các chức năng";
+    self.navigationItem.title = @"Chức Năng";
     self.navigationItem.hidesBackButton = YES;
     
     noticeView = [[[NSBundle mainBundle] loadNibNamed:@"NoticeView" owner:self options:nil] objectAtIndex:0];

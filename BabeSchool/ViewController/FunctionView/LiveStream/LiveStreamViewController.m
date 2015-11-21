@@ -23,12 +23,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationController.title=@"Trực tiếp lớp học";
+    self.navigationItem.title=@"Trực tiếp lớp học";
     PFQuery *query = [PFQuery queryWithClassName:@"StreamData"];
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     [query findObjectsInBackgroundWithBlock:^(NSArray * _Nullable objects, NSError * _Nullable error) {
         if(!error){
-            NSLog(@"Successfully retrieved %d scores.", objects.count);
+            NSLog(@"Successfully retrieved %lu scores.", objects.count);
             @try{
                 
                 streamURL = [NSURL URLWithString:[[objects objectAtIndex:0] valueForKey:@"url"]];
