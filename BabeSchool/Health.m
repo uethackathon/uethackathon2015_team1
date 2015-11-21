@@ -11,7 +11,7 @@
 @implementation Health
 + (Health*) getObjectFromDict:(NSDictionary *)dict {
     Health *health = [[Health alloc] init];
-    health.weekId = [[dict objectForKey:@"id"] integerValue];
+    health.healthId = [[dict objectForKey:@"id"] integerValue];
     health.height = [[dict objectForKey:@"height"] floatValue];
     health.weight = [[dict objectForKey:@"weight"] floatValue];
     health.date = [dict objectForKey:@"date"];

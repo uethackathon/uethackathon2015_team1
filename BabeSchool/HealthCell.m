@@ -22,7 +22,7 @@
 }
 
 - (void) bindData:(Health *)health {
-    self.lbWeek.text = [NSString stringWithFormat:@"Tuần %i (%@)", health.weekId, health.date];
+    self.lbWeek.text = [NSString stringWithFormat:@"Lần %i (%@)", health.healthId, health.date];
     self.lbHeight.text = [NSString stringWithFormat:@"Chiều cao: %.0f cm", health.height];
     self.lbWeight.text = [NSString stringWithFormat:@"Cân nặng: %.1f kg", health.weight];
     self.lbStatus.text = [MyLib checkBMI:health.height :health.weight];

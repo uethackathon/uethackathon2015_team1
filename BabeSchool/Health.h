@@ -10,7 +10,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Health : NSObject
-@property (nonatomic, assign) NSInteger weekId;
+@property (nonatomic, assign) NSInteger healthId;
 @property (nonatomic, assign) CGFloat height;
 @property (nonatomic, assign) CGFloat weight;
 @property (nonatomic, strong) NSString *date;

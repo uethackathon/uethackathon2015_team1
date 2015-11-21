@@ -9,6 +9,8 @@
 #import "SucKhoeViewController.h"
 #import "HealthCell.h"
 #import "Health.h"
+#import "KLCPopup.h"
+#import "AddHealth.h"
 
 @interface SucKhoeViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableHealth;
@@ -17,6 +19,9 @@
 
 @implementation SucKhoeViewController {
     NSMutableArray *arrayHealths;
+    KLCPopup *popup;
+    AddHealth *addHealth;
+    NSMutableArray *arrayDict;
 }
 
 - (void)viewDidLoad {
@@ -36,26 +41,33 @@
 #pragma mark - Setup View Controller 
 - (void) setupViewController {
     _tableHealth.separatorColor = [UIColor clearColor];
+    addHealth = [[[NSBundle mainBundle] loadNibNamed:@"AddHealth" owner:self options:nil] objectAtIndex:0];
+    [addHealth.btnDone addTarget:self action:@selector(btnDoneClick:) forControlEvents:UIControlEventTouchUpInside];
+    [addHealth.btnCancel addTarget:self action:@selector(btnCancelClick:) forControlEvents:UIControlEventTouchUpInside];
+    [addHealth.layer setCornerRadius:5.0f];
+    addHealth.txtHeight.delegate = self;
+    popup = [KLCPopup popupWithContentView:addHealth];
 }
 
 - (void) setupNavigationBar {
     self.navigationItem.title = @"Theo dõi sức khoẻ";
     UIButton *btnAdd = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 50, 30)];
     [btnAdd setTitle:@"Add" forState:UIControlStateNormal];
-    
+    [btnAdd addTarget:self action:@selector(btnAddClick:) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnAdd];
 }
 
 - (void) bindData {
     arrayHealths = [[NSMutableArray alloc] init];
+    arrayDict = [[NSMutableArray alloc] init];
     
     NSURL *jsonFilePath = [[NSBundle mainBundle] URLForResource:@"health" withExtension:@"json"];
     NSData *jsonData = [NSData dataWithContentsOfURL:jsonFilePath];
     NSDictionary *dictHealth = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
-    NSArray *array = [dictHealth objectForKey:@"data"];
+    arrayDict = [dictHealth objectForKey:@"data"];
     
-    for (int index = 0; index < array.count; index++) {
-        Health *health = [Health getObjectFromDict:[array objectAtIndex:index]];
+    for (int index = 0; index < arrayDict.count; index++) {
+        Health *health = [Health getObjectFromDict:[arrayDict objectAtIndex:index]];
         if (health) {
             [arrayHealths addObject:health];
         }
@@ -63,6 +75,45 @@
     [_tableHealth reloadData];
 }
 
+#pragma mark - Setup Button Action
+- (void) btnAddClick: (UIButton*) button {
+    Health *health = [arrayHealths objectAtIndex:0];
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    dateFormatter.dateFormat = @"dd/MM/yyyy";
+    NSString *today = [dateFormatter stringFromDate:[NSDate date]];
+    if ([today isEqualToString:health.date]) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"Hôm nay bạn đã nhập rồi" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alert show];
+    }
+    else {
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 30)];
+        view.backgroundColor = [UIColor blackColor];
+        [popup show];
+    }
+}
+
+- (void) btnDoneClick: (UIButton*) button {
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    dateFormatter.dateFormat = @"dd/MM/yyyy";
+    
+    Health *health = [arrayHealths objectAtIndex:0];
+    Health *newHealth = [[Health alloc] init];
+    newHealth.healthId = health.healthId++;
+    newHealth.height = [addHealth.txtHeight.text floatValue];
+    newHealth.weight = [addHealth.txtWeight.text floatValue];
+    newHealth.date = [dateFormatter stringFromDate:[NSDate date]];
+    
+    
+    [popup dismiss:YES];
+    addHealth.txtHeight.text = @"";
+    addHealth.txtWeight.text = @"";
+}
+
+- (void) btnCancelClick: (UIButton*) button {
+    [popup dismiss:YES];
+    addHealth.txtHeight.text = @"";
+    addHealth.txtWeight.text = @"";
+}
 #pragma mark - Setup Table Health Status
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
