@@ -116,8 +116,6 @@
 		51A940E71C00A0BC00223A3B /* AddHealth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940DC1C00A0BC00223A3B /* AddHealth.xib */; };
 		51A940E81C00A0BC00223A3B /* HealthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940DE1C00A0BC00223A3B /* HealthCell.m */; };
 		51A940E91C00A0BC00223A3B /* HealthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940DF1C00A0BC00223A3B /* HealthCell.xib */; };
-		51A940EA1C00A0BC00223A3B /* HealthChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940E11C00A0BC00223A3B /* HealthChartViewController.m */; };
-		51A940EB1C00A0BC00223A3B /* HealthChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940E21C00A0BC00223A3B /* HealthChartViewController.xib */; };
 		51A940EC1C00A0BC00223A3B /* SucKhoeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940E41C00A0BC00223A3B /* SucKhoeViewController.m */; };
 		51A940ED1C00A0BC00223A3B /* SucKhoeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940E51C00A0BC00223A3B /* SucKhoeViewController.xib */; };
 		51A940F11C00A1F700223A3B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940EE1C00A1F700223A3B /* Bolts.framework */; };
@@ -152,7 +150,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		51A940F81C00A28300223A3B /* Embed Frameworks */ = {
+		513C92F71C00ACAA00129DA7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -303,9 +301,6 @@
 		51A940DD1C00A0BC00223A3B /* HealthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HealthCell.h; path = ViewController/FunctionView/HealthStatus/HealthCell.h; sourceTree = "<group>"; };
 		51A940DE1C00A0BC00223A3B /* HealthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HealthCell.m; path = ViewController/FunctionView/HealthStatus/HealthCell.m; sourceTree = "<group>"; };
 		51A940DF1C00A0BC00223A3B /* HealthCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HealthCell.xib; path = ViewController/FunctionView/HealthStatus/HealthCell.xib; sourceTree = "<group>"; };
-		51A940E01C00A0BC00223A3B /* HealthChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HealthChartViewController.h; path = ViewController/FunctionView/HealthStatus/HealthChartViewController.h; sourceTree = "<group>"; };
-		51A940E11C00A0BC00223A3B /* HealthChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HealthChartViewController.m; path = ViewController/FunctionView/HealthStatus/HealthChartViewController.m; sourceTree = "<group>"; };
-		51A940E21C00A0BC00223A3B /* HealthChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HealthChartViewController.xib; path = ViewController/FunctionView/HealthStatus/HealthChartViewController.xib; sourceTree = "<group>"; };
 		51A940E31C00A0BC00223A3B /* SucKhoeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SucKhoeViewController.h; path = ViewController/FunctionView/HealthStatus/SucKhoeViewController.h; sourceTree = "<group>"; };
 		51A940E41C00A0BC00223A3B /* SucKhoeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SucKhoeViewController.m; path = ViewController/FunctionView/HealthStatus/SucKhoeViewController.m; sourceTree = "<group>"; };
 		51A940E51C00A0BC00223A3B /* SucKhoeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SucKhoeViewController.xib; path = ViewController/FunctionView/HealthStatus/SucKhoeViewController.xib; sourceTree = "<group>"; };
@@ -667,9 +662,6 @@
 				51A940DD1C00A0BC00223A3B /* HealthCell.h */,
 				51A940DE1C00A0BC00223A3B /* HealthCell.m */,
 				51A940DF1C00A0BC00223A3B /* HealthCell.xib */,
-				51A940E01C00A0BC00223A3B /* HealthChartViewController.h */,
-				51A940E11C00A0BC00223A3B /* HealthChartViewController.m */,
-				51A940E21C00A0BC00223A3B /* HealthChartViewController.xib */,
 				51A940E31C00A0BC00223A3B /* SucKhoeViewController.h */,
 				51A940E41C00A0BC00223A3B /* SucKhoeViewController.m */,
 				51A940E51C00A0BC00223A3B /* SucKhoeViewController.xib */,
@@ -819,8 +811,8 @@
 				C3B39EBF1BFF374D00C4A0EB /* Frameworks */,
 				C3B39EC01BFF374D00C4A0EB /* Resources */,
 				4EA06D8D06FB305BBF7B05E0 /* Copy Pods Resources */,
-				51A940F81C00A28300223A3B /* Embed Frameworks */,
 				F5B4D098544991EAE9FF3B7B /* Embed Pods Frameworks */,
+				513C92F71C00ACAA00129DA7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -924,7 +916,6 @@
 				51A9400C1C00897300223A3B /* Piano.plist in Resources */,
 				51A940091C00897300223A3B /* P200 Piano F#6.caf in Resources */,
 				51A940641C008AAF00223A3B /* btn_list@2x.png in Resources */,
-				51A940EB1C00A0BC00223A3B /* HealthChartViewController.xib in Resources */,
 				51A93FFE1C00897300223A3B /* P200 Piano C10.caf in Resources */,
 				51A940701C008AAF00223A3B /* img1_2.png in Resources */,
 				51A940061C00897300223A3B /* P200 Piano F#3.caf in Resources */,
@@ -1096,7 +1087,6 @@
 				51A940FE1C00A39000223A3B /* BaseNavigationController.m in Sources */,
 				51A940C41C00A07B00223A3B /* HoatDongViewController.m in Sources */,
 				51A940EC1C00A0BC00223A3B /* SucKhoeViewController.m in Sources */,
-				51A940EA1C00A0BC00223A3B /* HealthChartViewController.m in Sources */,
 				51A940B31C00A04500223A3B /* Utils.m in Sources */,
 				C3B39EC71BFF374D00C4A0EB /* main.m in Sources */,
 			);
@@ -1244,7 +1234,7 @@
 					"$(PROJECT_DIR)/BabeSchool/Support/ParseFramework",
 				);
 				INFOPLIST_FILE = BabeSchool/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.snapuet.BabeSchool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1266,7 +1256,7 @@
 					"$(PROJECT_DIR)/BabeSchool/Support/ParseFramework",
 				);
 				INFOPLIST_FILE = BabeSchool/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.snapuet.BabeSchool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
