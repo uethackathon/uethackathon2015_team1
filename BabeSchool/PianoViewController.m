@@ -21,6 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setupVC];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -83,6 +84,7 @@
     [soundBankPlayer queueNote:numOfNote gain:1.0f];
     [soundBankPlayer playQueuedNotes];
 }
+
 - (IBAction)btnBackClick:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }

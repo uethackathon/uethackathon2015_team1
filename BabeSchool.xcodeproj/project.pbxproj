@@ -519,6 +519,8 @@
 			isa = PBXGroup;
 			children = (
 				51A93F761C006BE600223A3B /* btn_back_black@2x.png */,
+				127D05301C0066F500F25DB2 /* green_bg.png */,
+				127D052C1C005BA200F25DB2 /* lauchscreen@2x.png */,
 				51346CA11C00352F00E3EDAE /* btn_back@2x.png */,
 				513434BB1C00145D008858EE /* btn_list@2x.png */,
 				513434B91C0012B7008858EE /* btn_logout@2x.png */,
