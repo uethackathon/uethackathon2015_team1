@@ -8,15 +8,13 @@
 
 #import "SchoolDetailViewController.h"
 #import "KASlideShow.h"
-#import "RateView.h"
 #import "LoginViewController.h"
 #import "FunctionViewController.h"
 #import "RateViewController.h"
 @import GoogleMaps;
-@interface SchoolDetailViewController ()<RateViewDelegate>
+@interface SchoolDetailViewController ()
 @property (weak, nonatomic) IBOutlet UIView *viewSlideImage;
 @property (weak, nonatomic) IBOutlet UIView *viewDetaild;
-@property (weak, nonatomic) IBOutlet RateView *rateView;
 @property (weak, nonatomic) IBOutlet UITextView *textDetail;
 
 @end
@@ -96,7 +94,6 @@
     
     addedGoogleMap=NO;
     addedRate=NO;
-    [self.rateView setHidden:YES];
     [self.textDetail setHidden:YES];
     
     
@@ -120,9 +117,6 @@
     [self.viewSlideImage addGestureRecognizer:swiperight];
 }
 
-- (void)rateView:(RateView *)rateView ratingDidChange:(float)rating {
-    //    self.statusLabel.text = [NSString stringWithFormat:@"Rating: %f", rating];
-}
 -(void)swipeleft:(UISwipeGestureRecognizer*)gestureRecognizer
 {
     [_slideshow previous];

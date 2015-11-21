@@ -7,123 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 125CF4041BFF3C040049D6D8 /* KASlideShow.m */; };
-		12601B471BFF484C0070F8D2 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B461BFF484C0070F8D2 /* RateView.m */; };
-		12601B4A1BFF49D30070F8D2 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B491BFF49D30070F8D2 /* School.m */; };
-		12601B641BFF4FCE0070F8D2 /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B621BFF4FCE0070F8D2 /* FunctionViewController.m */; };
-		12601B651BFF4FCE0070F8D2 /* FunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B631BFF4FCE0070F8D2 /* FunctionViewController.xib */; };
-		12601B6F1BFF54A50070F8D2 /* SchoolDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601B6D1BFF54A50070F8D2 /* SchoolDetailViewController.m */; };
-		12601B701BFF54A50070F8D2 /* SchoolDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601B6E1BFF54A50070F8D2 /* SchoolDetailViewController.xib */; };
-		12601BD01BFF66110070F8D2 /* bg_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BCE1BFF66110070F8D2 /* bg_btn.png */; };
-		12601BD11BFF66110070F8D2 /* separate.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BCF1BFF66110070F8D2 /* separate.png */; };
-		12601BE11BFF748C0070F8D2 /* img_danhgia.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BDC1BFF748C0070F8D2 /* img_danhgia.png */; };
-		12601BE21BFF748C0070F8D2 /* img_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BDD1BFF748C0070F8D2 /* img_map.png */; };
-		12601BE31BFF748C0070F8D2 /* img_mota.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BDE1BFF748C0070F8D2 /* img_mota.png */; };
-		12601BE41BFF748C0070F8D2 /* img_thuchi.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BDF1BFF748C0070F8D2 /* img_thuchi.png */; };
-		12601BE81BFF76740070F8D2 /* img_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BE71BFF76740070F8D2 /* img_login.png */; };
-		12601BEC1BFF88100070F8D2 /* LiveStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BEA1BFF88100070F8D2 /* LiveStreamViewController.m */; };
-		12601BED1BFF88100070F8D2 /* LiveStreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BEB1BFF88100070F8D2 /* LiveStreamViewController.xib */; };
-		12601BF11BFF88680070F8D2 /* ThucDonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BEF1BFF88680070F8D2 /* ThucDonViewController.m */; };
-		12601BF21BFF88680070F8D2 /* ThucDonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BF01BFF88680070F8D2 /* ThucDonViewController.xib */; };
-		12601BF61BFF88800070F8D2 /* SucKhoeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BF41BFF88800070F8D2 /* SucKhoeViewController.m */; };
-		12601BF71BFF88800070F8D2 /* SucKhoeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BF51BFF88800070F8D2 /* SucKhoeViewController.xib */; };
-		12601C001BFF8E3E0070F8D2 /* bg_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BFF1BFF8E3E0070F8D2 /* bg_menu@2x.png */; };
-		12601C021BFF95CA0070F8D2 /* bg_function@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601C011BFF95CA0070F8D2 /* bg_function@2x.png */; };
-		12601C041BFF99000070F8D2 /* img_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601C031BFF99000070F8D2 /* img_btn.png */; };
-		12601C061BFF9DC00070F8D2 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 12601C051BFF9DC00070F8D2 /* menu.json */; };
-		12601C091BFF9E2C0070F8D2 /* foodmenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601C081BFF9E2C0070F8D2 /* foodmenu.m */; };
 		127734611BFFE6C400E811A5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1277345E1BFFE6C400E811A5 /* Bolts.framework */; };
 		127734621BFFE6C400E811A5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1277345F1BFFE6C400E811A5 /* Parse.framework */; };
 		127734631BFFE6C400E811A5 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127734601BFFE6C400E811A5 /* ParseUI.framework */; };
 		127734661BFFE93600E811A5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 127734641BFFE93600E811A5 /* libsqlite3.0.tbd */; };
 		127734671BFFE93600E811A5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 127734651BFFE93600E811A5 /* libsqlite3.tbd */; };
-		127734901C000F3D00E811A5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1277348D1C000F3D00E811A5 /* Reachability.m */; };
-		127734911C000F3D00E811A5 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1277348F1C000F3D00E811A5 /* Utils.m */; };
-		127734951C000F5600E811A5 /* RateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127734931C000F5600E811A5 /* RateViewController.m */; };
-		127734961C000F5600E811A5 /* RateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127734941C000F5600E811A5 /* RateViewController.xib */; };
-		1277349A1C00101B00E811A5 /* VietBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127734981C00101B00E811A5 /* VietBLViewController.m */; };
-		1277349B1C00101B00E811A5 /* VietBLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127734991C00101B00E811A5 /* VietBLViewController.xib */; };
-		1277349E1C00154600E811A5 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1277349D1C00154600E811A5 /* Comment.m */; };
-		127734B81C00350200E811A5 /* P200 Piano A#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A31C00350200E811A5 /* P200 Piano A#2.caf */; };
-		127734B91C00350200E811A5 /* P200 Piano A#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A41C00350200E811A5 /* P200 Piano A#3.caf */; };
-		127734BA1C00350200E811A5 /* P200 Piano A#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A51C00350200E811A5 /* P200 Piano A#4.caf */; };
-		127734BB1C00350200E811A5 /* P200 Piano A#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A61C00350200E811A5 /* P200 Piano A#5.caf */; };
-		127734BC1C00350200E811A5 /* P200 Piano A#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A71C00350200E811A5 /* P200 Piano A#7.caf */; };
-		127734BD1C00350200E811A5 /* P200 Piano C7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A81C00350200E811A5 /* P200 Piano C7.caf */; };
-		127734BE1C00350200E811A5 /* P200 Piano C10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A91C00350200E811A5 /* P200 Piano C10.caf */; };
-		127734BF1C00350200E811A5 /* P200 Piano D#8.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AA1C00350200E811A5 /* P200 Piano D#8.caf */; };
-		127734C01C00350200E811A5 /* P200 Piano D2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AB1C00350200E811A5 /* P200 Piano D2.caf */; };
-		127734C11C00350200E811A5 /* P200 Piano D3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AC1C00350200E811A5 /* P200 Piano D3.caf */; };
-		127734C21C00350200E811A5 /* P200 Piano D4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AD1C00350200E811A5 /* P200 Piano D4.caf */; };
-		127734C31C00350200E811A5 /* P200 Piano D5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AE1C00350200E811A5 /* P200 Piano D5.caf */; };
-		127734C41C00350200E811A5 /* P200 Piano D6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AF1C00350200E811A5 /* P200 Piano D6.caf */; };
-		127734C51C00350200E811A5 /* P200 Piano F#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B01C00350200E811A5 /* P200 Piano F#2.caf */; };
-		127734C61C00350200E811A5 /* P200 Piano F#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B11C00350200E811A5 /* P200 Piano F#3.caf */; };
-		127734C71C00350200E811A5 /* P200 Piano F#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B21C00350200E811A5 /* P200 Piano F#4.caf */; };
-		127734C81C00350200E811A5 /* P200 Piano F#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B31C00350200E811A5 /* P200 Piano F#5.caf */; };
-		127734C91C00350200E811A5 /* P200 Piano F#6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B41C00350200E811A5 /* P200 Piano F#6.caf */; };
-		127734CA1C00350200E811A5 /* P200 Piano F#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B51C00350200E811A5 /* P200 Piano F#7.caf */; };
-		127734CB1C00350200E811A5 /* P200 Piano G#9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B61C00350200E811A5 /* P200 Piano G#9.caf */; };
-		127734CC1C00350200E811A5 /* Piano.plist in Resources */ = {isa = PBXBuildFile; fileRef = 127734B71C00350200E811A5 /* Piano.plist */; };
-		127D052D1C005BA200F25DB2 /* lauchscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D052C1C005BA200F25DB2 /* lauchscreen@2x.png */; };
-		127D05311C0066F500F25DB2 /* green_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D05301C0066F500F25DB2 /* green_bg.png */; };
-		127D05471C00846600F25DB2 /* HoatDongCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D05421C00846600F25DB2 /* HoatDongCellTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		127D05481C00846600F25DB2 /* HoatDongCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127D05431C00846600F25DB2 /* HoatDongCellTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		127D05491C00846600F25DB2 /* HoatDongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D05451C00846600F25DB2 /* HoatDongViewController.m */; settings = {ASSET_TAGS = (); }; };
-		127D054A1C00846600F25DB2 /* HoatDongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127D05461C00846600F25DB2 /* HoatDongViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		127D054D1C00848B00F25DB2 /* hoatdong.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D054C1C00848B00F25DB2 /* hoatdong.m */; settings = {ASSET_TAGS = (); }; };
-		513434A11BFFE387008858EE /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434A01BFFE387008858EE /* KLCPopup.m */; };
-		513434A31BFFE517008858EE /* AddHealth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434A21BFFE517008858EE /* AddHealth.xib */; };
-		513434A51BFFEAE3008858EE /* btn_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434A41BFFEAE3008858EE /* btn_cancel@2x.png */; };
-		513434A81BFFF574008858EE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434A61BFFF574008858EE /* Bolts.framework */; };
-		513434A91BFFF574008858EE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434A71BFFF574008858EE /* Parse.framework */; };
-		513434AB1BFFF5AA008858EE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434AA1BFFF5AA008858EE /* ParseUI.framework */; };
-		513434AE1C000356008858EE /* NoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434AD1C000356008858EE /* NoticeView.m */; };
-		513434B01C000368008858EE /* NoticeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434AF1C000368008858EE /* NoticeView.xib */; };
-		513434B41C000E94008858EE /* btn_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434B31C000E94008858EE /* btn_login@2x.png */; };
-		513434B81C000F46008858EE /* btn_function@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434B71C000F46008858EE /* btn_function@2x.png */; };
-		513434BA1C0012B7008858EE /* btn_logout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434B91C0012B7008858EE /* btn_logout@2x.png */; };
-		513434BC1C00145D008858EE /* btn_list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434BB1C00145D008858EE /* btn_list@2x.png */; };
-		513434BF1C002154008858EE /* WriteComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434BE1C002154008858EE /* WriteComment.m */; };
-		513434C11C002168008858EE /* WriteComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434C01C002168008858EE /* WriteComment.xib */; };
 		513434CD1C00297A008858EE /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434CC1C00297A008858EE /* CoreAudio.framework */; };
 		513434CF1C002983008858EE /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434CE1C002983008858EE /* CoreMIDI.framework */; };
 		513434D11C00298B008858EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434D01C00298B008858EE /* AVFoundation.framework */; };
 		513434D31C002995008858EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434D21C002995008858EE /* AudioToolbox.framework */; };
-		5134350A1C002E25008858EE /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513435091C002E25008858EE /* BaseNavigationController.m */; };
-		51346C9F1C00342A00E3EDAE /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 51346C9B1C00342A00E3EDAE /* OpenALSupport.c */; };
-		51346CA01C00342A00E3EDAE /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 51346C9E1C00342A00E3EDAE /* SoundBankPlayer.m */; };
-		51346CA21C00352F00E3EDAE /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51346CA11C00352F00E3EDAE /* btn_back@2x.png */; };
-		51A93F741C00692000223A3B /* PianoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93F721C00692000223A3B /* PianoViewController.m */; };
-		51A93F751C00692000223A3B /* PianoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93F731C00692000223A3B /* PianoViewController.xib */; };
-		51A93F771C006BE600223A3B /* btn_back_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A93F761C006BE600223A3B /* btn_back_black@2x.png */; };
-		51A93F791C00734900223A3B /* btn_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A93F781C00734900223A3B /* btn_search@2x.png */; };
-		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
-		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
-		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
-		51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2A21BFF3ED1007040E3 /* SchoolCell.xib */; };
-		51CBB2A91BFF49D3007040E3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A71BFF49D3007040E3 /* LoginViewController.m */; };
-		51CBB2AA1BFF49D3007040E3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2A81BFF49D3007040E3 /* LoginViewController.xib */; };
-		51CBB2B51BFF5FCA007040E3 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2B41BFF5FCA007040E3 /* background@2x.png */; };
-		51CBB2C41BFF6344007040E3 /* img1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2B81BFF6344007040E3 /* img1_1.png */; };
-		51CBB2C51BFF6344007040E3 /* img1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2B91BFF6344007040E3 /* img1_2.png */; };
-		51CBB2C61BFF6344007040E3 /* img1_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2BA1BFF6344007040E3 /* img1_3.png */; };
-		51CBB2C71BFF6344007040E3 /* img2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2BB1BFF6344007040E3 /* img2_1.png */; };
-		51CBB2C81BFF6344007040E3 /* img2_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2BC1BFF6344007040E3 /* img2_2.png */; };
-		51CBB2C91BFF6344007040E3 /* img2_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2BD1BFF6344007040E3 /* img2_3.png */; };
-		51CBB2CA1BFF6344007040E3 /* img3_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2BE1BFF6344007040E3 /* img3_1.png */; };
-		51CBB2CB1BFF6344007040E3 /* img3_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2BF1BFF6344007040E3 /* img3_2.png */; };
-		51CBB2CC1BFF6344007040E3 /* img3_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2C01BFF6344007040E3 /* img3_3.png */; };
-		51CBB2CD1BFF6344007040E3 /* img4_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2C11BFF6344007040E3 /* img4_1.png */; };
-		51CBB2CE1BFF6344007040E3 /* img4_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2C21BFF6344007040E3 /* img4_2.png */; };
-		51CBB2CF1BFF6344007040E3 /* img4_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB2C31BFF6344007040E3 /* img4_3.png */; };
-		51D4497D1BFF82E0001121C7 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 51D4497C1BFF82E0001121C7 /* users.json */; };
-		51D449811BFF87C7001121C7 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449801BFF87C7001121C7 /* User.m */; };
-		51D449851BFF9234001121C7 /* MyLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449841BFF9234001121C7 /* MyLib.m */; };
-		51D449A21BFF9C57001121C7 /* HealthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449A01BFF9C57001121C7 /* HealthCell.m */; };
-		51D449A31BFF9C57001121C7 /* HealthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51D449A11BFF9C57001121C7 /* HealthCell.xib */; };
-		51D449A81BFFA63C001121C7 /* Health.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449A71BFFA63B001121C7 /* Health.m */; };
-		51D449AE1BFFB70D001121C7 /* AddHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449AD1BFFB70D001121C7 /* AddHealth.m */; };
+		51A93F831C00866700223A3B /* MyLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93F821C00866700223A3B /* MyLib.m */; };
+		51A93F861C00869500223A3B /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93F851C00869500223A3B /* KLCPopup.m */; };
+		51A93F891C0086EF00223A3B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93F881C0086EF00223A3B /* BaseNavigationController.m */; };
+		51A93F901C00873C00223A3B /* HoatDongCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93F8B1C00873C00223A3B /* HoatDongCellTableViewCell.m */; };
+		51A93F911C00873C00223A3B /* HoatDongCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93F8C1C00873C00223A3B /* HoatDongCellTableViewCell.xib */; };
+		51A93F921C00873C00223A3B /* HoatDongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93F8E1C00873C00223A3B /* HoatDongViewController.m */; };
+		51A93F931C00873C00223A3B /* HoatDongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93F8F1C00873C00223A3B /* HoatDongViewController.xib */; };
+		51A93F971C00875900223A3B /* PianoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93F951C00875900223A3B /* PianoViewController.m */; };
+		51A93F981C00875900223A3B /* PianoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93F961C00875900223A3B /* PianoViewController.xib */; };
+		51A93F9C1C00877200223A3B /* NoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93F9A1C00877200223A3B /* NoticeView.m */; };
+		51A93F9D1C00877200223A3B /* NoticeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93F9B1C00877200223A3B /* NoticeView.xib */; };
+		51A93FA11C00878B00223A3B /* ThucDonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93F9F1C00878B00223A3B /* ThucDonViewController.m */; };
+		51A93FA21C00878B00223A3B /* ThucDonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FA01C00878B00223A3B /* ThucDonViewController.xib */; };
+		51A93FA61C0087A800223A3B /* LiveStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93FA41C0087A800223A3B /* LiveStreamViewController.m */; };
+		51A93FA71C0087A800223A3B /* LiveStreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FA51C0087A800223A3B /* LiveStreamViewController.xib */; };
+		51A93FB11C0087F100223A3B /* AddHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93FA91C0087F100223A3B /* AddHealth.m */; };
+		51A93FB21C0087F100223A3B /* AddHealth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FAA1C0087F100223A3B /* AddHealth.xib */; };
+		51A93FB31C0087F100223A3B /* HealthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93FAC1C0087F100223A3B /* HealthCell.m */; };
+		51A93FB41C0087F100223A3B /* HealthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FAD1C0087F100223A3B /* HealthCell.xib */; };
+		51A93FB51C0087F100223A3B /* SucKhoeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93FAF1C0087F100223A3B /* SucKhoeViewController.m */; };
+		51A93FB61C0087F100223A3B /* SucKhoeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FB01C0087F100223A3B /* SucKhoeViewController.xib */; };
+		51A93FBA1C00881300223A3B /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93FB81C00881300223A3B /* FunctionViewController.m */; };
+		51A93FBB1C00881300223A3B /* FunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FB91C00881300223A3B /* FunctionViewController.xib */; };
+		51A93FBF1C00883300223A3B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93FBD1C00883300223A3B /* LoginViewController.m */; };
+		51A93FC01C00883300223A3B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FBE1C00883300223A3B /* LoginViewController.xib */; };
+		51A93FDB1C0088B100223A3B /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93FD61C0088B100223A3B /* ListSchoolViewController.m */; };
+		51A93FDC1C0088B100223A3B /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FD71C0088B100223A3B /* ListSchoolViewController.xib */; };
+		51A93FDD1C0088B100223A3B /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93FD91C0088B100223A3B /* SchoolCell.m */; };
+		51A93FDE1C0088B100223A3B /* SchoolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FDA1C0088B100223A3B /* SchoolCell.xib */; };
+		51A93FE21C0088FB00223A3B /* KASlideShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93FE11C0088FB00223A3B /* KASlideShow.m */; };
+		51A93FF81C00897300223A3B /* P200 Piano A#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FE31C00897200223A3B /* P200 Piano A#2.caf */; };
+		51A93FF91C00897300223A3B /* P200 Piano A#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FE41C00897200223A3B /* P200 Piano A#3.caf */; };
+		51A93FFA1C00897300223A3B /* P200 Piano A#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FE51C00897200223A3B /* P200 Piano A#4.caf */; };
+		51A93FFB1C00897300223A3B /* P200 Piano A#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FE61C00897200223A3B /* P200 Piano A#5.caf */; };
+		51A93FFC1C00897300223A3B /* P200 Piano A#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FE71C00897200223A3B /* P200 Piano A#7.caf */; };
+		51A93FFD1C00897300223A3B /* P200 Piano C7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FE81C00897200223A3B /* P200 Piano C7.caf */; };
+		51A93FFE1C00897300223A3B /* P200 Piano C10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FE91C00897200223A3B /* P200 Piano C10.caf */; };
+		51A93FFF1C00897300223A3B /* P200 Piano D#8.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FEA1C00897200223A3B /* P200 Piano D#8.caf */; };
+		51A940001C00897300223A3B /* P200 Piano D2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FEB1C00897200223A3B /* P200 Piano D2.caf */; };
+		51A940011C00897300223A3B /* P200 Piano D3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FEC1C00897200223A3B /* P200 Piano D3.caf */; };
+		51A940021C00897300223A3B /* P200 Piano D4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FED1C00897200223A3B /* P200 Piano D4.caf */; };
+		51A940031C00897300223A3B /* P200 Piano D5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FEE1C00897200223A3B /* P200 Piano D5.caf */; };
+		51A940041C00897300223A3B /* P200 Piano D6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FEF1C00897200223A3B /* P200 Piano D6.caf */; };
+		51A940051C00897300223A3B /* P200 Piano F#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FF01C00897300223A3B /* P200 Piano F#2.caf */; };
+		51A940061C00897300223A3B /* P200 Piano F#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FF11C00897300223A3B /* P200 Piano F#3.caf */; };
+		51A940071C00897300223A3B /* P200 Piano F#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FF21C00897300223A3B /* P200 Piano F#4.caf */; };
+		51A940081C00897300223A3B /* P200 Piano F#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FF31C00897300223A3B /* P200 Piano F#5.caf */; };
+		51A940091C00897300223A3B /* P200 Piano F#6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FF41C00897300223A3B /* P200 Piano F#6.caf */; };
+		51A9400A1C00897300223A3B /* P200 Piano F#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FF51C00897300223A3B /* P200 Piano F#7.caf */; };
+		51A9400B1C00897300223A3B /* P200 Piano G#9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FF61C00897300223A3B /* P200 Piano G#9.caf */; };
+		51A9400C1C00897300223A3B /* Piano.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FF71C00897300223A3B /* Piano.plist */; };
+		51A940111C0089AD00223A3B /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 51A9400D1C0089AD00223A3B /* OpenALSupport.c */; };
+		51A940121C0089AD00223A3B /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940101C0089AD00223A3B /* SoundBankPlayer.m */; };
+		51A940281C008A3B00223A3B /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 51A940271C008A3B00223A3B /* users.json */; };
+		51A940351C008A4800223A3B /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A9402A1C008A4800223A3B /* Comment.m */; };
+		51A940361C008A4800223A3B /* foodmenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A9402C1C008A4800223A3B /* foodmenu.m */; };
+		51A940371C008A4800223A3B /* Health.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A9402E1C008A4800223A3B /* Health.m */; };
+		51A940381C008A4800223A3B /* hoatdong.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940301C008A4800223A3B /* hoatdong.m */; };
+		51A940391C008A4800223A3B /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940321C008A4800223A3B /* School.m */; };
+		51A9403A1C008A4800223A3B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940341C008A4800223A3B /* User.m */; };
+		51A9405C1C008AAF00223A3B /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9403B1C008AAF00223A3B /* background@2x.png */; };
+		51A9405D1C008AAF00223A3B /* bg_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9403C1C008AAF00223A3B /* bg_btn.png */; };
+		51A9405E1C008AAF00223A3B /* bg_function@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9403D1C008AAF00223A3B /* bg_function@2x.png */; };
+		51A9405F1C008AAF00223A3B /* bg_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9403E1C008AAF00223A3B /* bg_menu@2x.png */; };
+		51A940601C008AAF00223A3B /* btn_back_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9403F1C008AAF00223A3B /* btn_back_black@2x.png */; };
+		51A940611C008AAF00223A3B /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940401C008AAF00223A3B /* btn_back@2x.png */; };
+		51A940621C008AAF00223A3B /* btn_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940411C008AAF00223A3B /* btn_cancel@2x.png */; };
+		51A940631C008AAF00223A3B /* btn_function@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940421C008AAF00223A3B /* btn_function@2x.png */; };
+		51A940641C008AAF00223A3B /* btn_list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940431C008AAF00223A3B /* btn_list@2x.png */; };
+		51A940651C008AAF00223A3B /* btn_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940441C008AAF00223A3B /* btn_login@2x.png */; };
+		51A940661C008AAF00223A3B /* btn_logout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940451C008AAF00223A3B /* btn_logout@2x.png */; };
+		51A940671C008AAF00223A3B /* btn_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940461C008AAF00223A3B /* btn_search@2x.png */; };
+		51A940681C008AAF00223A3B /* green_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940471C008AAF00223A3B /* green_bg.png */; };
+		51A940691C008AAF00223A3B /* img_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940481C008AAF00223A3B /* img_btn.png */; };
+		51A9406A1C008AAF00223A3B /* img_danhgia.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940491C008AAF00223A3B /* img_danhgia.png */; };
+		51A9406B1C008AAF00223A3B /* img_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9404A1C008AAF00223A3B /* img_login.png */; };
+		51A9406C1C008AAF00223A3B /* img_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9404B1C008AAF00223A3B /* img_map.png */; };
+		51A9406D1C008AAF00223A3B /* img_mota.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9404C1C008AAF00223A3B /* img_mota.png */; };
+		51A9406E1C008AAF00223A3B /* img_thuchi.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9404D1C008AAF00223A3B /* img_thuchi.png */; };
+		51A9406F1C008AAF00223A3B /* img1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9404E1C008AAF00223A3B /* img1_1.png */; };
+		51A940701C008AAF00223A3B /* img1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9404F1C008AAF00223A3B /* img1_2.png */; };
+		51A940711C008AAF00223A3B /* img1_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940501C008AAF00223A3B /* img1_3.png */; };
+		51A940721C008AAF00223A3B /* img2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940511C008AAF00223A3B /* img2_1.png */; };
+		51A940731C008AAF00223A3B /* img2_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940521C008AAF00223A3B /* img2_2.png */; };
+		51A940741C008AAF00223A3B /* img2_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940531C008AAF00223A3B /* img2_3.png */; };
+		51A940751C008AAF00223A3B /* img3_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940541C008AAF00223A3B /* img3_1.png */; };
+		51A940761C008AAF00223A3B /* img3_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940551C008AAF00223A3B /* img3_2.png */; };
+		51A940771C008AAF00223A3B /* img3_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940561C008AAF00223A3B /* img3_3.png */; };
+		51A940781C008AAF00223A3B /* img4_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940571C008AAF00223A3B /* img4_1.png */; };
+		51A940791C008AAF00223A3B /* img4_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940581C008AAF00223A3B /* img4_2.png */; };
+		51A9407A1C008AAF00223A3B /* img4_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940591C008AAF00223A3B /* img4_3.png */; };
+		51A9407B1C008AAF00223A3B /* lauchscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9405A1C008AAF00223A3B /* lauchscreen@2x.png */; };
+		51A9407C1C008AAF00223A3B /* separate.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9405B1C008AAF00223A3B /* separate.png */; };
+		51A9407F1C008AE800223A3B /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A9407E1C008AE800223A3B /* Utils.m */; };
+		51A940821C008AF900223A3B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940811C008AF900223A3B /* Reachability.m */; };
+		51A9408F1C008B2D00223A3B /* RateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940841C008B2D00223A3B /* RateViewController.m */; };
+		51A940901C008B2D00223A3B /* RateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940851C008B2D00223A3B /* RateViewController.xib */; };
+		51A940911C008B2D00223A3B /* SchoolDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940871C008B2D00223A3B /* SchoolDetailViewController.m */; };
+		51A940921C008B2D00223A3B /* SchoolDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940881C008B2D00223A3B /* SchoolDetailViewController.xib */; };
+		51A940931C008B2D00223A3B /* VietBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A9408A1C008B2D00223A3B /* VietBLViewController.m */; };
+		51A940941C008B2D00223A3B /* VietBLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A9408B1C008B2D00223A3B /* VietBLViewController.xib */; };
+		51A940951C008B2D00223A3B /* WriteComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A9408D1C008B2D00223A3B /* WriteComment.m */; };
+		51A940961C008B2D00223A3B /* WriteComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A9408E1C008B2D00223A3B /* WriteComment.xib */; };
+		51A9409A1C008B6200223A3B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940971C008B6200223A3B /* Bolts.framework */; };
+		51A9409B1C008B6200223A3B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940981C008B6200223A3B /* Parse.framework */; };
+		51A9409C1C008B6200223A3B /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940991C008B6200223A3B /* ParseUI.framework */; };
 		B7F896246B16724A7E847B8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17461C75361181AA8523F47 /* libPods.a */; };
 		C3B39EC71BFF374D00C4A0EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC61BFF374D00C4A0EB /* main.m */; };
 		C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */; };
@@ -152,155 +150,152 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		125CF4031BFF3C040049D6D8 /* KASlideShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KASlideShow.h; sourceTree = "<group>"; };
-		125CF4041BFF3C040049D6D8 /* KASlideShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KASlideShow.m; sourceTree = "<group>"; };
-		12601B451BFF484C0070F8D2 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
-		12601B461BFF484C0070F8D2 /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
-		12601B481BFF49D30070F8D2 /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
-		12601B491BFF49D30070F8D2 /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
-		12601B611BFF4FCE0070F8D2 /* FunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionViewController.h; sourceTree = "<group>"; };
-		12601B621BFF4FCE0070F8D2 /* FunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionViewController.m; sourceTree = "<group>"; };
-		12601B631BFF4FCE0070F8D2 /* FunctionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunctionViewController.xib; sourceTree = "<group>"; };
-		12601B6C1BFF54A50070F8D2 /* SchoolDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolDetailViewController.h; sourceTree = "<group>"; };
-		12601B6D1BFF54A50070F8D2 /* SchoolDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolDetailViewController.m; sourceTree = "<group>"; };
-		12601B6E1BFF54A50070F8D2 /* SchoolDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolDetailViewController.xib; sourceTree = "<group>"; };
-		12601BCE1BFF66110070F8D2 /* bg_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_btn.png; sourceTree = "<group>"; };
-		12601BCF1BFF66110070F8D2 /* separate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = separate.png; sourceTree = "<group>"; };
-		12601BDC1BFF748C0070F8D2 /* img_danhgia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_danhgia.png; sourceTree = "<group>"; };
-		12601BDD1BFF748C0070F8D2 /* img_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_map.png; sourceTree = "<group>"; };
-		12601BDE1BFF748C0070F8D2 /* img_mota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_mota.png; sourceTree = "<group>"; };
-		12601BDF1BFF748C0070F8D2 /* img_thuchi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_thuchi.png; sourceTree = "<group>"; };
-		12601BE71BFF76740070F8D2 /* img_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_login.png; sourceTree = "<group>"; };
-		12601BE91BFF88100070F8D2 /* LiveStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveStreamViewController.h; sourceTree = "<group>"; };
-		12601BEA1BFF88100070F8D2 /* LiveStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveStreamViewController.m; sourceTree = "<group>"; };
-		12601BEB1BFF88100070F8D2 /* LiveStreamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveStreamViewController.xib; sourceTree = "<group>"; };
-		12601BEE1BFF88680070F8D2 /* ThucDonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThucDonViewController.h; sourceTree = "<group>"; };
-		12601BEF1BFF88680070F8D2 /* ThucDonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThucDonViewController.m; sourceTree = "<group>"; };
-		12601BF01BFF88680070F8D2 /* ThucDonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThucDonViewController.xib; sourceTree = "<group>"; };
-		12601BF31BFF88800070F8D2 /* SucKhoeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SucKhoeViewController.h; sourceTree = "<group>"; };
-		12601BF41BFF88800070F8D2 /* SucKhoeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SucKhoeViewController.m; sourceTree = "<group>"; };
-		12601BF51BFF88800070F8D2 /* SucKhoeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SucKhoeViewController.xib; sourceTree = "<group>"; };
-		12601BFF1BFF8E3E0070F8D2 /* bg_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_menu@2x.png"; sourceTree = "<group>"; };
-		12601C011BFF95CA0070F8D2 /* bg_function@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_function@2x.png"; sourceTree = "<group>"; };
-		12601C031BFF99000070F8D2 /* img_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_btn.png; sourceTree = "<group>"; };
-		12601C051BFF9DC00070F8D2 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
-		12601C071BFF9E2C0070F8D2 /* foodmenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foodmenu.h; sourceTree = "<group>"; };
-		12601C081BFF9E2C0070F8D2 /* foodmenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foodmenu.m; sourceTree = "<group>"; };
 		1277345E1BFFE6C400E811A5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "BabeSchool/parse-library-1.10.0/Bolts.framework"; sourceTree = "<group>"; };
 		1277345F1BFFE6C400E811A5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "BabeSchool/parse-library-1.10.0/Parse.framework"; sourceTree = "<group>"; };
 		127734601BFFE6C400E811A5 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "BabeSchool/parse-library-1.10.0/ParseUI.framework"; sourceTree = "<group>"; };
 		127734641BFFE93600E811A5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		127734651BFFE93600E811A5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		1277348C1C000F3D00E811A5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		1277348D1C000F3D00E811A5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		1277348E1C000F3D00E811A5 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		1277348F1C000F3D00E811A5 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
-		127734921C000F5600E811A5 /* RateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateViewController.h; sourceTree = "<group>"; };
-		127734931C000F5600E811A5 /* RateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateViewController.m; sourceTree = "<group>"; };
-		127734941C000F5600E811A5 /* RateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RateViewController.xib; sourceTree = "<group>"; };
-		127734971C00101B00E811A5 /* VietBLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VietBLViewController.h; sourceTree = "<group>"; };
-		127734981C00101B00E811A5 /* VietBLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VietBLViewController.m; sourceTree = "<group>"; };
-		127734991C00101B00E811A5 /* VietBLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VietBLViewController.xib; sourceTree = "<group>"; };
-		1277349C1C00154600E811A5 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
-		1277349D1C00154600E811A5 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
-		127734A31C00350200E811A5 /* P200 Piano A#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#2.caf"; path = "Sounds/P200 Piano A#2.caf"; sourceTree = "<group>"; };
-		127734A41C00350200E811A5 /* P200 Piano A#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#3.caf"; path = "Sounds/P200 Piano A#3.caf"; sourceTree = "<group>"; };
-		127734A51C00350200E811A5 /* P200 Piano A#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#4.caf"; path = "Sounds/P200 Piano A#4.caf"; sourceTree = "<group>"; };
-		127734A61C00350200E811A5 /* P200 Piano A#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#5.caf"; path = "Sounds/P200 Piano A#5.caf"; sourceTree = "<group>"; };
-		127734A71C00350200E811A5 /* P200 Piano A#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#7.caf"; path = "Sounds/P200 Piano A#7.caf"; sourceTree = "<group>"; };
-		127734A81C00350200E811A5 /* P200 Piano C7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano C7.caf"; path = "Sounds/P200 Piano C7.caf"; sourceTree = "<group>"; };
-		127734A91C00350200E811A5 /* P200 Piano C10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano C10.caf"; path = "Sounds/P200 Piano C10.caf"; sourceTree = "<group>"; };
-		127734AA1C00350200E811A5 /* P200 Piano D#8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D#8.caf"; path = "Sounds/P200 Piano D#8.caf"; sourceTree = "<group>"; };
-		127734AB1C00350200E811A5 /* P200 Piano D2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D2.caf"; path = "Sounds/P200 Piano D2.caf"; sourceTree = "<group>"; };
-		127734AC1C00350200E811A5 /* P200 Piano D3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D3.caf"; path = "Sounds/P200 Piano D3.caf"; sourceTree = "<group>"; };
-		127734AD1C00350200E811A5 /* P200 Piano D4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D4.caf"; path = "Sounds/P200 Piano D4.caf"; sourceTree = "<group>"; };
-		127734AE1C00350200E811A5 /* P200 Piano D5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D5.caf"; path = "Sounds/P200 Piano D5.caf"; sourceTree = "<group>"; };
-		127734AF1C00350200E811A5 /* P200 Piano D6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D6.caf"; path = "Sounds/P200 Piano D6.caf"; sourceTree = "<group>"; };
-		127734B01C00350200E811A5 /* P200 Piano F#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#2.caf"; path = "Sounds/P200 Piano F#2.caf"; sourceTree = "<group>"; };
-		127734B11C00350200E811A5 /* P200 Piano F#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#3.caf"; path = "Sounds/P200 Piano F#3.caf"; sourceTree = "<group>"; };
-		127734B21C00350200E811A5 /* P200 Piano F#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#4.caf"; path = "Sounds/P200 Piano F#4.caf"; sourceTree = "<group>"; };
-		127734B31C00350200E811A5 /* P200 Piano F#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#5.caf"; path = "Sounds/P200 Piano F#5.caf"; sourceTree = "<group>"; };
-		127734B41C00350200E811A5 /* P200 Piano F#6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#6.caf"; path = "Sounds/P200 Piano F#6.caf"; sourceTree = "<group>"; };
-		127734B51C00350200E811A5 /* P200 Piano F#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#7.caf"; path = "Sounds/P200 Piano F#7.caf"; sourceTree = "<group>"; };
-		127734B61C00350200E811A5 /* P200 Piano G#9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano G#9.caf"; path = "Sounds/P200 Piano G#9.caf"; sourceTree = "<group>"; };
-		127734B71C00350200E811A5 /* Piano.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Piano.plist; path = Sounds/Piano.plist; sourceTree = "<group>"; };
-		127D052C1C005BA200F25DB2 /* lauchscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lauchscreen@2x.png"; sourceTree = "<group>"; };
-		127D05301C0066F500F25DB2 /* green_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_bg.png; sourceTree = "<group>"; };
-		127D05411C00846600F25DB2 /* HoatDongCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoatDongCellTableViewCell.h; sourceTree = "<group>"; };
-		127D05421C00846600F25DB2 /* HoatDongCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoatDongCellTableViewCell.m; sourceTree = "<group>"; };
-		127D05431C00846600F25DB2 /* HoatDongCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HoatDongCellTableViewCell.xib; sourceTree = "<group>"; };
-		127D05441C00846600F25DB2 /* HoatDongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoatDongViewController.h; sourceTree = "<group>"; };
-		127D05451C00846600F25DB2 /* HoatDongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoatDongViewController.m; sourceTree = "<group>"; };
-		127D05461C00846600F25DB2 /* HoatDongViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HoatDongViewController.xib; sourceTree = "<group>"; };
-		127D054B1C00848B00F25DB2 /* hoatdong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hoatdong.h; sourceTree = "<group>"; };
-		127D054C1C00848B00F25DB2 /* hoatdong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hoatdong.m; sourceTree = "<group>"; };
-		5134349F1BFFE387008858EE /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
-		513434A01BFFE387008858EE /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
-		513434A21BFFE517008858EE /* AddHealth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddHealth.xib; sourceTree = "<group>"; };
-		513434A41BFFEAE3008858EE /* btn_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_cancel@2x.png"; sourceTree = "<group>"; };
-		513434A61BFFF574008858EE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		513434A71BFFF574008858EE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		513434AA1BFFF5AA008858EE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		513434AC1C000356008858EE /* NoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeView.h; sourceTree = "<group>"; };
-		513434AD1C000356008858EE /* NoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeView.m; sourceTree = "<group>"; };
-		513434AF1C000368008858EE /* NoticeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoticeView.xib; sourceTree = "<group>"; };
-		513434B31C000E94008858EE /* btn_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_login@2x.png"; sourceTree = "<group>"; };
-		513434B71C000F46008858EE /* btn_function@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_function@2x.png"; sourceTree = "<group>"; };
-		513434B91C0012B7008858EE /* btn_logout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_logout@2x.png"; sourceTree = "<group>"; };
-		513434BB1C00145D008858EE /* btn_list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_list@2x.png"; sourceTree = "<group>"; };
-		513434BD1C002154008858EE /* WriteComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteComment.h; sourceTree = "<group>"; };
-		513434BE1C002154008858EE /* WriteComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteComment.m; sourceTree = "<group>"; };
-		513434C01C002168008858EE /* WriteComment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WriteComment.xib; sourceTree = "<group>"; };
 		513434CC1C00297A008858EE /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		513434CE1C002983008858EE /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		513434D01C00298B008858EE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		513434D21C002995008858EE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		513435081C002E25008858EE /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
-		513435091C002E25008858EE /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
-		51346C9B1C00342A00E3EDAE /* OpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpenALSupport.c; sourceTree = "<group>"; };
-		51346C9C1C00342A00E3EDAE /* OpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenALSupport.h; sourceTree = "<group>"; };
-		51346C9D1C00342A00E3EDAE /* SoundBankPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundBankPlayer.h; sourceTree = "<group>"; };
-		51346C9E1C00342A00E3EDAE /* SoundBankPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundBankPlayer.m; sourceTree = "<group>"; };
-		51346CA11C00352F00E3EDAE /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@2x.png"; sourceTree = "<group>"; };
-		51A93F711C00692000223A3B /* PianoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoViewController.h; sourceTree = "<group>"; };
-		51A93F721C00692000223A3B /* PianoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PianoViewController.m; sourceTree = "<group>"; };
-		51A93F731C00692000223A3B /* PianoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PianoViewController.xib; sourceTree = "<group>"; };
-		51A93F761C006BE600223A3B /* btn_back_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back_black@2x.png"; sourceTree = "<group>"; };
-		51A93F781C00734900223A3B /* btn_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_search@2x.png"; sourceTree = "<group>"; };
-		51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSchoolViewController.h; sourceTree = "<group>"; };
-		51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSchoolViewController.m; sourceTree = "<group>"; };
-		51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListSchoolViewController.xib; sourceTree = "<group>"; };
-		51CBB2A01BFF3ED0007040E3 /* SchoolCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolCell.h; sourceTree = "<group>"; };
-		51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolCell.m; sourceTree = "<group>"; };
-		51CBB2A21BFF3ED1007040E3 /* SchoolCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolCell.xib; sourceTree = "<group>"; };
-		51CBB2A61BFF49D3007040E3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		51CBB2A71BFF49D3007040E3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		51CBB2A81BFF49D3007040E3 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		51CBB2B41BFF5FCA007040E3 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
-		51CBB2B81BFF6344007040E3 /* img1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1_1.png; sourceTree = "<group>"; };
-		51CBB2B91BFF6344007040E3 /* img1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1_2.png; sourceTree = "<group>"; };
-		51CBB2BA1BFF6344007040E3 /* img1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1_3.png; sourceTree = "<group>"; };
-		51CBB2BB1BFF6344007040E3 /* img2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2_1.png; sourceTree = "<group>"; };
-		51CBB2BC1BFF6344007040E3 /* img2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2_2.png; sourceTree = "<group>"; };
-		51CBB2BD1BFF6344007040E3 /* img2_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2_3.png; sourceTree = "<group>"; };
-		51CBB2BE1BFF6344007040E3 /* img3_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img3_1.png; sourceTree = "<group>"; };
-		51CBB2BF1BFF6344007040E3 /* img3_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img3_2.png; sourceTree = "<group>"; };
-		51CBB2C01BFF6344007040E3 /* img3_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img3_3.png; sourceTree = "<group>"; };
-		51CBB2C11BFF6344007040E3 /* img4_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img4_1.png; sourceTree = "<group>"; };
-		51CBB2C21BFF6344007040E3 /* img4_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img4_2.png; sourceTree = "<group>"; };
-		51CBB2C31BFF6344007040E3 /* img4_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img4_3.png; sourceTree = "<group>"; };
-		51D4497C1BFF82E0001121C7 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
-		51D4497F1BFF87C7001121C7 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		51D449801BFF87C7001121C7 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		51D449831BFF9234001121C7 /* MyLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLib.h; sourceTree = "<group>"; };
-		51D449841BFF9234001121C7 /* MyLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLib.m; sourceTree = "<group>"; };
-		51D4499F1BFF9C57001121C7 /* HealthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthCell.h; sourceTree = "<group>"; };
-		51D449A01BFF9C57001121C7 /* HealthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthCell.m; sourceTree = "<group>"; };
-		51D449A11BFF9C57001121C7 /* HealthCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthCell.xib; sourceTree = "<group>"; };
-		51D449A61BFFA63B001121C7 /* Health.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Health.h; sourceTree = "<group>"; };
-		51D449A71BFFA63B001121C7 /* Health.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Health.m; sourceTree = "<group>"; };
-		51D449AC1BFFB70D001121C7 /* AddHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddHealth.h; sourceTree = "<group>"; };
-		51D449AD1BFFB70D001121C7 /* AddHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddHealth.m; sourceTree = "<group>"; };
+		51A93F811C00866700223A3B /* MyLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyLib.h; path = "Lib/Custom Lib/MyLib.h"; sourceTree = "<group>"; };
+		51A93F821C00866700223A3B /* MyLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyLib.m; path = "Lib/Custom Lib/MyLib.m"; sourceTree = "<group>"; };
+		51A93F841C00869500223A3B /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KLCPopup.h; path = Lib/KLCPopup/KLCPopup.h; sourceTree = "<group>"; };
+		51A93F851C00869500223A3B /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KLCPopup.m; path = Lib/KLCPopup/KLCPopup.m; sourceTree = "<group>"; };
+		51A93F871C0086EF00223A3B /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseNavigationController.h; path = "ViewController/Base Navigation/BaseNavigationController.h"; sourceTree = "<group>"; };
+		51A93F881C0086EF00223A3B /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseNavigationController.m; path = "ViewController/Base Navigation/BaseNavigationController.m"; sourceTree = "<group>"; };
+		51A93F8A1C00873C00223A3B /* HoatDongCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HoatDongCellTableViewCell.h; path = "ViewController/Function View/Activity/HoatDongCellTableViewCell.h"; sourceTree = "<group>"; };
+		51A93F8B1C00873C00223A3B /* HoatDongCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HoatDongCellTableViewCell.m; path = "ViewController/Function View/Activity/HoatDongCellTableViewCell.m"; sourceTree = "<group>"; };
+		51A93F8C1C00873C00223A3B /* HoatDongCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HoatDongCellTableViewCell.xib; path = "ViewController/Function View/Activity/HoatDongCellTableViewCell.xib"; sourceTree = "<group>"; };
+		51A93F8D1C00873C00223A3B /* HoatDongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HoatDongViewController.h; path = "ViewController/Function View/Activity/HoatDongViewController.h"; sourceTree = "<group>"; };
+		51A93F8E1C00873C00223A3B /* HoatDongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HoatDongViewController.m; path = "ViewController/Function View/Activity/HoatDongViewController.m"; sourceTree = "<group>"; };
+		51A93F8F1C00873C00223A3B /* HoatDongViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HoatDongViewController.xib; path = "ViewController/Function View/Activity/HoatDongViewController.xib"; sourceTree = "<group>"; };
+		51A93F941C00875900223A3B /* PianoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PianoViewController.h; path = "ViewController/Function View/Game/PianoViewController.h"; sourceTree = "<group>"; };
+		51A93F951C00875900223A3B /* PianoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PianoViewController.m; path = "ViewController/Function View/Game/PianoViewController.m"; sourceTree = "<group>"; };
+		51A93F961C00875900223A3B /* PianoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PianoViewController.xib; path = "ViewController/Function View/Game/PianoViewController.xib"; sourceTree = "<group>"; };
+		51A93F991C00877200223A3B /* NoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoticeView.h; path = "ViewController/Function View/Notice/NoticeView.h"; sourceTree = "<group>"; };
+		51A93F9A1C00877200223A3B /* NoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoticeView.m; path = "ViewController/Function View/Notice/NoticeView.m"; sourceTree = "<group>"; };
+		51A93F9B1C00877200223A3B /* NoticeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoticeView.xib; path = "ViewController/Function View/Notice/NoticeView.xib"; sourceTree = "<group>"; };
+		51A93F9E1C00878B00223A3B /* ThucDonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThucDonViewController.h; path = "ViewController/Function View/Menu/ThucDonViewController.h"; sourceTree = "<group>"; };
+		51A93F9F1C00878B00223A3B /* ThucDonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThucDonViewController.m; path = "ViewController/Function View/Menu/ThucDonViewController.m"; sourceTree = "<group>"; };
+		51A93FA01C00878B00223A3B /* ThucDonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThucDonViewController.xib; path = "ViewController/Function View/Menu/ThucDonViewController.xib"; sourceTree = "<group>"; };
+		51A93FA31C0087A800223A3B /* LiveStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LiveStreamViewController.h; path = "ViewController/Function View/Live Stream/LiveStreamViewController.h"; sourceTree = "<group>"; };
+		51A93FA41C0087A800223A3B /* LiveStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LiveStreamViewController.m; path = "ViewController/Function View/Live Stream/LiveStreamViewController.m"; sourceTree = "<group>"; };
+		51A93FA51C0087A800223A3B /* LiveStreamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LiveStreamViewController.xib; path = "ViewController/Function View/Live Stream/LiveStreamViewController.xib"; sourceTree = "<group>"; };
+		51A93FA81C0087F100223A3B /* AddHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddHealth.h; path = "ViewController/Function View/Health Status/AddHealth.h"; sourceTree = "<group>"; };
+		51A93FA91C0087F100223A3B /* AddHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddHealth.m; path = "ViewController/Function View/Health Status/AddHealth.m"; sourceTree = "<group>"; };
+		51A93FAA1C0087F100223A3B /* AddHealth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddHealth.xib; path = "ViewController/Function View/Health Status/AddHealth.xib"; sourceTree = "<group>"; };
+		51A93FAB1C0087F100223A3B /* HealthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HealthCell.h; path = "ViewController/Function View/Health Status/HealthCell.h"; sourceTree = "<group>"; };
+		51A93FAC1C0087F100223A3B /* HealthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HealthCell.m; path = "ViewController/Function View/Health Status/HealthCell.m"; sourceTree = "<group>"; };
+		51A93FAD1C0087F100223A3B /* HealthCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HealthCell.xib; path = "ViewController/Function View/Health Status/HealthCell.xib"; sourceTree = "<group>"; };
+		51A93FAE1C0087F100223A3B /* SucKhoeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SucKhoeViewController.h; path = "ViewController/Function View/Health Status/SucKhoeViewController.h"; sourceTree = "<group>"; };
+		51A93FAF1C0087F100223A3B /* SucKhoeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SucKhoeViewController.m; path = "ViewController/Function View/Health Status/SucKhoeViewController.m"; sourceTree = "<group>"; };
+		51A93FB01C0087F100223A3B /* SucKhoeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SucKhoeViewController.xib; path = "ViewController/Function View/Health Status/SucKhoeViewController.xib"; sourceTree = "<group>"; };
+		51A93FB71C00881300223A3B /* FunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FunctionViewController.h; path = "ViewController/Function View/FunctionViewController.h"; sourceTree = "<group>"; };
+		51A93FB81C00881300223A3B /* FunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FunctionViewController.m; path = "ViewController/Function View/FunctionViewController.m"; sourceTree = "<group>"; };
+		51A93FB91C00881300223A3B /* FunctionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FunctionViewController.xib; path = "ViewController/Function View/FunctionViewController.xib"; sourceTree = "<group>"; };
+		51A93FBC1C00883300223A3B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewController/Login/LoginViewController.h; sourceTree = "<group>"; };
+		51A93FBD1C00883300223A3B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewController/Login/LoginViewController.m; sourceTree = "<group>"; };
+		51A93FBE1C00883300223A3B /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ViewController/Login/LoginViewController.xib; sourceTree = "<group>"; };
+		51A93FD51C0088B100223A3B /* ListSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListSchoolViewController.h; path = ViewController/School/ListSchool/ListSchoolViewController.h; sourceTree = "<group>"; };
+		51A93FD61C0088B100223A3B /* ListSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListSchoolViewController.m; path = ViewController/School/ListSchool/ListSchoolViewController.m; sourceTree = "<group>"; };
+		51A93FD71C0088B100223A3B /* ListSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ListSchoolViewController.xib; path = ViewController/School/ListSchool/ListSchoolViewController.xib; sourceTree = "<group>"; };
+		51A93FD81C0088B100223A3B /* SchoolCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolCell.h; path = ViewController/School/ListSchool/SchoolCell.h; sourceTree = "<group>"; };
+		51A93FD91C0088B100223A3B /* SchoolCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolCell.m; path = ViewController/School/ListSchool/SchoolCell.m; sourceTree = "<group>"; };
+		51A93FDA1C0088B100223A3B /* SchoolCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SchoolCell.xib; path = ViewController/School/ListSchool/SchoolCell.xib; sourceTree = "<group>"; };
+		51A93FE01C0088FB00223A3B /* KASlideShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KASlideShow.h; path = Lib/KASlideShow/KASlideShow.h; sourceTree = "<group>"; };
+		51A93FE11C0088FB00223A3B /* KASlideShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KASlideShow.m; path = Lib/KASlideShow/KASlideShow.m; sourceTree = "<group>"; };
+		51A93FE31C00897200223A3B /* P200 Piano A#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#2.caf"; path = "Support/Piano/Sound/P200 Piano A#2.caf"; sourceTree = "<group>"; };
+		51A93FE41C00897200223A3B /* P200 Piano A#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#3.caf"; path = "Support/Piano/Sound/P200 Piano A#3.caf"; sourceTree = "<group>"; };
+		51A93FE51C00897200223A3B /* P200 Piano A#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#4.caf"; path = "Support/Piano/Sound/P200 Piano A#4.caf"; sourceTree = "<group>"; };
+		51A93FE61C00897200223A3B /* P200 Piano A#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#5.caf"; path = "Support/Piano/Sound/P200 Piano A#5.caf"; sourceTree = "<group>"; };
+		51A93FE71C00897200223A3B /* P200 Piano A#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#7.caf"; path = "Support/Piano/Sound/P200 Piano A#7.caf"; sourceTree = "<group>"; };
+		51A93FE81C00897200223A3B /* P200 Piano C7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano C7.caf"; path = "Support/Piano/Sound/P200 Piano C7.caf"; sourceTree = "<group>"; };
+		51A93FE91C00897200223A3B /* P200 Piano C10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano C10.caf"; path = "Support/Piano/Sound/P200 Piano C10.caf"; sourceTree = "<group>"; };
+		51A93FEA1C00897200223A3B /* P200 Piano D#8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D#8.caf"; path = "Support/Piano/Sound/P200 Piano D#8.caf"; sourceTree = "<group>"; };
+		51A93FEB1C00897200223A3B /* P200 Piano D2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D2.caf"; path = "Support/Piano/Sound/P200 Piano D2.caf"; sourceTree = "<group>"; };
+		51A93FEC1C00897200223A3B /* P200 Piano D3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D3.caf"; path = "Support/Piano/Sound/P200 Piano D3.caf"; sourceTree = "<group>"; };
+		51A93FED1C00897200223A3B /* P200 Piano D4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D4.caf"; path = "Support/Piano/Sound/P200 Piano D4.caf"; sourceTree = "<group>"; };
+		51A93FEE1C00897200223A3B /* P200 Piano D5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D5.caf"; path = "Support/Piano/Sound/P200 Piano D5.caf"; sourceTree = "<group>"; };
+		51A93FEF1C00897200223A3B /* P200 Piano D6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D6.caf"; path = "Support/Piano/Sound/P200 Piano D6.caf"; sourceTree = "<group>"; };
+		51A93FF01C00897300223A3B /* P200 Piano F#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#2.caf"; path = "Support/Piano/Sound/P200 Piano F#2.caf"; sourceTree = "<group>"; };
+		51A93FF11C00897300223A3B /* P200 Piano F#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#3.caf"; path = "Support/Piano/Sound/P200 Piano F#3.caf"; sourceTree = "<group>"; };
+		51A93FF21C00897300223A3B /* P200 Piano F#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#4.caf"; path = "Support/Piano/Sound/P200 Piano F#4.caf"; sourceTree = "<group>"; };
+		51A93FF31C00897300223A3B /* P200 Piano F#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#5.caf"; path = "Support/Piano/Sound/P200 Piano F#5.caf"; sourceTree = "<group>"; };
+		51A93FF41C00897300223A3B /* P200 Piano F#6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#6.caf"; path = "Support/Piano/Sound/P200 Piano F#6.caf"; sourceTree = "<group>"; };
+		51A93FF51C00897300223A3B /* P200 Piano F#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#7.caf"; path = "Support/Piano/Sound/P200 Piano F#7.caf"; sourceTree = "<group>"; };
+		51A93FF61C00897300223A3B /* P200 Piano G#9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano G#9.caf"; path = "Support/Piano/Sound/P200 Piano G#9.caf"; sourceTree = "<group>"; };
+		51A93FF71C00897300223A3B /* Piano.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Piano.plist; path = Support/Piano/Sound/Piano.plist; sourceTree = "<group>"; };
+		51A9400D1C0089AD00223A3B /* OpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = OpenALSupport.c; path = "Support/Piano/Sound Bank Player/OpenALSupport.c"; sourceTree = "<group>"; };
+		51A9400E1C0089AD00223A3B /* OpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenALSupport.h; path = "Support/Piano/Sound Bank Player/OpenALSupport.h"; sourceTree = "<group>"; };
+		51A9400F1C0089AD00223A3B /* SoundBankPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundBankPlayer.h; path = "Support/Piano/Sound Bank Player/SoundBankPlayer.h"; sourceTree = "<group>"; };
+		51A940101C0089AD00223A3B /* SoundBankPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundBankPlayer.m; path = "Support/Piano/Sound Bank Player/SoundBankPlayer.m"; sourceTree = "<group>"; };
+		51A940271C008A3B00223A3B /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = users.json; path = Support/Resource/users.json; sourceTree = "<group>"; };
+		51A940291C008A4800223A3B /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Comment.h; path = Support/Resource/Model/Comment.h; sourceTree = "<group>"; };
+		51A9402A1C008A4800223A3B /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Comment.m; path = Support/Resource/Model/Comment.m; sourceTree = "<group>"; };
+		51A9402B1C008A4800223A3B /* foodmenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = foodmenu.h; path = Support/Resource/Model/foodmenu.h; sourceTree = "<group>"; };
+		51A9402C1C008A4800223A3B /* foodmenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = foodmenu.m; path = Support/Resource/Model/foodmenu.m; sourceTree = "<group>"; };
+		51A9402D1C008A4800223A3B /* Health.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Health.h; path = Support/Resource/Model/Health.h; sourceTree = "<group>"; };
+		51A9402E1C008A4800223A3B /* Health.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Health.m; path = Support/Resource/Model/Health.m; sourceTree = "<group>"; };
+		51A9402F1C008A4800223A3B /* hoatdong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hoatdong.h; path = Support/Resource/Model/hoatdong.h; sourceTree = "<group>"; };
+		51A940301C008A4800223A3B /* hoatdong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = hoatdong.m; path = Support/Resource/Model/hoatdong.m; sourceTree = "<group>"; };
+		51A940311C008A4800223A3B /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = School.h; path = Support/Resource/Model/School.h; sourceTree = "<group>"; };
+		51A940321C008A4800223A3B /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = School.m; path = Support/Resource/Model/School.m; sourceTree = "<group>"; };
+		51A940331C008A4800223A3B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Support/Resource/Model/User.h; sourceTree = "<group>"; };
+		51A940341C008A4800223A3B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Support/Resource/Model/User.m; sourceTree = "<group>"; };
+		51A9403B1C008AAF00223A3B /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "Support/Resource/image/background@2x.png"; sourceTree = "<group>"; };
+		51A9403C1C008AAF00223A3B /* bg_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_btn.png; path = Support/Resource/image/bg_btn.png; sourceTree = "<group>"; };
+		51A9403D1C008AAF00223A3B /* bg_function@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_function@2x.png"; path = "Support/Resource/image/bg_function@2x.png"; sourceTree = "<group>"; };
+		51A9403E1C008AAF00223A3B /* bg_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_menu@2x.png"; path = "Support/Resource/image/bg_menu@2x.png"; sourceTree = "<group>"; };
+		51A9403F1C008AAF00223A3B /* btn_back_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_back_black@2x.png"; path = "Support/Resource/image/btn_back_black@2x.png"; sourceTree = "<group>"; };
+		51A940401C008AAF00223A3B /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_back@2x.png"; path = "Support/Resource/image/btn_back@2x.png"; sourceTree = "<group>"; };
+		51A940411C008AAF00223A3B /* btn_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_cancel@2x.png"; path = "Support/Resource/image/btn_cancel@2x.png"; sourceTree = "<group>"; };
+		51A940421C008AAF00223A3B /* btn_function@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_function@2x.png"; path = "Support/Resource/image/btn_function@2x.png"; sourceTree = "<group>"; };
+		51A940431C008AAF00223A3B /* btn_list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_list@2x.png"; path = "Support/Resource/image/btn_list@2x.png"; sourceTree = "<group>"; };
+		51A940441C008AAF00223A3B /* btn_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_login@2x.png"; path = "Support/Resource/image/btn_login@2x.png"; sourceTree = "<group>"; };
+		51A940451C008AAF00223A3B /* btn_logout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_logout@2x.png"; path = "Support/Resource/image/btn_logout@2x.png"; sourceTree = "<group>"; };
+		51A940461C008AAF00223A3B /* btn_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_search@2x.png"; path = "Support/Resource/image/btn_search@2x.png"; sourceTree = "<group>"; };
+		51A940471C008AAF00223A3B /* green_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_bg.png; path = Support/Resource/image/green_bg.png; sourceTree = "<group>"; };
+		51A940481C008AAF00223A3B /* img_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_btn.png; path = Support/Resource/image/img_btn.png; sourceTree = "<group>"; };
+		51A940491C008AAF00223A3B /* img_danhgia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_danhgia.png; path = Support/Resource/image/img_danhgia.png; sourceTree = "<group>"; };
+		51A9404A1C008AAF00223A3B /* img_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_login.png; path = Support/Resource/image/img_login.png; sourceTree = "<group>"; };
+		51A9404B1C008AAF00223A3B /* img_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_map.png; path = Support/Resource/image/img_map.png; sourceTree = "<group>"; };
+		51A9404C1C008AAF00223A3B /* img_mota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_mota.png; path = Support/Resource/image/img_mota.png; sourceTree = "<group>"; };
+		51A9404D1C008AAF00223A3B /* img_thuchi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_thuchi.png; path = Support/Resource/image/img_thuchi.png; sourceTree = "<group>"; };
+		51A9404E1C008AAF00223A3B /* img1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img1_1.png; path = Support/Resource/image/img1_1.png; sourceTree = "<group>"; };
+		51A9404F1C008AAF00223A3B /* img1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img1_2.png; path = Support/Resource/image/img1_2.png; sourceTree = "<group>"; };
+		51A940501C008AAF00223A3B /* img1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img1_3.png; path = Support/Resource/image/img1_3.png; sourceTree = "<group>"; };
+		51A940511C008AAF00223A3B /* img2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img2_1.png; path = Support/Resource/image/img2_1.png; sourceTree = "<group>"; };
+		51A940521C008AAF00223A3B /* img2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img2_2.png; path = Support/Resource/image/img2_2.png; sourceTree = "<group>"; };
+		51A940531C008AAF00223A3B /* img2_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img2_3.png; path = Support/Resource/image/img2_3.png; sourceTree = "<group>"; };
+		51A940541C008AAF00223A3B /* img3_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img3_1.png; path = Support/Resource/image/img3_1.png; sourceTree = "<group>"; };
+		51A940551C008AAF00223A3B /* img3_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img3_2.png; path = Support/Resource/image/img3_2.png; sourceTree = "<group>"; };
+		51A940561C008AAF00223A3B /* img3_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img3_3.png; path = Support/Resource/image/img3_3.png; sourceTree = "<group>"; };
+		51A940571C008AAF00223A3B /* img4_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img4_1.png; path = Support/Resource/image/img4_1.png; sourceTree = "<group>"; };
+		51A940581C008AAF00223A3B /* img4_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img4_2.png; path = Support/Resource/image/img4_2.png; sourceTree = "<group>"; };
+		51A940591C008AAF00223A3B /* img4_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img4_3.png; path = Support/Resource/image/img4_3.png; sourceTree = "<group>"; };
+		51A9405A1C008AAF00223A3B /* lauchscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lauchscreen@2x.png"; path = "Support/Resource/image/lauchscreen@2x.png"; sourceTree = "<group>"; };
+		51A9405B1C008AAF00223A3B /* separate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = separate.png; path = Support/Resource/image/separate.png; sourceTree = "<group>"; };
+		51A9407D1C008AE800223A3B /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = "Lib/Old Lib/Utils.h"; sourceTree = "<group>"; };
+		51A9407E1C008AE800223A3B /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = "Lib/Old Lib/Utils.m"; sourceTree = "<group>"; };
+		51A940801C008AF900223A3B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "Lib/Old Lib/Reachability.h"; sourceTree = "<group>"; };
+		51A940811C008AF900223A3B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "Lib/Old Lib/Reachability.m"; sourceTree = "<group>"; };
+		51A940831C008B2D00223A3B /* RateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RateViewController.h; path = "ViewController/School/School Detail/RateViewController.h"; sourceTree = "<group>"; };
+		51A940841C008B2D00223A3B /* RateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RateViewController.m; path = "ViewController/School/School Detail/RateViewController.m"; sourceTree = "<group>"; };
+		51A940851C008B2D00223A3B /* RateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RateViewController.xib; path = "ViewController/School/School Detail/RateViewController.xib"; sourceTree = "<group>"; };
+		51A940861C008B2D00223A3B /* SchoolDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolDetailViewController.h; path = "ViewController/School/School Detail/SchoolDetailViewController.h"; sourceTree = "<group>"; };
+		51A940871C008B2D00223A3B /* SchoolDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolDetailViewController.m; path = "ViewController/School/School Detail/SchoolDetailViewController.m"; sourceTree = "<group>"; };
+		51A940881C008B2D00223A3B /* SchoolDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SchoolDetailViewController.xib; path = "ViewController/School/School Detail/SchoolDetailViewController.xib"; sourceTree = "<group>"; };
+		51A940891C008B2D00223A3B /* VietBLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VietBLViewController.h; path = "ViewController/School/School Detail/VietBLViewController.h"; sourceTree = "<group>"; };
+		51A9408A1C008B2D00223A3B /* VietBLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VietBLViewController.m; path = "ViewController/School/School Detail/VietBLViewController.m"; sourceTree = "<group>"; };
+		51A9408B1C008B2D00223A3B /* VietBLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VietBLViewController.xib; path = "ViewController/School/School Detail/VietBLViewController.xib"; sourceTree = "<group>"; };
+		51A9408C1C008B2D00223A3B /* WriteComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WriteComment.h; path = "ViewController/School/School Detail/WriteComment.h"; sourceTree = "<group>"; };
+		51A9408D1C008B2D00223A3B /* WriteComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WriteComment.m; path = "ViewController/School/School Detail/WriteComment.m"; sourceTree = "<group>"; };
+		51A9408E1C008B2D00223A3B /* WriteComment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WriteComment.xib; path = "ViewController/School/School Detail/WriteComment.xib"; sourceTree = "<group>"; };
+		51A940971C008B6200223A3B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Support/Parse Framework/Bolts.framework"; sourceTree = "<group>"; };
+		51A940981C008B6200223A3B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Support/Parse Framework/Parse.framework"; sourceTree = "<group>"; };
+		51A940991C008B6200223A3B /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "Support/Parse Framework/ParseUI.framework"; sourceTree = "<group>"; };
 		A02661D9D79C61F4AEDFD976 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B17461C75361181AA8523F47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C5F5C44223DB30D15FF2FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -329,15 +324,15 @@
 				513434D11C00298B008858EE /* AVFoundation.framework in Frameworks */,
 				513434CF1C002983008858EE /* CoreMIDI.framework in Frameworks */,
 				513434CD1C00297A008858EE /* CoreAudio.framework in Frameworks */,
-				513434AB1BFFF5AA008858EE /* ParseUI.framework in Frameworks */,
 				127734661BFFE93600E811A5 /* libsqlite3.0.tbd in Frameworks */,
 				127734671BFFE93600E811A5 /* libsqlite3.tbd in Frameworks */,
 				127734611BFFE6C400E811A5 /* Bolts.framework in Frameworks */,
 				127734621BFFE6C400E811A5 /* Parse.framework in Frameworks */,
+				51A9409A1C008B6200223A3B /* Bolts.framework in Frameworks */,
 				127734631BFFE6C400E811A5 /* ParseUI.framework in Frameworks */,
+				51A9409B1C008B6200223A3B /* Parse.framework in Frameworks */,
 				B7F896246B16724A7E847B8D /* libPods.a in Frameworks */,
-				513434A91BFFF574008858EE /* Parse.framework in Frameworks */,
-				513434A81BFFF574008858EE /* Bolts.framework in Frameworks */,
+				51A9409C1C008B6200223A3B /* ParseUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,15 +356,9 @@
 		125CF4021BFF3BF60049D6D8 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				51A93F7E1C00857400223A3B /* Parse Framework */,
 				513434C71C002940008858EE /* Piano */,
-				513434AA1BFFF5AA008858EE /* ParseUI.framework */,
-				513434A61BFFF574008858EE /* Bolts.framework */,
-				513434A71BFFF574008858EE /* Parse.framework */,
 				51CBB2D01BFF6346007040E3 /* Resource */,
-				12601B451BFF484C0070F8D2 /* RateView.h */,
-				12601B461BFF484C0070F8D2 /* RateView.m */,
-				125CF4031BFF3C040049D6D8 /* KASlideShow.h */,
-				125CF4041BFF3C040049D6D8 /* KASlideShow.m */,
 			);
 			name = Support;
 			sourceTree = "<group>";
@@ -377,117 +366,105 @@
 		12601B3F1BFF441F0070F8D2 /* School Detail */ = {
 			isa = PBXGroup;
 			children = (
-				127734921C000F5600E811A5 /* RateViewController.h */,
-				127734931C000F5600E811A5 /* RateViewController.m */,
-				127734941C000F5600E811A5 /* RateViewController.xib */,
-				127734971C00101B00E811A5 /* VietBLViewController.h */,
-				127734981C00101B00E811A5 /* VietBLViewController.m */,
-				127734991C00101B00E811A5 /* VietBLViewController.xib */,
-				12601B6C1BFF54A50070F8D2 /* SchoolDetailViewController.h */,
-				12601B6D1BFF54A50070F8D2 /* SchoolDetailViewController.m */,
-				12601B6E1BFF54A50070F8D2 /* SchoolDetailViewController.xib */,
-				513434BD1C002154008858EE /* WriteComment.h */,
-				513434BE1C002154008858EE /* WriteComment.m */,
-				513434C01C002168008858EE /* WriteComment.xib */,
+				51A940831C008B2D00223A3B /* RateViewController.h */,
+				51A940841C008B2D00223A3B /* RateViewController.m */,
+				51A940851C008B2D00223A3B /* RateViewController.xib */,
+				51A940861C008B2D00223A3B /* SchoolDetailViewController.h */,
+				51A940871C008B2D00223A3B /* SchoolDetailViewController.m */,
+				51A940881C008B2D00223A3B /* SchoolDetailViewController.xib */,
+				51A940891C008B2D00223A3B /* VietBLViewController.h */,
+				51A9408A1C008B2D00223A3B /* VietBLViewController.m */,
+				51A9408B1C008B2D00223A3B /* VietBLViewController.xib */,
+				51A9408C1C008B2D00223A3B /* WriteComment.h */,
+				51A9408D1C008B2D00223A3B /* WriteComment.m */,
+				51A9408E1C008B2D00223A3B /* WriteComment.xib */,
 			);
 			name = "School Detail";
 			sourceTree = "<group>";
 		};
-		12601B4B1BFF4A5F0070F8D2 /* Funtion View */ = {
+		12601B4B1BFF4A5F0070F8D2 /* Function View */ = {
 			isa = PBXGroup;
 			children = (
-				127D05401C00845900F25DB2 /* Hoat Dong */,
+				51A93FB71C00881300223A3B /* FunctionViewController.h */,
+				51A93FB81C00881300223A3B /* FunctionViewController.m */,
+				51A93FB91C00881300223A3B /* FunctionViewController.xib */,
+				127D05401C00845900F25DB2 /* Activity */,
 				1277346D1BFFF77900E811A5 /* Game */,
 				51D449AB1BFFB6D9001121C7 /* Notice */,
 				51D449AA1BFFB6C8001121C7 /* Menu */,
 				51D449A91BFFB6B9001121C7 /* Live Stream */,
 				51D4499E1BFF9C33001121C7 /* Health Status */,
-				12601B611BFF4FCE0070F8D2 /* FunctionViewController.h */,
-				12601B621BFF4FCE0070F8D2 /* FunctionViewController.m */,
-				12601B631BFF4FCE0070F8D2 /* FunctionViewController.xib */,
 			);
-			name = "Funtion View";
-			sourceTree = "<group>";
-		};
-		12601BDA1BFF74350070F8D2 /* School btn */ = {
-			isa = PBXGroup;
-			children = (
-				12601BE71BFF76740070F8D2 /* img_login.png */,
-				12601BDC1BFF748C0070F8D2 /* img_danhgia.png */,
-				12601BDD1BFF748C0070F8D2 /* img_map.png */,
-				12601BDE1BFF748C0070F8D2 /* img_mota.png */,
-				12601BDF1BFF748C0070F8D2 /* img_thuchi.png */,
-			);
-			name = "School btn";
+			name = "Function View";
 			sourceTree = "<group>";
 		};
 		1277346D1BFFF77900E811A5 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				51A93F711C00692000223A3B /* PianoViewController.h */,
-				51A93F721C00692000223A3B /* PianoViewController.m */,
-				51A93F731C00692000223A3B /* PianoViewController.xib */,
+				51A93F941C00875900223A3B /* PianoViewController.h */,
+				51A93F951C00875900223A3B /* PianoViewController.m */,
+				51A93F961C00875900223A3B /* PianoViewController.xib */,
 			);
 			name = Game;
 			sourceTree = "<group>";
 		};
-		127D05401C00845900F25DB2 /* Hoat Dong */ = {
+		127D05401C00845900F25DB2 /* Activity */ = {
 			isa = PBXGroup;
 			children = (
-				127D05411C00846600F25DB2 /* HoatDongCellTableViewCell.h */,
-				127D05421C00846600F25DB2 /* HoatDongCellTableViewCell.m */,
-				127D05431C00846600F25DB2 /* HoatDongCellTableViewCell.xib */,
-				127D05441C00846600F25DB2 /* HoatDongViewController.h */,
-				127D05451C00846600F25DB2 /* HoatDongViewController.m */,
-				127D05461C00846600F25DB2 /* HoatDongViewController.xib */,
+				51A93F8A1C00873C00223A3B /* HoatDongCellTableViewCell.h */,
+				51A93F8B1C00873C00223A3B /* HoatDongCellTableViewCell.m */,
+				51A93F8C1C00873C00223A3B /* HoatDongCellTableViewCell.xib */,
+				51A93F8D1C00873C00223A3B /* HoatDongViewController.h */,
+				51A93F8E1C00873C00223A3B /* HoatDongViewController.m */,
+				51A93F8F1C00873C00223A3B /* HoatDongViewController.xib */,
 			);
-			name = "Hoat Dong";
+			name = Activity;
 			sourceTree = "<group>";
 		};
 		513434C71C002940008858EE /* Piano */ = {
 			isa = PBXGroup;
 			children = (
 				513434D51C0029DC008858EE /* Sound */,
-				513434D41C0029C5008858EE /* Sound Back Player */,
+				513434D41C0029C5008858EE /* Sound Bank Player */,
 			);
 			name = Piano;
 			sourceTree = "<group>";
 		};
-		513434D41C0029C5008858EE /* Sound Back Player */ = {
+		513434D41C0029C5008858EE /* Sound Bank Player */ = {
 			isa = PBXGroup;
 			children = (
-				51346C9B1C00342A00E3EDAE /* OpenALSupport.c */,
-				51346C9C1C00342A00E3EDAE /* OpenALSupport.h */,
-				51346C9D1C00342A00E3EDAE /* SoundBankPlayer.h */,
-				51346C9E1C00342A00E3EDAE /* SoundBankPlayer.m */,
+				51A9400D1C0089AD00223A3B /* OpenALSupport.c */,
+				51A9400E1C0089AD00223A3B /* OpenALSupport.h */,
+				51A9400F1C0089AD00223A3B /* SoundBankPlayer.h */,
+				51A940101C0089AD00223A3B /* SoundBankPlayer.m */,
 			);
-			name = "Sound Back Player";
+			name = "Sound Bank Player";
 			sourceTree = "<group>";
 		};
 		513434D51C0029DC008858EE /* Sound */ = {
 			isa = PBXGroup;
 			children = (
-				127734A31C00350200E811A5 /* P200 Piano A#2.caf */,
-				127734A41C00350200E811A5 /* P200 Piano A#3.caf */,
-				127734A51C00350200E811A5 /* P200 Piano A#4.caf */,
-				127734A61C00350200E811A5 /* P200 Piano A#5.caf */,
-				127734A71C00350200E811A5 /* P200 Piano A#7.caf */,
-				127734A81C00350200E811A5 /* P200 Piano C7.caf */,
-				127734A91C00350200E811A5 /* P200 Piano C10.caf */,
-				127734AA1C00350200E811A5 /* P200 Piano D#8.caf */,
-				127734AB1C00350200E811A5 /* P200 Piano D2.caf */,
-				127734AC1C00350200E811A5 /* P200 Piano D3.caf */,
-				127734AD1C00350200E811A5 /* P200 Piano D4.caf */,
-				127734AE1C00350200E811A5 /* P200 Piano D5.caf */,
-				127734AF1C00350200E811A5 /* P200 Piano D6.caf */,
-				127734B01C00350200E811A5 /* P200 Piano F#2.caf */,
-				127734B11C00350200E811A5 /* P200 Piano F#3.caf */,
-				127734B21C00350200E811A5 /* P200 Piano F#4.caf */,
-				127734B31C00350200E811A5 /* P200 Piano F#5.caf */,
-				127734B41C00350200E811A5 /* P200 Piano F#6.caf */,
-				127734B51C00350200E811A5 /* P200 Piano F#7.caf */,
-				127734B61C00350200E811A5 /* P200 Piano G#9.caf */,
-				127734B71C00350200E811A5 /* Piano.plist */,
+				51A93FE31C00897200223A3B /* P200 Piano A#2.caf */,
+				51A93FE41C00897200223A3B /* P200 Piano A#3.caf */,
+				51A93FE51C00897200223A3B /* P200 Piano A#4.caf */,
+				51A93FE61C00897200223A3B /* P200 Piano A#5.caf */,
+				51A93FE71C00897200223A3B /* P200 Piano A#7.caf */,
+				51A93FE81C00897200223A3B /* P200 Piano C7.caf */,
+				51A93FE91C00897200223A3B /* P200 Piano C10.caf */,
+				51A93FEA1C00897200223A3B /* P200 Piano D#8.caf */,
+				51A93FEB1C00897200223A3B /* P200 Piano D2.caf */,
+				51A93FEC1C00897200223A3B /* P200 Piano D3.caf */,
+				51A93FED1C00897200223A3B /* P200 Piano D4.caf */,
+				51A93FEE1C00897200223A3B /* P200 Piano D5.caf */,
+				51A93FEF1C00897200223A3B /* P200 Piano D6.caf */,
+				51A93FF01C00897300223A3B /* P200 Piano F#2.caf */,
+				51A93FF11C00897300223A3B /* P200 Piano F#3.caf */,
+				51A93FF21C00897300223A3B /* P200 Piano F#4.caf */,
+				51A93FF31C00897300223A3B /* P200 Piano F#5.caf */,
+				51A93FF41C00897300223A3B /* P200 Piano F#6.caf */,
+				51A93FF51C00897300223A3B /* P200 Piano F#7.caf */,
+				51A93FF61C00897300223A3B /* P200 Piano G#9.caf */,
+				51A93FF71C00897300223A3B /* Piano.plist */,
 			);
 			name = Sound;
 			sourceTree = "<group>";
@@ -495,17 +472,96 @@
 		513435061C002DF1008858EE /* Base Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				513435081C002E25008858EE /* BaseNavigationController.h */,
-				513435091C002E25008858EE /* BaseNavigationController.m */,
+				51A93F871C0086EF00223A3B /* BaseNavigationController.h */,
+				51A93F881C0086EF00223A3B /* BaseNavigationController.m */,
 			);
 			name = "Base Navigation";
+			sourceTree = "<group>";
+		};
+		51A93F7B1C00850900223A3B /* Custom Lib */ = {
+			isa = PBXGroup;
+			children = (
+				51A93F811C00866700223A3B /* MyLib.h */,
+				51A93F821C00866700223A3B /* MyLib.m */,
+			);
+			name = "Custom Lib";
+			sourceTree = "<group>";
+		};
+		51A93F7C1C00851100223A3B /* Old Lib */ = {
+			isa = PBXGroup;
+			children = (
+				51A940801C008AF900223A3B /* Reachability.h */,
+				51A940811C008AF900223A3B /* Reachability.m */,
+				51A9407D1C008AE800223A3B /* Utils.h */,
+				51A9407E1C008AE800223A3B /* Utils.m */,
+			);
+			name = "Old Lib";
+			sourceTree = "<group>";
+		};
+		51A93F7E1C00857400223A3B /* Parse Framework */ = {
+			isa = PBXGroup;
+			children = (
+				51A940971C008B6200223A3B /* Bolts.framework */,
+				51A940981C008B6200223A3B /* Parse.framework */,
+				51A940991C008B6200223A3B /* ParseUI.framework */,
+			);
+			name = "Parse Framework";
+			sourceTree = "<group>";
+		};
+		51A93F801C00859D00223A3B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				51A9403B1C008AAF00223A3B /* background@2x.png */,
+				51A9403C1C008AAF00223A3B /* bg_btn.png */,
+				51A9403D1C008AAF00223A3B /* bg_function@2x.png */,
+				51A9403E1C008AAF00223A3B /* bg_menu@2x.png */,
+				51A9403F1C008AAF00223A3B /* btn_back_black@2x.png */,
+				51A940401C008AAF00223A3B /* btn_back@2x.png */,
+				51A940411C008AAF00223A3B /* btn_cancel@2x.png */,
+				51A940421C008AAF00223A3B /* btn_function@2x.png */,
+				51A940431C008AAF00223A3B /* btn_list@2x.png */,
+				51A940441C008AAF00223A3B /* btn_login@2x.png */,
+				51A940451C008AAF00223A3B /* btn_logout@2x.png */,
+				51A940461C008AAF00223A3B /* btn_search@2x.png */,
+				51A940471C008AAF00223A3B /* green_bg.png */,
+				51A940481C008AAF00223A3B /* img_btn.png */,
+				51A940491C008AAF00223A3B /* img_danhgia.png */,
+				51A9404A1C008AAF00223A3B /* img_login.png */,
+				51A9404B1C008AAF00223A3B /* img_map.png */,
+				51A9404C1C008AAF00223A3B /* img_mota.png */,
+				51A9404D1C008AAF00223A3B /* img_thuchi.png */,
+				51A9404E1C008AAF00223A3B /* img1_1.png */,
+				51A9404F1C008AAF00223A3B /* img1_2.png */,
+				51A940501C008AAF00223A3B /* img1_3.png */,
+				51A940511C008AAF00223A3B /* img2_1.png */,
+				51A940521C008AAF00223A3B /* img2_2.png */,
+				51A940531C008AAF00223A3B /* img2_3.png */,
+				51A940541C008AAF00223A3B /* img3_1.png */,
+				51A940551C008AAF00223A3B /* img3_2.png */,
+				51A940561C008AAF00223A3B /* img3_3.png */,
+				51A940571C008AAF00223A3B /* img4_1.png */,
+				51A940581C008AAF00223A3B /* img4_2.png */,
+				51A940591C008AAF00223A3B /* img4_3.png */,
+				51A9405A1C008AAF00223A3B /* lauchscreen@2x.png */,
+				51A9405B1C008AAF00223A3B /* separate.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		51A93FDF1C0088EE00223A3B /* KASlideShow */ = {
+			isa = PBXGroup;
+			children = (
+				51A93FE01C0088FB00223A3B /* KASlideShow.h */,
+				51A93FE11C0088FB00223A3B /* KASlideShow.m */,
+			);
+			name = KASlideShow;
 			sourceTree = "<group>";
 		};
 		51CBB2981BFF3D7A007040E3 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				513435061C002DF1008858EE /* Base Navigation */,
-				12601B4B1BFF4A5F0070F8D2 /* Funtion View */,
+				12601B4B1BFF4A5F0070F8D2 /* Function View */,
 				51CBB2A51BFF49BE007040E3 /* Login */,
 				51CBB29E1BFF3DAE007040E3 /* School  */,
 			);
@@ -524,12 +580,12 @@
 		51CBB29F1BFF3E41007040E3 /* ListSchool */ = {
 			isa = PBXGroup;
 			children = (
-				51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */,
-				51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */,
-				51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */,
-				51CBB2A01BFF3ED0007040E3 /* SchoolCell.h */,
-				51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */,
-				51CBB2A21BFF3ED1007040E3 /* SchoolCell.xib */,
+				51A93FD51C0088B100223A3B /* ListSchoolViewController.h */,
+				51A93FD61C0088B100223A3B /* ListSchoolViewController.m */,
+				51A93FD71C0088B100223A3B /* ListSchoolViewController.xib */,
+				51A93FD81C0088B100223A3B /* SchoolCell.h */,
+				51A93FD91C0088B100223A3B /* SchoolCell.m */,
+				51A93FDA1C0088B100223A3B /* SchoolCell.xib */,
 			);
 			name = ListSchool;
 			sourceTree = "<group>";
@@ -537,9 +593,9 @@
 		51CBB2A51BFF49BE007040E3 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				51CBB2A61BFF49D3007040E3 /* LoginViewController.h */,
-				51CBB2A71BFF49D3007040E3 /* LoginViewController.m */,
-				51CBB2A81BFF49D3007040E3 /* LoginViewController.xib */,
+				51A93FBC1C00883300223A3B /* LoginViewController.h */,
+				51A93FBD1C00883300223A3B /* LoginViewController.m */,
+				51A93FBE1C00883300223A3B /* LoginViewController.xib */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -547,38 +603,9 @@
 		51CBB2D01BFF6346007040E3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				51A93F781C00734900223A3B /* btn_search@2x.png */,
-				51A93F761C006BE600223A3B /* btn_back_black@2x.png */,
-				127D05301C0066F500F25DB2 /* green_bg.png */,
-				127D052C1C005BA200F25DB2 /* lauchscreen@2x.png */,
-				51346CA11C00352F00E3EDAE /* btn_back@2x.png */,
-				513434BB1C00145D008858EE /* btn_list@2x.png */,
-				513434B91C0012B7008858EE /* btn_logout@2x.png */,
-				513434B71C000F46008858EE /* btn_function@2x.png */,
-				513434B31C000E94008858EE /* btn_login@2x.png */,
-				513434A41BFFEAE3008858EE /* btn_cancel@2x.png */,
-				12601C031BFF99000070F8D2 /* img_btn.png */,
-				12601C011BFF95CA0070F8D2 /* bg_function@2x.png */,
-				12601BCE1BFF66110070F8D2 /* bg_btn.png */,
-				12601BCF1BFF66110070F8D2 /* separate.png */,
-				12601BFF1BFF8E3E0070F8D2 /* bg_menu@2x.png */,
+				51A940271C008A3B00223A3B /* users.json */,
+				51A93F801C00859D00223A3B /* image */,
 				51D4497E1BFF8793001121C7 /* Model */,
-				12601BDA1BFF74350070F8D2 /* School btn */,
-				51CBB2B81BFF6344007040E3 /* img1_1.png */,
-				51CBB2B91BFF6344007040E3 /* img1_2.png */,
-				51CBB2BA1BFF6344007040E3 /* img1_3.png */,
-				51CBB2BB1BFF6344007040E3 /* img2_1.png */,
-				51CBB2BC1BFF6344007040E3 /* img2_2.png */,
-				51CBB2BD1BFF6344007040E3 /* img2_3.png */,
-				51CBB2BE1BFF6344007040E3 /* img3_1.png */,
-				51CBB2BF1BFF6344007040E3 /* img3_2.png */,
-				51CBB2C01BFF6344007040E3 /* img3_3.png */,
-				51CBB2C11BFF6344007040E3 /* img4_1.png */,
-				51CBB2C21BFF6344007040E3 /* img4_2.png */,
-				51CBB2C31BFF6344007040E3 /* img4_3.png */,
-				51CBB2B41BFF5FCA007040E3 /* background@2x.png */,
-				12601C051BFF9DC00070F8D2 /* menu.json */,
-				51D4497C1BFF82E0001121C7 /* users.json */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -586,18 +613,18 @@
 		51D4497E1BFF8793001121C7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				127D054B1C00848B00F25DB2 /* hoatdong.h */,
-				127D054C1C00848B00F25DB2 /* hoatdong.m */,
-				12601B481BFF49D30070F8D2 /* School.h */,
-				12601B491BFF49D30070F8D2 /* School.m */,
-				51D4497F1BFF87C7001121C7 /* User.h */,
-				51D449801BFF87C7001121C7 /* User.m */,
-				51D449A61BFFA63B001121C7 /* Health.h */,
-				51D449A71BFFA63B001121C7 /* Health.m */,
-				12601C071BFF9E2C0070F8D2 /* foodmenu.h */,
-				12601C081BFF9E2C0070F8D2 /* foodmenu.m */,
-				1277349C1C00154600E811A5 /* Comment.h */,
-				1277349D1C00154600E811A5 /* Comment.m */,
+				51A940291C008A4800223A3B /* Comment.h */,
+				51A9402A1C008A4800223A3B /* Comment.m */,
+				51A9402B1C008A4800223A3B /* foodmenu.h */,
+				51A9402C1C008A4800223A3B /* foodmenu.m */,
+				51A9402D1C008A4800223A3B /* Health.h */,
+				51A9402E1C008A4800223A3B /* Health.m */,
+				51A9402F1C008A4800223A3B /* hoatdong.h */,
+				51A940301C008A4800223A3B /* hoatdong.m */,
+				51A940311C008A4800223A3B /* School.h */,
+				51A940321C008A4800223A3B /* School.m */,
+				51A940331C008A4800223A3B /* User.h */,
+				51A940341C008A4800223A3B /* User.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -605,13 +632,10 @@
 		51D449821BFF9217001121C7 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				1277348C1C000F3D00E811A5 /* Reachability.h */,
-				1277348D1C000F3D00E811A5 /* Reachability.m */,
-				1277348E1C000F3D00E811A5 /* Utils.h */,
-				1277348F1C000F3D00E811A5 /* Utils.m */,
+				51A93FDF1C0088EE00223A3B /* KASlideShow */,
+				51A93F7C1C00851100223A3B /* Old Lib */,
+				51A93F7B1C00850900223A3B /* Custom Lib */,
 				51D449AF1BFFB7FC001121C7 /* KLCPopup */,
-				51D449831BFF9234001121C7 /* MyLib.h */,
-				51D449841BFF9234001121C7 /* MyLib.m */,
 			);
 			name = Lib;
 			sourceTree = "<group>";
@@ -619,15 +643,15 @@
 		51D4499E1BFF9C33001121C7 /* Health Status */ = {
 			isa = PBXGroup;
 			children = (
-				12601BF31BFF88800070F8D2 /* SucKhoeViewController.h */,
-				12601BF41BFF88800070F8D2 /* SucKhoeViewController.m */,
-				12601BF51BFF88800070F8D2 /* SucKhoeViewController.xib */,
-				51D4499F1BFF9C57001121C7 /* HealthCell.h */,
-				51D449A01BFF9C57001121C7 /* HealthCell.m */,
-				51D449A11BFF9C57001121C7 /* HealthCell.xib */,
-				51D449AC1BFFB70D001121C7 /* AddHealth.h */,
-				51D449AD1BFFB70D001121C7 /* AddHealth.m */,
-				513434A21BFFE517008858EE /* AddHealth.xib */,
+				51A93FA81C0087F100223A3B /* AddHealth.h */,
+				51A93FA91C0087F100223A3B /* AddHealth.m */,
+				51A93FAA1C0087F100223A3B /* AddHealth.xib */,
+				51A93FAB1C0087F100223A3B /* HealthCell.h */,
+				51A93FAC1C0087F100223A3B /* HealthCell.m */,
+				51A93FAD1C0087F100223A3B /* HealthCell.xib */,
+				51A93FAE1C0087F100223A3B /* SucKhoeViewController.h */,
+				51A93FAF1C0087F100223A3B /* SucKhoeViewController.m */,
+				51A93FB01C0087F100223A3B /* SucKhoeViewController.xib */,
 			);
 			name = "Health Status";
 			sourceTree = "<group>";
@@ -635,9 +659,9 @@
 		51D449A91BFFB6B9001121C7 /* Live Stream */ = {
 			isa = PBXGroup;
 			children = (
-				12601BE91BFF88100070F8D2 /* LiveStreamViewController.h */,
-				12601BEA1BFF88100070F8D2 /* LiveStreamViewController.m */,
-				12601BEB1BFF88100070F8D2 /* LiveStreamViewController.xib */,
+				51A93FA31C0087A800223A3B /* LiveStreamViewController.h */,
+				51A93FA41C0087A800223A3B /* LiveStreamViewController.m */,
+				51A93FA51C0087A800223A3B /* LiveStreamViewController.xib */,
 			);
 			name = "Live Stream";
 			sourceTree = "<group>";
@@ -645,9 +669,9 @@
 		51D449AA1BFFB6C8001121C7 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				12601BEE1BFF88680070F8D2 /* ThucDonViewController.h */,
-				12601BEF1BFF88680070F8D2 /* ThucDonViewController.m */,
-				12601BF01BFF88680070F8D2 /* ThucDonViewController.xib */,
+				51A93F9E1C00878B00223A3B /* ThucDonViewController.h */,
+				51A93F9F1C00878B00223A3B /* ThucDonViewController.m */,
+				51A93FA01C00878B00223A3B /* ThucDonViewController.xib */,
 			);
 			name = Menu;
 			sourceTree = "<group>";
@@ -655,9 +679,9 @@
 		51D449AB1BFFB6D9001121C7 /* Notice */ = {
 			isa = PBXGroup;
 			children = (
-				513434AC1C000356008858EE /* NoticeView.h */,
-				513434AD1C000356008858EE /* NoticeView.m */,
-				513434AF1C000368008858EE /* NoticeView.xib */,
+				51A93F991C00877200223A3B /* NoticeView.h */,
+				51A93F9A1C00877200223A3B /* NoticeView.m */,
+				51A93F9B1C00877200223A3B /* NoticeView.xib */,
 			);
 			name = Notice;
 			sourceTree = "<group>";
@@ -665,8 +689,8 @@
 		51D449AF1BFFB7FC001121C7 /* KLCPopup */ = {
 			isa = PBXGroup;
 			children = (
-				5134349F1BFFE387008858EE /* KLCPopup.h */,
-				513434A01BFFE387008858EE /* KLCPopup.m */,
+				51A93F841C00869500223A3B /* KLCPopup.h */,
+				51A93F851C00869500223A3B /* KLCPopup.m */,
 			);
 			name = KLCPopup;
 			sourceTree = "<group>";
@@ -870,81 +894,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51CBB2AA1BFF49D3007040E3 /* LoginViewController.xib in Resources */,
-				12601BF21BFF88680070F8D2 /* ThucDonViewController.xib in Resources */,
-				127734961C000F5600E811A5 /* RateViewController.xib in Resources */,
-				127734C31C00350200E811A5 /* P200 Piano D5.caf in Resources */,
-				513434C11C002168008858EE /* WriteComment.xib in Resources */,
-				127734C41C00350200E811A5 /* P200 Piano D6.caf in Resources */,
-				51CBB2C61BFF6344007040E3 /* img1_3.png in Resources */,
-				12601BE31BFF748C0070F8D2 /* img_mota.png in Resources */,
-				127734BD1C00350200E811A5 /* P200 Piano C7.caf in Resources */,
-				12601BD11BFF66110070F8D2 /* separate.png in Resources */,
-				513434A51BFFEAE3008858EE /* btn_cancel@2x.png in Resources */,
-				51A93F771C006BE600223A3B /* btn_back_black@2x.png in Resources */,
-				51D4497D1BFF82E0001121C7 /* users.json in Resources */,
-				51CBB2B51BFF5FCA007040E3 /* background@2x.png in Resources */,
-				12601B701BFF54A50070F8D2 /* SchoolDetailViewController.xib in Resources */,
-				51CBB2C41BFF6344007040E3 /* img1_1.png in Resources */,
-				12601BE41BFF748C0070F8D2 /* img_thuchi.png in Resources */,
-				51D449A31BFF9C57001121C7 /* HealthCell.xib in Resources */,
-				513434BC1C00145D008858EE /* btn_list@2x.png in Resources */,
-				12601BED1BFF88100070F8D2 /* LiveStreamViewController.xib in Resources */,
-				127734BB1C00350200E811A5 /* P200 Piano A#5.caf in Resources */,
-				127734BF1C00350200E811A5 /* P200 Piano D#8.caf in Resources */,
-				513434BA1C0012B7008858EE /* btn_logout@2x.png in Resources */,
-				51CBB2CB1BFF6344007040E3 /* img3_2.png in Resources */,
-				12601B651BFF4FCE0070F8D2 /* FunctionViewController.xib in Resources */,
-				127734C51C00350200E811A5 /* P200 Piano F#2.caf in Resources */,
-				12601C041BFF99000070F8D2 /* img_btn.png in Resources */,
-				51CBB2CE1BFF6344007040E3 /* img4_2.png in Resources */,
-				127734BC1C00350200E811A5 /* P200 Piano A#7.caf in Resources */,
-				51CBB2CD1BFF6344007040E3 /* img4_1.png in Resources */,
-				127734BE1C00350200E811A5 /* P200 Piano C10.caf in Resources */,
-				51A93F791C00734900223A3B /* btn_search@2x.png in Resources */,
-				51CBB2CC1BFF6344007040E3 /* img3_3.png in Resources */,
-				513434B01C000368008858EE /* NoticeView.xib in Resources */,
-				127734C71C00350200E811A5 /* P200 Piano F#4.caf in Resources */,
-				12601BE11BFF748C0070F8D2 /* img_danhgia.png in Resources */,
-				127D05311C0066F500F25DB2 /* green_bg.png in Resources */,
-				127734CB1C00350200E811A5 /* P200 Piano G#9.caf in Resources */,
-				12601BF71BFF88800070F8D2 /* SucKhoeViewController.xib in Resources */,
-				1277349B1C00101B00E811A5 /* VietBLViewController.xib in Resources */,
-				127734BA1C00350200E811A5 /* P200 Piano A#4.caf in Resources */,
+				51A940731C008AAF00223A3B /* img2_2.png in Resources */,
+				51A940941C008B2D00223A3B /* VietBLViewController.xib in Resources */,
+				51A940921C008B2D00223A3B /* SchoolDetailViewController.xib in Resources */,
+				51A9400A1C00897300223A3B /* P200 Piano F#7.caf in Resources */,
+				51A9400C1C00897300223A3B /* Piano.plist in Resources */,
+				51A940091C00897300223A3B /* P200 Piano F#6.caf in Resources */,
+				51A93FB41C0087F100223A3B /* HealthCell.xib in Resources */,
+				51A93F9D1C00877200223A3B /* NoticeView.xib in Resources */,
+				51A940641C008AAF00223A3B /* btn_list@2x.png in Resources */,
+				51A93FFE1C00897300223A3B /* P200 Piano C10.caf in Resources */,
+				51A93FA71C0087A800223A3B /* LiveStreamViewController.xib in Resources */,
+				51A940701C008AAF00223A3B /* img1_2.png in Resources */,
+				51A940061C00897300223A3B /* P200 Piano F#3.caf in Resources */,
+				51A9405F1C008AAF00223A3B /* bg_menu@2x.png in Resources */,
+				51A9405C1C008AAF00223A3B /* background@2x.png in Resources */,
+				51A93FFF1C00897300223A3B /* P200 Piano D#8.caf in Resources */,
+				51A9407A1C008AAF00223A3B /* img4_3.png in Resources */,
+				51A940781C008AAF00223A3B /* img4_1.png in Resources */,
+				51A940791C008AAF00223A3B /* img4_2.png in Resources */,
+				51A9406E1C008AAF00223A3B /* img_thuchi.png in Resources */,
+				51A940711C008AAF00223A3B /* img1_3.png in Resources */,
+				51A940611C008AAF00223A3B /* btn_back@2x.png in Resources */,
+				51A93FB21C0087F100223A3B /* AddHealth.xib in Resources */,
+				51A93FDC1C0088B100223A3B /* ListSchoolViewController.xib in Resources */,
+				51A9406D1C008AAF00223A3B /* img_mota.png in Resources */,
+				51A940761C008AAF00223A3B /* img3_2.png in Resources */,
+				51A93FFC1C00897300223A3B /* P200 Piano A#7.caf in Resources */,
+				51A9406B1C008AAF00223A3B /* img_login.png in Resources */,
+				51A940281C008A3B00223A3B /* users.json in Resources */,
+				51A93FFB1C00897300223A3B /* P200 Piano A#5.caf in Resources */,
 				C3B39ED81BFF374D00C4A0EB /* LaunchScreen.storyboard in Resources */,
-				12601C021BFF95CA0070F8D2 /* bg_function@2x.png in Resources */,
-				127734C11C00350200E811A5 /* P200 Piano D3.caf in Resources */,
-				12601BE81BFF76740070F8D2 /* img_login.png in Resources */,
-				127D052D1C005BA200F25DB2 /* lauchscreen@2x.png in Resources */,
-				127734B91C00350200E811A5 /* P200 Piano A#3.caf in Resources */,
-				127D05481C00846600F25DB2 /* HoatDongCellTableViewCell.xib in Resources */,
-				12601C001BFF8E3E0070F8D2 /* bg_menu@2x.png in Resources */,
-				51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */,
-				127734C61C00350200E811A5 /* P200 Piano F#3.caf in Resources */,
-				513434B81C000F46008858EE /* btn_function@2x.png in Resources */,
-				51CBB2C81BFF6344007040E3 /* img2_2.png in Resources */,
-				51CBB2CF1BFF6344007040E3 /* img4_3.png in Resources */,
-				127734B81C00350200E811A5 /* P200 Piano A#2.caf in Resources */,
-				127D054A1C00846600F25DB2 /* HoatDongViewController.xib in Resources */,
-				127734C21C00350200E811A5 /* P200 Piano D4.caf in Resources */,
-				12601BD01BFF66110070F8D2 /* bg_btn.png in Resources */,
-				51346CA21C00352F00E3EDAE /* btn_back@2x.png in Resources */,
-				51CBB2CA1BFF6344007040E3 /* img3_1.png in Resources */,
-				51CBB2C51BFF6344007040E3 /* img1_2.png in Resources */,
-				51CBB2C71BFF6344007040E3 /* img2_1.png in Resources */,
-				127734C81C00350200E811A5 /* P200 Piano F#5.caf in Resources */,
-				127734C01C00350200E811A5 /* P200 Piano D2.caf in Resources */,
-				513434B41C000E94008858EE /* btn_login@2x.png in Resources */,
-				127734C91C00350200E811A5 /* P200 Piano F#6.caf in Resources */,
+				51A93FDE1C0088B100223A3B /* SchoolCell.xib in Resources */,
+				51A9400B1C00897300223A3B /* P200 Piano G#9.caf in Resources */,
+				51A940751C008AAF00223A3B /* img3_1.png in Resources */,
+				51A940681C008AAF00223A3B /* green_bg.png in Resources */,
+				51A93FFD1C00897300223A3B /* P200 Piano C7.caf in Resources */,
+				51A940901C008B2D00223A3B /* RateViewController.xib in Resources */,
+				51A940771C008AAF00223A3B /* img3_3.png in Resources */,
+				51A93F981C00875900223A3B /* PianoViewController.xib in Resources */,
+				51A940671C008AAF00223A3B /* btn_search@2x.png in Resources */,
+				51A93F911C00873C00223A3B /* HoatDongCellTableViewCell.xib in Resources */,
+				51A940691C008AAF00223A3B /* img_btn.png in Resources */,
+				51A93FF81C00897300223A3B /* P200 Piano A#2.caf in Resources */,
+				51A93FBB1C00881300223A3B /* FunctionViewController.xib in Resources */,
+				51A940031C00897300223A3B /* P200 Piano D5.caf in Resources */,
+				51A940011C00897300223A3B /* P200 Piano D3.caf in Resources */,
+				51A940631C008AAF00223A3B /* btn_function@2x.png in Resources */,
+				51A9405D1C008AAF00223A3B /* bg_btn.png in Resources */,
+				51A940071C00897300223A3B /* P200 Piano F#4.caf in Resources */,
+				51A93F931C00873C00223A3B /* HoatDongViewController.xib in Resources */,
+				51A940661C008AAF00223A3B /* btn_logout@2x.png in Resources */,
+				51A93FFA1C00897300223A3B /* P200 Piano A#4.caf in Resources */,
+				51A93FF91C00897300223A3B /* P200 Piano A#3.caf in Resources */,
+				51A940601C008AAF00223A3B /* btn_back_black@2x.png in Resources */,
+				51A9406A1C008AAF00223A3B /* img_danhgia.png in Resources */,
+				51A940041C00897300223A3B /* P200 Piano D6.caf in Resources */,
+				51A940651C008AAF00223A3B /* btn_login@2x.png in Resources */,
+				51A940001C00897300223A3B /* P200 Piano D2.caf in Resources */,
+				51A940621C008AAF00223A3B /* btn_cancel@2x.png in Resources */,
+				51A93FC01C00883300223A3B /* LoginViewController.xib in Resources */,
+				51A9405E1C008AAF00223A3B /* bg_function@2x.png in Resources */,
+				51A940961C008B2D00223A3B /* WriteComment.xib in Resources */,
+				51A940051C00897300223A3B /* P200 Piano F#2.caf in Resources */,
+				51A940021C00897300223A3B /* P200 Piano D4.caf in Resources */,
+				51A9406F1C008AAF00223A3B /* img1_1.png in Resources */,
 				C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */,
-				51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */,
-				12601C061BFF9DC00070F8D2 /* menu.json in Resources */,
-				51A93F751C00692000223A3B /* PianoViewController.xib in Resources */,
-				513434A31BFFE517008858EE /* AddHealth.xib in Resources */,
-				127734CC1C00350200E811A5 /* Piano.plist in Resources */,
-				51CBB2C91BFF6344007040E3 /* img2_3.png in Resources */,
-				127734CA1C00350200E811A5 /* P200 Piano F#7.caf in Resources */,
-				12601BE21BFF748C0070F8D2 /* img_map.png in Resources */,
+				51A9407B1C008AAF00223A3B /* lauchscreen@2x.png in Resources */,
+				51A940081C00897300223A3B /* P200 Piano F#5.caf in Resources */,
+				51A9407C1C008AAF00223A3B /* separate.png in Resources */,
+				51A940721C008AAF00223A3B /* img2_1.png in Resources */,
+				51A93FA21C00878B00223A3B /* ThucDonViewController.xib in Resources */,
+				51A9406C1C008AAF00223A3B /* img_map.png in Resources */,
+				51A940741C008AAF00223A3B /* img2_3.png in Resources */,
+				51A93FB61C0087F100223A3B /* SucKhoeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1002,41 +1025,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51346C9F1C00342A00E3EDAE /* OpenALSupport.c in Sources */,
-				513434AE1C000356008858EE /* NoticeView.m in Sources */,
-				51D449811BFF87C7001121C7 /* User.m in Sources */,
-				12601B641BFF4FCE0070F8D2 /* FunctionViewController.m in Sources */,
-				127D05471C00846600F25DB2 /* HoatDongCellTableViewCell.m in Sources */,
-				5134350A1C002E25008858EE /* BaseNavigationController.m in Sources */,
-				513434BF1C002154008858EE /* WriteComment.m in Sources */,
-				51CBB2A91BFF49D3007040E3 /* LoginViewController.m in Sources */,
-				127734911C000F3D00E811A5 /* Utils.m in Sources */,
-				127D054D1C00848B00F25DB2 /* hoatdong.m in Sources */,
-				51A93F741C00692000223A3B /* PianoViewController.m in Sources */,
-				12601B471BFF484C0070F8D2 /* RateView.m in Sources */,
-				12601B4A1BFF49D30070F8D2 /* School.m in Sources */,
-				12601B6F1BFF54A50070F8D2 /* SchoolDetailViewController.m in Sources */,
-				51D449851BFF9234001121C7 /* MyLib.m in Sources */,
-				12601BEC1BFF88100070F8D2 /* LiveStreamViewController.m in Sources */,
+				51A93F831C00866700223A3B /* MyLib.m in Sources */,
+				51A93FB11C0087F100223A3B /* AddHealth.m in Sources */,
+				51A93FBF1C00883300223A3B /* LoginViewController.m in Sources */,
+				51A9403A1C008A4800223A3B /* User.m in Sources */,
+				51A93F901C00873C00223A3B /* HoatDongCellTableViewCell.m in Sources */,
+				51A940951C008B2D00223A3B /* WriteComment.m in Sources */,
+				51A940121C0089AD00223A3B /* SoundBankPlayer.m in Sources */,
+				51A93FDB1C0088B100223A3B /* ListSchoolViewController.m in Sources */,
+				51A93F971C00875900223A3B /* PianoViewController.m in Sources */,
+				51A940351C008A4800223A3B /* Comment.m in Sources */,
+				51A93FB31C0087F100223A3B /* HealthCell.m in Sources */,
+				51A93FBA1C00881300223A3B /* FunctionViewController.m in Sources */,
+				51A93FA61C0087A800223A3B /* LiveStreamViewController.m in Sources */,
 				C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */,
-				12601C091BFF9E2C0070F8D2 /* foodmenu.m in Sources */,
-				12601BF11BFF88680070F8D2 /* ThucDonViewController.m in Sources */,
-				51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */,
+				51A940111C0089AD00223A3B /* OpenALSupport.c in Sources */,
+				51A940821C008AF900223A3B /* Reachability.m in Sources */,
+				51A93FDD1C0088B100223A3B /* SchoolCell.m in Sources */,
+				51A93FA11C00878B00223A3B /* ThucDonViewController.m in Sources */,
+				51A940911C008B2D00223A3B /* SchoolDetailViewController.m in Sources */,
+				51A940371C008A4800223A3B /* Health.m in Sources */,
 				C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */,
-				51D449A21BFF9C57001121C7 /* HealthCell.m in Sources */,
-				1277349E1C00154600E811A5 /* Comment.m in Sources */,
-				12601BF61BFF88800070F8D2 /* SucKhoeViewController.m in Sources */,
-				51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */,
-				127734901C000F3D00E811A5 /* Reachability.m in Sources */,
-				125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */,
-				127734951C000F5600E811A5 /* RateViewController.m in Sources */,
-				51D449AE1BFFB70D001121C7 /* AddHealth.m in Sources */,
-				513434A11BFFE387008858EE /* KLCPopup.m in Sources */,
-				51D449A81BFFA63C001121C7 /* Health.m in Sources */,
-				1277349A1C00101B00E811A5 /* VietBLViewController.m in Sources */,
-				51346CA01C00342A00E3EDAE /* SoundBankPlayer.m in Sources */,
-				127D05491C00846600F25DB2 /* HoatDongViewController.m in Sources */,
+				51A93F9C1C00877200223A3B /* NoticeView.m in Sources */,
+				51A9408F1C008B2D00223A3B /* RateViewController.m in Sources */,
+				51A93F861C00869500223A3B /* KLCPopup.m in Sources */,
+				51A93F891C0086EF00223A3B /* BaseNavigationController.m in Sources */,
+				51A940381C008A4800223A3B /* hoatdong.m in Sources */,
+				51A940391C008A4800223A3B /* School.m in Sources */,
+				51A940361C008A4800223A3B /* foodmenu.m in Sources */,
+				51A93FB51C0087F100223A3B /* SucKhoeViewController.m in Sources */,
+				51A93F921C00873C00223A3B /* HoatDongViewController.m in Sources */,
+				51A940931C008B2D00223A3B /* VietBLViewController.m in Sources */,
+				51A93FE21C0088FB00223A3B /* KASlideShow.m in Sources */,
 				C3B39EC71BFF374D00C4A0EB /* main.m in Sources */,
+				51A9407F1C008AE800223A3B /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1176,6 +1198,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/BabeSchool/parse-library-1.10.0",
 					"$(PROJECT_DIR)/BabeSchool",
+					"$(PROJECT_DIR)/BabeSchool/Support/Parse",
+					Framework,
 				);
 				INFOPLIST_FILE = BabeSchool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -1194,6 +1218,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/BabeSchool/parse-library-1.10.0",
 					"$(PROJECT_DIR)/BabeSchool",
+					"$(PROJECT_DIR)/BabeSchool/Support/Parse",
+					Framework,
 				);
 				INFOPLIST_FILE = BabeSchool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
