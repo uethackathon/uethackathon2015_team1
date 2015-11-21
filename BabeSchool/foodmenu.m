@@ -9,10 +9,10 @@
 #import "foodmenu.h"
 
 @implementation foodmenu
-+ (foodmenu*) getObjectFromJSON:(NSDictionary *)dict {
++ (foodmenu*) getObjectFromParse:(PFObject*)Parse {
     foodmenu *food =[[foodmenu alloc]init];
-    food.name = [dict objectForKey:@"name"];
-        food.arrayFoods = [dict objectForKey:@"foods"];
+    food.name = [Parse objectForKey:@"name"];
+    food.arrayFoods = [Parse objectForKey:@"foods"];
     return food;
 }
 @end

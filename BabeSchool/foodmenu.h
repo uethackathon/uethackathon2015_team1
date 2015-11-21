@@ -7,9 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Parse/Parse.h>
 
 @interface foodmenu : NSObject
 @property (strong,nonatomic) NSString *name;
 @property (strong,nonatomic) NSArray *arrayFoods;
-+ (foodmenu*) getObjectFromJSON: (NSDictionary*) dict;
++ (foodmenu*) getObjectFromParse:(PFObject*)Parse ;
+
+
 @end
