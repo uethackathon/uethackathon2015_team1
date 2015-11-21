@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ListSchoolViewController.h"
+#import <MagicalRecord/MagicalRecord.h>
 #import <Parse/Parse.h>
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
@@ -23,6 +24,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self setupNavigationBar];
+    [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"BabeSchool"];
     [GMSServices provideAPIKey:@"AIzaSyCUNayYeGzz0Jz3WSjCGloQqVrk7IYx68s"];
     ListSchoolViewController *listSchoolVC = [[ListSchoolViewController alloc] initWithNibName:@"ListSchoolViewController" bundle:nil];
     
@@ -46,6 +48,7 @@
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
                                                            [UIColor whiteColor], NSForegroundColorAttributeName, [UIFont boldSystemFontOfSize:16], NSFontAttributeName,nil]];
     
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 }
 - (void)applicationWillResignActive:(UIApplication *)application {

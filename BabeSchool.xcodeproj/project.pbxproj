@@ -40,8 +40,14 @@
 		127734631BFFE6C400E811A5 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127734601BFFE6C400E811A5 /* ParseUI.framework */; };
 		127734661BFFE93600E811A5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 127734641BFFE93600E811A5 /* libsqlite3.0.tbd */; };
 		127734671BFFE93600E811A5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 127734651BFFE93600E811A5 /* libsqlite3.tbd */; };
+<<<<<<< HEAD
 		1277346B1BFFF2E400E811A5 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127734691BFFF2E400E811A5 /* GameViewController.m */; settings = {ASSET_TAGS = (); }; };
 		1277346C1BFFF2E400E811A5 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1277346A1BFFF2E400E811A5 /* GameViewController.xib */; settings = {ASSET_TAGS = (); }; };
+=======
+        513434A11BFFE387008858EE /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434A01BFFE387008858EE /* KLCPopup.m */; };
+        513434A31BFFE517008858EE /* AddHealth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434A21BFFE517008858EE /* AddHealth.xib */; };
+        513434A51BFFEAE3008858EE /* btn_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434A41BFFEAE3008858EE /* btn_cancel@2x.png */; };
+>>>>>>> 4d2d3e83e478913f96bd2e18dd8b8da620fb7d29
 		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
 		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
 		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
@@ -64,6 +70,12 @@
 		51D4497B1BFF7F21001121C7 /* schools.json in Resources */ = {isa = PBXBuildFile; fileRef = 51D4497A1BFF7F21001121C7 /* schools.json */; };
 		51D4497D1BFF82E0001121C7 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 51D4497C1BFF82E0001121C7 /* users.json */; };
 		51D449811BFF87C7001121C7 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449801BFF87C7001121C7 /* User.m */; };
+		51D449851BFF9234001121C7 /* MyLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449841BFF9234001121C7 /* MyLib.m */; };
+		51D449A21BFF9C57001121C7 /* HealthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449A01BFF9C57001121C7 /* HealthCell.m */; };
+		51D449A31BFF9C57001121C7 /* HealthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51D449A11BFF9C57001121C7 /* HealthCell.xib */; };
+		51D449A51BFFA4A8001121C7 /* health.json in Resources */ = {isa = PBXBuildFile; fileRef = 51D449A41BFFA4A8001121C7 /* health.json */; };
+		51D449A81BFFA63C001121C7 /* Health.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449A71BFFA63B001121C7 /* Health.m */; };
+		51D449AE1BFFB70D001121C7 /* AddHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D449AD1BFFB70D001121C7 /* AddHealth.m */; };
 		B7F896246B16724A7E847B8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17461C75361181AA8523F47 /* libPods.a */; };
 		C3B39EC71BFF374D00C4A0EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC61BFF374D00C4A0EB /* main.m */; };
 		C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */; };
@@ -129,6 +141,10 @@
 		12601C051BFF9DC00070F8D2 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		12601C071BFF9E2C0070F8D2 /* foodmenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foodmenu.h; sourceTree = "<group>"; };
 		12601C081BFF9E2C0070F8D2 /* foodmenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foodmenu.m; sourceTree = "<group>"; };
+		5134349F1BFFE387008858EE /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
+		513434A01BFFE387008858EE /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
+		513434A21BFFE517008858EE /* AddHealth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddHealth.xib; sourceTree = "<group>"; };
+		513434A41BFFEAE3008858EE /* btn_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_cancel@2x.png"; sourceTree = "<group>"; };
 		1277345C1BFFE61700E811A5 /* parse-library-1.10.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "parse-library-1.10.0"; sourceTree = "<group>"; };
 		1277345E1BFFE6C400E811A5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "BabeSchool/parse-library-1.10.0/Bolts.framework"; sourceTree = "<group>"; };
 		1277345F1BFFE6C400E811A5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "BabeSchool/parse-library-1.10.0/Parse.framework"; sourceTree = "<group>"; };
@@ -164,6 +180,16 @@
 		51D4497C1BFF82E0001121C7 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		51D4497F1BFF87C7001121C7 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		51D449801BFF87C7001121C7 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		51D449831BFF9234001121C7 /* MyLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLib.h; sourceTree = "<group>"; };
+		51D449841BFF9234001121C7 /* MyLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLib.m; sourceTree = "<group>"; };
+		51D4499F1BFF9C57001121C7 /* HealthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthCell.h; sourceTree = "<group>"; };
+		51D449A01BFF9C57001121C7 /* HealthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthCell.m; sourceTree = "<group>"; };
+		51D449A11BFF9C57001121C7 /* HealthCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthCell.xib; sourceTree = "<group>"; };
+		51D449A41BFFA4A8001121C7 /* health.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = health.json; sourceTree = "<group>"; };
+		51D449A61BFFA63B001121C7 /* Health.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Health.h; sourceTree = "<group>"; };
+		51D449A71BFFA63B001121C7 /* Health.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Health.m; sourceTree = "<group>"; };
+		51D449AC1BFFB70D001121C7 /* AddHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddHealth.h; sourceTree = "<group>"; };
+		51D449AD1BFFB70D001121C7 /* AddHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddHealth.m; sourceTree = "<group>"; };
 		A02661D9D79C61F4AEDFD976 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B17461C75361181AA8523F47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C5F5C44223DB30D15FF2FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -240,9 +266,14 @@
 		12601B4B1BFF4A5F0070F8D2 /* Funtion View */ = {
 			isa = PBXGroup;
 			children = (
+				51D449AB1BFFB6D9001121C7 /* Notice */,
+				51D449AA1BFFB6C8001121C7 /* Menu */,
+				51D449A91BFFB6B9001121C7 /* Live Stream */,
+				51D4499E1BFF9C33001121C7 /* Health Status */,
 				12601B611BFF4FCE0070F8D2 /* FunctionViewController.h */,
 				12601B621BFF4FCE0070F8D2 /* FunctionViewController.m */,
 				12601B631BFF4FCE0070F8D2 /* FunctionViewController.xib */,
+<<<<<<< HEAD
 				12601BE91BFF88100070F8D2 /* LiveStreamViewController.h */,
 				12601BEA1BFF88100070F8D2 /* LiveStreamViewController.m */,
 				12601BEB1BFF88100070F8D2 /* LiveStreamViewController.xib */,
@@ -258,6 +289,8 @@
 				127734681BFFF2E400E811A5 /* GameViewController.h */,
 				127734691BFFF2E400E811A5 /* GameViewController.m */,
 				1277346A1BFFF2E400E811A5 /* GameViewController.xib */,
+=======
+>>>>>>> 4d2d3e83e478913f96bd2e18dd8b8da620fb7d29
 			);
 			name = "Funtion View";
 			sourceTree = "<group>";
@@ -319,6 +352,7 @@
 		51CBB2D01BFF6346007040E3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				513434A41BFFEAE3008858EE /* btn_cancel@2x.png */,
 				12601C031BFF99000070F8D2 /* img_btn.png */,
 				12601C011BFF95CA0070F8D2 /* bg_function@2x.png */,
 				12601BCE1BFF66110070F8D2 /* bg_btn.png */,
@@ -342,6 +376,7 @@
 				12601C051BFF9DC00070F8D2 /* menu.json */,
 				51D4497A1BFF7F21001121C7 /* schools.json */,
 				51D4497C1BFF82E0001121C7 /* users.json */,
+				51D449A41BFFA4A8001121C7 /* health.json */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -353,10 +388,77 @@
 				12601B491BFF49D30070F8D2 /* School.m */,
 				51D4497F1BFF87C7001121C7 /* User.h */,
 				51D449801BFF87C7001121C7 /* User.m */,
+				51D449A61BFFA63B001121C7 /* Health.h */,
+				51D449A71BFFA63B001121C7 /* Health.m */,
 				12601C071BFF9E2C0070F8D2 /* foodmenu.h */,
 				12601C081BFF9E2C0070F8D2 /* foodmenu.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		51D449821BFF9217001121C7 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				51D449AF1BFFB7FC001121C7 /* KLCPopup */,
+				51D449831BFF9234001121C7 /* MyLib.h */,
+				51D449841BFF9234001121C7 /* MyLib.m */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		51D4499E1BFF9C33001121C7 /* Health Status */ = {
+			isa = PBXGroup;
+			children = (
+				12601BF31BFF88800070F8D2 /* SucKhoeViewController.h */,
+				12601BF41BFF88800070F8D2 /* SucKhoeViewController.m */,
+				12601BF51BFF88800070F8D2 /* SucKhoeViewController.xib */,
+				51D4499F1BFF9C57001121C7 /* HealthCell.h */,
+				51D449A01BFF9C57001121C7 /* HealthCell.m */,
+				51D449A11BFF9C57001121C7 /* HealthCell.xib */,
+				51D449AC1BFFB70D001121C7 /* AddHealth.h */,
+				51D449AD1BFFB70D001121C7 /* AddHealth.m */,
+				513434A21BFFE517008858EE /* AddHealth.xib */,
+			);
+			name = "Health Status";
+			sourceTree = "<group>";
+		};
+		51D449A91BFFB6B9001121C7 /* Live Stream */ = {
+			isa = PBXGroup;
+			children = (
+				12601BE91BFF88100070F8D2 /* LiveStreamViewController.h */,
+				12601BEA1BFF88100070F8D2 /* LiveStreamViewController.m */,
+				12601BEB1BFF88100070F8D2 /* LiveStreamViewController.xib */,
+			);
+			name = "Live Stream";
+			sourceTree = "<group>";
+		};
+		51D449AA1BFFB6C8001121C7 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				12601BEE1BFF88680070F8D2 /* ThucDonViewController.h */,
+				12601BEF1BFF88680070F8D2 /* ThucDonViewController.m */,
+				12601BF01BFF88680070F8D2 /* ThucDonViewController.xib */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		51D449AB1BFFB6D9001121C7 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				12601BF81BFF888F0070F8D2 /* ThongBaoViewController.h */,
+				12601BF91BFF888F0070F8D2 /* ThongBaoViewController.m */,
+				12601BFA1BFF888F0070F8D2 /* ThongBaoViewController.xib */,
+			);
+			name = Notice;
+			sourceTree = "<group>";
+		};
+		51D449AF1BFFB7FC001121C7 /* KLCPopup */ = {
+			isa = PBXGroup;
+			children = (
+				5134349F1BFFE387008858EE /* KLCPopup.h */,
+				513434A01BFFE387008858EE /* KLCPopup.m */,
+			);
+			name = KLCPopup;
 			sourceTree = "<group>";
 		};
 		7079E567A92BBB7ADF54141E /* Frameworks */ = {
@@ -406,6 +508,7 @@
 		C3B39EC41BFF374D00C4A0EB /* BabeSchool */ = {
 			isa = PBXGroup;
 			children = (
+				51D449821BFF9217001121C7 /* Lib */,
 				51CBB2981BFF3D7A007040E3 /* ViewController */,
 				125CF4021BFF3BF60049D6D8 /* Support */,
 				C3B39EC81BFF374D00C4A0EB /* AppDelegate.h */,
@@ -457,6 +560,7 @@
 				C3B39EBF1BFF374D00C4A0EB /* Frameworks */,
 				C3B39EC01BFF374D00C4A0EB /* Resources */,
 				4EA06D8D06FB305BBF7B05E0 /* Copy Pods Resources */,
+				5846C9CA99C4D0201F609AA7 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -558,13 +662,16 @@
 				51CBB2C61BFF6344007040E3 /* img1_3.png in Resources */,
 				12601BE31BFF748C0070F8D2 /* img_mota.png in Resources */,
 				12601BD11BFF66110070F8D2 /* separate.png in Resources */,
+				513434A51BFFEAE3008858EE /* btn_cancel@2x.png in Resources */,
 				51D4497D1BFF82E0001121C7 /* users.json in Resources */,
 				51CBB2B51BFF5FCA007040E3 /* background@2x.png in Resources */,
 				12601B701BFF54A50070F8D2 /* SchoolDetailViewController.xib in Resources */,
 				51CBB2C41BFF6344007040E3 /* img1_1.png in Resources */,
 				12601BE41BFF748C0070F8D2 /* img_thuchi.png in Resources */,
+				51D449A31BFF9C57001121C7 /* HealthCell.xib in Resources */,
 				12601BFC1BFF888F0070F8D2 /* ThongBaoViewController.xib in Resources */,
 				12601BED1BFF88100070F8D2 /* LiveStreamViewController.xib in Resources */,
+				51D449A51BFFA4A8001121C7 /* health.json in Resources */,
 				51CBB2CB1BFF6344007040E3 /* img3_2.png in Resources */,
 				12601B651BFF4FCE0070F8D2 /* FunctionViewController.xib in Resources */,
 				12601C041BFF99000070F8D2 /* img_btn.png in Resources */,
@@ -590,6 +697,7 @@
 				51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */,
 				1277345D1BFFE61700E811A5 /* parse-library-1.10.0 in Resources */,
 				12601C061BFF9DC00070F8D2 /* menu.json in Resources */,
+				513434A31BFFE517008858EE /* AddHealth.xib in Resources */,
 				51CBB2C91BFF6344007040E3 /* img2_3.png in Resources */,
 				12601BE21BFF748C0070F8D2 /* img_map.png in Resources */,
 			);
@@ -642,6 +750,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5846C9CA99C4D0201F609AA7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -657,15 +780,20 @@
 				12601BFB1BFF888F0070F8D2 /* ThongBaoViewController.m in Sources */,
 				12601B4A1BFF49D30070F8D2 /* School.m in Sources */,
 				12601B6F1BFF54A50070F8D2 /* SchoolDetailViewController.m in Sources */,
+				51D449851BFF9234001121C7 /* MyLib.m in Sources */,
 				12601BEC1BFF88100070F8D2 /* LiveStreamViewController.m in Sources */,
 				C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */,
 				12601C091BFF9E2C0070F8D2 /* foodmenu.m in Sources */,
 				12601BF11BFF88680070F8D2 /* ThucDonViewController.m in Sources */,
 				51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */,
 				C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */,
+				51D449A21BFF9C57001121C7 /* HealthCell.m in Sources */,
 				12601BF61BFF88800070F8D2 /* SucKhoeViewController.m in Sources */,
 				51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */,
 				125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */,
+				51D449AE1BFFB70D001121C7 /* AddHealth.m in Sources */,
+				513434A11BFFE387008858EE /* KLCPopup.m in Sources */,
+				51D449A81BFFA63C001121C7 /* Health.m in Sources */,
 				C3B39EC71BFF374D00C4A0EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -807,6 +935,7 @@
 					"$(PROJECT_DIR)/BabeSchool/parse-library-1.10.0",
 				);
 				INFOPLIST_FILE = BabeSchool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.snapuet.BabeSchool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -823,6 +952,7 @@
 					"$(PROJECT_DIR)/BabeSchool/parse-library-1.10.0",
 				);
 				INFOPLIST_FILE = BabeSchool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.snapuet.BabeSchool;
 				PRODUCT_NAME = "$(TARGET_NAME)";

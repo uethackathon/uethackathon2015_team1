@@ -77,6 +77,7 @@
     if ([self checkValid]) {
         FunctionViewController *functionVC = [[FunctionViewController alloc] initWithNibName:@"FunctionViewController" bundle:nil];
         [self.navigationController pushViewController:functionVC animated:YES];
+        [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"user"];
     }
     else {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"Tài khoản hoặc mật khẩu không đúng" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
