@@ -22,6 +22,7 @@
     
     [super viewDidLoad];
     [self bindData];
+    _tableView.separatorColor = [UIColor clearColor];
     arrayFoods = [[NSMutableArray alloc]init];
     // Do any additional setup after loading the view from its nib.
 }

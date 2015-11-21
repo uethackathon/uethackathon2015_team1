@@ -82,7 +82,7 @@
         else {
             [self.navigationController popToRootViewControllerAnimated:YES];
         }
-            [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"user"];
+            [[NSUserDefaults standardUserDefaults] setObject:_txtUsername.text forKey:@"user"];
     }
     else {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"Tài khoản hoặc mật khẩu không đúng" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
