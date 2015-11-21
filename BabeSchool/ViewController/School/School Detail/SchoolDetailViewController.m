@@ -28,7 +28,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.navigationItem.title = @"Chi tiết";
     [self InitSomeView]; // create some parameter
     [self btnDescribleClicked:nil]; //default is mo ta clicked
     
@@ -44,13 +44,13 @@
     self.textDetail.font = [UIFont systemFontOfSize:17];
 }
 - (IBAction)btnCostingClicked:(id)sender {
-    NSArray *tempArray =[self.modal.costring componentsSeparatedByString:@"\n"];
     NSString *content = [self.modal.costring stringByReplacingOccurrencesOfString:@"\\n" withString:@"\n"];
     [self checkBeforeCall];
     self.textDetail.text=content;
     self.textDetail.font = [UIFont systemFontOfSize:17];
 }
 - (IBAction)btnRateClicked:(id)sender {
+    self.textDetail.text=nil;
     [self checkBeforeCall];
     if (!addedRate) {
         RateViewController *V2 = [[RateViewController alloc]initWithNibName:@"RateViewController" bundle:nil];//assuming V2 is name of your nib as well
@@ -88,7 +88,7 @@
     
 }
 -(void)InitSomeView{
-    self.navigationController.title = @"Chi tiết";
+    
     
     
     addedGoogleMap=NO;
@@ -119,13 +119,13 @@
 
 -(void)swipeleft:(UISwipeGestureRecognizer*)gestureRecognizer
 {
-    [_slideshow previous];
+//    [_slideshow previous];
 }
 
 -(void)swiperight:(UISwipeGestureRecognizer*)gestureRecognizer
 {
     //Do what you want here
-    [_slideshow next];
+//    [_slideshow next];
 }
 -(void)checkBeforeCall{
     if(addedGoogleMap){
