@@ -11,6 +11,10 @@
 #import "LoginViewController.h"
 #import "SchoolDetailViewController.h"
 #import "School.h"
+#import "MyLib.h"
+#import "FunctionViewController.h"
+#import <Parse/Parse.h>
+#import <MBProgressHUD.h>
 
 @interface ListSchoolViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableSchools;
@@ -24,9 +28,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupViewController];
-    [self setupNavigationBar];
     [self bindData];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    [self setupNavigationBar];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -42,27 +49,50 @@
 
 - (void) setupNavigationBar {
     self.navigationItem.title = @"Danh sách trường";
-    UIButton *btnLogin = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 30)];
-    [btnLogin setTitle:@"Đăng nhập" forState:UIControlStateNormal];
-    [btnLogin setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    btnLogin.titleLabel.font = [UIFont systemFontOfSize:16];
-    [btnLogin addTarget:self action:@selector(btnLoginClick:) forControlEvents:UIControlEventTouchUpInside];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnLogin];
+    if (![MyLib logined]) {
+        UIButton *btnLogin = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 25)];
+        [btnLogin setImage:[UIImage imageNamed:@"btn_login.png"] forState:UIControlStateNormal];
+        btnLogin.titleLabel.font = [UIFont systemFontOfSize:16];
+        btnLogin.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        [btnLogin addTarget:self action:@selector(btnLoginClick:) forControlEvents:UIControlEventTouchUpInside];
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnLogin];
+    }
+    else {
+        UIButton *btnFunction = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 25)];
+        [btnFunction setImage:[UIImage imageNamed:@"btn_function.png"] forState:UIControlStateNormal];
+        btnFunction.titleLabel.font = [UIFont systemFontOfSize:16];
+        btnFunction.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        [btnFunction addTarget:self action:@selector(btnFunctionClick:) forControlEvents:UIControlEventTouchUpInside];
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnFunction];
+    }
 }
 
 - (void) bindData {
-    NSURL *jsonFilePath = [[NSBundle mainBundle] URLForResource:@"schools" withExtension:@"json"];
-    NSData *jsonData = [NSData dataWithContentsOfURL:jsonFilePath];
-    NSDictionary *dictSchools = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
-    NSArray *array = [dictSchools objectForKey:@"data"];
-
-    for (int index = 0; index < array.count; index++) {
-        School *school = [School getObjectFromJSON:[array objectAtIndex:index]];
-        if (school) {
-            [arraySchools addObject:school];
+    PFQuery *query = [PFQuery queryWithClassName:@"Schools"];
+    [query orderByAscending:@"schoolId"];
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    [query findObjectsInBackgroundWithBlock:^(NSArray * _Nullable objects, NSError * _Nullable error) {
+        [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+        for (int index = 0; index < objects.count; index++) {
+            School *school = [School getObjectFromParse:[objects objectAtIndex:index]];
+            if (school) {
+                [arraySchools addObject:school];
+            }
         }
+        [_tableSchools reloadData];
+    }];
+}
+
+- (BOOL) isRootView {
+    UIViewController *vc = [[self.navigationController viewControllers] objectAtIndex:0];
+    
+    if([vc isEqual: self ])
+    {
+        return YES;
     }
-    [_tableSchools reloadData];
+    else {
+        return NO;
+    }
 }
 
 #pragma mark - Setup Button Action
@@ -71,7 +101,17 @@
     [self.navigationController pushViewController:loginVC animated:YES];
 }
 
-#pragma mark - Setup Table School 
+- (void) btnFunctionClick: (UIButton*)button {
+    if ([self isRootView]) {
+        FunctionViewController *function = [[FunctionViewController alloc] initWithNibName:@"FunctionViewController" bundle:nil];
+        [self.navigationController pushViewController:function animated:YES];
+    }
+    else {
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }
+}
+
+#pragma mark - Setup Table School
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }

@@ -23,4 +23,18 @@
     school.arrayImages = [dict objectForKey:@"imgs"];
     return school;
 }
+
++ (School*) getObjectFromParse:(PFObject *)schoolParse {
+    School *school = [[School alloc] init];
+    school.schoolId = [[schoolParse objectForKey:@"schoolId"] integerValue];
+    school.name = [schoolParse objectForKey:@"name"];
+    school.address = [schoolParse objectForKey:@"address"];
+    school.describle = [schoolParse objectForKey:@"describle"];
+    school.mobile = [schoolParse objectForKey:@"mobile"];
+    school.costring = [schoolParse objectForKey:@"costring"];
+    school.local_x = [[schoolParse objectForKey:@"longlatitud"] floatValue];
+    school.local_y = [[schoolParse objectForKey:@"latitude"] floatValue];
+    school.arrayImages = [schoolParse objectForKey:@"imgs"];
+    return school;
+}
 @end

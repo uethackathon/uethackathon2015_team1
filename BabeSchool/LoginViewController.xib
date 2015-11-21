@@ -8,8 +8,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
             <connections>
                 <outlet property="btnLogin" destination="EsH-Vg-UyT" id="ksJ-Qy-vOG"/>
-                <outlet property="edtPassword" destination="FVW-77-dpc" id="zan-Bm-Xib"/>
-                <outlet property="edtUsername" destination="zef-P7-n7e" id="C4S-Pw-Kwe"/>
+                <outlet property="txtPassword" destination="FVW-77-dpc" id="PyK-sD-Adc"/>
+                <outlet property="txtUsername" destination="zef-P7-n7e" id="FFZ-6m-ht0"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,11 +18,11 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="5ox-Me-fil">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="5ox-Me-fil">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                 </imageView>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OxP-Hj-yO1">
-                    <rect key="frame" x="0.0" y="206" width="320" height="128"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OxP-Hj-yO1">
+                    <rect key="frame" x="0.0" y="170" width="320" height="128"/>
                     <subviews>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tên đăng nhập" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zef-P7-n7e">
                             <rect key="frame" x="68" y="0.0" width="183" height="30"/>
@@ -37,12 +37,27 @@
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EsH-Vg-UyT">
                             <rect key="frame" x="122" y="90" width="75" height="30"/>
                             <state key="normal" title="Đăng nhập"/>
+                            <connections>
+                                <action selector="btnLoginClick:" destination="-1" eventType="touchUpInside" id="kvm-WC-bTF"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="TzB-Oz-Mnn"/>
+                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="OxP-Hj-yO1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="0XW-74-pmg"/>
+                <constraint firstItem="5ox-Me-fil" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4E9-el-Cx0"/>
+                <constraint firstItem="OxP-Hj-yO1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="170" id="67y-iZ-4sl"/>
+                <constraint firstItem="5ox-Me-fil" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ab5-gq-c7U"/>
+                <constraint firstAttribute="trailing" secondItem="OxP-Hj-yO1" secondAttribute="trailing" id="dyI-Mg-bXa"/>
+                <constraint firstAttribute="trailing" secondItem="5ox-Me-fil" secondAttribute="trailing" id="oXl-S4-jOg"/>
+                <constraint firstAttribute="bottom" secondItem="5ox-Me-fil" secondAttribute="bottom" id="vU5-af-XUg"/>
+            </constraints>
             <point key="canvasLocation" x="272" y="326"/>
         </view>
     </objects>
