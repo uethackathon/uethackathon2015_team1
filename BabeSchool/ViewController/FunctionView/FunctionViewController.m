@@ -71,7 +71,7 @@
     [self.navigationController pushViewController:sucKhoeVC animated:YES];
 }
 - (IBAction)btnThongBaoClicked:(id)sender {
-    [popup show];
+    [popup showAtCenter:CGPointMake(100, 100) inView:self.view];
 }
 - (IBAction)btnLiveStreamClicked:(id)sender {
     if([Utils networkConnected]){
