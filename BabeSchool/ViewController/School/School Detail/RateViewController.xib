@@ -24,6 +24,7 @@
                         <constraint firstAttribute="height" constant="30" id="SkY-tW-QEK"/>
                         <constraint firstAttribute="width" constant="98" id="UZI-h7-t1F"/>
                     </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                     <state key="normal" title="Viết bình luận"/>
                     <connections>
                         <action selector="btnVietBinhLuan:" destination="-1" eventType="touchUpInside" id="hlv-Zx-tpw"/>
