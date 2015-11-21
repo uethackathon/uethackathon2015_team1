@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PianoViewController">
+            <connections>
+                <outlet property="btnDo" destination="LV4-kW-hcZ" id="0fG-eC-Epe"/>
+                <outlet property="btnRe" destination="FmE-Sk-hqg" id="Pdz-nw-7vW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rbb-MQ-e7Z">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                    <subviews>
+                        <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LV4-kW-hcZ">
+                            <rect key="frame" x="0.0" y="0.0" width="64" height="320"/>
+                            <animations/>
+                            <color key="backgroundColor" red="1" green="0.13165320774059541" blue="0.10384141163406713" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="250" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Do">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMusicalNoteclick:" destination="-1" eventType="touchDown" id="qsW-Cx-AyV"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FmE-Sk-hqg">
+                            <rect key="frame" x="72" y="0.0" width="64" height="320"/>
+                            <animations/>
+                            <color key="backgroundColor" red="1" green="0.56078431370000004" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="230" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Re">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMusicalNoteclick:" destination="-1" eventType="touchDown" id="HhC-ic-S2F"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SqR-JG-R5F">
+                            <rect key="frame" x="144" y="0.0" width="64" height="320"/>
+                            <animations/>
+                            <color key="backgroundColor" red="1" green="0.82352941180000006" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="210" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Mi">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMusicalNoteclick:" destination="-1" eventType="touchDown" id="0Et-D2-oi3"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" multipleTouchEnabled="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XEH-Md-lf6">
+                            <rect key="frame" x="216" y="0.0" width="64" height="320"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.68627450980000004" green="0.8862745098" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="190" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Pha">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMusicalNoteclick:" destination="-1" eventType="touchDown" id="ZXL-zI-AfS"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" multipleTouchEnabled="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OP-zA-vtT">
+                            <rect key="frame" x="288" y="0.0" width="64" height="320"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="170" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Son">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMusicalNoteclick:" destination="-1" eventType="touchDown" id="IXV-nJ-sUD"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" multipleTouchEnabled="YES" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXk-T3-mGT">
+                            <rect key="frame" x="360" y="0.0" width="64" height="320"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.30966817475194841" green="0.13797629377486953" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="150" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="La">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMusicalNoteclick:" destination="-1" eventType="touchDown" id="30R-7c-xK6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" multipleTouchEnabled="YES" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0P-aw-WfS">
+                            <rect key="frame" x="432" y="0.0" width="64" height="320"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.54988692604056577" green="0.1868007283571973" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="130" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Si">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMusicalNoteclick:" destination="-1" eventType="touchDown" id="YFv-4t-eaJ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" multipleTouchEnabled="YES" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75B-I5-cNY">
+                            <rect key="frame" x="504" y="0.0" width="64" height="320"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.79871153254240079" green="0.24082696701669415" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="110" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Do">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMusicalNoteclick:" destination="-1" eventType="touchDown" id="hen-W4-r5x"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rks-zG-q5q">
+                            <rect key="frame" x="0.0" y="0.0" width="136" height="43"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="136" id="bG7-1f-YLF"/>
+                                <constraint firstAttribute="height" constant="43" id="fXl-Yb-DfO"/>
+                            </constraints>
+                            <state key="normal" title="Back" image="btn_back.png"/>
+                            <connections>
+                                <action selector="btnBackClick:" destination="-1" eventType="touchUpInside" id="gtO-bO-AZu"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="SqR-JG-R5F" firstAttribute="top" secondItem="Rbb-MQ-e7Z" secondAttribute="top" id="0hy-64-QMV"/>
+                        <constraint firstItem="XEH-Md-lf6" firstAttribute="width" secondItem="W0P-aw-WfS" secondAttribute="width" id="0qZ-My-Nfo"/>
+                        <constraint firstAttribute="bottom" secondItem="W0P-aw-WfS" secondAttribute="bottom" id="3bR-I8-6Sl"/>
+                        <constraint firstItem="qXk-T3-mGT" firstAttribute="top" secondItem="Rbb-MQ-e7Z" secondAttribute="top" id="3kq-Rm-lbP"/>
+                        <constraint firstItem="XEH-Md-lf6" firstAttribute="width" secondItem="FmE-Sk-hqg" secondAttribute="width" id="8Yk-Bl-Cj5"/>
+                        <constraint firstAttribute="bottom" secondItem="SqR-JG-R5F" secondAttribute="bottom" id="Boe-wV-7vx"/>
+                        <constraint firstItem="FmE-Sk-hqg" firstAttribute="top" secondItem="Rbb-MQ-e7Z" secondAttribute="top" id="EKk-8b-f9i"/>
+                        <constraint firstItem="LV4-kW-hcZ" firstAttribute="leading" secondItem="Rbb-MQ-e7Z" secondAttribute="leading" id="H8v-6u-wdh"/>
+                        <constraint firstAttribute="bottom" secondItem="5OP-zA-vtT" secondAttribute="bottom" id="IQL-Dq-t1R"/>
+                        <constraint firstItem="75B-I5-cNY" firstAttribute="leading" secondItem="W0P-aw-WfS" secondAttribute="trailing" constant="8" id="PGP-Jn-Vab"/>
+                        <constraint firstItem="XEH-Md-lf6" firstAttribute="top" secondItem="Rbb-MQ-e7Z" secondAttribute="top" id="QH3-FE-FXO"/>
+                        <constraint firstItem="W0P-aw-WfS" firstAttribute="top" secondItem="Rbb-MQ-e7Z" secondAttribute="top" id="Ss3-EM-2Zw"/>
+                        <constraint firstAttribute="bottom" secondItem="FmE-Sk-hqg" secondAttribute="bottom" id="UNG-kb-Pwx"/>
+                        <constraint firstItem="W0P-aw-WfS" firstAttribute="leading" secondItem="qXk-T3-mGT" secondAttribute="trailing" constant="8" id="UkS-Yl-hs3"/>
+                        <constraint firstAttribute="bottom" secondItem="qXk-T3-mGT" secondAttribute="bottom" id="Vnl-Hh-jge"/>
+                        <constraint firstItem="qXk-T3-mGT" firstAttribute="leading" secondItem="5OP-zA-vtT" secondAttribute="trailing" constant="8" id="YV8-d1-g0G"/>
+                        <constraint firstItem="rks-zG-q5q" firstAttribute="leading" secondItem="Rbb-MQ-e7Z" secondAttribute="leading" id="aMT-eD-63p"/>
+                        <constraint firstAttribute="bottom" secondItem="75B-I5-cNY" secondAttribute="bottom" id="d9F-qL-O9o"/>
+                        <constraint firstItem="XEH-Md-lf6" firstAttribute="width" secondItem="5OP-zA-vtT" secondAttribute="width" id="dlE-ji-71z"/>
+                        <constraint firstItem="LV4-kW-hcZ" firstAttribute="top" secondItem="Rbb-MQ-e7Z" secondAttribute="top" id="enN-ZG-Tvl"/>
+                        <constraint firstItem="75B-I5-cNY" firstAttribute="top" secondItem="Rbb-MQ-e7Z" secondAttribute="top" id="et2-nj-YFX"/>
+                        <constraint firstAttribute="trailing" secondItem="75B-I5-cNY" secondAttribute="trailing" id="j96-ub-3gu"/>
+                        <constraint firstAttribute="bottom" secondItem="XEH-Md-lf6" secondAttribute="bottom" id="mbB-hu-KMZ"/>
+                        <constraint firstItem="5OP-zA-vtT" firstAttribute="top" secondItem="Rbb-MQ-e7Z" secondAttribute="top" id="qII-sp-mK5"/>
+                        <constraint firstItem="5OP-zA-vtT" firstAttribute="leading" secondItem="XEH-Md-lf6" secondAttribute="trailing" constant="8" id="qPl-LY-WJB"/>
+                        <constraint firstItem="XEH-Md-lf6" firstAttribute="leading" secondItem="SqR-JG-R5F" secondAttribute="trailing" constant="8" id="qZA-Td-a3Q"/>
+                        <constraint firstItem="XEH-Md-lf6" firstAttribute="width" secondItem="SqR-JG-R5F" secondAttribute="width" id="rFf-NP-9aO"/>
+                        <constraint firstItem="XEH-Md-lf6" firstAttribute="width" secondItem="LV4-kW-hcZ" secondAttribute="width" id="sE1-af-Ys3"/>
+                        <constraint firstAttribute="bottom" secondItem="LV4-kW-hcZ" secondAttribute="bottom" id="u3u-5S-aHc"/>
+                        <constraint firstItem="rks-zG-q5q" firstAttribute="top" secondItem="Rbb-MQ-e7Z" secondAttribute="top" id="vAT-ZQ-FKh"/>
+                        <constraint firstItem="XEH-Md-lf6" firstAttribute="width" secondItem="75B-I5-cNY" secondAttribute="width" id="wsN-ej-qR0"/>
+                        <constraint firstItem="SqR-JG-R5F" firstAttribute="leading" secondItem="FmE-Sk-hqg" secondAttribute="trailing" constant="8" id="xN8-nq-aOa"/>
+                        <constraint firstItem="XEH-Md-lf6" firstAttribute="width" secondItem="qXk-T3-mGT" secondAttribute="width" id="xZ9-X3-ACs"/>
+                        <constraint firstItem="FmE-Sk-hqg" firstAttribute="leading" secondItem="LV4-kW-hcZ" secondAttribute="trailing" constant="8" id="yzw-2V-88P"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Rbb-MQ-e7Z" secondAttribute="trailing" id="Pcp-Ug-6dp"/>
+                <constraint firstItem="Rbb-MQ-e7Z" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="WnS-sW-zca"/>
+                <constraint firstAttribute="bottom" secondItem="Rbb-MQ-e7Z" secondAttribute="bottom" id="cp2-kc-e7T"/>
+                <constraint firstItem="Rbb-MQ-e7Z" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ncz-Fc-8nZ"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="149" y="154"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_back.png" width="32" height="32"/>
+    </resources>
+</document>

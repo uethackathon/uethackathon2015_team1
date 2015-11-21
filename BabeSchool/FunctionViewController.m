@@ -16,6 +16,8 @@
 #import <Parse/Parse.h>
 #import "ListSchoolViewController.h"
 #import "Utils.h"
+#import "PianoViewController.h"
+
 @interface FunctionViewController ()
 
 @end
@@ -133,6 +135,11 @@
         return NO;
     }
 }
+- (IBAction)btnGameClick:(id)sender {
+    PianoViewController *pianoVC = [[PianoViewController alloc] initWithNibName:@"PianoViewController" bundle:nil];
+    [self presentViewController:pianoVC animated:YES completion:nil];
+}
+
 /*
 #pragma mark - Navigation
 
