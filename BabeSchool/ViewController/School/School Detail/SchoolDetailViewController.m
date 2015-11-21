@@ -28,12 +28,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.navigationItem.title = @"Chi tiết";
     [self InitSomeView]; // create some parameter
     [self btnDescribleClicked:nil]; //default is mo ta clicked
     
 }
-
+-(void)viewWillDisappear:(BOOL)animated{
+    [_slideshow stop];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -44,14 +46,13 @@
     self.textDetail.font = [UIFont systemFontOfSize:17];
 }
 - (IBAction)btnCostingClicked:(id)sender {
-    NSArray *tempArray =[self.modal.costring componentsSeparatedByString:@"\n"];
-    NSString *mainString =[tempArray componentsJoinedByString:@"\\n"];
     NSString *content = [self.modal.costring stringByReplacingOccurrencesOfString:@"\\n" withString:@"\n"];
     [self checkBeforeCall];
     self.textDetail.text=content;
     self.textDetail.font = [UIFont systemFontOfSize:17];
 }
 - (IBAction)btnRateClicked:(id)sender {
+    self.textDetail.text=nil;
     [self checkBeforeCall];
     if (!addedRate) {
         RateViewController *V2 = [[RateViewController alloc]initWithNibName:@"RateViewController" bundle:nil];//assuming V2 is name of your nib as well
@@ -89,7 +90,7 @@
     
 }
 -(void)InitSomeView{
-    self.navigationController.title = @"Chi tiết";
+    
     
     
     addedGoogleMap=NO;
@@ -100,13 +101,14 @@
     _slideshow = [[KASlideShow alloc] init];
     _slideshow.frame=self.viewSlideImage.bounds;
     [_slideshow setDelay:1.5]; // Delay between transitions
-    [_slideshow setTransitionDuration:0.5]; // Transition duration
+    [_slideshow setTransitionDuration:1.5]; // Transition duration
     [_slideshow setTransitionType:KASlideShowTransitionFade]; // Choose a transition type (fade or slide)
     [_slideshow setImagesContentMode:UIViewContentModeScaleAspectFill]; // Choose a content mode for images to display
     
     [_slideshow addImagesFromResources:self.modal.arrayImages]; // Add images from resources
     [_slideshow addGesture:KASlideShowGestureTap]; // Gesture to go previous/next directly on the image
     [self.viewSlideImage addSubview: _slideshow];
+    [_slideshow start];
     _slideshow.delegate = self;
 
     UISwipeGestureRecognizer * swipeleft=[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(swipeleft:)];

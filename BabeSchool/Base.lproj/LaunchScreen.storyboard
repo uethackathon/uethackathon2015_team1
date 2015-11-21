@@ -19,6 +19,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lauchscreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="w36-jx-fsd">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
                             </imageView>
                         </subviews>
                         <animations/>

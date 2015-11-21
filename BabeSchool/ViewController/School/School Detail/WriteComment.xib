@@ -35,12 +35,15 @@
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Irq-sd-QFm">
-                    <rect key="frame" x="99" y="226" width="52" height="30"/>
+                    <rect key="frame" x="95" y="226" width="60" height="35"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="30" id="KQ6-A9-bas"/>
-                        <constraint firstAttribute="width" constant="52" id="aXE-ij-fts"/>
+                        <constraint firstAttribute="height" constant="35" id="KQ6-A9-bas"/>
+                        <constraint firstAttribute="width" constant="60" id="aXE-ij-fts"/>
                     </constraints>
-                    <state key="normal" title="Gửi"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Gửi" backgroundImage="img_btn.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
                 </button>
             </subviews>
             <color key="backgroundColor" red="0.39043684290000003" green="0.91372549020000005" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -66,5 +69,6 @@
     </objects>
     <resources>
         <image name="btn_cancel.png" width="32" height="32"/>
+        <image name="img_btn.png" width="459" height="107"/>
     </resources>
 </document>

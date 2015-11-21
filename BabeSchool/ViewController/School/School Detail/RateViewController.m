@@ -86,7 +86,7 @@
 }
 
 - (IBAction)btnVietBinhLuan:(id)sender {
-    [popup show];
+    [popup showAtCenter:CGPointMake([self parentViewController].view.frame.size.width/2, [self parentViewController].view.frame.size.height/3.5) inView:[self parentViewController].view];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -120,7 +120,7 @@
     cell.textLabel.font=[UIFont systemFontOfSize:18.0];
     cell.detailTextLabel.text= [NSString stringWithFormat:@"%@      (%@)", cmt.userName,cmt.date];
     cell.detailTextLabel.textColor=[UIColor blueColor];
-    cell.detailTextLabel.font=[UIFont systemFontOfSize:15.0];
+    cell.detailTextLabel.font=[UIFont systemFontOfSize:13.0];
     [cell setBackgroundColor:[UIColor clearColor]];
     return cell;
 }
