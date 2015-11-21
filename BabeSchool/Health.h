@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import <Parse/Parse.h>
 
 @interface Health : NSObject
 @property (nonatomic, assign) NSInteger healthId;
@@ -16,4 +17,5 @@
 @property (nonatomic, strong) NSString *date;
 
 + (Health*) getObjectFromDict: (NSDictionary*)dict;
++ (Health*) getObjectFromParse: (PFObject*) healthParse;
 @end
