@@ -7,6 +7,7 @@
 //
 
 #import "School.h"
+#import "MyLib.h"
 
 @implementation School
 
@@ -35,6 +36,7 @@
     school.local_x = [[schoolParse objectForKey:@"longlatitud"] floatValue];
     school.local_y = [[schoolParse objectForKey:@"latitude"] floatValue];
     school.arrayImages = [schoolParse objectForKey:@"imgs"];
+    school.unsignedName = [MyLib normalizeVietnameseString:[school.name lowercaseString]];
     return school;
 }
 @end

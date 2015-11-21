@@ -12,4 +12,5 @@
 @interface MyLib : NSObject
 + (BOOL) logined;
 + (NSString*) checkBMI: (CGFloat) height :(CGFloat) weight;
++ (NSString *)normalizeVietnameseString:(NSString *)str;
 @end

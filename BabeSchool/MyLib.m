@@ -26,4 +26,16 @@
     }
     return @"Béo phì";
 }
+
++ (NSString *)normalizeVietnameseString:(NSString *)str {
+    NSMutableString *originStr = [NSMutableString stringWithString:str];
+    CFStringNormalize((CFMutableStringRef)originStr, kCFStringNormalizationFormD);
+    
+    CFStringFold((CFMutableStringRef)originStr, kCFCompareDiacriticInsensitive, NULL);
+    
+    NSString *finalString1 = [originStr stringByReplacingOccurrencesOfString:@"đ"withString:@"d"];
+    
+    NSString *finalString2 = [finalString1 stringByReplacingOccurrencesOfString:@"Đ"withString:@"D"];
+    return finalString2;
+}
 @end

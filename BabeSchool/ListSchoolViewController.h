@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ListSchoolViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface ListSchoolViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate>
 
 @end

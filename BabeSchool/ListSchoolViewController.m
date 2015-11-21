@@ -23,6 +23,8 @@
 
 @implementation ListSchoolViewController {
     NSMutableArray *arraySchools;
+    UITextField *txtSearch;
+    NSMutableArray *arraySchoolsSearched;
 }
 
 - (void)viewDidLoad {
@@ -34,6 +36,8 @@
 
 - (void) viewWillAppear:(BOOL)animated {
     [self setupNavigationBar];
+    arraySchoolsSearched = [NSMutableArray arrayWithArray:arraySchools];
+    [_tableSchools reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,14 +49,32 @@
 - (void) setupViewController {
     _tableSchools.separatorColor = [UIColor clearColor];
     arraySchools = [[NSMutableArray alloc] init];
+    arraySchoolsSearched = [[NSMutableArray alloc] init];
 }
 
 - (void) setupNavigationBar {
-    self.navigationItem.title = @"Danh sách trường";
+    txtSearch = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, 170, 30)];
+    txtSearch.backgroundColor = [UIColor whiteColor];
+    txtSearch.font = [UIFont systemFontOfSize:15];
+    txtSearch.tintColor = [UIColor blackColor];
+    txtSearch.delegate = self;
+    UIButton *btnSearch = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
+    [btnSearch setImage:[UIImage imageNamed:@"btn_search.png"] forState:UIControlStateNormal];
+    UIView *rightView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 30, 20)];
+    txtSearch.rightView = rightView;
+    txtSearch.rightViewMode = UITextFieldViewModeAlways;
+    
+    UIView *leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 5, 20)];
+    txtSearch.leftView = leftView;
+    txtSearch.leftViewMode = UITextFieldViewModeAlways;
+    
+    [rightView addSubview:btnSearch];
+    
+    [txtSearch addTarget:self action:@selector(searchFieldTextChanged:) forControlEvents:UIControlEventEditingChanged];
+    self.navigationItem.titleView = txtSearch;
     if (![MyLib logined]) {
         UIButton *btnLogin = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 25)];
         [btnLogin setImage:[UIImage imageNamed:@"btn_login.png"] forState:UIControlStateNormal];
-        btnLogin.titleLabel.font = [UIFont systemFontOfSize:16];
         btnLogin.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
         [btnLogin addTarget:self action:@selector(btnLoginClick:) forControlEvents:UIControlEventTouchUpInside];
         self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnLogin];
@@ -60,11 +82,16 @@
     else {
         UIButton *btnFunction = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 80, 25)];
         [btnFunction setImage:[UIImage imageNamed:@"btn_function.png"] forState:UIControlStateNormal];
-        btnFunction.titleLabel.font = [UIFont systemFontOfSize:16];
         btnFunction.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
         [btnFunction addTarget:self action:@selector(btnFunctionClick:) forControlEvents:UIControlEventTouchUpInside];
         self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnFunction];
     }
+    
+}
+
+- (BOOL) textFieldShouldReturn:(UITextField *)textField {
+    [txtSearch resignFirstResponder];
+    return YES;
 }
 
 - (void) bindData {
@@ -79,6 +106,7 @@
                 [arraySchools addObject:school];
             }
         }
+        arraySchoolsSearched = [NSMutableArray arrayWithArray:arraySchools];
         [_tableSchools reloadData];
     }];
 }
@@ -111,25 +139,39 @@
     }
 }
 
+- (void) searchFieldTextChanged: (id) sender {
+    NSString *keySearch = [MyLib normalizeVietnameseString:[txtSearch.text lowercaseString]];
+    if (keySearch.length > 0) {
+        NSMutableArray *result = [[NSMutableArray alloc] init];
+        for (int index = 0; index < arraySchools.count; index++) {
+            School *school = [arraySchools objectAtIndex:index];
+            if ([school.unsignedName rangeOfString:keySearch].location != NSNotFound) {
+                [result addObject:school];
+                NSLog(@"%@", result);
+            }
+        }
+        arraySchoolsSearched = [NSMutableArray arrayWithArray:result];
+    }else{
+        arraySchoolsSearched = [NSMutableArray arrayWithArray:arraySchools];
+    }
+    [_tableSchools reloadData];
+}
 #pragma mark - Setup Table School
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }
 
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return arraySchools.count;
+    return arraySchoolsSearched.count;
 }
 
 - (UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    SchoolCell *cell = (SchoolCell*) [tableView dequeueReusableCellWithIdentifier:@"SchoolCell"];
     
-    if (!cell) {
-        cell = [[[NSBundle mainBundle] loadNibNamed:@"SchoolCell" owner:self options:nil] objectAtIndex:0];
+    SchoolCell *cell = [[[NSBundle mainBundle] loadNibNamed:@"SchoolCell" owner:self options:nil] objectAtIndex:0];
         
-        School *school = [arraySchools objectAtIndex:indexPath.row];
-        [cell bindData:school];
-        cell.selectionStyle = UITableViewCellSelectionStyleDefault;
-    }
+    School *school = [arraySchoolsSearched objectAtIndex:indexPath.row];
+    [cell bindData:school];
+    cell.selectionStyle = UITableViewCellSelectionStyleDefault;
     return cell;
 }
 
@@ -142,7 +184,8 @@
 }
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    School *school = [arraySchools objectAtIndex:indexPath.row];
+    [txtSearch resignFirstResponder];
+    School *school = [arraySchoolsSearched objectAtIndex:indexPath.row];
     SchoolDetailViewController *schoolDetailVC = [[SchoolDetailViewController alloc] initWithNibName:@"SchoolDetailViewController" bundle:nil];
     schoolDetailVC.modal = school;
     [self.navigationController pushViewController:schoolDetailVC animated:YES];

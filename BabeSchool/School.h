@@ -19,6 +19,7 @@
 @property (assign,nonatomic) CGFloat local_y;
 @property (strong,nonatomic) NSString *mobile;
 @property (strong,nonatomic) NSArray *arrayImages;
+@property (strong,nonatomic) NSString *unsignedName;
 + (School*) getObjectFromJSON: (NSDictionary*) dict;
 + (School*) getObjectFromParse: (PFObject*) schoolParse;
 @end
