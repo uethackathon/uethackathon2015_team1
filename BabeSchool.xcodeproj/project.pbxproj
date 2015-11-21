@@ -21,33 +21,32 @@
 		12601BE31BFF748C0070F8D2 /* img_mota.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BDE1BFF748C0070F8D2 /* img_mota.png */; };
 		12601BE41BFF748C0070F8D2 /* img_thuchi.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BDF1BFF748C0070F8D2 /* img_thuchi.png */; };
 		12601BE81BFF76740070F8D2 /* img_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BE71BFF76740070F8D2 /* img_login.png */; };
-		12601BEC1BFF88100070F8D2 /* LiveStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BEA1BFF88100070F8D2 /* LiveStreamViewController.m */; settings = {ASSET_TAGS = (); }; };
-		12601BED1BFF88100070F8D2 /* LiveStreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BEB1BFF88100070F8D2 /* LiveStreamViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		12601BF11BFF88680070F8D2 /* ThucDonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BEF1BFF88680070F8D2 /* ThucDonViewController.m */; settings = {ASSET_TAGS = (); }; };
-		12601BF21BFF88680070F8D2 /* ThucDonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BF01BFF88680070F8D2 /* ThucDonViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		12601BF61BFF88800070F8D2 /* SucKhoeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BF41BFF88800070F8D2 /* SucKhoeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		12601BF71BFF88800070F8D2 /* SucKhoeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BF51BFF88800070F8D2 /* SucKhoeViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		12601BFB1BFF888F0070F8D2 /* ThongBaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BF91BFF888F0070F8D2 /* ThongBaoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		12601BFC1BFF888F0070F8D2 /* ThongBaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BFA1BFF888F0070F8D2 /* ThongBaoViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		12601C001BFF8E3E0070F8D2 /* bg_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BFF1BFF8E3E0070F8D2 /* bg_menu@2x.png */; settings = {ASSET_TAGS = (); }; };
-		12601C021BFF95CA0070F8D2 /* bg_function@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601C011BFF95CA0070F8D2 /* bg_function@2x.png */; settings = {ASSET_TAGS = (); }; };
-		12601C041BFF99000070F8D2 /* img_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601C031BFF99000070F8D2 /* img_btn.png */; settings = {ASSET_TAGS = (); }; };
-		12601C061BFF9DC00070F8D2 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 12601C051BFF9DC00070F8D2 /* menu.json */; settings = {ASSET_TAGS = (); }; };
-		12601C091BFF9E2C0070F8D2 /* foodmenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601C081BFF9E2C0070F8D2 /* foodmenu.m */; settings = {ASSET_TAGS = (); }; };
-		1277345D1BFFE61700E811A5 /* parse-library-1.10.0 in Resources */ = {isa = PBXBuildFile; fileRef = 1277345C1BFFE61700E811A5 /* parse-library-1.10.0 */; settings = {ASSET_TAGS = (); }; };
+		12601BEC1BFF88100070F8D2 /* LiveStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BEA1BFF88100070F8D2 /* LiveStreamViewController.m */; };
+		12601BED1BFF88100070F8D2 /* LiveStreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BEB1BFF88100070F8D2 /* LiveStreamViewController.xib */; };
+		12601BF11BFF88680070F8D2 /* ThucDonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BEF1BFF88680070F8D2 /* ThucDonViewController.m */; };
+		12601BF21BFF88680070F8D2 /* ThucDonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BF01BFF88680070F8D2 /* ThucDonViewController.xib */; };
+		12601BF61BFF88800070F8D2 /* SucKhoeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BF41BFF88800070F8D2 /* SucKhoeViewController.m */; };
+		12601BF71BFF88800070F8D2 /* SucKhoeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BF51BFF88800070F8D2 /* SucKhoeViewController.xib */; };
+		12601BFB1BFF888F0070F8D2 /* ThongBaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601BF91BFF888F0070F8D2 /* ThongBaoViewController.m */; };
+		12601BFC1BFF888F0070F8D2 /* ThongBaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12601BFA1BFF888F0070F8D2 /* ThongBaoViewController.xib */; };
+		12601C001BFF8E3E0070F8D2 /* bg_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601BFF1BFF8E3E0070F8D2 /* bg_menu@2x.png */; };
+		12601C021BFF95CA0070F8D2 /* bg_function@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601C011BFF95CA0070F8D2 /* bg_function@2x.png */; };
+		12601C041BFF99000070F8D2 /* img_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 12601C031BFF99000070F8D2 /* img_btn.png */; };
+		12601C061BFF9DC00070F8D2 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 12601C051BFF9DC00070F8D2 /* menu.json */; };
+		12601C091BFF9E2C0070F8D2 /* foodmenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 12601C081BFF9E2C0070F8D2 /* foodmenu.m */; };
 		127734611BFFE6C400E811A5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1277345E1BFFE6C400E811A5 /* Bolts.framework */; };
 		127734621BFFE6C400E811A5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1277345F1BFFE6C400E811A5 /* Parse.framework */; };
 		127734631BFFE6C400E811A5 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127734601BFFE6C400E811A5 /* ParseUI.framework */; };
 		127734661BFFE93600E811A5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 127734641BFFE93600E811A5 /* libsqlite3.0.tbd */; };
 		127734671BFFE93600E811A5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 127734651BFFE93600E811A5 /* libsqlite3.tbd */; };
-<<<<<<< HEAD
-		1277346B1BFFF2E400E811A5 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127734691BFFF2E400E811A5 /* GameViewController.m */; settings = {ASSET_TAGS = (); }; };
-		1277346C1BFFF2E400E811A5 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1277346A1BFFF2E400E811A5 /* GameViewController.xib */; settings = {ASSET_TAGS = (); }; };
-=======
-        513434A11BFFE387008858EE /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434A01BFFE387008858EE /* KLCPopup.m */; };
-        513434A31BFFE517008858EE /* AddHealth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434A21BFFE517008858EE /* AddHealth.xib */; };
-        513434A51BFFEAE3008858EE /* btn_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434A41BFFEAE3008858EE /* btn_cancel@2x.png */; };
->>>>>>> 4d2d3e83e478913f96bd2e18dd8b8da620fb7d29
+		127734711BFFF79500E811A5 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1277346F1BFFF79500E811A5 /* GameViewController.m */; settings = {ASSET_TAGS = (); }; };
+		127734721BFFF79500E811A5 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127734701BFFF79500E811A5 /* GameViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		513434A11BFFE387008858EE /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434A01BFFE387008858EE /* KLCPopup.m */; };
+		513434A31BFFE517008858EE /* AddHealth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434A21BFFE517008858EE /* AddHealth.xib */; };
+		513434A51BFFEAE3008858EE /* btn_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434A41BFFEAE3008858EE /* btn_cancel@2x.png */; };
+		513434A81BFFF574008858EE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434A61BFFF574008858EE /* Bolts.framework */; };
+		513434A91BFFF574008858EE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434A71BFFF574008858EE /* Parse.framework */; };
+		513434AB1BFFF5AA008858EE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434AA1BFFF5AA008858EE /* ParseUI.framework */; };
 		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
 		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
 		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
@@ -141,19 +140,21 @@
 		12601C051BFF9DC00070F8D2 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		12601C071BFF9E2C0070F8D2 /* foodmenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foodmenu.h; sourceTree = "<group>"; };
 		12601C081BFF9E2C0070F8D2 /* foodmenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foodmenu.m; sourceTree = "<group>"; };
-		5134349F1BFFE387008858EE /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
-		513434A01BFFE387008858EE /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
-		513434A21BFFE517008858EE /* AddHealth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddHealth.xib; sourceTree = "<group>"; };
-		513434A41BFFEAE3008858EE /* btn_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_cancel@2x.png"; sourceTree = "<group>"; };
-		1277345C1BFFE61700E811A5 /* parse-library-1.10.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "parse-library-1.10.0"; sourceTree = "<group>"; };
 		1277345E1BFFE6C400E811A5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "BabeSchool/parse-library-1.10.0/Bolts.framework"; sourceTree = "<group>"; };
 		1277345F1BFFE6C400E811A5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "BabeSchool/parse-library-1.10.0/Parse.framework"; sourceTree = "<group>"; };
 		127734601BFFE6C400E811A5 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "BabeSchool/parse-library-1.10.0/ParseUI.framework"; sourceTree = "<group>"; };
 		127734641BFFE93600E811A5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		127734651BFFE93600E811A5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		127734681BFFF2E400E811A5 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		127734691BFFF2E400E811A5 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		1277346A1BFFF2E400E811A5 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		1277346E1BFFF79500E811A5 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		1277346F1BFFF79500E811A5 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		127734701BFFF79500E811A5 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		5134349F1BFFE387008858EE /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
+		513434A01BFFE387008858EE /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
+		513434A21BFFE517008858EE /* AddHealth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddHealth.xib; sourceTree = "<group>"; };
+		513434A41BFFEAE3008858EE /* btn_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_cancel@2x.png"; sourceTree = "<group>"; };
+		513434A61BFFF574008858EE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		513434A71BFFF574008858EE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		513434AA1BFFF5AA008858EE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSchoolViewController.h; sourceTree = "<group>"; };
 		51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSchoolViewController.m; sourceTree = "<group>"; };
 		51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListSchoolViewController.xib; sourceTree = "<group>"; };
@@ -214,12 +215,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				513434AB1BFFF5AA008858EE /* ParseUI.framework in Frameworks */,
 				127734661BFFE93600E811A5 /* libsqlite3.0.tbd in Frameworks */,
 				127734671BFFE93600E811A5 /* libsqlite3.tbd in Frameworks */,
 				127734611BFFE6C400E811A5 /* Bolts.framework in Frameworks */,
 				127734621BFFE6C400E811A5 /* Parse.framework in Frameworks */,
 				127734631BFFE6C400E811A5 /* ParseUI.framework in Frameworks */,
 				B7F896246B16724A7E847B8D /* libPods.a in Frameworks */,
+				513434A91BFFF574008858EE /* Parse.framework in Frameworks */,
+				513434A81BFFF574008858EE /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +247,9 @@
 		125CF4021BFF3BF60049D6D8 /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				1277345C1BFFE61700E811A5 /* parse-library-1.10.0 */,
+				513434AA1BFFF5AA008858EE /* ParseUI.framework */,
+				513434A61BFFF574008858EE /* Bolts.framework */,
+				513434A71BFFF574008858EE /* Parse.framework */,
 				51CBB2D01BFF6346007040E3 /* Resource */,
 				12601B451BFF484C0070F8D2 /* RateView.h */,
 				12601B461BFF484C0070F8D2 /* RateView.m */,
@@ -266,6 +272,7 @@
 		12601B4B1BFF4A5F0070F8D2 /* Funtion View */ = {
 			isa = PBXGroup;
 			children = (
+				1277346D1BFFF77900E811A5 /* Game */,
 				51D449AB1BFFB6D9001121C7 /* Notice */,
 				51D449AA1BFFB6C8001121C7 /* Menu */,
 				51D449A91BFFB6B9001121C7 /* Live Stream */,
@@ -273,24 +280,6 @@
 				12601B611BFF4FCE0070F8D2 /* FunctionViewController.h */,
 				12601B621BFF4FCE0070F8D2 /* FunctionViewController.m */,
 				12601B631BFF4FCE0070F8D2 /* FunctionViewController.xib */,
-<<<<<<< HEAD
-				12601BE91BFF88100070F8D2 /* LiveStreamViewController.h */,
-				12601BEA1BFF88100070F8D2 /* LiveStreamViewController.m */,
-				12601BEB1BFF88100070F8D2 /* LiveStreamViewController.xib */,
-				12601BEE1BFF88680070F8D2 /* ThucDonViewController.h */,
-				12601BEF1BFF88680070F8D2 /* ThucDonViewController.m */,
-				12601BF01BFF88680070F8D2 /* ThucDonViewController.xib */,
-				12601BF31BFF88800070F8D2 /* SucKhoeViewController.h */,
-				12601BF41BFF88800070F8D2 /* SucKhoeViewController.m */,
-				12601BF51BFF88800070F8D2 /* SucKhoeViewController.xib */,
-				12601BF81BFF888F0070F8D2 /* ThongBaoViewController.h */,
-				12601BF91BFF888F0070F8D2 /* ThongBaoViewController.m */,
-				12601BFA1BFF888F0070F8D2 /* ThongBaoViewController.xib */,
-				127734681BFFF2E400E811A5 /* GameViewController.h */,
-				127734691BFFF2E400E811A5 /* GameViewController.m */,
-				1277346A1BFFF2E400E811A5 /* GameViewController.xib */,
-=======
->>>>>>> 4d2d3e83e478913f96bd2e18dd8b8da620fb7d29
 			);
 			name = "Funtion View";
 			sourceTree = "<group>";
@@ -305,6 +294,16 @@
 				12601BDF1BFF748C0070F8D2 /* img_thuchi.png */,
 			);
 			name = "School btn";
+			sourceTree = "<group>";
+		};
+		1277346D1BFFF77900E811A5 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				1277346E1BFFF79500E811A5 /* GameViewController.h */,
+				1277346F1BFFF79500E811A5 /* GameViewController.m */,
+				127734701BFFF79500E811A5 /* GameViewController.xib */,
+			);
+			name = Game;
 			sourceTree = "<group>";
 		};
 		51CBB2981BFF3D7A007040E3 /* ViewController */ = {
@@ -560,7 +559,6 @@
 				C3B39EBF1BFF374D00C4A0EB /* Frameworks */,
 				C3B39EC01BFF374D00C4A0EB /* Resources */,
 				4EA06D8D06FB305BBF7B05E0 /* Copy Pods Resources */,
-				5846C9CA99C4D0201F609AA7 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -689,13 +687,12 @@
 				51CBB2C81BFF6344007040E3 /* img2_2.png in Resources */,
 				51CBB2CF1BFF6344007040E3 /* img4_3.png in Resources */,
 				12601BD01BFF66110070F8D2 /* bg_btn.png in Resources */,
+				127734721BFFF79500E811A5 /* GameViewController.xib in Resources */,
 				51CBB2CA1BFF6344007040E3 /* img3_1.png in Resources */,
 				51CBB2C51BFF6344007040E3 /* img1_2.png in Resources */,
 				51CBB2C71BFF6344007040E3 /* img2_1.png in Resources */,
-				1277346C1BFFF2E400E811A5 /* GameViewController.xib in Resources */,
 				C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */,
 				51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */,
-				1277345D1BFFE61700E811A5 /* parse-library-1.10.0 in Resources */,
 				12601C061BFF9DC00070F8D2 /* menu.json in Resources */,
 				513434A31BFFE517008858EE /* AddHealth.xib in Resources */,
 				51CBB2C91BFF6344007040E3 /* img2_3.png in Resources */,
@@ -750,21 +747,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5846C9CA99C4D0201F609AA7 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -776,7 +758,6 @@
 				12601B641BFF4FCE0070F8D2 /* FunctionViewController.m in Sources */,
 				51CBB2A91BFF49D3007040E3 /* LoginViewController.m in Sources */,
 				12601B471BFF484C0070F8D2 /* RateView.m in Sources */,
-				1277346B1BFFF2E400E811A5 /* GameViewController.m in Sources */,
 				12601BFB1BFF888F0070F8D2 /* ThongBaoViewController.m in Sources */,
 				12601B4A1BFF49D30070F8D2 /* School.m in Sources */,
 				12601B6F1BFF54A50070F8D2 /* SchoolDetailViewController.m in Sources */,
@@ -793,6 +774,7 @@
 				125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */,
 				51D449AE1BFFB70D001121C7 /* AddHealth.m in Sources */,
 				513434A11BFFE387008858EE /* KLCPopup.m in Sources */,
+				127734711BFFF79500E811A5 /* GameViewController.m in Sources */,
 				51D449A81BFFA63C001121C7 /* Health.m in Sources */,
 				C3B39EC71BFF374D00C4A0EB /* main.m in Sources */,
 			);
@@ -933,6 +915,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BabeSchool/parse-library-1.10.0",
+					"$(PROJECT_DIR)/BabeSchool",
 				);
 				INFOPLIST_FILE = BabeSchool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -950,6 +933,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BabeSchool/parse-library-1.10.0",
+					"$(PROJECT_DIR)/BabeSchool",
 				);
 				INFOPLIST_FILE = BabeSchool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
