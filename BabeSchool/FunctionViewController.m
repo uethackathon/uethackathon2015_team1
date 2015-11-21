@@ -17,7 +17,7 @@
 #import "ListSchoolViewController.h"
 #import "Utils.h"
 #import "PianoViewController.h"
-
+#import "HoatDongViewController.h"
 @interface FunctionViewController ()
 
 @end
@@ -138,6 +138,10 @@
 - (IBAction)btnGameClick:(id)sender {
     PianoViewController *pianoVC = [[PianoViewController alloc] initWithNibName:@"PianoViewController" bundle:nil];
     [self presentViewController:pianoVC animated:YES completion:nil];
+}
+- (IBAction)btnHoatDongClicked:(id)sender {
+    HoatDongViewController *hoatdongVC = [[HoatDongViewController alloc] initWithNibName:@"HoatDongViewController" bundle:nil];
+    [self.navigationController pushViewController:hoatdongVC animated:YES ];
 }
 
 /*

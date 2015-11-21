@@ -22,7 +22,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1N-Wq-1Pa">
-                    <rect key="frame" x="50" y="305" width="220" height="50"/>
+                    <rect key="frame" x="50" y="350" width="220" height="50"/>
                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                     <state key="normal" title="Quan sát bé" backgroundImage="img_btn.png">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -31,15 +31,15 @@
                         <action selector="btnLiveStreamClicked:" destination="-1" eventType="touchUpInside" id="fyU-B9-KuU"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8B-gC-iaX">
-                    <rect key="frame" x="50" y="385" width="220" height="50"/>
-                    <state key="normal" title="Trò chơi" backgroundImage="img_btn.png"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Rh-lb-dAY">
+                    <rect key="frame" x="50" y="270" width="220" height="50"/>
+                    <state key="normal" title="Hoạt động của trường" backgroundImage="img_btn.png"/>
                     <connections>
-                        <action selector="btnGameClick:" destination="-1" eventType="touchUpInside" id="Sl7-Ny-fPH"/>
+                        <action selector="btnHoatDongClicked:" destination="-1" eventType="touchUpInside" id="2dD-3K-23d"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rF-gl-MMm">
-                    <rect key="frame" x="50" y="65" width="220" height="50"/>
+                    <rect key="frame" x="50" y="30" width="220" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="emM-70-tKa"/>
                     </constraints>
@@ -52,7 +52,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWc-ub-JXU">
-                    <rect key="frame" x="50" y="145" width="220" height="50"/>
+                    <rect key="frame" x="50" y="110" width="220" height="50"/>
                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                     <state key="normal" title="Theo dõi sức khoẻ" backgroundImage="img_btn.png">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -62,9 +62,9 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVu-Zz-Mh2">
-                    <rect key="frame" x="50" y="225" width="220" height="50"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                    <state key="normal" title="Thông báo " backgroundImage="img_btn.png">
+                    <rect key="frame" x="50" y="190" width="220" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Gửi thông báo cho trường" backgroundImage="img_btn.png">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                     <connections>
@@ -84,6 +84,13 @@
                         <action selector="btnLogoutClick:" destination="-1" eventType="touchUpInside" id="cTa-XF-PGV"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8B-gC-iaX">
+                    <rect key="frame" x="50" y="430" width="220" height="50"/>
+                    <state key="normal" title="Trò chơi" backgroundImage="img_btn.png"/>
+                    <connections>
+                        <action selector="btnGameClick:" destination="-1" eventType="touchUpInside" id="Sl7-Ny-fPH"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -93,24 +100,28 @@
                 <constraint firstItem="I8B-gC-iaX" firstAttribute="height" secondItem="a1N-Wq-1Pa" secondAttribute="height" id="3aZ-rW-Olh"/>
                 <constraint firstItem="fWc-ub-JXU" firstAttribute="top" secondItem="5rF-gl-MMm" secondAttribute="bottom" constant="30" id="7sl-Dd-laM"/>
                 <constraint firstItem="vrE-e2-sm1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="A3S-Ed-VRJ"/>
+                <constraint firstItem="3Rh-lb-dAY" firstAttribute="top" secondItem="CVu-Zz-Mh2" secondAttribute="bottom" constant="30" id="BRW-31-HZo"/>
                 <constraint firstAttribute="trailing" secondItem="fWc-ub-JXU" secondAttribute="trailing" constant="50" id="CeE-Ix-wzo"/>
                 <constraint firstItem="fWc-ub-JXU" firstAttribute="height" secondItem="5rF-gl-MMm" secondAttribute="height" id="I4O-qg-yfd"/>
+                <constraint firstItem="3Rh-lb-dAY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="N4B-Lj-ngc"/>
                 <constraint firstAttribute="trailing" secondItem="I8B-gC-iaX" secondAttribute="trailing" constant="50" id="OHn-Lj-1na"/>
                 <constraint firstItem="a1N-Wq-1Pa" firstAttribute="height" secondItem="CVu-Zz-Mh2" secondAttribute="height" id="ORz-MT-eB9"/>
-                <constraint firstItem="a1N-Wq-1Pa" firstAttribute="top" secondItem="CVu-Zz-Mh2" secondAttribute="bottom" constant="30" id="Saa-JZ-bp5"/>
+                <constraint firstItem="I8B-gC-iaX" firstAttribute="top" secondItem="a1N-Wq-1Pa" secondAttribute="bottom" constant="30" id="SW9-On-ZM6"/>
                 <constraint firstItem="a1N-Wq-1Pa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="Tux-gZ-vsv"/>
                 <constraint firstItem="CVu-Zz-Mh2" firstAttribute="top" secondItem="fWc-ub-JXU" secondAttribute="bottom" constant="30" id="U88-Fi-ndc"/>
                 <constraint firstItem="5rF-gl-MMm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="YIS-ge-5Kq"/>
                 <constraint firstAttribute="trailing" secondItem="a1N-Wq-1Pa" secondAttribute="trailing" constant="50" id="ZwM-g1-q0X"/>
+                <constraint firstItem="a1N-Wq-1Pa" firstAttribute="top" secondItem="3Rh-lb-dAY" secondAttribute="bottom" constant="30" id="dEz-zW-axL"/>
                 <constraint firstAttribute="bottom" secondItem="vrE-e2-sm1" secondAttribute="bottom" id="eBO-2v-mqT"/>
-                <constraint firstItem="I8B-gC-iaX" firstAttribute="top" secondItem="a1N-Wq-1Pa" secondAttribute="bottom" constant="30" id="gx2-9e-vr9"/>
                 <constraint firstAttribute="trailing" secondItem="vrE-e2-sm1" secondAttribute="trailing" id="i4B-Ju-b1T"/>
+                <constraint firstItem="3Rh-lb-dAY" firstAttribute="height" secondItem="CVu-Zz-Mh2" secondAttribute="height" id="imJ-Ts-LUX"/>
                 <constraint firstAttribute="bottom" secondItem="Wom-w7-BEH" secondAttribute="bottom" constant="8" id="mCj-xE-f1B"/>
                 <constraint firstAttribute="trailing" secondItem="CVu-Zz-Mh2" secondAttribute="trailing" constant="50" id="meZ-zK-fKM"/>
+                <constraint firstAttribute="trailing" secondItem="3Rh-lb-dAY" secondAttribute="trailing" constant="50" id="r23-hR-NGA"/>
                 <constraint firstItem="I8B-gC-iaX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="rFL-Kj-AEt"/>
                 <constraint firstAttribute="trailing" secondItem="5rF-gl-MMm" secondAttribute="trailing" constant="50" id="uj6-jC-xm1"/>
                 <constraint firstAttribute="trailing" secondItem="Wom-w7-BEH" secondAttribute="trailing" constant="8" id="wIo-1j-Ayf"/>
-                <constraint firstItem="5rF-gl-MMm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="65" id="wjA-qE-fvr"/>
+                <constraint firstItem="5rF-gl-MMm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="wjA-qE-fvr"/>
                 <constraint firstItem="vrE-e2-sm1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="z6J-ea-7ci"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

@@ -67,6 +67,11 @@
 		127734CC1C00350200E811A5 /* Piano.plist in Resources */ = {isa = PBXBuildFile; fileRef = 127734B71C00350200E811A5 /* Piano.plist */; settings = {ASSET_TAGS = (); }; };
 		127D052D1C005BA200F25DB2 /* lauchscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D052C1C005BA200F25DB2 /* lauchscreen@2x.png */; settings = {ASSET_TAGS = (); }; };
 		127D05311C0066F500F25DB2 /* green_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D05301C0066F500F25DB2 /* green_bg.png */; settings = {ASSET_TAGS = (); }; };
+		127D05361C0072FD00F25DB2 /* HoatDongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D05341C0072FD00F25DB2 /* HoatDongViewController.m */; settings = {ASSET_TAGS = (); }; };
+		127D05371C0072FD00F25DB2 /* HoatDongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127D05351C0072FD00F25DB2 /* HoatDongViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		127D053A1C0073BC00F25DB2 /* hoatdong.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D05391C0073BC00F25DB2 /* hoatdong.m */; settings = {ASSET_TAGS = (); }; };
+		127D053E1C00796900F25DB2 /* HoatDongCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D053C1C00796900F25DB2 /* HoatDongCellTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		127D053F1C00796900F25DB2 /* HoatDongCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127D053D1C00796900F25DB2 /* HoatDongCellTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		513434A11BFFE387008858EE /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434A01BFFE387008858EE /* KLCPopup.m */; };
 		513434A31BFFE517008858EE /* AddHealth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434A21BFFE517008858EE /* AddHealth.xib */; };
 		513434A51BFFEAE3008858EE /* btn_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434A41BFFEAE3008858EE /* btn_cancel@2x.png */; };
@@ -219,6 +224,14 @@
 		127734B71C00350200E811A5 /* Piano.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Piano.plist; path = Sounds/Piano.plist; sourceTree = "<group>"; };
 		127D052C1C005BA200F25DB2 /* lauchscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lauchscreen@2x.png"; sourceTree = "<group>"; };
 		127D05301C0066F500F25DB2 /* green_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_bg.png; sourceTree = "<group>"; };
+		127D05331C0072FD00F25DB2 /* HoatDongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoatDongViewController.h; sourceTree = "<group>"; };
+		127D05341C0072FD00F25DB2 /* HoatDongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoatDongViewController.m; sourceTree = "<group>"; };
+		127D05351C0072FD00F25DB2 /* HoatDongViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HoatDongViewController.xib; sourceTree = "<group>"; };
+		127D05381C0073BC00F25DB2 /* hoatdong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hoatdong.h; sourceTree = "<group>"; };
+		127D05391C0073BC00F25DB2 /* hoatdong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hoatdong.m; sourceTree = "<group>"; };
+		127D053B1C00796900F25DB2 /* HoatDongCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoatDongCellTableViewCell.h; sourceTree = "<group>"; };
+		127D053C1C00796900F25DB2 /* HoatDongCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoatDongCellTableViewCell.m; sourceTree = "<group>"; };
+		127D053D1C00796900F25DB2 /* HoatDongCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HoatDongCellTableViewCell.xib; sourceTree = "<group>"; };
 		5134349F1BFFE387008858EE /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
 		513434A01BFFE387008858EE /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		513434A21BFFE517008858EE /* AddHealth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddHealth.xib; sourceTree = "<group>"; };
@@ -379,6 +392,7 @@
 		12601B4B1BFF4A5F0070F8D2 /* Funtion View */ = {
 			isa = PBXGroup;
 			children = (
+				127D05321C0072DC00F25DB2 /* Hoat Dong */,
 				1277346D1BFFF77900E811A5 /* Game */,
 				51D449AB1BFFB6D9001121C7 /* Notice */,
 				51D449AA1BFFB6C8001121C7 /* Menu */,
@@ -411,6 +425,19 @@
 				513434C41C002939008858EE /* PianoViewController.xib */,
 			);
 			name = Game;
+			sourceTree = "<group>";
+		};
+		127D05321C0072DC00F25DB2 /* Hoat Dong */ = {
+			isa = PBXGroup;
+			children = (
+				127D05331C0072FD00F25DB2 /* HoatDongViewController.h */,
+				127D05341C0072FD00F25DB2 /* HoatDongViewController.m */,
+				127D05351C0072FD00F25DB2 /* HoatDongViewController.xib */,
+				127D053B1C00796900F25DB2 /* HoatDongCellTableViewCell.h */,
+				127D053C1C00796900F25DB2 /* HoatDongCellTableViewCell.m */,
+				127D053D1C00796900F25DB2 /* HoatDongCellTableViewCell.xib */,
+			);
+			name = "Hoat Dong";
 			sourceTree = "<group>";
 		};
 		513434C71C002940008858EE /* Piano */ = {
@@ -563,6 +590,8 @@
 				12601C081BFF9E2C0070F8D2 /* foodmenu.m */,
 				1277349C1C00154600E811A5 /* Comment.h */,
 				1277349D1C00154600E811A5 /* Comment.m */,
+				127D05381C0073BC00F25DB2 /* hoatdong.h */,
+				127D05391C0073BC00F25DB2 /* hoatdong.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -885,6 +914,7 @@
 				127734C61C00350200E811A5 /* P200 Piano F#3.caf in Resources */,
 				513434B81C000F46008858EE /* btn_function@2x.png in Resources */,
 				51CBB2C81BFF6344007040E3 /* img2_2.png in Resources */,
+				127D053F1C00796900F25DB2 /* HoatDongCellTableViewCell.xib in Resources */,
 				51CBB2CF1BFF6344007040E3 /* img4_3.png in Resources */,
 				127734B81C00350200E811A5 /* P200 Piano A#2.caf in Resources */,
 				127734C21C00350200E811A5 /* P200 Piano D4.caf in Resources */,
@@ -905,6 +935,7 @@
 				127734CC1C00350200E811A5 /* Piano.plist in Resources */,
 				51CBB2C91BFF6344007040E3 /* img2_3.png in Resources */,
 				127734CA1C00350200E811A5 /* P200 Piano F#7.caf in Resources */,
+				127D05371C0072FD00F25DB2 /* HoatDongViewController.xib in Resources */,
 				12601BE21BFF748C0070F8D2 /* img_map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -966,7 +997,9 @@
 				51346C9F1C00342A00E3EDAE /* OpenALSupport.c in Sources */,
 				513434AE1C000356008858EE /* NoticeView.m in Sources */,
 				51D449811BFF87C7001121C7 /* User.m in Sources */,
+				127D05361C0072FD00F25DB2 /* HoatDongViewController.m in Sources */,
 				12601B641BFF4FCE0070F8D2 /* FunctionViewController.m in Sources */,
+				127D053A1C0073BC00F25DB2 /* hoatdong.m in Sources */,
 				5134350A1C002E25008858EE /* BaseNavigationController.m in Sources */,
 				513434BF1C002154008858EE /* WriteComment.m in Sources */,
 				51CBB2A91BFF49D3007040E3 /* LoginViewController.m in Sources */,
@@ -988,6 +1021,7 @@
 				51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */,
 				127734901C000F3D00E811A5 /* Reachability.m in Sources */,
 				125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */,
+				127D053E1C00796900F25DB2 /* HoatDongCellTableViewCell.m in Sources */,
 				127734951C000F5600E811A5 /* RateViewController.m in Sources */,
 				51D449AE1BFFB70D001121C7 /* AddHealth.m in Sources */,
 				513434A11BFFE387008858EE /* KLCPopup.m in Sources */,
