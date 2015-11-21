@@ -39,10 +39,15 @@
     
     UIButton *btnList = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 60, 25)];
     [btnList setImage:[UIImage imageNamed:@"btn_list.png"] forState:UIControlStateNormal];
-    btnList.titleLabel.font = [UIFont systemFontOfSize:16];
     btnList.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
     [btnList addTarget:self action:@selector(btnListClick:) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnList];
+    
+    UIButton *btnLogout = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 60, 25)];
+    [btnLogout setImage:[UIImage imageNamed:@"btn_logout.png"] forState:UIControlStateNormal];
+    btnLogout.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
+    [btnLogout addTarget:self action:@selector(btnLogoutClick:) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnLogout];
     
     popup = [KLCPopup popupWithContentView:noticeView];
     // Do any additional setup after loading the view from its nib.

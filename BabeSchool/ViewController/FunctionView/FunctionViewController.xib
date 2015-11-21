@@ -87,20 +87,6 @@
                         <action selector="btnGameClick:" destination="-1" eventType="touchUpInside" id="Sl7-Ny-fPH"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wom-w7-BEH">
-                    <rect key="frame" x="288" y="535" width="32" height="32"/>
-                    <animations/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="32" id="PAs-sk-ctF"/>
-                        <constraint firstAttribute="width" constant="32" id="zWv-HR-y1j"/>
-                    </constraints>
-                    <state key="normal" image="btn_logout.png">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="btnLogoutClick:" destination="-1" eventType="touchUpInside" id="cTa-XF-PGV"/>
-                    </connections>
-                </button>
             </subviews>
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -116,11 +102,9 @@
                 <constraint firstAttribute="trailing" secondItem="fWc-ub-JXU" secondAttribute="trailing" constant="20" id="KrY-a7-Osj"/>
                 <constraint firstItem="5rF-gl-MMm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="25" id="QKt-xR-1zv"/>
                 <constraint firstItem="I8B-gC-iaX" firstAttribute="top" secondItem="3Rh-lb-dAY" secondAttribute="bottom" constant="43" id="Rqn-K6-PNe"/>
-                <constraint firstAttribute="trailing" secondItem="Wom-w7-BEH" secondAttribute="trailing" id="SqC-GN-mlK"/>
                 <constraint firstItem="fWc-ub-JXU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="25" id="V1J-rx-0Ov"/>
                 <constraint firstItem="fWc-ub-JXU" firstAttribute="width" secondItem="5rF-gl-MMm" secondAttribute="width" id="W2u-EC-3FA"/>
                 <constraint firstAttribute="trailing" secondItem="vrE-e2-sm1" secondAttribute="trailing" id="WYQ-DH-znR"/>
-                <constraint firstAttribute="bottom" secondItem="Wom-w7-BEH" secondAttribute="bottom" constant="1" id="Zh2-GJ-B4I"/>
                 <constraint firstItem="I8B-gC-iaX" firstAttribute="width" secondItem="5rF-gl-MMm" secondAttribute="width" id="a8c-yF-oQS"/>
                 <constraint firstItem="a1N-Wq-1Pa" firstAttribute="width" secondItem="5rF-gl-MMm" secondAttribute="width" id="as8-tV-1V5"/>
                 <constraint firstItem="I8B-gC-iaX" firstAttribute="height" secondItem="5rF-gl-MMm" secondAttribute="height" id="fFO-5O-qsa"/>
@@ -143,7 +127,6 @@
         <image name="btn_gameforkid.png" width="97" height="100"/>
         <image name="btn_healthcare.png" width="100" height="101"/>
         <image name="btn_liveStream.png" width="97" height="100"/>
-        <image name="btn_logout.png" width="32" height="32"/>
         <image name="btn_menu.png" width="99" height="98"/>
         <image name="btn_schoolNews.png" width="90" height="101"/>
     </resources>
