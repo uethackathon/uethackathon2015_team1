@@ -267,6 +267,7 @@
 		12601B4B1BFF4A5F0070F8D2 /* Funtion View */ = {
 			isa = PBXGroup;
 			children = (
+				1277346D1BFFF77900E811A5 /* Game */,
 				51D449AB1BFFB6D9001121C7 /* Notice */,
 				51D449AA1BFFB6C8001121C7 /* Menu */,
 				51D449A91BFFB6B9001121C7 /* Live Stream */,
@@ -288,6 +289,16 @@
 				12601BDF1BFF748C0070F8D2 /* img_thuchi.png */,
 			);
 			name = "School btn";
+			sourceTree = "<group>";
+		};
+		1277346D1BFFF77900E811A5 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				1277346E1BFFF79500E811A5 /* GameViewController.h */,
+				1277346F1BFFF79500E811A5 /* GameViewController.m */,
+				127734701BFFF79500E811A5 /* GameViewController.xib */,
+			);
+			name = Game;
 			sourceTree = "<group>";
 		};
 		51CBB2981BFF3D7A007040E3 /* ViewController */ = {
@@ -543,7 +554,6 @@
 				C3B39EBF1BFF374D00C4A0EB /* Frameworks */,
 				C3B39EC01BFF374D00C4A0EB /* Resources */,
 				4EA06D8D06FB305BBF7B05E0 /* Copy Pods Resources */,
-				5846C9CA99C4D0201F609AA7 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -672,6 +682,7 @@
 				51CBB2C81BFF6344007040E3 /* img2_2.png in Resources */,
 				51CBB2CF1BFF6344007040E3 /* img4_3.png in Resources */,
 				12601BD01BFF66110070F8D2 /* bg_btn.png in Resources */,
+				127734721BFFF79500E811A5 /* GameViewController.xib in Resources */,
 				51CBB2CA1BFF6344007040E3 /* img3_1.png in Resources */,
 				51CBB2C51BFF6344007040E3 /* img1_2.png in Resources */,
 				51CBB2C71BFF6344007040E3 /* img2_1.png in Resources */,
@@ -731,21 +742,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5846C9CA99C4D0201F609AA7 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -773,6 +769,7 @@
 				125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */,
 				51D449AE1BFFB70D001121C7 /* AddHealth.m in Sources */,
 				513434A11BFFE387008858EE /* KLCPopup.m in Sources */,
+				127734711BFFF79500E811A5 /* GameViewController.m in Sources */,
 				51D449A81BFFA63C001121C7 /* Health.m in Sources */,
 				C3B39EC71BFF374D00C4A0EB /* main.m in Sources */,
 			);
