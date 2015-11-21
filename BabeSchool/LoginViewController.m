@@ -75,9 +75,14 @@
 #pragma mark - Setup Button Action
 - (IBAction)btnLoginClick:(id)sender {
     if ([self checkValid]) {
-        FunctionViewController *functionVC = [[FunctionViewController alloc] initWithNibName:@"FunctionViewController" bundle:nil];
-        [self.navigationController pushViewController:functionVC animated:YES];
-        [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"user"];
+        if ([self needPush]) {
+            FunctionViewController *functionVC = [[FunctionViewController alloc] initWithNibName:@"FunctionViewController" bundle:nil];
+            [self.navigationController pushViewController:functionVC animated:YES];
+        }
+        else {
+            [self.navigationController popToRootViewControllerAnimated:YES];
+        }
+            [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"user"];
     }
     else {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"Tài khoản hoặc mật khẩu không đúng" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
@@ -97,6 +102,17 @@
     return result;
 }
 
+- (BOOL) needPush {
+    UIViewController *vc = [[self.navigationController viewControllers] objectAtIndex:0];
+    
+    if([vc isKindOfClass:[FunctionViewController class]])
+    {
+        return NO;
+    }
+    else {
+        return YES;
+    }
+}
 /*
 #pragma mark - Navigation
 
