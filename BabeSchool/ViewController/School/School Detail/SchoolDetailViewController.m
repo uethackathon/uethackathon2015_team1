@@ -45,7 +45,6 @@
 }
 - (IBAction)btnCostingClicked:(id)sender {
     NSArray *tempArray =[self.modal.costring componentsSeparatedByString:@"\n"];
-    NSString *mainString =[tempArray componentsJoinedByString:@"\\n"];
     NSString *content = [self.modal.costring stringByReplacingOccurrencesOfString:@"\\n" withString:@"\n"];
     [self checkBeforeCall];
     self.textDetail.text=content;
@@ -100,13 +99,14 @@
     _slideshow = [[KASlideShow alloc] init];
     _slideshow.frame=self.viewSlideImage.bounds;
     [_slideshow setDelay:1.5]; // Delay between transitions
-    [_slideshow setTransitionDuration:0.5]; // Transition duration
+    [_slideshow setTransitionDuration:1.5]; // Transition duration
     [_slideshow setTransitionType:KASlideShowTransitionFade]; // Choose a transition type (fade or slide)
     [_slideshow setImagesContentMode:UIViewContentModeScaleAspectFill]; // Choose a content mode for images to display
     
     [_slideshow addImagesFromResources:self.modal.arrayImages]; // Add images from resources
     [_slideshow addGesture:KASlideShowGestureTap]; // Gesture to go previous/next directly on the image
     [self.viewSlideImage addSubview: _slideshow];
+    [_slideshow start];
     _slideshow.delegate = self;
 
     UISwipeGestureRecognizer * swipeleft=[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(swipeleft:)];

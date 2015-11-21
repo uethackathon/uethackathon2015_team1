@@ -19,6 +19,10 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="byI-v1-qnh">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                 </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c0g-GU-aCN">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" red="0.64548698569999996" green="0.84829872849999999" blue="0.74076745129999999" alpha="0.63" colorSpace="calibratedRGB"/>
+                </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Ce-LF-ZXx">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -31,16 +35,19 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="4Ce-LF-ZXx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="07O-Oc-7Kd"/>
+                <constraint firstAttribute="bottom" secondItem="c0g-GU-aCN" secondAttribute="bottom" id="6mT-x8-1mY"/>
                 <constraint firstAttribute="bottom" secondItem="4Ce-LF-ZXx" secondAttribute="bottom" id="6tZ-ZP-omb"/>
                 <constraint firstItem="4Ce-LF-ZXx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7nX-y5-1nN"/>
                 <constraint firstAttribute="bottom" secondItem="byI-v1-qnh" secondAttribute="bottom" id="ABy-wi-ggB"/>
+                <constraint firstAttribute="trailing" secondItem="c0g-GU-aCN" secondAttribute="trailing" id="IHW-LC-r4p"/>
                 <constraint firstAttribute="bottom" secondItem="4Ce-LF-ZXx" secondAttribute="bottom" id="IMD-Ml-If4"/>
                 <constraint firstItem="byI-v1-qnh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="IcT-6a-rkn"/>
+                <constraint firstItem="c0g-GU-aCN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="TAK-Dg-Ulq"/>
                 <constraint firstAttribute="trailing" secondItem="byI-v1-qnh" secondAttribute="trailing" id="Y6V-ie-la4"/>
                 <constraint firstItem="4Ce-LF-ZXx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ZSy-72-4WB"/>
                 <constraint firstAttribute="trailing" secondItem="4Ce-LF-ZXx" secondAttribute="trailing" id="atM-Tu-FJJ"/>
-                <constraint firstItem="4Ce-LF-ZXx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="gsv-u2-v8L"/>
                 <constraint firstAttribute="trailing" secondItem="4Ce-LF-ZXx" secondAttribute="trailing" id="l3l-FF-FrQ"/>
+                <constraint firstItem="c0g-GU-aCN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rSR-jX-hNy"/>
                 <constraint firstItem="byI-v1-qnh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wOu-3x-Oj5"/>
             </constraints>
             <point key="canvasLocation" x="272" y="181"/>
