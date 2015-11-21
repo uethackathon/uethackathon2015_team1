@@ -64,8 +64,6 @@
 		513434CF1C002983008858EE /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434CE1C002983008858EE /* CoreMIDI.framework */; };
 		513434D11C00298B008858EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434D01C00298B008858EE /* AVFoundation.framework */; };
 		513434D31C002995008858EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434D21C002995008858EE /* AudioToolbox.framework */; };
-		513434DA1C0029ED008858EE /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 513434D61C0029ED008858EE /* OpenALSupport.c */; };
-		513434DB1C0029ED008858EE /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434D91C0029ED008858EE /* SoundBankPlayer.m */; };
 		513434F11C002A03008858EE /* P200 Piano A#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434DC1C002A03008858EE /* P200 Piano A#2.caf */; };
 		513434F21C002A03008858EE /* P200 Piano A#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434DD1C002A03008858EE /* P200 Piano A#3.caf */; };
 		513434F31C002A03008858EE /* P200 Piano A#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 513434DE1C002A03008858EE /* P200 Piano A#4.caf */; };
@@ -89,6 +87,8 @@
 		513435051C002A03008858EE /* Piano.plist in Resources */ = {isa = PBXBuildFile; fileRef = 513434F01C002A03008858EE /* Piano.plist */; };
 		5134350A1C002E25008858EE /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513435091C002E25008858EE /* BaseNavigationController.m */; };
 		5134350C1C003042008858EE /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5134350B1C003042008858EE /* btn_back@2x.png */; };
+		51346C9F1C00342A00E3EDAE /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 51346C9B1C00342A00E3EDAE /* OpenALSupport.c */; };
+		51346CA01C00342A00E3EDAE /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 51346C9E1C00342A00E3EDAE /* SoundBankPlayer.m */; };
 		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
 		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
 		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
@@ -218,10 +218,6 @@
 		513434CE1C002983008858EE /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		513434D01C00298B008858EE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		513434D21C002995008858EE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		513434D61C0029ED008858EE /* OpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = OpenALSupport.c; path = /Volumes/DATA/iOS/Project/kidpiano/piano/SoundBankPlayer/OpenALSupport.c; sourceTree = "<absolute>"; };
-		513434D71C0029ED008858EE /* OpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenALSupport.h; path = /Volumes/DATA/iOS/Project/kidpiano/piano/SoundBankPlayer/OpenALSupport.h; sourceTree = "<absolute>"; };
-		513434D81C0029ED008858EE /* SoundBankPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundBankPlayer.h; path = /Volumes/DATA/iOS/Project/kidpiano/piano/SoundBankPlayer/SoundBankPlayer.h; sourceTree = "<absolute>"; };
-		513434D91C0029ED008858EE /* SoundBankPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundBankPlayer.m; path = /Volumes/DATA/iOS/Project/kidpiano/piano/SoundBankPlayer/SoundBankPlayer.m; sourceTree = "<absolute>"; };
 		513434DC1C002A03008858EE /* P200 Piano A#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#2.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano A#2.caf"; sourceTree = "<group>"; };
 		513434DD1C002A03008858EE /* P200 Piano A#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#3.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano A#3.caf"; sourceTree = "<group>"; };
 		513434DE1C002A03008858EE /* P200 Piano A#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#4.caf"; path = "../../../../../Volumes/DATA/iOS/Project/kidpiano/piano/Sounds/P200 Piano A#4.caf"; sourceTree = "<group>"; };
@@ -246,6 +242,10 @@
 		513435081C002E25008858EE /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		513435091C002E25008858EE /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		5134350B1C003042008858EE /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_back@2x.png"; path = "../../../Downloads/btn_back@2x.png"; sourceTree = "<group>"; };
+		51346C9B1C00342A00E3EDAE /* OpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpenALSupport.c; sourceTree = "<group>"; };
+		51346C9C1C00342A00E3EDAE /* OpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenALSupport.h; sourceTree = "<group>"; };
+		51346C9D1C00342A00E3EDAE /* SoundBankPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundBankPlayer.h; sourceTree = "<group>"; };
+		51346C9E1C00342A00E3EDAE /* SoundBankPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundBankPlayer.m; sourceTree = "<group>"; };
 		51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSchoolViewController.h; sourceTree = "<group>"; };
 		51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSchoolViewController.m; sourceTree = "<group>"; };
 		51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListSchoolViewController.xib; sourceTree = "<group>"; };
@@ -421,10 +421,10 @@
 		513434D41C0029C5008858EE /* Sound Back Player */ = {
 			isa = PBXGroup;
 			children = (
-				513434D61C0029ED008858EE /* OpenALSupport.c */,
-				513434D71C0029ED008858EE /* OpenALSupport.h */,
-				513434D81C0029ED008858EE /* SoundBankPlayer.h */,
-				513434D91C0029ED008858EE /* SoundBankPlayer.m */,
+				51346C9B1C00342A00E3EDAE /* OpenALSupport.c */,
+				51346C9C1C00342A00E3EDAE /* OpenALSupport.h */,
+				51346C9D1C00342A00E3EDAE /* SoundBankPlayer.h */,
+				51346C9E1C00342A00E3EDAE /* SoundBankPlayer.m */,
 			);
 			name = "Sound Back Player";
 			sourceTree = "<group>";
@@ -955,7 +955,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				513434DB1C0029ED008858EE /* SoundBankPlayer.m in Sources */,
+				51346C9F1C00342A00E3EDAE /* OpenALSupport.c in Sources */,
 				513434AE1C000356008858EE /* NoticeView.m in Sources */,
 				51D449811BFF87C7001121C7 /* User.m in Sources */,
 				12601B641BFF4FCE0070F8D2 /* FunctionViewController.m in Sources */,
@@ -973,7 +973,6 @@
 				12601BF11BFF88680070F8D2 /* ThucDonViewController.m in Sources */,
 				513434C51C002939008858EE /* PianoViewController.m in Sources */,
 				51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */,
-				513434DA1C0029ED008858EE /* OpenALSupport.c in Sources */,
 				C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */,
 				51D449A21BFF9C57001121C7 /* HealthCell.m in Sources */,
 				1277349E1C00154600E811A5 /* Comment.m in Sources */,
@@ -986,6 +985,7 @@
 				513434A11BFFE387008858EE /* KLCPopup.m in Sources */,
 				51D449A81BFFA63C001121C7 /* Health.m in Sources */,
 				1277349A1C00101B00E811A5 /* VietBLViewController.m in Sources */,
+				51346CA01C00342A00E3EDAE /* SoundBankPlayer.m in Sources */,
 				C3B39EC71BFF374D00C4A0EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
