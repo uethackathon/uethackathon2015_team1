@@ -128,7 +128,7 @@
         
         School *school = [arraySchools objectAtIndex:indexPath.row];
         [cell bindData:school];
-        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        cell.selectionStyle = UITableViewCellSelectionStyleDefault;
     }
     return cell;
 }

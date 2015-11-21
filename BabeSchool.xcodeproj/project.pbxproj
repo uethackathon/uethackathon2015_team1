@@ -58,8 +58,6 @@
 		513434BC1C00145D008858EE /* btn_list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434BB1C00145D008858EE /* btn_list@2x.png */; };
 		513434BF1C002154008858EE /* WriteComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434BE1C002154008858EE /* WriteComment.m */; };
 		513434C11C002168008858EE /* WriteComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434C01C002168008858EE /* WriteComment.xib */; };
-		513434C51C002939008858EE /* PianoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434C31C002939008858EE /* PianoViewController.m */; };
-		513434C61C002939008858EE /* PianoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434C41C002939008858EE /* PianoViewController.xib */; };
 		513434CD1C00297A008858EE /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434CC1C00297A008858EE /* CoreAudio.framework */; };
 		513434CF1C002983008858EE /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434CE1C002983008858EE /* CoreMIDI.framework */; };
 		513434D11C00298B008858EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434D01C00298B008858EE /* AVFoundation.framework */; };
@@ -89,6 +87,9 @@
 		51346C9F1C00342A00E3EDAE /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 51346C9B1C00342A00E3EDAE /* OpenALSupport.c */; };
 		51346CA01C00342A00E3EDAE /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 51346C9E1C00342A00E3EDAE /* SoundBankPlayer.m */; };
 		51346CA21C00352F00E3EDAE /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51346CA11C00352F00E3EDAE /* btn_back@2x.png */; };
+		51A93F741C00692000223A3B /* PianoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93F721C00692000223A3B /* PianoViewController.m */; };
+		51A93F751C00692000223A3B /* PianoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93F731C00692000223A3B /* PianoViewController.xib */; };
+		51A93F771C006BE600223A3B /* btn_back_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A93F761C006BE600223A3B /* btn_back_black@2x.png */; };
 		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
 		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
 		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
@@ -211,9 +212,6 @@
 		513434BD1C002154008858EE /* WriteComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteComment.h; sourceTree = "<group>"; };
 		513434BE1C002154008858EE /* WriteComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteComment.m; sourceTree = "<group>"; };
 		513434C01C002168008858EE /* WriteComment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WriteComment.xib; sourceTree = "<group>"; };
-		513434C21C002939008858EE /* PianoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoViewController.h; sourceTree = "<group>"; };
-		513434C31C002939008858EE /* PianoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PianoViewController.m; sourceTree = "<group>"; };
-		513434C41C002939008858EE /* PianoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PianoViewController.xib; sourceTree = "<group>"; };
 		513434CC1C00297A008858EE /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		513434CE1C002983008858EE /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		513434D01C00298B008858EE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -246,6 +244,10 @@
 		51346C9D1C00342A00E3EDAE /* SoundBankPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundBankPlayer.h; sourceTree = "<group>"; };
 		51346C9E1C00342A00E3EDAE /* SoundBankPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundBankPlayer.m; sourceTree = "<group>"; };
 		51346CA11C00352F00E3EDAE /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@2x.png"; sourceTree = "<group>"; };
+		51A93F711C00692000223A3B /* PianoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoViewController.h; sourceTree = "<group>"; };
+		51A93F721C00692000223A3B /* PianoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PianoViewController.m; sourceTree = "<group>"; };
+		51A93F731C00692000223A3B /* PianoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PianoViewController.xib; sourceTree = "<group>"; };
+		51A93F761C006BE600223A3B /* btn_back_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back_black@2x.png"; sourceTree = "<group>"; };
 		51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSchoolViewController.h; sourceTree = "<group>"; };
 		51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSchoolViewController.m; sourceTree = "<group>"; };
 		51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListSchoolViewController.xib; sourceTree = "<group>"; };
@@ -402,9 +404,9 @@
 		1277346D1BFFF77900E811A5 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				513434C21C002939008858EE /* PianoViewController.h */,
-				513434C31C002939008858EE /* PianoViewController.m */,
-				513434C41C002939008858EE /* PianoViewController.xib */,
+				51A93F711C00692000223A3B /* PianoViewController.h */,
+				51A93F721C00692000223A3B /* PianoViewController.m */,
+				51A93F731C00692000223A3B /* PianoViewController.xib */,
 			);
 			name = Game;
 			sourceTree = "<group>";
@@ -512,6 +514,7 @@
 		51CBB2D01BFF6346007040E3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				51A93F761C006BE600223A3B /* btn_back_black@2x.png */,
 				51346CA11C00352F00E3EDAE /* btn_back@2x.png */,
 				513434BB1C00145D008858EE /* btn_list@2x.png */,
 				513434B91C0012B7008858EE /* btn_logout@2x.png */,
@@ -841,6 +844,7 @@
 				12601BE31BFF748C0070F8D2 /* img_mota.png in Resources */,
 				12601BD11BFF66110070F8D2 /* separate.png in Resources */,
 				513434A51BFFEAE3008858EE /* btn_cancel@2x.png in Resources */,
+				51A93F771C006BE600223A3B /* btn_back_black@2x.png in Resources */,
 				51D4497D1BFF82E0001121C7 /* users.json in Resources */,
 				513434FB1C002A03008858EE /* P200 Piano D4.caf in Resources */,
 				51CBB2B51BFF5FCA007040E3 /* background@2x.png in Resources */,
@@ -890,11 +894,11 @@
 				513435021C002A03008858EE /* P200 Piano F#6.caf in Resources */,
 				C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */,
 				513434F11C002A03008858EE /* P200 Piano A#2.caf in Resources */,
-				513434C61C002939008858EE /* PianoViewController.xib in Resources */,
 				513435041C002A03008858EE /* P200 Piano G#9.caf in Resources */,
 				513434F61C002A03008858EE /* P200 Piano C7.caf in Resources */,
 				51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */,
 				12601C061BFF9DC00070F8D2 /* menu.json in Resources */,
+				51A93F751C00692000223A3B /* PianoViewController.xib in Resources */,
 				513434A31BFFE517008858EE /* AddHealth.xib in Resources */,
 				51CBB2C91BFF6344007040E3 /* img2_3.png in Resources */,
 				12601BE21BFF748C0070F8D2 /* img_map.png in Resources */,
@@ -963,6 +967,7 @@
 				513434BF1C002154008858EE /* WriteComment.m in Sources */,
 				51CBB2A91BFF49D3007040E3 /* LoginViewController.m in Sources */,
 				127734911C000F3D00E811A5 /* Utils.m in Sources */,
+				51A93F741C00692000223A3B /* PianoViewController.m in Sources */,
 				12601B471BFF484C0070F8D2 /* RateView.m in Sources */,
 				12601B4A1BFF49D30070F8D2 /* School.m in Sources */,
 				12601B6F1BFF54A50070F8D2 /* SchoolDetailViewController.m in Sources */,
@@ -971,7 +976,6 @@
 				C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */,
 				12601C091BFF9E2C0070F8D2 /* foodmenu.m in Sources */,
 				12601BF11BFF88680070F8D2 /* ThucDonViewController.m in Sources */,
-				513434C51C002939008858EE /* PianoViewController.m in Sources */,
 				51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */,
 				C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */,
 				51D449A21BFF9C57001121C7 /* HealthCell.m in Sources */,
