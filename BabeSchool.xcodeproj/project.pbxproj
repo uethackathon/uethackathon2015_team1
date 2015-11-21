@@ -17,7 +17,6 @@
 		513434D11C00298B008858EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434D01C00298B008858EE /* AVFoundation.framework */; };
 		513434D31C002995008858EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434D21C002995008858EE /* AudioToolbox.framework */; };
 		51A93F861C00869500223A3B /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93F851C00869500223A3B /* KLCPopup.m */; };
-		51A93F891C0086EF00223A3B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93F881C0086EF00223A3B /* BaseNavigationController.m */; };
 		51A93FBF1C00883300223A3B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93FBD1C00883300223A3B /* LoginViewController.m */; };
 		51A93FC01C00883300223A3B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93FBE1C00883300223A3B /* LoginViewController.xib */; };
 		51A93FDB1C0088B100223A3B /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93FD61C0088B100223A3B /* ListSchoolViewController.m */; };
@@ -124,6 +123,7 @@
 		51A940F11C00A1F700223A3B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940EE1C00A1F700223A3B /* Bolts.framework */; };
 		51A940F21C00A1F700223A3B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940EF1C00A1F700223A3B /* Parse.framework */; };
 		51A940F31C00A1F700223A3B /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940F01C00A1F700223A3B /* ParseUI.framework */; };
+		51A940FE1C00A39000223A3B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940FD1C00A39000223A3B /* BaseNavigationController.m */; };
 		B7F896246B16724A7E847B8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17461C75361181AA8523F47 /* libPods.a */; };
 		C3B39EC71BFF374D00C4A0EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC61BFF374D00C4A0EB /* main.m */; };
 		C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */; };
@@ -135,27 +135,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		51A940A81C009EFA00223A3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 51A940A21C009EF800223A3B /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
-			remoteInfo = "Charts-iOS";
-		};
-		51A940AA1C009EFA00223A3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 51A940A21C009EF800223A3B /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
-			remoteInfo = "Charts-TV";
-		};
-		51A940AC1C009EFA00223A3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 51A940A21C009EF800223A3B /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
-			remoteInfo = ChartsTests;
-		};
 		C3B39EDF1BFF374D00C4A0EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C3B39EBA1BFF374D00C4A0EB /* Project object */;
@@ -172,6 +151,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		51A940F81C00A28300223A3B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1277345E1BFFE6C400E811A5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "BabeSchool/parse-library-1.10.0/Bolts.framework"; sourceTree = "<group>"; };
 		1277345F1BFFE6C400E811A5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "BabeSchool/parse-library-1.10.0/Parse.framework"; sourceTree = "<group>"; };
@@ -184,8 +176,6 @@
 		513434D21C002995008858EE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		51A93F841C00869500223A3B /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KLCPopup.h; path = Lib/KLCPopup/KLCPopup.h; sourceTree = "<group>"; };
 		51A93F851C00869500223A3B /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KLCPopup.m; path = Lib/KLCPopup/KLCPopup.m; sourceTree = "<group>"; };
-		51A93F871C0086EF00223A3B /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseNavigationController.h; path = "ViewController/Base Navigation/BaseNavigationController.h"; sourceTree = "<group>"; };
-		51A93F881C0086EF00223A3B /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseNavigationController.m; path = "ViewController/Base Navigation/BaseNavigationController.m"; sourceTree = "<group>"; };
 		51A93FBC1C00883300223A3B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewController/Login/LoginViewController.h; sourceTree = "<group>"; };
 		51A93FBD1C00883300223A3B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewController/Login/LoginViewController.m; sourceTree = "<group>"; };
 		51A93FBE1C00883300223A3B /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ViewController/Login/LoginViewController.xib; sourceTree = "<group>"; };
@@ -280,7 +270,6 @@
 		51A9408C1C008B2D00223A3B /* WriteComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WriteComment.h; path = "ViewController/School/School Detail/WriteComment.h"; sourceTree = "<group>"; };
 		51A9408D1C008B2D00223A3B /* WriteComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WriteComment.m; path = "ViewController/School/School Detail/WriteComment.m"; sourceTree = "<group>"; };
 		51A9408E1C008B2D00223A3B /* WriteComment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WriteComment.xib; path = "ViewController/School/School Detail/WriteComment.xib"; sourceTree = "<group>"; };
-		51A940A21C009EF800223A3B /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Downloads/ios-charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
 		51A940AE1C00A04500223A3B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Lib/OldLib/Reachability.h; sourceTree = "<group>"; };
 		51A940AF1C00A04500223A3B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Lib/OldLib/Reachability.m; sourceTree = "<group>"; };
 		51A940B01C00A04500223A3B /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Lib/OldLib/Utils.h; sourceTree = "<group>"; };
@@ -323,6 +312,8 @@
 		51A940EE1C00A1F700223A3B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Support/ParseFramework/Bolts.framework; sourceTree = "<group>"; };
 		51A940EF1C00A1F700223A3B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Support/ParseFramework/Parse.framework; sourceTree = "<group>"; };
 		51A940F01C00A1F700223A3B /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = Support/ParseFramework/ParseUI.framework; sourceTree = "<group>"; };
+		51A940FC1C00A39000223A3B /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseNavigationController.h; path = ViewController/BaseNavigation/BaseNavigationController.h; sourceTree = "<group>"; };
+		51A940FD1C00A39000223A3B /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseNavigationController.m; path = ViewController/BaseNavigation/BaseNavigationController.m; sourceTree = "<group>"; };
 		A02661D9D79C61F4AEDFD976 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B17461C75361181AA8523F47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C5F5C44223DB30D15FF2FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -383,7 +374,6 @@
 		125CF4021BFF3BF60049D6D8 /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				51A940A21C009EF800223A3B /* Charts.xcodeproj */,
 				51A93F7E1C00857400223A3B /* Parse Framework */,
 				513434C71C002940008858EE /* Piano */,
 				51CBB2D01BFF6346007040E3 /* Resource */,
@@ -500,8 +490,8 @@
 		513435061C002DF1008858EE /* Base Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				51A93F871C0086EF00223A3B /* BaseNavigationController.h */,
-				51A93F881C0086EF00223A3B /* BaseNavigationController.m */,
+				51A940FC1C00A39000223A3B /* BaseNavigationController.h */,
+				51A940FD1C00A39000223A3B /* BaseNavigationController.m */,
 			);
 			name = "Base Navigation";
 			sourceTree = "<group>";
@@ -583,16 +573,6 @@
 				51A93FE11C0088FB00223A3B /* KASlideShow.m */,
 			);
 			name = KASlideShow;
-			sourceTree = "<group>";
-		};
-		51A940A31C009EF800223A3B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				51A940A91C009EFA00223A3B /* Charts.framework */,
-				51A940AB1C009EFA00223A3B /* Charts.framework */,
-				51A940AD1C009EFA00223A3B /* ChartsTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		51CBB2981BFF3D7A007040E3 /* ViewController */ = {
@@ -839,6 +819,8 @@
 				C3B39EBF1BFF374D00C4A0EB /* Frameworks */,
 				C3B39EC01BFF374D00C4A0EB /* Resources */,
 				4EA06D8D06FB305BBF7B05E0 /* Copy Pods Resources */,
+				51A940F81C00A28300223A3B /* Embed Frameworks */,
+				F5B4D098544991EAE9FF3B7B /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -921,12 +903,6 @@
 			mainGroup = C3B39EB91BFF374D00C4A0EB;
 			productRefGroup = C3B39EC31BFF374D00C4A0EB /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 51A940A31C009EF800223A3B /* Products */;
-					ProjectRef = 51A940A21C009EF800223A3B /* Charts.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				C3B39EC11BFF374D00C4A0EB /* BabeSchool */,
@@ -935,30 +911,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		51A940A91C009EFA00223A3B /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = 51A940A81C009EFA00223A3B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		51A940AB1C009EFA00223A3B /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = 51A940AA1C009EFA00223A3B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		51A940AD1C009EFA00223A3B /* ChartsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ChartsTests.xctest;
-			remoteRef = 51A940AC1C009EFA00223A3B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C3B39EC01BFF374D00C4A0EB /* Resources */ = {
@@ -1090,6 +1042,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F5B4D098544991EAE9FF3B7B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1121,12 +1088,12 @@
 				51A9408F1C008B2D00223A3B /* RateViewController.m in Sources */,
 				51A940E81C00A0BC00223A3B /* HealthCell.m in Sources */,
 				51A93F861C00869500223A3B /* KLCPopup.m in Sources */,
-				51A93F891C0086EF00223A3B /* BaseNavigationController.m in Sources */,
 				51A940381C008A4800223A3B /* hoatdong.m in Sources */,
 				51A940391C008A4800223A3B /* School.m in Sources */,
 				51A940361C008A4800223A3B /* foodmenu.m in Sources */,
 				51A940931C008B2D00223A3B /* VietBLViewController.m in Sources */,
 				51A93FE21C0088FB00223A3B /* KASlideShow.m in Sources */,
+				51A940FE1C00A39000223A3B /* BaseNavigationController.m in Sources */,
 				51A940C41C00A07B00223A3B /* HoatDongViewController.m in Sources */,
 				51A940EC1C00A0BC00223A3B /* SucKhoeViewController.m in Sources */,
 				51A940EA1C00A0BC00223A3B /* HealthChartViewController.m in Sources */,
@@ -1267,6 +1234,7 @@
 			baseConfigurationReference = B7C5F5C44223DB30D15FF2FC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BabeSchool/parse-library-1.10.0",
@@ -1288,6 +1256,7 @@
 			baseConfigurationReference = A02661D9D79C61F4AEDFD976 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BabeSchool/parse-library-1.10.0",
