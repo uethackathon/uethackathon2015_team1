@@ -194,6 +194,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127734661BFFE93600E811A5 /* libsqlite3.0.tbd in Frameworks */,
+				127734671BFFE93600E811A5 /* libsqlite3.tbd in Frameworks */,
+				127734611BFFE6C400E811A5 /* Bolts.framework in Frameworks */,
+				127734621BFFE6C400E811A5 /* Parse.framework in Frameworks */,
+				127734631BFFE6C400E811A5 /* ParseUI.framework in Frameworks */,
 				B7F896246B16724A7E847B8D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +223,7 @@
 		125CF4021BFF3BF60049D6D8 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				1277345C1BFFE61700E811A5 /* parse-library-1.10.0 */,
 				51CBB2D01BFF6346007040E3 /* Resource */,
 				12601B451BFF484C0070F8D2 /* RateView.h */,
 				12601B461BFF484C0070F8D2 /* RateView.m */,
@@ -420,6 +426,11 @@
 		7079E567A92BBB7ADF54141E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				127734641BFFE93600E811A5 /* libsqlite3.0.tbd */,
+				127734651BFFE93600E811A5 /* libsqlite3.tbd */,
+				1277345E1BFFE6C400E811A5 /* Bolts.framework */,
+				1277345F1BFFE6C400E811A5 /* Parse.framework */,
+				127734601BFFE6C400E811A5 /* ParseUI.framework */,
 				B17461C75361181AA8523F47 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -645,6 +656,7 @@
 				51CBB2C71BFF6344007040E3 /* img2_1.png in Resources */,
 				C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */,
 				51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */,
+				1277345D1BFFE61700E811A5 /* parse-library-1.10.0 in Resources */,
 				12601C061BFF9DC00070F8D2 /* menu.json in Resources */,
 				513434A31BFFE517008858EE /* AddHealth.xib in Resources */,
 				51CBB2C91BFF6344007040E3 /* img2_3.png in Resources */,
@@ -878,6 +890,10 @@
 			baseConfigurationReference = B7C5F5C44223DB30D15FF2FC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BabeSchool/parse-library-1.10.0",
+				);
 				INFOPLIST_FILE = BabeSchool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -891,6 +907,10 @@
 			baseConfigurationReference = A02661D9D79C61F4AEDFD976 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BabeSchool/parse-library-1.10.0",
+				);
 				INFOPLIST_FILE = BabeSchool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

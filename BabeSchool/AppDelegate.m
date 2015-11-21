@@ -32,7 +32,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = navMain;
     [self.window makeKeyAndVisible];
-    
+    [Parse setApplicationId:@"4mv9cjCD32ZHCBgogMXaB78fDvvvFeT08CjF2ksK"
+                  clientKey:@"xVqOAeYwep8oQDi90T76ocMbD6R62UpzYo0hYLKr"];
     // Override point for customization after application launch.
     return YES;
 }
