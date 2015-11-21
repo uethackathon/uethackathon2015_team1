@@ -44,34 +44,29 @@
 		1277349A1C00101B00E811A5 /* VietBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127734981C00101B00E811A5 /* VietBLViewController.m */; };
 		1277349B1C00101B00E811A5 /* VietBLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127734991C00101B00E811A5 /* VietBLViewController.xib */; };
 		1277349E1C00154600E811A5 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1277349D1C00154600E811A5 /* Comment.m */; };
-		127734B81C00350200E811A5 /* P200 Piano A#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A31C00350200E811A5 /* P200 Piano A#2.caf */; settings = {ASSET_TAGS = (); }; };
-		127734B91C00350200E811A5 /* P200 Piano A#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A41C00350200E811A5 /* P200 Piano A#3.caf */; settings = {ASSET_TAGS = (); }; };
-		127734BA1C00350200E811A5 /* P200 Piano A#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A51C00350200E811A5 /* P200 Piano A#4.caf */; settings = {ASSET_TAGS = (); }; };
-		127734BB1C00350200E811A5 /* P200 Piano A#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A61C00350200E811A5 /* P200 Piano A#5.caf */; settings = {ASSET_TAGS = (); }; };
-		127734BC1C00350200E811A5 /* P200 Piano A#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A71C00350200E811A5 /* P200 Piano A#7.caf */; settings = {ASSET_TAGS = (); }; };
-		127734BD1C00350200E811A5 /* P200 Piano C7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A81C00350200E811A5 /* P200 Piano C7.caf */; settings = {ASSET_TAGS = (); }; };
-		127734BE1C00350200E811A5 /* P200 Piano C10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A91C00350200E811A5 /* P200 Piano C10.caf */; settings = {ASSET_TAGS = (); }; };
-		127734BF1C00350200E811A5 /* P200 Piano D#8.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AA1C00350200E811A5 /* P200 Piano D#8.caf */; settings = {ASSET_TAGS = (); }; };
-		127734C01C00350200E811A5 /* P200 Piano D2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AB1C00350200E811A5 /* P200 Piano D2.caf */; settings = {ASSET_TAGS = (); }; };
-		127734C11C00350200E811A5 /* P200 Piano D3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AC1C00350200E811A5 /* P200 Piano D3.caf */; settings = {ASSET_TAGS = (); }; };
-		127734C21C00350200E811A5 /* P200 Piano D4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AD1C00350200E811A5 /* P200 Piano D4.caf */; settings = {ASSET_TAGS = (); }; };
-		127734C31C00350200E811A5 /* P200 Piano D5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AE1C00350200E811A5 /* P200 Piano D5.caf */; settings = {ASSET_TAGS = (); }; };
-		127734C41C00350200E811A5 /* P200 Piano D6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AF1C00350200E811A5 /* P200 Piano D6.caf */; settings = {ASSET_TAGS = (); }; };
-		127734C51C00350200E811A5 /* P200 Piano F#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B01C00350200E811A5 /* P200 Piano F#2.caf */; settings = {ASSET_TAGS = (); }; };
-		127734C61C00350200E811A5 /* P200 Piano F#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B11C00350200E811A5 /* P200 Piano F#3.caf */; settings = {ASSET_TAGS = (); }; };
-		127734C71C00350200E811A5 /* P200 Piano F#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B21C00350200E811A5 /* P200 Piano F#4.caf */; settings = {ASSET_TAGS = (); }; };
-		127734C81C00350200E811A5 /* P200 Piano F#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B31C00350200E811A5 /* P200 Piano F#5.caf */; settings = {ASSET_TAGS = (); }; };
-		127734C91C00350200E811A5 /* P200 Piano F#6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B41C00350200E811A5 /* P200 Piano F#6.caf */; settings = {ASSET_TAGS = (); }; };
-		127734CA1C00350200E811A5 /* P200 Piano F#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B51C00350200E811A5 /* P200 Piano F#7.caf */; settings = {ASSET_TAGS = (); }; };
-		127734CB1C00350200E811A5 /* P200 Piano G#9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B61C00350200E811A5 /* P200 Piano G#9.caf */; settings = {ASSET_TAGS = (); }; };
-		127734CC1C00350200E811A5 /* Piano.plist in Resources */ = {isa = PBXBuildFile; fileRef = 127734B71C00350200E811A5 /* Piano.plist */; settings = {ASSET_TAGS = (); }; };
-		127D052D1C005BA200F25DB2 /* lauchscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D052C1C005BA200F25DB2 /* lauchscreen@2x.png */; settings = {ASSET_TAGS = (); }; };
-		127D05311C0066F500F25DB2 /* green_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D05301C0066F500F25DB2 /* green_bg.png */; settings = {ASSET_TAGS = (); }; };
-		127D05361C0072FD00F25DB2 /* HoatDongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D05341C0072FD00F25DB2 /* HoatDongViewController.m */; settings = {ASSET_TAGS = (); }; };
-		127D05371C0072FD00F25DB2 /* HoatDongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127D05351C0072FD00F25DB2 /* HoatDongViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		127D053A1C0073BC00F25DB2 /* hoatdong.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D05391C0073BC00F25DB2 /* hoatdong.m */; settings = {ASSET_TAGS = (); }; };
-		127D053E1C00796900F25DB2 /* HoatDongCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D053C1C00796900F25DB2 /* HoatDongCellTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		127D053F1C00796900F25DB2 /* HoatDongCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127D053D1C00796900F25DB2 /* HoatDongCellTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		127734B81C00350200E811A5 /* P200 Piano A#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A31C00350200E811A5 /* P200 Piano A#2.caf */; };
+		127734B91C00350200E811A5 /* P200 Piano A#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A41C00350200E811A5 /* P200 Piano A#3.caf */; };
+		127734BA1C00350200E811A5 /* P200 Piano A#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A51C00350200E811A5 /* P200 Piano A#4.caf */; };
+		127734BB1C00350200E811A5 /* P200 Piano A#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A61C00350200E811A5 /* P200 Piano A#5.caf */; };
+		127734BC1C00350200E811A5 /* P200 Piano A#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A71C00350200E811A5 /* P200 Piano A#7.caf */; };
+		127734BD1C00350200E811A5 /* P200 Piano C7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A81C00350200E811A5 /* P200 Piano C7.caf */; };
+		127734BE1C00350200E811A5 /* P200 Piano C10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734A91C00350200E811A5 /* P200 Piano C10.caf */; };
+		127734BF1C00350200E811A5 /* P200 Piano D#8.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AA1C00350200E811A5 /* P200 Piano D#8.caf */; };
+		127734C01C00350200E811A5 /* P200 Piano D2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AB1C00350200E811A5 /* P200 Piano D2.caf */; };
+		127734C11C00350200E811A5 /* P200 Piano D3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AC1C00350200E811A5 /* P200 Piano D3.caf */; };
+		127734C21C00350200E811A5 /* P200 Piano D4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AD1C00350200E811A5 /* P200 Piano D4.caf */; };
+		127734C31C00350200E811A5 /* P200 Piano D5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AE1C00350200E811A5 /* P200 Piano D5.caf */; };
+		127734C41C00350200E811A5 /* P200 Piano D6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734AF1C00350200E811A5 /* P200 Piano D6.caf */; };
+		127734C51C00350200E811A5 /* P200 Piano F#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B01C00350200E811A5 /* P200 Piano F#2.caf */; };
+		127734C61C00350200E811A5 /* P200 Piano F#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B11C00350200E811A5 /* P200 Piano F#3.caf */; };
+		127734C71C00350200E811A5 /* P200 Piano F#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B21C00350200E811A5 /* P200 Piano F#4.caf */; };
+		127734C81C00350200E811A5 /* P200 Piano F#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B31C00350200E811A5 /* P200 Piano F#5.caf */; };
+		127734C91C00350200E811A5 /* P200 Piano F#6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B41C00350200E811A5 /* P200 Piano F#6.caf */; };
+		127734CA1C00350200E811A5 /* P200 Piano F#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B51C00350200E811A5 /* P200 Piano F#7.caf */; };
+		127734CB1C00350200E811A5 /* P200 Piano G#9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 127734B61C00350200E811A5 /* P200 Piano G#9.caf */; };
+		127734CC1C00350200E811A5 /* Piano.plist in Resources */ = {isa = PBXBuildFile; fileRef = 127734B71C00350200E811A5 /* Piano.plist */; };
+		127D052D1C005BA200F25DB2 /* lauchscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D052C1C005BA200F25DB2 /* lauchscreen@2x.png */; };
+		127D05311C0066F500F25DB2 /* green_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D05301C0066F500F25DB2 /* green_bg.png */; };
 		513434A11BFFE387008858EE /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434A01BFFE387008858EE /* KLCPopup.m */; };
 		513434A31BFFE517008858EE /* AddHealth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434A21BFFE517008858EE /* AddHealth.xib */; };
 		513434A51BFFEAE3008858EE /* btn_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434A41BFFEAE3008858EE /* btn_cancel@2x.png */; };
@@ -86,8 +81,6 @@
 		513434BC1C00145D008858EE /* btn_list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513434BB1C00145D008858EE /* btn_list@2x.png */; };
 		513434BF1C002154008858EE /* WriteComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434BE1C002154008858EE /* WriteComment.m */; };
 		513434C11C002168008858EE /* WriteComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434C01C002168008858EE /* WriteComment.xib */; };
-		513434C51C002939008858EE /* PianoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513434C31C002939008858EE /* PianoViewController.m */; };
-		513434C61C002939008858EE /* PianoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513434C41C002939008858EE /* PianoViewController.xib */; };
 		513434CD1C00297A008858EE /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434CC1C00297A008858EE /* CoreAudio.framework */; };
 		513434CF1C002983008858EE /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434CE1C002983008858EE /* CoreMIDI.framework */; };
 		513434D11C00298B008858EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434D01C00298B008858EE /* AVFoundation.framework */; };
@@ -96,6 +89,10 @@
 		51346C9F1C00342A00E3EDAE /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 51346C9B1C00342A00E3EDAE /* OpenALSupport.c */; };
 		51346CA01C00342A00E3EDAE /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 51346C9E1C00342A00E3EDAE /* SoundBankPlayer.m */; };
 		51346CA21C00352F00E3EDAE /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51346CA11C00352F00E3EDAE /* btn_back@2x.png */; };
+		51A93F741C00692000223A3B /* PianoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A93F721C00692000223A3B /* PianoViewController.m */; };
+		51A93F751C00692000223A3B /* PianoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A93F731C00692000223A3B /* PianoViewController.xib */; };
+		51A93F771C006BE600223A3B /* btn_back_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A93F761C006BE600223A3B /* btn_back_black@2x.png */; };
+		51A93F791C00734900223A3B /* btn_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A93F781C00734900223A3B /* btn_search@2x.png */; };
 		51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */; };
 		51CBB29D1BFF3D9C007040E3 /* ListSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */; };
 		51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBB2A11BFF3ED1007040E3 /* SchoolCell.m */; };
@@ -224,14 +221,6 @@
 		127734B71C00350200E811A5 /* Piano.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Piano.plist; path = Sounds/Piano.plist; sourceTree = "<group>"; };
 		127D052C1C005BA200F25DB2 /* lauchscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lauchscreen@2x.png"; sourceTree = "<group>"; };
 		127D05301C0066F500F25DB2 /* green_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_bg.png; sourceTree = "<group>"; };
-		127D05331C0072FD00F25DB2 /* HoatDongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoatDongViewController.h; sourceTree = "<group>"; };
-		127D05341C0072FD00F25DB2 /* HoatDongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoatDongViewController.m; sourceTree = "<group>"; };
-		127D05351C0072FD00F25DB2 /* HoatDongViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HoatDongViewController.xib; sourceTree = "<group>"; };
-		127D05381C0073BC00F25DB2 /* hoatdong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hoatdong.h; sourceTree = "<group>"; };
-		127D05391C0073BC00F25DB2 /* hoatdong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hoatdong.m; sourceTree = "<group>"; };
-		127D053B1C00796900F25DB2 /* HoatDongCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoatDongCellTableViewCell.h; sourceTree = "<group>"; };
-		127D053C1C00796900F25DB2 /* HoatDongCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoatDongCellTableViewCell.m; sourceTree = "<group>"; };
-		127D053D1C00796900F25DB2 /* HoatDongCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HoatDongCellTableViewCell.xib; sourceTree = "<group>"; };
 		5134349F1BFFE387008858EE /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
 		513434A01BFFE387008858EE /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		513434A21BFFE517008858EE /* AddHealth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddHealth.xib; sourceTree = "<group>"; };
@@ -249,9 +238,6 @@
 		513434BD1C002154008858EE /* WriteComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteComment.h; sourceTree = "<group>"; };
 		513434BE1C002154008858EE /* WriteComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteComment.m; sourceTree = "<group>"; };
 		513434C01C002168008858EE /* WriteComment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WriteComment.xib; sourceTree = "<group>"; };
-		513434C21C002939008858EE /* PianoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoViewController.h; sourceTree = "<group>"; };
-		513434C31C002939008858EE /* PianoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PianoViewController.m; sourceTree = "<group>"; };
-		513434C41C002939008858EE /* PianoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PianoViewController.xib; sourceTree = "<group>"; };
 		513434CC1C00297A008858EE /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		513434CE1C002983008858EE /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		513434D01C00298B008858EE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -263,6 +249,11 @@
 		51346C9D1C00342A00E3EDAE /* SoundBankPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundBankPlayer.h; sourceTree = "<group>"; };
 		51346C9E1C00342A00E3EDAE /* SoundBankPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundBankPlayer.m; sourceTree = "<group>"; };
 		51346CA11C00352F00E3EDAE /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@2x.png"; sourceTree = "<group>"; };
+		51A93F711C00692000223A3B /* PianoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoViewController.h; sourceTree = "<group>"; };
+		51A93F721C00692000223A3B /* PianoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PianoViewController.m; sourceTree = "<group>"; };
+		51A93F731C00692000223A3B /* PianoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PianoViewController.xib; sourceTree = "<group>"; };
+		51A93F761C006BE600223A3B /* btn_back_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back_black@2x.png"; sourceTree = "<group>"; };
+		51A93F781C00734900223A3B /* btn_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_search@2x.png"; sourceTree = "<group>"; };
 		51CBB2991BFF3D9C007040E3 /* ListSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSchoolViewController.h; sourceTree = "<group>"; };
 		51CBB29A1BFF3D9C007040E3 /* ListSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSchoolViewController.m; sourceTree = "<group>"; };
 		51CBB29B1BFF3D9C007040E3 /* ListSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListSchoolViewController.xib; sourceTree = "<group>"; };
@@ -392,7 +383,6 @@
 		12601B4B1BFF4A5F0070F8D2 /* Funtion View */ = {
 			isa = PBXGroup;
 			children = (
-				127D05321C0072DC00F25DB2 /* Hoat Dong */,
 				1277346D1BFFF77900E811A5 /* Game */,
 				51D449AB1BFFB6D9001121C7 /* Notice */,
 				51D449AA1BFFB6C8001121C7 /* Menu */,
@@ -420,24 +410,11 @@
 		1277346D1BFFF77900E811A5 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				513434C21C002939008858EE /* PianoViewController.h */,
-				513434C31C002939008858EE /* PianoViewController.m */,
-				513434C41C002939008858EE /* PianoViewController.xib */,
+				51A93F711C00692000223A3B /* PianoViewController.h */,
+				51A93F721C00692000223A3B /* PianoViewController.m */,
+				51A93F731C00692000223A3B /* PianoViewController.xib */,
 			);
 			name = Game;
-			sourceTree = "<group>";
-		};
-		127D05321C0072DC00F25DB2 /* Hoat Dong */ = {
-			isa = PBXGroup;
-			children = (
-				127D05331C0072FD00F25DB2 /* HoatDongViewController.h */,
-				127D05341C0072FD00F25DB2 /* HoatDongViewController.m */,
-				127D05351C0072FD00F25DB2 /* HoatDongViewController.xib */,
-				127D053B1C00796900F25DB2 /* HoatDongCellTableViewCell.h */,
-				127D053C1C00796900F25DB2 /* HoatDongCellTableViewCell.m */,
-				127D053D1C00796900F25DB2 /* HoatDongCellTableViewCell.xib */,
-			);
-			name = "Hoat Dong";
 			sourceTree = "<group>";
 		};
 		513434C71C002940008858EE /* Piano */ = {
@@ -543,6 +520,8 @@
 		51CBB2D01BFF6346007040E3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				51A93F781C00734900223A3B /* btn_search@2x.png */,
+				51A93F761C006BE600223A3B /* btn_back_black@2x.png */,
 				127D05301C0066F500F25DB2 /* green_bg.png */,
 				127D052C1C005BA200F25DB2 /* lauchscreen@2x.png */,
 				51346CA11C00352F00E3EDAE /* btn_back@2x.png */,
@@ -590,8 +569,6 @@
 				12601C081BFF9E2C0070F8D2 /* foodmenu.m */,
 				1277349C1C00154600E811A5 /* Comment.h */,
 				1277349D1C00154600E811A5 /* Comment.m */,
-				127D05381C0073BC00F25DB2 /* hoatdong.h */,
-				127D05391C0073BC00F25DB2 /* hoatdong.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -875,6 +852,7 @@
 				127734BD1C00350200E811A5 /* P200 Piano C7.caf in Resources */,
 				12601BD11BFF66110070F8D2 /* separate.png in Resources */,
 				513434A51BFFEAE3008858EE /* btn_cancel@2x.png in Resources */,
+				51A93F771C006BE600223A3B /* btn_back_black@2x.png in Resources */,
 				51D4497D1BFF82E0001121C7 /* users.json in Resources */,
 				51CBB2B51BFF5FCA007040E3 /* background@2x.png in Resources */,
 				12601B701BFF54A50070F8D2 /* SchoolDetailViewController.xib in Resources */,
@@ -894,6 +872,7 @@
 				127734BC1C00350200E811A5 /* P200 Piano A#7.caf in Resources */,
 				51CBB2CD1BFF6344007040E3 /* img4_1.png in Resources */,
 				127734BE1C00350200E811A5 /* P200 Piano C10.caf in Resources */,
+				51A93F791C00734900223A3B /* btn_search@2x.png in Resources */,
 				51CBB2CC1BFF6344007040E3 /* img3_3.png in Resources */,
 				513434B01C000368008858EE /* NoticeView.xib in Resources */,
 				127734C71C00350200E811A5 /* P200 Piano F#4.caf in Resources */,
@@ -914,7 +893,6 @@
 				127734C61C00350200E811A5 /* P200 Piano F#3.caf in Resources */,
 				513434B81C000F46008858EE /* btn_function@2x.png in Resources */,
 				51CBB2C81BFF6344007040E3 /* img2_2.png in Resources */,
-				127D053F1C00796900F25DB2 /* HoatDongCellTableViewCell.xib in Resources */,
 				51CBB2CF1BFF6344007040E3 /* img4_3.png in Resources */,
 				127734B81C00350200E811A5 /* P200 Piano A#2.caf in Resources */,
 				127734C21C00350200E811A5 /* P200 Piano D4.caf in Resources */,
@@ -928,14 +906,13 @@
 				513434B41C000E94008858EE /* btn_login@2x.png in Resources */,
 				127734C91C00350200E811A5 /* P200 Piano F#6.caf in Resources */,
 				C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */,
-				513434C61C002939008858EE /* PianoViewController.xib in Resources */,
 				51CBB2A41BFF3ED1007040E3 /* SchoolCell.xib in Resources */,
 				12601C061BFF9DC00070F8D2 /* menu.json in Resources */,
+				51A93F751C00692000223A3B /* PianoViewController.xib in Resources */,
 				513434A31BFFE517008858EE /* AddHealth.xib in Resources */,
 				127734CC1C00350200E811A5 /* Piano.plist in Resources */,
 				51CBB2C91BFF6344007040E3 /* img2_3.png in Resources */,
 				127734CA1C00350200E811A5 /* P200 Piano F#7.caf in Resources */,
-				127D05371C0072FD00F25DB2 /* HoatDongViewController.xib in Resources */,
 				12601BE21BFF748C0070F8D2 /* img_map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -997,13 +974,12 @@
 				51346C9F1C00342A00E3EDAE /* OpenALSupport.c in Sources */,
 				513434AE1C000356008858EE /* NoticeView.m in Sources */,
 				51D449811BFF87C7001121C7 /* User.m in Sources */,
-				127D05361C0072FD00F25DB2 /* HoatDongViewController.m in Sources */,
 				12601B641BFF4FCE0070F8D2 /* FunctionViewController.m in Sources */,
-				127D053A1C0073BC00F25DB2 /* hoatdong.m in Sources */,
 				5134350A1C002E25008858EE /* BaseNavigationController.m in Sources */,
 				513434BF1C002154008858EE /* WriteComment.m in Sources */,
 				51CBB2A91BFF49D3007040E3 /* LoginViewController.m in Sources */,
 				127734911C000F3D00E811A5 /* Utils.m in Sources */,
+				51A93F741C00692000223A3B /* PianoViewController.m in Sources */,
 				12601B471BFF484C0070F8D2 /* RateView.m in Sources */,
 				12601B4A1BFF49D30070F8D2 /* School.m in Sources */,
 				12601B6F1BFF54A50070F8D2 /* SchoolDetailViewController.m in Sources */,
@@ -1012,7 +988,6 @@
 				C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */,
 				12601C091BFF9E2C0070F8D2 /* foodmenu.m in Sources */,
 				12601BF11BFF88680070F8D2 /* ThucDonViewController.m in Sources */,
-				513434C51C002939008858EE /* PianoViewController.m in Sources */,
 				51CBB29C1BFF3D9C007040E3 /* ListSchoolViewController.m in Sources */,
 				C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */,
 				51D449A21BFF9C57001121C7 /* HealthCell.m in Sources */,
@@ -1021,7 +996,6 @@
 				51CBB2A31BFF3ED1007040E3 /* SchoolCell.m in Sources */,
 				127734901C000F3D00E811A5 /* Reachability.m in Sources */,
 				125CF4051BFF3C040049D6D8 /* KASlideShow.m in Sources */,
-				127D053E1C00796900F25DB2 /* HoatDongCellTableViewCell.m in Sources */,
 				127734951C000F5600E811A5 /* RateViewController.m in Sources */,
 				51D449AE1BFFB70D001121C7 /* AddHealth.m in Sources */,
 				513434A11BFFE387008858EE /* KLCPopup.m in Sources */,

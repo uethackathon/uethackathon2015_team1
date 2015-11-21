@@ -1,42 +1,22 @@
 //
-//  MainViewController.m
-//  piano
+//  PianoViewController.m
+//  BabeSchool
 //
 //  Created by Truong Huu Thao on 11/21/15.
-//  Copyright (c) 2015 Truong Huu Thao. All rights reserved.
+//  Copyright © 2015 Nguyễn Chí Hoàng. All rights reserved.
 //
 
 #import "PianoViewController.h"
 #import "SoundBankPlayer.h"
 
 @interface PianoViewController ()
-{
-    SoundBankPlayer *soundBankPlayer;
-    NSArray *arrMusicalNotes;
-    NSInteger playing;
-}
-@property (weak, nonatomic) IBOutlet UIButton *btnDo;
-@property (weak, nonatomic) IBOutlet UIButton *btnRe;
 @property (weak, nonatomic) UIButton *currentButton;
 @end
 
-@implementation PianoViewController
-
-- (BOOL)prefersStatusBarHidden {
-    return YES;
-}
-
-- (BOOL)shouldAutorotate
-{
-    return NO;
-}
-
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskLandscape;
-}
-- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
-{
-    return UIInterfaceOrientationLandscapeLeft;
+@implementation PianoViewController {
+    SoundBankPlayer *soundBankPlayer;
+    NSArray *arrMusicalNotes;
+    NSInteger playing;
 }
 
 - (void)viewDidLoad {
@@ -50,7 +30,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-
 #pragma mark - Setup View Controller
 - (void) setupVC {
     soundBankPlayer = [[SoundBankPlayer alloc] init];
@@ -58,6 +37,18 @@
     arrMusicalNotes = [NSArray arrayWithObjects:@"60", @"62", @"64", @"65", @"67", @"69", @"71", @"72", nil];
     UIPanGestureRecognizer *gestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleDrag:)];
     [self.view addGestureRecognizer:gestureRecognizer];
+}
+
+- (BOOL)shouldAutorotate {
+    return NO;
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation {
+    return UIInterfaceOrientationLandscapeLeft; // or Right of course
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskLandscape;
 }
 
 - (void)handleDrag:(UIPanGestureRecognizer *)gestureRecognizer
@@ -93,6 +84,7 @@
     [soundBankPlayer queueNote:numOfNote gain:1.0f];
     [soundBankPlayer playQueuedNotes];
 }
+
 - (IBAction)btnBackClick:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
