@@ -133,9 +133,9 @@
 		C3CE20B71C00C1E600624D99 /* btn_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CE20B61C00C1E600624D99 /* btn_menu@2x.png */; };
 		C3CE20B91C00CA9B00624D99 /* btn_healthcare@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CE20B81C00CA9B00624D99 /* btn_healthcare@2x.png */; };
 		C3CE20BB1C00CC1E00624D99 /* btn_contactSchool@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CE20BA1C00CC1E00624D99 /* btn_contactSchool@2x.png */; };
-		C3CE20BD1C00CD6800624D99 /* btn_schoolNews@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CE20BC1C00CD6800624D99 /* btn_schoolNews@2x.png */; };
 		C3CE20BF1C00CE4000624D99 /* btn_liveStream@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CE20BE1C00CE4000624D99 /* btn_liveStream@2x.png */; };
 		C3CE20C11C00D02E00624D99 /* btn_gameforkid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CE20C01C00D02E00624D99 /* btn_gameforkid@2x.png */; };
+		C3CE20C51C00DC3C00624D99 /* btn_news@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CE20C41C00DC3C00624D99 /* btn_news@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -335,9 +335,9 @@
 		C3CE20B61C00C1E600624D99 /* btn_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_menu@2x.png"; path = "Support/Resource/image/btn_menu@2x.png"; sourceTree = "<group>"; };
 		C3CE20B81C00CA9B00624D99 /* btn_healthcare@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_healthcare@2x.png"; path = "Support/Resource/image/btn_healthcare@2x.png"; sourceTree = "<group>"; };
 		C3CE20BA1C00CC1E00624D99 /* btn_contactSchool@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_contactSchool@2x.png"; path = "Support/Resource/image/btn_contactSchool@2x.png"; sourceTree = "<group>"; };
-		C3CE20BC1C00CD6800624D99 /* btn_schoolNews@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_schoolNews@2x.png"; path = "Support/Resource/image/btn_schoolNews@2x.png"; sourceTree = "<group>"; };
 		C3CE20BE1C00CE4000624D99 /* btn_liveStream@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_liveStream@2x.png"; path = "Support/Resource/image/btn_liveStream@2x.png"; sourceTree = "<group>"; };
 		C3CE20C01C00D02E00624D99 /* btn_gameforkid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_gameforkid@2x.png"; path = "Support/Resource/image/btn_gameforkid@2x.png"; sourceTree = "<group>"; };
+		C3CE20C41C00DC3C00624D99 /* btn_news@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_news@2x.png"; path = "Support/Resource/image/btn_news@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -536,9 +536,9 @@
 		51A93F801C00859D00223A3B /* image */ = {
 			isa = PBXGroup;
 			children = (
+				C3CE20C41C00DC3C00624D99 /* btn_news@2x.png */,
 				C3CE20C01C00D02E00624D99 /* btn_gameforkid@2x.png */,
 				C3CE20BE1C00CE4000624D99 /* btn_liveStream@2x.png */,
-				C3CE20BC1C00CD6800624D99 /* btn_schoolNews@2x.png */,
 				C3CE20BA1C00CC1E00624D99 /* btn_contactSchool@2x.png */,
 				C3CE20B81C00CA9B00624D99 /* btn_healthcare@2x.png */,
 				C3CE20B61C00C1E600624D99 /* btn_menu@2x.png */,
@@ -829,7 +829,6 @@
 				C3B39EBF1BFF374D00C4A0EB /* Frameworks */,
 				C3B39EC01BFF374D00C4A0EB /* Resources */,
 				4EA06D8D06FB305BBF7B05E0 /* Copy Pods Resources */,
-				F5B4D098544991EAE9FF3B7B /* Embed Pods Frameworks */,
 				513C92F71C00ACAA00129DA7 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -955,6 +954,7 @@
 				51A93FFC1C00897300223A3B /* P200 Piano A#7.caf in Resources */,
 				51A9406B1C008AAF00223A3B /* img_login.png in Resources */,
 				51A940281C008A3B00223A3B /* users.json in Resources */,
+				C3CE20C51C00DC3C00624D99 /* btn_news@2x.png in Resources */,
 				51A93FFB1C00897300223A3B /* P200 Piano A#5.caf in Resources */,
 				C3B39ED81BFF374D00C4A0EB /* LaunchScreen.storyboard in Resources */,
 				51A93FDE1C0088B100223A3B /* SchoolCell.xib in Resources */,
