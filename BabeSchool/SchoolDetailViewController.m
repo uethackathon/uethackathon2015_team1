@@ -46,8 +46,11 @@
     self.textDetail.font = [UIFont systemFontOfSize:17];
 }
 - (IBAction)btnCostingClicked:(id)sender {
+    NSArray *tempArray =[self.modal.costring componentsSeparatedByString:@"\n"];
+    NSString *mainString =[tempArray componentsJoinedByString:@"\\n"];
+    NSString *content = [self.modal.costring stringByReplacingOccurrencesOfString:@"\\n" withString:@"\n"];
     [self checkBeforeCall];
-    self.textDetail.text=self.modal.costring;
+    self.textDetail.text=content;
     self.textDetail.font = [UIFont systemFontOfSize:17];
 }
 - (IBAction)btnRateClicked:(id)sender {
