@@ -95,9 +95,25 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
 }
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    Comment *cmt =[arrayComments objectAtIndex:indexPath.row];
+    NSDictionary *attributes = @{NSFontAttributeName: [UIFont fontWithName:@"HelveticaNeue" size:18]};
+    // NSString class method: boundingRectWithSize:options:attributes:context is
+    // available only on ios7.0 sdk.
+    CGRect rect = [cmt.content boundingRectWithSize:CGSizeMake(320, CGFLOAT_MAX)
+                                              options:NSStringDrawingUsesLineFragmentOrigin
+                                           attributes:attributes
+                                              context:nil];
+    
+    float heightToAdd = MIN(rect.size.height, 100.0f); //Some fix height is returned if height is small or change it to MAX(textSize.height, 150.0f); // whatever best fits for you
+    
+    return heightToAdd+30;
+}
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell= [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle  reuseIdentifier:@"Cell"];
     Comment *cmt =[arrayComments objectAtIndex:indexPath.row];
+    cell.textLabel.lineBreakMode= NSLineBreakByWordWrapping;
+    cell.textLabel.numberOfLines = 0;
     cell.textLabel.text=cmt.content;
     cell.textLabel.font=[UIFont systemFontOfSize:18.0];
     cell.detailTextLabel.text= [NSString stringWithFormat:@"%@   %@", cmt.userName,cmt.date];
