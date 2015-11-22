@@ -42,7 +42,7 @@
     [writeComment.btnCancel addTarget:self action:@selector(btnCancelClick:) forControlEvents:UIControlEventTouchUpInside];
     [writeComment.layer setCornerRadius:5.0f];
     
-    popup = [KLCPopup popupWithContentView:writeComment];
+    popup = [KLCPopup popupWithContentView:writeComment showType:KLCPopupShowTypeGrowIn dismissType:KLCPopupDismissTypeGrowOut maskType:KLCPopupMaskTypeDimmed dismissOnBackgroundTouch:NO dismissOnContentTouch:NO];
     // Do any additional setup after loading the view from its nib.
 }
 

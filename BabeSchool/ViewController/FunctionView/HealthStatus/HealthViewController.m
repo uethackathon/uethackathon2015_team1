@@ -48,7 +48,7 @@
     [addHealth.btnCancel addTarget:self action:@selector(btnCancelClick:) forControlEvents:UIControlEventTouchUpInside];
     [addHealth.layer setCornerRadius:5.0f];
     addHealth.txtHeight.delegate = self;
-    popup = [KLCPopup popupWithContentView:addHealth];
+    popup = [KLCPopup popupWithContentView:addHealth showType:KLCPopupShowTypeGrowIn dismissType:KLCPopupDismissTypeGrowOut maskType:KLCPopupMaskTypeDimmed dismissOnBackgroundTouch:NO dismissOnContentTouch:NO];
 }
 
 - (void) setupNavigationBar {
