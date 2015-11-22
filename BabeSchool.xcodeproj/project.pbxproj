@@ -123,6 +123,9 @@
 		51A940F31C00A1F700223A3B /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940F01C00A1F700223A3B /* ParseUI.framework */; };
 		51A940FE1C00A39000223A3B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940FD1C00A39000223A3B /* BaseNavigationController.m */; };
 		B7F896246B16724A7E847B8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17461C75361181AA8523F47 /* libPods.a */; };
+		C30A29681C0141F700511A49 /* img5_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C30A29651C0141F700511A49 /* img5_1.png */; };
+		C30A29691C0141F700511A49 /* img5_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C30A29661C0141F700511A49 /* img5_2.png */; };
+		C30A296A1C0141F700511A49 /* img5_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C30A29671C0141F700511A49 /* img5_3.png */; };
 		C3B39EC71BFF374D00C4A0EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC61BFF374D00C4A0EB /* main.m */; };
 		C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */; };
 		C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3B39ED11BFF374D00C4A0EB /* BabeSchool.xcdatamodeld */; };
@@ -318,6 +321,9 @@
 		A02661D9D79C61F4AEDFD976 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B17461C75361181AA8523F47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C5F5C44223DB30D15FF2FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C30A29651C0141F700511A49 /* img5_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img5_1.png; path = Support/Resource/image/img5_1.png; sourceTree = "<group>"; };
+		C30A29661C0141F700511A49 /* img5_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img5_2.png; path = Support/Resource/image/img5_2.png; sourceTree = "<group>"; };
+		C30A29671C0141F700511A49 /* img5_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img5_3.png; path = Support/Resource/image/img5_3.png; sourceTree = "<group>"; };
 		C3B39EC21BFF374D00C4A0EB /* BabeSchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabeSchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B39EC61BFF374D00C4A0EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3B39EC81BFF374D00C4A0EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -536,6 +542,9 @@
 		51A93F801C00859D00223A3B /* image */ = {
 			isa = PBXGroup;
 			children = (
+				C30A29651C0141F700511A49 /* img5_1.png */,
+				C30A29661C0141F700511A49 /* img5_2.png */,
+				C30A29671C0141F700511A49 /* img5_3.png */,
 				C3CE20C41C00DC3C00624D99 /* btn_news@2x.png */,
 				C3CE20C01C00D02E00624D99 /* btn_gameforkid@2x.png */,
 				C3CE20BE1C00CE4000624D99 /* btn_liveStream@2x.png */,
@@ -962,6 +971,7 @@
 				51A9400B1C00897300223A3B /* P200 Piano G#9.caf in Resources */,
 				51A940751C008AAF00223A3B /* img3_1.png in Resources */,
 				51A940681C008AAF00223A3B /* green_bg.png in Resources */,
+				C30A296A1C0141F700511A49 /* img5_3.png in Resources */,
 				C3CE20BB1C00CC1E00624D99 /* btn_contactSchool@2x.png in Resources */,
 				51A93FFD1C00897300223A3B /* P200 Piano C7.caf in Resources */,
 				51A940901C008B2D00223A3B /* RateViewController.xib in Resources */,
@@ -976,6 +986,7 @@
 				51A940C31C00A07B00223A3B /* HoatDongCellTableViewCell.xib in Resources */,
 				51A940071C00897300223A3B /* P200 Piano F#4.caf in Resources */,
 				51A940661C008AAF00223A3B /* btn_logout@2x.png in Resources */,
+				C30A29691C0141F700511A49 /* img5_2.png in Resources */,
 				51A93FFA1C00897300223A3B /* P200 Piano A#4.caf in Resources */,
 				51A93FF91C00897300223A3B /* P200 Piano A#3.caf in Resources */,
 				51A940601C008AAF00223A3B /* btn_back_black@2x.png in Resources */,
@@ -986,6 +997,7 @@
 				51A940651C008AAF00223A3B /* btn_login@2x.png in Resources */,
 				51A940001C00897300223A3B /* P200 Piano D2.caf in Resources */,
 				51A940621C008AAF00223A3B /* btn_cancel@2x.png in Resources */,
+				C30A29681C0141F700511A49 /* img5_1.png in Resources */,
 				51A93FC01C00883300223A3B /* LoginViewController.xib in Resources */,
 				51A9405E1C008AAF00223A3B /* bg_function@2x.png in Resources */,
 				51A940961C008B2D00223A3B /* WriteComment.xib in Resources */,
