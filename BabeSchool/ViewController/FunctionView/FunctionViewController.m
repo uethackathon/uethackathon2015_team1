@@ -49,7 +49,7 @@
     [btnLogout addTarget:self action:@selector(btnLogoutClick:) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btnLogout];
     
-    popup = [KLCPopup popupWithContentView:noticeView];
+        popup = [KLCPopup popupWithContentView:noticeView showType:KLCPopupShowTypeGrowIn dismissType:KLCPopupDismissTypeGrowOut maskType:KLCPopupMaskTypeDimmed dismissOnBackgroundTouch:NO dismissOnContentTouch:NO];
     // Do any additional setup after loading the view from its nib.
 }
 
