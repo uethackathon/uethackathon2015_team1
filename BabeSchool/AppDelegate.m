@@ -26,6 +26,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+
     [self setupNavigationBar];
     [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"BabeSchool"];
     [GMSServices provideAPIKey:@"AIzaSyCUNayYeGzz0Jz3WSjCGloQqVrk7IYx68s"];
@@ -43,11 +45,43 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = navMain;
     [self.window makeKeyAndVisible];
+    
+    /*Push notifilecation */
+    
+    UIUserNotificationType userNotificationTypes = (UIUserNotificationTypeAlert |
+                                                    UIUserNotificationTypeBadge |
+                                                    UIUserNotificationTypeSound);
+    UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:userNotificationTypes
+                                                                             categories:nil];
+    [application registerUserNotificationSettings:settings];
+    [application registerForRemoteNotifications];
     [Parse setApplicationId:@"4mv9cjCD32ZHCBgogMXaB78fDvvvFeT08CjF2ksK"
                   clientKey:@"xVqOAeYwep8oQDi90T76ocMbD6R62UpzYo0hYLKr"];
+    
+
+    //
     // Override point for customization after application launch.
     return YES;
 }
+
+-(void) application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error{
+    NSLog(@"%@ ", error);
+}
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    // Store the deviceToken in the current installation and save it to Parse.
+    PFInstallation *currentInstallation = [PFInstallation currentInstallation];
+    [currentInstallation setDeviceTokenFromData:deviceToken];
+    [currentInstallation saveInBackground];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    [PFPush handlePush:userInfo];
+}
+
+
+
+
+
 
 - (void) setupNavigationBar {
     [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(NAV_BAR_COLOR)];
@@ -84,6 +118,12 @@
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
 }
+
+/* Add Function*/
+
+
+
+
 
 #pragma mark - Core Data stack
 
