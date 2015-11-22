@@ -59,7 +59,7 @@
 }
 -(void)getData{
     PFQuery *query = [PFQuery queryWithClassName:@"HoatDong"];
-    [query orderByDescending:@"createdAt"];
+    [query orderByAscending:@"createdAt"];
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     [query findObjectsInBackgroundWithBlock:^(NSArray * _Nullable objects, NSError * _Nullable error) {
         [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
