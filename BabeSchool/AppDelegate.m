@@ -27,6 +27,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    [Parse setApplicationId:@"4mv9cjCD32ZHCBgogMXaB78fDvvvFeT08CjF2ksK"
+                  clientKey:@"xVqOAeYwep8oQDi90T76ocMbD6R62UpzYo0hYLKr"];
+    
+    UIUserNotificationType userNotificationTypes = (UIUserNotificationTypeAlert |
+                                                    UIUserNotificationTypeBadge |
+                                                    UIUserNotificationTypeSound);
+    UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:userNotificationTypes
+                                                                             categories:nil];
+    [application registerUserNotificationSettings:settings];
+    [application registerForRemoteNotifications];
+
+    
+    
 
     [self setupNavigationBar];
     [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"BabeSchool"];
@@ -48,15 +61,7 @@
     
     /*Push notifilecation */
     
-    UIUserNotificationType userNotificationTypes = (UIUserNotificationTypeAlert |
-                                                    UIUserNotificationTypeBadge |
-                                                    UIUserNotificationTypeSound);
-    UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:userNotificationTypes
-                                                                             categories:nil];
-    [application registerUserNotificationSettings:settings];
-    [application registerForRemoteNotifications];
-    [Parse setApplicationId:@"4mv9cjCD32ZHCBgogMXaB78fDvvvFeT08CjF2ksK"
-                  clientKey:@"xVqOAeYwep8oQDi90T76ocMbD6R62UpzYo0hYLKr"];
+
     
 
     //
