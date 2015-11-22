@@ -1,5 +1,3 @@
-# UET Hackathon 2015 Team1
-#SnapUET Team
-
-
-#Ứng dụng BabeSchool
+UET Hackathon 2015 - SnapUET Team
+---------
+# Ứng dụng BabeSchool
