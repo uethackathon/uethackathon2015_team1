@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SchoolDetailViewController">
             <connections>
+                <outlet property="btnComment" destination="YnF-Ce-5cZ" id="AFn-ep-qfT"/>
+                <outlet property="btnDescribe" destination="z8e-R0-HEY" id="nSL-Ah-kwO"/>
+                <outlet property="btnMap" destination="J9T-0n-W2Z" id="iI9-d1-H3T"/>
+                <outlet property="btnStatistics" destination="Egm-cI-a7I" id="jwF-Yv-O8W"/>
                 <outlet property="textDetail" destination="wFL-CB-rNS" id="8YF-n6-or9"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="viewDetaild" destination="Kl4-Cc-qDS" id="bHp-NQ-FLl"/>
@@ -36,27 +39,30 @@
                             <rect key="frame" x="161" y="0.0" width="77" height="60"/>
                             <color key="backgroundColor" red="0.039215686270000001" green="0.74117647060000003" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
-                            <state key="normal" title="Đánh Giá"/>
+                            <state key="normal" title="Đánh giá" backgroundImage="img_normal.png"/>
+                            <state key="selected" title="Đánh giá" backgroundImage="img_Selected.png"/>
                             <connections>
                                 <action selector="btnRateClicked:" destination="-1" eventType="touchUpInside" id="gAm-uQ-PI6"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9T-0n-W2Z">
-                            <rect key="frame" x="241" y="0.0" width="77" height="58"/>
+                            <rect key="frame" x="241" y="0.0" width="77" height="60"/>
                             <color key="backgroundColor" red="0.039215686270000001" green="0.74117647060000003" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
-                            <state key="normal" title="Bản Đồ"/>
+                            <state key="normal" title="Bản đồ" backgroundImage="img_normal.png"/>
+                            <state key="selected" title="Bản đồ" backgroundImage="img_Selected.png"/>
                             <connections>
                                 <action selector="btnMapClicked:" destination="-1" eventType="touchUpInside" id="pil-hb-4Ng"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egm-cI-a7I">
                             <rect key="frame" x="80" y="0.0" width="77" height="60"/>
-                            <color key="backgroundColor" red="0.039215686270000001" green="0.74117647060000003" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
-                            <state key="normal" title="Thống kê">
+                            <state key="normal" title="Thống kê" backgroundImage="img_normal.png">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <state key="selected" title="Thống kê" backgroundImage="img_Selected.png"/>
                             <connections>
                                 <action selector="btnCostingClicked:" destination="-1" eventType="touchUpInside" id="ZxU-Hi-qwB"/>
                             </connections>
@@ -79,13 +85,14 @@
                                 <constraint firstAttribute="width" constant="3" id="dyV-yP-sb2"/>
                             </constraints>
                         </imageView>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8e-R0-HEY">
+                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8e-R0-HEY">
                             <rect key="frame" x="0.0" y="0.0" width="77" height="60"/>
-                            <color key="backgroundColor" red="0.039215686274509803" green="0.74117647058823533" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
-                            <state key="normal" title="Mô tả">
+                            <state key="normal" title="Mô tả" backgroundImage="img_normal.png">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <state key="selected" title="Mô tả" backgroundImage="img_Selected.png"/>
                             <connections>
                                 <action selector="btnDescribleClicked:" destination="-1" eventType="touchUpInside" id="fDK-ZP-Ht3"/>
                             </connections>
@@ -111,7 +118,7 @@
                         <constraint firstItem="Egm-cI-a7I" firstAttribute="width" secondItem="z8e-R0-HEY" secondAttribute="width" id="Wpo-Ea-fnu"/>
                         <constraint firstItem="h4R-gD-ddc" firstAttribute="top" secondItem="EfP-cY-bQe" secondAttribute="top" id="Yt7-dR-Mbv"/>
                         <constraint firstItem="YnF-Ce-5cZ" firstAttribute="leading" secondItem="K6H-Xf-ahe" secondAttribute="trailing" id="a1j-dk-S3i"/>
-                        <constraint firstAttribute="bottom" secondItem="J9T-0n-W2Z" secondAttribute="bottom" constant="2" id="a24-dO-Tx9"/>
+                        <constraint firstAttribute="bottom" secondItem="J9T-0n-W2Z" secondAttribute="bottom" id="a24-dO-Tx9"/>
                         <constraint firstAttribute="bottom" secondItem="h4R-gD-ddc" secondAttribute="bottom" id="a4Z-B5-AHX"/>
                         <constraint firstItem="YnF-Ce-5cZ" firstAttribute="top" secondItem="EfP-cY-bQe" secondAttribute="top" id="eQu-0O-5Bb"/>
                         <constraint firstItem="Egm-cI-a7I" firstAttribute="leading" secondItem="VxV-lK-i7U" secondAttribute="trailing" id="fc1-TU-5xQ"/>
@@ -178,6 +185,8 @@
     <resources>
         <image name="bg_btn.png" width="1080" height="200"/>
         <image name="green_bg.png" width="1300" height="1042"/>
+        <image name="img_Selected.png" width="80" height="60"/>
+        <image name="img_normal.png" width="80" height="60"/>
         <image name="separate.png" width="2" height="67"/>
     </resources>
 </document>

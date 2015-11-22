@@ -13,6 +13,7 @@
 #import "AddHealth.h"
 #import <Parse/Parse.h>
 #import <MBProgressHUD.h>
+#import "MyLib.h"
 
 @interface HealthViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableHealth;
@@ -97,26 +98,32 @@
 }
 
 - (void) btnDoneClick: (UIButton*) button {
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    dateFormatter.dateFormat = @"dd/MM/yyyy";
+    if (addHealth.txtHeight.text.length > 0 && addHealth.txtWeight.text.length > 0 && [MyLib isNumber:addHealth.txtHeight.text] && [MyLib isNumber:addHealth.txtWeight.text]) {
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        dateFormatter.dateFormat = @"dd/MM/yyyy";
     
-    Health *health = [arrayHealths objectAtIndex:0];
+        Health *health = [arrayHealths objectAtIndex:0];
     
-    PFObject *newHealth = [PFObject objectWithClassName:@"Health"];
-    newHealth[@"healthId"] = [NSNumber numberWithInteger:(health.healthId + 1)];
-    newHealth[@"height"] =  [NSNumber numberWithFloat:[addHealth.txtHeight.text floatValue]];
-    newHealth[@"weight"] = [NSNumber numberWithFloat:[addHealth.txtWeight.text floatValue]];
-    newHealth[@"date"] =  [dateFormatter stringFromDate:[NSDate date]];
+        PFObject *newHealth = [PFObject objectWithClassName:@"Health"];
+        newHealth[@"healthId"] = [NSNumber numberWithInteger:(health.healthId + 1)];
+        newHealth[@"height"] =  [NSNumber numberWithFloat:[addHealth.txtHeight.text floatValue]];
+        newHealth[@"weight"] = [NSNumber numberWithFloat:[addHealth.txtWeight.text floatValue]];
+        newHealth[@"date"] =  [dateFormatter stringFromDate:[NSDate date]];
     
-    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    [newHealth saveInBackgroundWithBlock:^(BOOL succeeded, NSError * _Nullable error) {
-        [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
-        [self doLoadHealth];
-    }];
+        [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+        [newHealth saveInBackgroundWithBlock:^(BOOL succeeded, NSError * _Nullable error) {
+            [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+            [self doLoadHealth];
+        }];
     
-    [popup dismiss:YES];
-    addHealth.txtHeight.text = @"";
-    addHealth.txtWeight.text = @"";
+        [popup dismiss:YES];
+        addHealth.txtHeight.text = @"";
+        addHealth.txtWeight.text = @"";
+    }
+    else {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"Bạn nhập không đúng định dạng" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alert show];
+    }
 }
 
 - (void) btnCancelClick: (UIButton*) button {

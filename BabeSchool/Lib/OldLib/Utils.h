@@ -1,10 +1,6 @@
 //
-//  Utils.h
-//  Hey Friend
 //
-//  Created by Dang Nguyen on 12/13/14.
-//  Copyright (c) 2014 Dang Nguyen. All rights reserved.
-//
+// My libarary for all project
 
 
 #import <Foundation/Foundation.h>
