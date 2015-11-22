@@ -13,4 +13,5 @@
 + (BOOL) logined;
 + (NSString*) checkBMI: (CGFloat) height :(CGFloat) weight;
 + (NSString *)normalizeVietnameseString:(NSString *)str;
++ (BOOL) isNumber: (NSString*) inputNumber;
 @end
