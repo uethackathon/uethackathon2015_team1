@@ -16,6 +16,11 @@
 @property (weak, nonatomic) IBOutlet UIView *viewSlideImage;
 @property (weak, nonatomic) IBOutlet UIView *viewDetaild;
 @property (weak, nonatomic) IBOutlet UITextView *textDetail;
+@property (weak, nonatomic) IBOutlet UIButton *btnDescribe;
+
+@property (weak, nonatomic) IBOutlet UIButton *btnStatistics;
+@property (weak, nonatomic) IBOutlet UIButton *btnComment;
+@property (weak, nonatomic) IBOutlet UIButton *btnMap;
 
 @end
 
@@ -42,18 +47,24 @@
 }
 - (IBAction)btnDescribleClicked:(id)sender {
     [self checkBeforeCall];
+    [self setAllUnselected];
+    _btnDescribe.selected = YES;
     self.textDetail.text=self.modal.describle;
     self.textDetail.font = [UIFont systemFontOfSize:17];
 }
 - (IBAction)btnCostingClicked:(id)sender {
     NSString *content = [self.modal.costring stringByReplacingOccurrencesOfString:@"\\n" withString:@"\n"];
     [self checkBeforeCall];
+    [self setAllUnselected];
+    _btnStatistics.selected = YES;
     self.textDetail.text=content;
     self.textDetail.font = [UIFont systemFontOfSize:17];
 }
 - (IBAction)btnRateClicked:(id)sender {
     self.textDetail.text=nil;
     [self checkBeforeCall];
+    [self setAllUnselected];
+    _btnComment.selected = YES;
     if (!addedRate) {
         CommentViewController *V2 = [[CommentViewController alloc]initWithNibName:@"CommentViewController" bundle:nil];//assuming V2 is name of your nib as well
         // Call Rate screen
@@ -69,6 +80,8 @@
     
 }
 - (IBAction)btnMapClicked:(id)sender {
+    [self setAllUnselected];
+    _btnMap.selected = YES;
     if(!addedGoogleMap){
         GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:self.modal.local_x
                                                                 longitude:self.modal.local_y
@@ -119,6 +132,12 @@
     [self.viewSlideImage addGestureRecognizer:swiperight];
 }
 
+- (void) setAllUnselected {
+    _btnDescribe.selected = NO;
+    _btnStatistics.selected = NO;
+    _btnComment.selected = NO;
+    _btnMap.selected = NO;
+}
 -(void)swipeleft:(UISwipeGestureRecognizer*)gestureRecognizer
 {
     [_slideshow previous];

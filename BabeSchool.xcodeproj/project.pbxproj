@@ -12,6 +12,8 @@
 		127734631BFFE6C400E811A5 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127734601BFFE6C400E811A5 /* ParseUI.framework */; };
 		127734661BFFE93600E811A5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 127734641BFFE93600E811A5 /* libsqlite3.0.tbd */; };
 		127734671BFFE93600E811A5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 127734651BFFE93600E811A5 /* libsqlite3.tbd */; };
+		5131010E1C015B77005403D5 /* img_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5131010C1C015B77005403D5 /* img_normal@2x.png */; };
+		5131010F1C015B77005403D5 /* img_Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5131010D1C015B77005403D5 /* img_Selected@2x.png */; };
 		513434CD1C00297A008858EE /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434CC1C00297A008858EE /* CoreAudio.framework */; };
 		513434CF1C002983008858EE /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434CE1C002983008858EE /* CoreMIDI.framework */; };
 		513434D11C00298B008858EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513434D01C00298B008858EE /* AVFoundation.framework */; };
@@ -175,6 +177,8 @@
 		127734601BFFE6C400E811A5 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "BabeSchool/parse-library-1.10.0/ParseUI.framework"; sourceTree = "<group>"; };
 		127734641BFFE93600E811A5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		127734651BFFE93600E811A5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5131010C1C015B77005403D5 /* img_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "img_normal@2x.png"; path = "Support/Resource/image/img_normal@2x.png"; sourceTree = "<group>"; };
+		5131010D1C015B77005403D5 /* img_Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "img_Selected@2x.png"; path = "Support/Resource/image/img_Selected@2x.png"; sourceTree = "<group>"; };
 		513434CC1C00297A008858EE /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		513434CE1C002983008858EE /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		513434D01C00298B008858EE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -534,6 +538,8 @@
 		51A93F801C00859D00223A3B /* image */ = {
 			isa = PBXGroup;
 			children = (
+				5131010C1C015B77005403D5 /* img_normal@2x.png */,
+				5131010D1C015B77005403D5 /* img_Selected@2x.png */,
 				C30A29651C0141F700511A49 /* img5_1.png */,
 				C30A29661C0141F700511A49 /* img5_2.png */,
 				C30A29671C0141F700511A49 /* img5_3.png */,
@@ -936,6 +942,7 @@
 				51A93FFE1C00897300223A3B /* P200 Piano C10.caf in Resources */,
 				51A940701C008AAF00223A3B /* img1_2.png in Resources */,
 				51A940061C00897300223A3B /* P200 Piano F#3.caf in Resources */,
+				5131010F1C015B77005403D5 /* img_Selected@2x.png in Resources */,
 				51A9405F1C008AAF00223A3B /* bg_menu@2x.png in Resources */,
 				51A9405C1C008AAF00223A3B /* background@2x.png in Resources */,
 				51A93FFF1C00897300223A3B /* P200 Piano D#8.caf in Resources */,
@@ -954,6 +961,7 @@
 				51A93FFC1C00897300223A3B /* P200 Piano A#7.caf in Resources */,
 				51A9406B1C008AAF00223A3B /* img_login.png in Resources */,
 				51A940281C008A3B00223A3B /* users.json in Resources */,
+				5131010E1C015B77005403D5 /* img_normal@2x.png in Resources */,
 				C3CE20C51C00DC3C00624D99 /* btn_news@2x.png in Resources */,
 				51A93FFB1C00897300223A3B /* P200 Piano A#5.caf in Resources */,
 				C3B39ED81BFF374D00C4A0EB /* LaunchScreen.storyboard in Resources */,
