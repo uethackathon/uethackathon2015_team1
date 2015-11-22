@@ -13,6 +13,7 @@
 #import "AddHealth.h"
 #import <Parse/Parse.h>
 #import <MBProgressHUD.h>
+#import "MyLib.h"
 
 @interface HealthViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableHealth;
@@ -97,6 +98,7 @@
 }
 
 - (void) btnDoneClick: (UIButton*) button {
+    if (addHealth.txtHeight.text.length > 0 && addHealth.txtWeight.text.length > 0 && [MyLib isNumber:addHealth.txtHeight.text] && [MyLib isNumber:addHealth.txtWeight.text]) {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     dateFormatter.dateFormat = @"dd/MM/yyyy";
     
@@ -117,6 +119,7 @@
     [popup dismiss:YES];
     addHealth.txtHeight.text = @"";
     addHealth.txtWeight.text = @"";
+    }
 }
 
 - (void) btnCancelClick: (UIButton*) button {
