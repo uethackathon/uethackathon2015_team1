@@ -1,5 +1,5 @@
 //
-//  VietBLViewController.h
+//  HoatDongViewController.h
 //  BabeSchool
 //
 //  Created by thjnh195 on 11/21/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VietBLViewController : UIViewController
+@interface ActivityViewController : UIViewController
 
 @end

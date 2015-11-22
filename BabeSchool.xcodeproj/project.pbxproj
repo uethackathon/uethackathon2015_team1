@@ -87,12 +87,10 @@
 		51A9407A1C008AAF00223A3B /* img4_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A940591C008AAF00223A3B /* img4_3.png */; };
 		51A9407B1C008AAF00223A3B /* lauchscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9405A1C008AAF00223A3B /* lauchscreen@2x.png */; };
 		51A9407C1C008AAF00223A3B /* separate.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A9405B1C008AAF00223A3B /* separate.png */; };
-		51A9408F1C008B2D00223A3B /* RateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940841C008B2D00223A3B /* RateViewController.m */; };
-		51A940901C008B2D00223A3B /* RateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940851C008B2D00223A3B /* RateViewController.xib */; };
+		51A9408F1C008B2D00223A3B /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940841C008B2D00223A3B /* CommentViewController.m */; };
+		51A940901C008B2D00223A3B /* CommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940851C008B2D00223A3B /* CommentViewController.xib */; };
 		51A940911C008B2D00223A3B /* SchoolDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940871C008B2D00223A3B /* SchoolDetailViewController.m */; };
 		51A940921C008B2D00223A3B /* SchoolDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940881C008B2D00223A3B /* SchoolDetailViewController.xib */; };
-		51A940931C008B2D00223A3B /* VietBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A9408A1C008B2D00223A3B /* VietBLViewController.m */; };
-		51A940941C008B2D00223A3B /* VietBLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A9408B1C008B2D00223A3B /* VietBLViewController.xib */; };
 		51A940951C008B2D00223A3B /* WriteComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A9408D1C008B2D00223A3B /* WriteComment.m */; };
 		51A940961C008B2D00223A3B /* WriteComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A9408E1C008B2D00223A3B /* WriteComment.xib */; };
 		51A940B21C00A04500223A3B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940AF1C00A04500223A3B /* Reachability.m */; };
@@ -100,29 +98,32 @@
 		51A940B61C00A04D00223A3B /* MyLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940B51C00A04D00223A3B /* MyLib.m */; };
 		51A940BA1C00A06F00223A3B /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940B81C00A06F00223A3B /* FunctionViewController.m */; };
 		51A940BB1C00A06F00223A3B /* FunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940B91C00A06F00223A3B /* FunctionViewController.xib */; };
-		51A940C21C00A07B00223A3B /* HoatDongCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940BD1C00A07B00223A3B /* HoatDongCellTableViewCell.m */; };
-		51A940C31C00A07B00223A3B /* HoatDongCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940BE1C00A07B00223A3B /* HoatDongCellTableViewCell.xib */; };
-		51A940C41C00A07B00223A3B /* HoatDongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940C01C00A07B00223A3B /* HoatDongViewController.m */; };
-		51A940C51C00A07B00223A3B /* HoatDongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940C11C00A07B00223A3B /* HoatDongViewController.xib */; };
+		51A940C21C00A07B00223A3B /* ActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940BD1C00A07B00223A3B /* ActivityCell.m */; };
+		51A940C31C00A07B00223A3B /* ActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940BE1C00A07B00223A3B /* ActivityCell.xib */; };
+		51A940C41C00A07B00223A3B /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940C01C00A07B00223A3B /* ActivityViewController.m */; };
+		51A940C51C00A07B00223A3B /* ActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940C11C00A07B00223A3B /* ActivityViewController.xib */; };
 		51A940C91C00A08500223A3B /* PianoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940C71C00A08500223A3B /* PianoViewController.m */; };
 		51A940CA1C00A08500223A3B /* PianoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940C81C00A08500223A3B /* PianoViewController.xib */; };
 		51A940CE1C00A09000223A3B /* NoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940CC1C00A09000223A3B /* NoticeView.m */; };
 		51A940CF1C00A09000223A3B /* NoticeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940CD1C00A09000223A3B /* NoticeView.xib */; };
-		51A940D31C00A09A00223A3B /* ThucDonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940D11C00A09A00223A3B /* ThucDonViewController.m */; };
-		51A940D41C00A09A00223A3B /* ThucDonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940D21C00A09A00223A3B /* ThucDonViewController.xib */; };
+		51A940D31C00A09A00223A3B /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940D11C00A09A00223A3B /* MenuViewController.m */; };
+		51A940D41C00A09A00223A3B /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940D21C00A09A00223A3B /* MenuViewController.xib */; };
 		51A940D81C00A0AF00223A3B /* LiveStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940D61C00A0AF00223A3B /* LiveStreamViewController.m */; };
 		51A940D91C00A0AF00223A3B /* LiveStreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940D71C00A0AF00223A3B /* LiveStreamViewController.xib */; };
 		51A940E61C00A0BC00223A3B /* AddHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940DB1C00A0BC00223A3B /* AddHealth.m */; };
 		51A940E71C00A0BC00223A3B /* AddHealth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940DC1C00A0BC00223A3B /* AddHealth.xib */; };
 		51A940E81C00A0BC00223A3B /* HealthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940DE1C00A0BC00223A3B /* HealthCell.m */; };
 		51A940E91C00A0BC00223A3B /* HealthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940DF1C00A0BC00223A3B /* HealthCell.xib */; };
-		51A940EC1C00A0BC00223A3B /* SucKhoeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940E41C00A0BC00223A3B /* SucKhoeViewController.m */; };
-		51A940ED1C00A0BC00223A3B /* SucKhoeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940E51C00A0BC00223A3B /* SucKhoeViewController.xib */; };
+		51A940EC1C00A0BC00223A3B /* HealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940E41C00A0BC00223A3B /* HealthViewController.m */; };
+		51A940ED1C00A0BC00223A3B /* HealthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A940E51C00A0BC00223A3B /* HealthViewController.xib */; };
 		51A940F11C00A1F700223A3B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940EE1C00A1F700223A3B /* Bolts.framework */; };
 		51A940F21C00A1F700223A3B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940EF1C00A1F700223A3B /* Parse.framework */; };
 		51A940F31C00A1F700223A3B /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A940F01C00A1F700223A3B /* ParseUI.framework */; };
 		51A940FE1C00A39000223A3B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A940FD1C00A39000223A3B /* BaseNavigationController.m */; };
 		B7F896246B16724A7E847B8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17461C75361181AA8523F47 /* libPods.a */; };
+		C30A29681C0141F700511A49 /* img5_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C30A29651C0141F700511A49 /* img5_1.png */; };
+		C30A29691C0141F700511A49 /* img5_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C30A29661C0141F700511A49 /* img5_2.png */; };
+		C30A296A1C0141F700511A49 /* img5_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C30A29671C0141F700511A49 /* img5_3.png */; };
 		C3B39EC71BFF374D00C4A0EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC61BFF374D00C4A0EB /* main.m */; };
 		C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B39EC91BFF374D00C4A0EB /* AppDelegate.m */; };
 		C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3B39ED11BFF374D00C4A0EB /* BabeSchool.xcdatamodeld */; };
@@ -262,15 +263,12 @@
 		51A940591C008AAF00223A3B /* img4_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img4_3.png; path = Support/Resource/image/img4_3.png; sourceTree = "<group>"; };
 		51A9405A1C008AAF00223A3B /* lauchscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lauchscreen@2x.png"; path = "Support/Resource/image/lauchscreen@2x.png"; sourceTree = "<group>"; };
 		51A9405B1C008AAF00223A3B /* separate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = separate.png; path = Support/Resource/image/separate.png; sourceTree = "<group>"; };
-		51A940831C008B2D00223A3B /* RateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RateViewController.h; path = "ViewController/School/School Detail/RateViewController.h"; sourceTree = "<group>"; };
-		51A940841C008B2D00223A3B /* RateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RateViewController.m; path = "ViewController/School/School Detail/RateViewController.m"; sourceTree = "<group>"; };
-		51A940851C008B2D00223A3B /* RateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RateViewController.xib; path = "ViewController/School/School Detail/RateViewController.xib"; sourceTree = "<group>"; };
+		51A940831C008B2D00223A3B /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommentViewController.h; path = "ViewController/School/School Detail/CommentViewController.h"; sourceTree = "<group>"; };
+		51A940841C008B2D00223A3B /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommentViewController.m; path = "ViewController/School/School Detail/CommentViewController.m"; sourceTree = "<group>"; };
+		51A940851C008B2D00223A3B /* CommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CommentViewController.xib; path = "ViewController/School/School Detail/CommentViewController.xib"; sourceTree = "<group>"; };
 		51A940861C008B2D00223A3B /* SchoolDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolDetailViewController.h; path = "ViewController/School/School Detail/SchoolDetailViewController.h"; sourceTree = "<group>"; };
 		51A940871C008B2D00223A3B /* SchoolDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolDetailViewController.m; path = "ViewController/School/School Detail/SchoolDetailViewController.m"; sourceTree = "<group>"; };
 		51A940881C008B2D00223A3B /* SchoolDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SchoolDetailViewController.xib; path = "ViewController/School/School Detail/SchoolDetailViewController.xib"; sourceTree = "<group>"; };
-		51A940891C008B2D00223A3B /* VietBLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VietBLViewController.h; path = "ViewController/School/School Detail/VietBLViewController.h"; sourceTree = "<group>"; };
-		51A9408A1C008B2D00223A3B /* VietBLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VietBLViewController.m; path = "ViewController/School/School Detail/VietBLViewController.m"; sourceTree = "<group>"; };
-		51A9408B1C008B2D00223A3B /* VietBLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VietBLViewController.xib; path = "ViewController/School/School Detail/VietBLViewController.xib"; sourceTree = "<group>"; };
 		51A9408C1C008B2D00223A3B /* WriteComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WriteComment.h; path = "ViewController/School/School Detail/WriteComment.h"; sourceTree = "<group>"; };
 		51A9408D1C008B2D00223A3B /* WriteComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WriteComment.m; path = "ViewController/School/School Detail/WriteComment.m"; sourceTree = "<group>"; };
 		51A9408E1C008B2D00223A3B /* WriteComment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WriteComment.xib; path = "ViewController/School/School Detail/WriteComment.xib"; sourceTree = "<group>"; };
@@ -283,21 +281,21 @@
 		51A940B71C00A06F00223A3B /* FunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FunctionViewController.h; path = ViewController/FunctionView/FunctionViewController.h; sourceTree = "<group>"; };
 		51A940B81C00A06F00223A3B /* FunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FunctionViewController.m; path = ViewController/FunctionView/FunctionViewController.m; sourceTree = "<group>"; };
 		51A940B91C00A06F00223A3B /* FunctionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FunctionViewController.xib; path = ViewController/FunctionView/FunctionViewController.xib; sourceTree = "<group>"; };
-		51A940BC1C00A07B00223A3B /* HoatDongCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HoatDongCellTableViewCell.h; path = ViewController/FunctionView/Activity/HoatDongCellTableViewCell.h; sourceTree = "<group>"; };
-		51A940BD1C00A07B00223A3B /* HoatDongCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HoatDongCellTableViewCell.m; path = ViewController/FunctionView/Activity/HoatDongCellTableViewCell.m; sourceTree = "<group>"; };
-		51A940BE1C00A07B00223A3B /* HoatDongCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HoatDongCellTableViewCell.xib; path = ViewController/FunctionView/Activity/HoatDongCellTableViewCell.xib; sourceTree = "<group>"; };
-		51A940BF1C00A07B00223A3B /* HoatDongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HoatDongViewController.h; path = ViewController/FunctionView/Activity/HoatDongViewController.h; sourceTree = "<group>"; };
-		51A940C01C00A07B00223A3B /* HoatDongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HoatDongViewController.m; path = ViewController/FunctionView/Activity/HoatDongViewController.m; sourceTree = "<group>"; };
-		51A940C11C00A07B00223A3B /* HoatDongViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HoatDongViewController.xib; path = ViewController/FunctionView/Activity/HoatDongViewController.xib; sourceTree = "<group>"; };
+		51A940BC1C00A07B00223A3B /* ActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityCell.h; path = ViewController/FunctionView/Activity/ActivityCell.h; sourceTree = "<group>"; };
+		51A940BD1C00A07B00223A3B /* ActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityCell.m; path = ViewController/FunctionView/Activity/ActivityCell.m; sourceTree = "<group>"; };
+		51A940BE1C00A07B00223A3B /* ActivityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ActivityCell.xib; path = ViewController/FunctionView/Activity/ActivityCell.xib; sourceTree = "<group>"; };
+		51A940BF1C00A07B00223A3B /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityViewController.h; path = ViewController/FunctionView/Activity/ActivityViewController.h; sourceTree = "<group>"; };
+		51A940C01C00A07B00223A3B /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityViewController.m; path = ViewController/FunctionView/Activity/ActivityViewController.m; sourceTree = "<group>"; };
+		51A940C11C00A07B00223A3B /* ActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ActivityViewController.xib; path = ViewController/FunctionView/Activity/ActivityViewController.xib; sourceTree = "<group>"; };
 		51A940C61C00A08500223A3B /* PianoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PianoViewController.h; path = ViewController/FunctionView/Game/PianoViewController.h; sourceTree = "<group>"; };
 		51A940C71C00A08500223A3B /* PianoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PianoViewController.m; path = ViewController/FunctionView/Game/PianoViewController.m; sourceTree = "<group>"; };
 		51A940C81C00A08500223A3B /* PianoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PianoViewController.xib; path = ViewController/FunctionView/Game/PianoViewController.xib; sourceTree = "<group>"; };
 		51A940CB1C00A09000223A3B /* NoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoticeView.h; path = ViewController/FunctionView/Notice/NoticeView.h; sourceTree = "<group>"; };
 		51A940CC1C00A09000223A3B /* NoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoticeView.m; path = ViewController/FunctionView/Notice/NoticeView.m; sourceTree = "<group>"; };
 		51A940CD1C00A09000223A3B /* NoticeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoticeView.xib; path = ViewController/FunctionView/Notice/NoticeView.xib; sourceTree = "<group>"; };
-		51A940D01C00A09A00223A3B /* ThucDonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThucDonViewController.h; path = ViewController/FunctionView/Menu/ThucDonViewController.h; sourceTree = "<group>"; };
-		51A940D11C00A09A00223A3B /* ThucDonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThucDonViewController.m; path = ViewController/FunctionView/Menu/ThucDonViewController.m; sourceTree = "<group>"; };
-		51A940D21C00A09A00223A3B /* ThucDonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThucDonViewController.xib; path = ViewController/FunctionView/Menu/ThucDonViewController.xib; sourceTree = "<group>"; };
+		51A940D01C00A09A00223A3B /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ViewController/FunctionView/Menu/MenuViewController.h; sourceTree = "<group>"; };
+		51A940D11C00A09A00223A3B /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ViewController/FunctionView/Menu/MenuViewController.m; sourceTree = "<group>"; };
+		51A940D21C00A09A00223A3B /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuViewController.xib; path = ViewController/FunctionView/Menu/MenuViewController.xib; sourceTree = "<group>"; };
 		51A940D51C00A0AF00223A3B /* LiveStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LiveStreamViewController.h; path = ViewController/FunctionView/LiveStream/LiveStreamViewController.h; sourceTree = "<group>"; };
 		51A940D61C00A0AF00223A3B /* LiveStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LiveStreamViewController.m; path = ViewController/FunctionView/LiveStream/LiveStreamViewController.m; sourceTree = "<group>"; };
 		51A940D71C00A0AF00223A3B /* LiveStreamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LiveStreamViewController.xib; path = ViewController/FunctionView/LiveStream/LiveStreamViewController.xib; sourceTree = "<group>"; };
@@ -307,9 +305,9 @@
 		51A940DD1C00A0BC00223A3B /* HealthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HealthCell.h; path = ViewController/FunctionView/HealthStatus/HealthCell.h; sourceTree = "<group>"; };
 		51A940DE1C00A0BC00223A3B /* HealthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HealthCell.m; path = ViewController/FunctionView/HealthStatus/HealthCell.m; sourceTree = "<group>"; };
 		51A940DF1C00A0BC00223A3B /* HealthCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HealthCell.xib; path = ViewController/FunctionView/HealthStatus/HealthCell.xib; sourceTree = "<group>"; };
-		51A940E31C00A0BC00223A3B /* SucKhoeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SucKhoeViewController.h; path = ViewController/FunctionView/HealthStatus/SucKhoeViewController.h; sourceTree = "<group>"; };
-		51A940E41C00A0BC00223A3B /* SucKhoeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SucKhoeViewController.m; path = ViewController/FunctionView/HealthStatus/SucKhoeViewController.m; sourceTree = "<group>"; };
-		51A940E51C00A0BC00223A3B /* SucKhoeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SucKhoeViewController.xib; path = ViewController/FunctionView/HealthStatus/SucKhoeViewController.xib; sourceTree = "<group>"; };
+		51A940E31C00A0BC00223A3B /* HealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HealthViewController.h; path = ViewController/FunctionView/HealthStatus/HealthViewController.h; sourceTree = "<group>"; };
+		51A940E41C00A0BC00223A3B /* HealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HealthViewController.m; path = ViewController/FunctionView/HealthStatus/HealthViewController.m; sourceTree = "<group>"; };
+		51A940E51C00A0BC00223A3B /* HealthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HealthViewController.xib; path = ViewController/FunctionView/HealthStatus/HealthViewController.xib; sourceTree = "<group>"; };
 		51A940EE1C00A1F700223A3B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Support/ParseFramework/Bolts.framework; sourceTree = "<group>"; };
 		51A940EF1C00A1F700223A3B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Support/ParseFramework/Parse.framework; sourceTree = "<group>"; };
 		51A940F01C00A1F700223A3B /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = Support/ParseFramework/ParseUI.framework; sourceTree = "<group>"; };
@@ -318,6 +316,9 @@
 		A02661D9D79C61F4AEDFD976 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B17461C75361181AA8523F47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C5F5C44223DB30D15FF2FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C30A29651C0141F700511A49 /* img5_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img5_1.png; path = Support/Resource/image/img5_1.png; sourceTree = "<group>"; };
+		C30A29661C0141F700511A49 /* img5_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img5_2.png; path = Support/Resource/image/img5_2.png; sourceTree = "<group>"; };
+		C30A29671C0141F700511A49 /* img5_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img5_3.png; path = Support/Resource/image/img5_3.png; sourceTree = "<group>"; };
 		C3B39EC21BFF374D00C4A0EB /* BabeSchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabeSchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B39EC61BFF374D00C4A0EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3B39EC81BFF374D00C4A0EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -391,15 +392,12 @@
 		12601B3F1BFF441F0070F8D2 /* School Detail */ = {
 			isa = PBXGroup;
 			children = (
-				51A940831C008B2D00223A3B /* RateViewController.h */,
-				51A940841C008B2D00223A3B /* RateViewController.m */,
-				51A940851C008B2D00223A3B /* RateViewController.xib */,
+				51A940831C008B2D00223A3B /* CommentViewController.h */,
+				51A940841C008B2D00223A3B /* CommentViewController.m */,
+				51A940851C008B2D00223A3B /* CommentViewController.xib */,
 				51A940861C008B2D00223A3B /* SchoolDetailViewController.h */,
 				51A940871C008B2D00223A3B /* SchoolDetailViewController.m */,
 				51A940881C008B2D00223A3B /* SchoolDetailViewController.xib */,
-				51A940891C008B2D00223A3B /* VietBLViewController.h */,
-				51A9408A1C008B2D00223A3B /* VietBLViewController.m */,
-				51A9408B1C008B2D00223A3B /* VietBLViewController.xib */,
 				51A9408C1C008B2D00223A3B /* WriteComment.h */,
 				51A9408D1C008B2D00223A3B /* WriteComment.m */,
 				51A9408E1C008B2D00223A3B /* WriteComment.xib */,
@@ -436,12 +434,12 @@
 		127D05401C00845900F25DB2 /* Activity */ = {
 			isa = PBXGroup;
 			children = (
-				51A940BC1C00A07B00223A3B /* HoatDongCellTableViewCell.h */,
-				51A940BD1C00A07B00223A3B /* HoatDongCellTableViewCell.m */,
-				51A940BE1C00A07B00223A3B /* HoatDongCellTableViewCell.xib */,
-				51A940BF1C00A07B00223A3B /* HoatDongViewController.h */,
-				51A940C01C00A07B00223A3B /* HoatDongViewController.m */,
-				51A940C11C00A07B00223A3B /* HoatDongViewController.xib */,
+				51A940BC1C00A07B00223A3B /* ActivityCell.h */,
+				51A940BD1C00A07B00223A3B /* ActivityCell.m */,
+				51A940BE1C00A07B00223A3B /* ActivityCell.xib */,
+				51A940BF1C00A07B00223A3B /* ActivityViewController.h */,
+				51A940C01C00A07B00223A3B /* ActivityViewController.m */,
+				51A940C11C00A07B00223A3B /* ActivityViewController.xib */,
 			);
 			name = Activity;
 			sourceTree = "<group>";
@@ -536,6 +534,9 @@
 		51A93F801C00859D00223A3B /* image */ = {
 			isa = PBXGroup;
 			children = (
+				C30A29651C0141F700511A49 /* img5_1.png */,
+				C30A29661C0141F700511A49 /* img5_2.png */,
+				C30A29671C0141F700511A49 /* img5_3.png */,
 				C3CE20C41C00DC3C00624D99 /* btn_news@2x.png */,
 				C3CE20C01C00D02E00624D99 /* btn_gameforkid@2x.png */,
 				C3CE20BE1C00CE4000624D99 /* btn_liveStream@2x.png */,
@@ -680,9 +681,9 @@
 				51A940DD1C00A0BC00223A3B /* HealthCell.h */,
 				51A940DE1C00A0BC00223A3B /* HealthCell.m */,
 				51A940DF1C00A0BC00223A3B /* HealthCell.xib */,
-				51A940E31C00A0BC00223A3B /* SucKhoeViewController.h */,
-				51A940E41C00A0BC00223A3B /* SucKhoeViewController.m */,
-				51A940E51C00A0BC00223A3B /* SucKhoeViewController.xib */,
+				51A940E31C00A0BC00223A3B /* HealthViewController.h */,
+				51A940E41C00A0BC00223A3B /* HealthViewController.m */,
+				51A940E51C00A0BC00223A3B /* HealthViewController.xib */,
 			);
 			name = "Health Status";
 			sourceTree = "<group>";
@@ -700,9 +701,9 @@
 		51D449AA1BFFB6C8001121C7 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				51A940D01C00A09A00223A3B /* ThucDonViewController.h */,
-				51A940D11C00A09A00223A3B /* ThucDonViewController.m */,
-				51A940D21C00A09A00223A3B /* ThucDonViewController.xib */,
+				51A940D01C00A09A00223A3B /* MenuViewController.h */,
+				51A940D11C00A09A00223A3B /* MenuViewController.m */,
+				51A940D21C00A09A00223A3B /* MenuViewController.xib */,
 			);
 			name = Menu;
 			sourceTree = "<group>";
@@ -927,7 +928,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				51A940731C008AAF00223A3B /* img2_2.png in Resources */,
-				51A940941C008B2D00223A3B /* VietBLViewController.xib in Resources */,
 				51A940921C008B2D00223A3B /* SchoolDetailViewController.xib in Resources */,
 				51A9400A1C00897300223A3B /* P200 Piano F#7.caf in Resources */,
 				51A9400C1C00897300223A3B /* Piano.plist in Resources */,
@@ -950,7 +950,7 @@
 				51A93FDC1C0088B100223A3B /* ListSchoolViewController.xib in Resources */,
 				51A9406D1C008AAF00223A3B /* img_mota.png in Resources */,
 				51A940761C008AAF00223A3B /* img3_2.png in Resources */,
-				51A940D41C00A09A00223A3B /* ThucDonViewController.xib in Resources */,
+				51A940D41C00A09A00223A3B /* MenuViewController.xib in Resources */,
 				51A93FFC1C00897300223A3B /* P200 Piano A#7.caf in Resources */,
 				51A9406B1C008AAF00223A3B /* img_login.png in Resources */,
 				51A940281C008A3B00223A3B /* users.json in Resources */,
@@ -962,9 +962,10 @@
 				51A9400B1C00897300223A3B /* P200 Piano G#9.caf in Resources */,
 				51A940751C008AAF00223A3B /* img3_1.png in Resources */,
 				51A940681C008AAF00223A3B /* green_bg.png in Resources */,
+				C30A296A1C0141F700511A49 /* img5_3.png in Resources */,
 				C3CE20BB1C00CC1E00624D99 /* btn_contactSchool@2x.png in Resources */,
 				51A93FFD1C00897300223A3B /* P200 Piano C7.caf in Resources */,
-				51A940901C008B2D00223A3B /* RateViewController.xib in Resources */,
+				51A940901C008B2D00223A3B /* CommentViewController.xib in Resources */,
 				51A940771C008AAF00223A3B /* img3_3.png in Resources */,
 				51A940671C008AAF00223A3B /* btn_search@2x.png in Resources */,
 				51A940691C008AAF00223A3B /* img_btn.png in Resources */,
@@ -973,19 +974,21 @@
 				51A940011C00897300223A3B /* P200 Piano D3.caf in Resources */,
 				51A940631C008AAF00223A3B /* btn_function@2x.png in Resources */,
 				51A9405D1C008AAF00223A3B /* bg_btn.png in Resources */,
-				51A940C31C00A07B00223A3B /* HoatDongCellTableViewCell.xib in Resources */,
+				51A940C31C00A07B00223A3B /* ActivityCell.xib in Resources */,
 				51A940071C00897300223A3B /* P200 Piano F#4.caf in Resources */,
 				51A940661C008AAF00223A3B /* btn_logout@2x.png in Resources */,
+				C30A29691C0141F700511A49 /* img5_2.png in Resources */,
 				51A93FFA1C00897300223A3B /* P200 Piano A#4.caf in Resources */,
 				51A93FF91C00897300223A3B /* P200 Piano A#3.caf in Resources */,
 				51A940601C008AAF00223A3B /* btn_back_black@2x.png in Resources */,
 				51A9406A1C008AAF00223A3B /* img_danhgia.png in Resources */,
 				C3CE20B91C00CA9B00624D99 /* btn_healthcare@2x.png in Resources */,
 				51A940041C00897300223A3B /* P200 Piano D6.caf in Resources */,
-				51A940C51C00A07B00223A3B /* HoatDongViewController.xib in Resources */,
+				51A940C51C00A07B00223A3B /* ActivityViewController.xib in Resources */,
 				51A940651C008AAF00223A3B /* btn_login@2x.png in Resources */,
 				51A940001C00897300223A3B /* P200 Piano D2.caf in Resources */,
 				51A940621C008AAF00223A3B /* btn_cancel@2x.png in Resources */,
+				C30A29681C0141F700511A49 /* img5_1.png in Resources */,
 				51A93FC01C00883300223A3B /* LoginViewController.xib in Resources */,
 				51A9405E1C008AAF00223A3B /* bg_function@2x.png in Resources */,
 				51A940961C008B2D00223A3B /* WriteComment.xib in Resources */,
@@ -993,7 +996,7 @@
 				C3CE20BF1C00CE4000624D99 /* btn_liveStream@2x.png in Resources */,
 				51A940051C00897300223A3B /* P200 Piano F#2.caf in Resources */,
 				51A940021C00897300223A3B /* P200 Piano D4.caf in Resources */,
-				51A940ED1C00A0BC00223A3B /* SucKhoeViewController.xib in Resources */,
+				51A940ED1C00A0BC00223A3B /* HealthViewController.xib in Resources */,
 				51A9406F1C008AAF00223A3B /* img1_1.png in Resources */,
 				C3B39ED51BFF374D00C4A0EB /* Assets.xcassets in Resources */,
 				51A940CF1C00A09000223A3B /* NoticeView.xib in Resources */,
@@ -1069,14 +1072,14 @@
 				51A940121C0089AD00223A3B /* SoundBankPlayer.m in Sources */,
 				51A93FDB1C0088B100223A3B /* ListSchoolViewController.m in Sources */,
 				51A940E61C00A0BC00223A3B /* AddHealth.m in Sources */,
-				51A940C21C00A07B00223A3B /* HoatDongCellTableViewCell.m in Sources */,
+				51A940C21C00A07B00223A3B /* ActivityCell.m in Sources */,
 				51A940351C008A4800223A3B /* Comment.m in Sources */,
 				C3B39ED31BFF374D00C4A0EB /* BabeSchool.xcdatamodeld in Sources */,
 				51A940111C0089AD00223A3B /* OpenALSupport.c in Sources */,
 				51A940C91C00A08500223A3B /* PianoViewController.m in Sources */,
 				51A940BA1C00A06F00223A3B /* FunctionViewController.m in Sources */,
 				51A940D81C00A0AF00223A3B /* LiveStreamViewController.m in Sources */,
-				51A940D31C00A09A00223A3B /* ThucDonViewController.m in Sources */,
+				51A940D31C00A09A00223A3B /* MenuViewController.m in Sources */,
 				51A940B21C00A04500223A3B /* Reachability.m in Sources */,
 				51A93FDD1C0088B100223A3B /* SchoolCell.m in Sources */,
 				51A940911C008B2D00223A3B /* SchoolDetailViewController.m in Sources */,
@@ -1084,17 +1087,16 @@
 				C3B39ECA1BFF374D00C4A0EB /* AppDelegate.m in Sources */,
 				51A940CE1C00A09000223A3B /* NoticeView.m in Sources */,
 				51A940B61C00A04D00223A3B /* MyLib.m in Sources */,
-				51A9408F1C008B2D00223A3B /* RateViewController.m in Sources */,
+				51A9408F1C008B2D00223A3B /* CommentViewController.m in Sources */,
 				51A940E81C00A0BC00223A3B /* HealthCell.m in Sources */,
 				51A93F861C00869500223A3B /* KLCPopup.m in Sources */,
 				51A940381C008A4800223A3B /* hoatdong.m in Sources */,
 				51A940391C008A4800223A3B /* School.m in Sources */,
 				51A940361C008A4800223A3B /* foodmenu.m in Sources */,
-				51A940931C008B2D00223A3B /* VietBLViewController.m in Sources */,
 				51A93FE21C0088FB00223A3B /* KASlideShow.m in Sources */,
 				51A940FE1C00A39000223A3B /* BaseNavigationController.m in Sources */,
-				51A940C41C00A07B00223A3B /* HoatDongViewController.m in Sources */,
-				51A940EC1C00A0BC00223A3B /* SucKhoeViewController.m in Sources */,
+				51A940C41C00A07B00223A3B /* ActivityViewController.m in Sources */,
+				51A940EC1C00A0BC00223A3B /* HealthViewController.m in Sources */,
 				51A940B31C00A04500223A3B /* Utils.m in Sources */,
 				C3B39EC71BFF374D00C4A0EB /* main.m in Sources */,
 			);

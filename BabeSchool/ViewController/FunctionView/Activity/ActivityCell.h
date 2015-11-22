@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "hoatdong.h"
-@interface HoatDongCellTableViewCell : UITableViewCell
+@interface ActivityCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *title;
 @property (weak, nonatomic) IBOutlet UILabel *date;
 @property (weak, nonatomic) IBOutlet UITextView *content;

@@ -65,7 +65,7 @@
     // Dispose of any resources that can be recreated.
 }
 -(void)fallToStream{
-    UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"Opps" message:@"Hiện camera chưa sẵn sàng, quay lạ vào lúc khác" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"Opps" message:@"Hiện camera chưa sẵn sàng, quay lại vào lúc khác" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [alert show];
     [self.navigationController popViewControllerAnimated:YES];
 }

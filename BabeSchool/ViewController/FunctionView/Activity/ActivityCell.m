@@ -6,9 +6,9 @@
 //  Copyright © 2015 Nguyễn Chí Hoàng. All rights reserved.
 //
 
-#import "HoatDongCellTableViewCell.h"
+#import "ActivityCell.h"
 
-@implementation HoatDongCellTableViewCell
+@implementation ActivityCell
 
 - (void)awakeFromNib {
     // Initialization code

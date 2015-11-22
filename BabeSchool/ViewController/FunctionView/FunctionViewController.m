@@ -8,8 +8,8 @@
 
 #import "FunctionViewController.h"
 #import "LiveStreamViewController.h"
-#import "ThucDonViewController.h"
-#import "SucKhoeViewController.h"
+#import "MenuViewController.h"
+#import "HealthViewController.h"
 #import "KLCPopup.h"
 #import "NoticeView.h"
 #import <MBProgressHUD.h>
@@ -17,7 +17,7 @@
 #import "ListSchoolViewController.h"
 #import "Utils.h"
 #import "PianoViewController.h"
-#import "HoatDongViewController.h"
+#import "ActivityViewController.h"
 @interface FunctionViewController ()
 
 @end
@@ -68,11 +68,11 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)btnThucDonClicked:(id)sender {
-    ThucDonViewController *thucDonVC =[[ThucDonViewController alloc]initWithNibName:@"ThucDonViewController" bundle:nil];
+    MenuViewController *thucDonVC =[[MenuViewController alloc]initWithNibName:@"MenuViewController" bundle:nil];
     [self.navigationController pushViewController:thucDonVC animated:YES];
 }
 - (IBAction)btnSucKhoeClicked:(id)sender {
-    SucKhoeViewController *sucKhoeVC =[[SucKhoeViewController alloc]initWithNibName:@"SucKhoeViewController" bundle:nil];
+    HealthViewController *sucKhoeVC =[[HealthViewController alloc]initWithNibName:@"HealthViewController" bundle:nil];
     [self.navigationController pushViewController:sucKhoeVC animated:YES];
 }
 - (IBAction)btnThongBaoClicked:(id)sender {
@@ -145,7 +145,7 @@
     [self presentViewController:pianoVC animated:YES completion:nil];
 }
 - (IBAction)btnHoatDongClicked:(id)sender {
-    HoatDongViewController *hoatdongVC = [[HoatDongViewController alloc] initWithNibName:@"HoatDongViewController" bundle:nil];
+    ActivityViewController *hoatdongVC = [[ActivityViewController alloc] initWithNibName:@"ActivityViewController" bundle:nil];
     [self.navigationController pushViewController:hoatdongVC animated:YES ];
 }
 

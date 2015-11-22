@@ -6,7 +6,7 @@
 //  Copyright © 2015 Nguyễn Chí Hoàng. All rights reserved.
 //
 
-#import "SucKhoeViewController.h"
+#import "HealthViewController.h"
 #import "HealthCell.h"
 #import "Health.h"
 #import "KLCPopup.h"
@@ -14,12 +14,12 @@
 #import <Parse/Parse.h>
 #import <MBProgressHUD.h>
 
-@interface SucKhoeViewController ()
+@interface HealthViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableHealth;
 
 @end
 
-@implementation SucKhoeViewController {
+@implementation HealthViewController {
     NSMutableArray *arrayHealths;
     KLCPopup *popup;
     AddHealth *addHealth;
