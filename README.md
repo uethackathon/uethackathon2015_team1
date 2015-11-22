@@ -14,3 +14,4 @@ All library we use in this project:
 6. KLCPopup: https://github.com/jmascia/KLCPopup
 7. Parse: https://parse.com/docs/ios/guide
 8. Sound Bank Player: https://github.com/hollance/SoundBankPlayer
+9. Live Stream: https://cloud.wowza.com
