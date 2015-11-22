@@ -1,5 +1,5 @@
 //
-//  HoatDongViewController.h
+//  RateViewController.h
 //  BabeSchool
 //
 //  Created by thjnh195 on 11/21/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HoatDongViewController : UIViewController
-
+@interface CommentViewController : UIViewController
+@property (assign,nonatomic) NSInteger schoolId;
 @end

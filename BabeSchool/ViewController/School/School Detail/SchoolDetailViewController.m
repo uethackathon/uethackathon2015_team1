@@ -10,7 +10,7 @@
 #import "KASlideShow.h"
 #import "LoginViewController.h"
 #import "FunctionViewController.h"
-#import "RateViewController.h"
+#import "CommentViewController.h"
 @import GoogleMaps;
 @interface SchoolDetailViewController ()
 @property (weak, nonatomic) IBOutlet UIView *viewSlideImage;
@@ -55,7 +55,7 @@
     self.textDetail.text=nil;
     [self checkBeforeCall];
     if (!addedRate) {
-        RateViewController *V2 = [[RateViewController alloc]initWithNibName:@"RateViewController" bundle:nil];//assuming V2 is name of your nib as well
+        CommentViewController *V2 = [[CommentViewController alloc]initWithNibName:@"CommentViewController" bundle:nil];//assuming V2 is name of your nib as well
         // Call Rate screen
         V2.schoolId=self.modal.schoolId;
         [self addChildViewController:V2];

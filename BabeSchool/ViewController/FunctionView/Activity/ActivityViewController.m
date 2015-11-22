@@ -6,19 +6,19 @@
 //  Copyright © 2015 Nguyễn Chí Hoàng. All rights reserved.
 //
 
-#import "HoatDongViewController.h"
+#import "ActivityViewController.h"
 #import <Parse/Parse.h>
 #import <MBProgressHUD.h>
 #import "HoatDong.h"
-#import "HoatDongCellTableViewCell.h"
-@interface HoatDongViewController ()<UITableViewDataSource,UITableViewDelegate>{
+#import "ActivityCell.h"
+@interface ActivityViewController ()<UITableViewDataSource,UITableViewDelegate>{
     NSMutableArray *arrayNot;
 }
 @property (weak, nonatomic) IBOutlet UITableView *tableVIew;
 
 @end
 
-@implementation HoatDongViewController
+@implementation ActivityViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -45,10 +45,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     
-    HoatDongCellTableViewCell *cell = (HoatDongCellTableViewCell*) [tableView dequeueReusableCellWithIdentifier:@"hoatDongCell"];
+    ActivityCell *cell = (ActivityCell*) [tableView dequeueReusableCellWithIdentifier:@"ActivityCell"];
     
     if (!cell) {
-        cell = [[[NSBundle mainBundle] loadNibNamed:@"HoatDongCellTableViewCell" owner:self options:nil] objectAtIndex:0];
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"ActivityCell" owner:self options:nil] objectAtIndex:0];
         
         HoatDong *hoatdong = [arrayNot objectAtIndex:indexPath.row];
         [cell bindData:hoatdong];

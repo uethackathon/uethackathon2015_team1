@@ -6,8 +6,7 @@
 //  Copyright © 2015 Nguyễn Chí Hoàng. All rights reserved.
 //
 
-#import "RateViewController.h"
-#import "VietBLViewController.h"
+#import "CommentViewController.h"
 #import <Parse/Parse.h>
 #import <MBProgressHUD.h>
 #import "Comment.h"
@@ -15,7 +14,7 @@
 #import "WriteComment.h"
 #import "MyLib.h"
 
-@interface RateViewController ()<UITableViewDataSource,UITableViewDelegate>{
+@interface CommentViewController ()<UITableViewDataSource,UITableViewDelegate>{
     NSMutableArray *arrayComments;
     __weak IBOutlet UIButton *btnWriteComment;
 }
@@ -24,7 +23,7 @@
 
 @end
 
-@implementation RateViewController {
+@implementation CommentViewController {
     KLCPopup *popup;
     WriteComment *writeComment;
 }

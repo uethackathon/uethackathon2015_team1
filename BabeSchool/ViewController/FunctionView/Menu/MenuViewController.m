@@ -6,17 +6,17 @@
 //  Copyright © 2015 Nguyễn Chí Hoàng. All rights reserved.
 //
 
-#import "ThucDonViewController.h"
+#import "MenuViewController.h"
 #import "foodmenu.h"
 #import <MBProgressHUD.h>
-@interface ThucDonViewController (){
+@interface MenuViewController (){
     NSMutableArray *arrayFoods;
 }
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
-@implementation ThucDonViewController
+@implementation MenuViewController
 
 - (void)viewDidLoad {
     
