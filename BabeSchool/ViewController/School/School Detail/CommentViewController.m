@@ -34,7 +34,7 @@
         btnWriteComment.hidden = YES;
     }
     arrayComments =[[NSMutableArray alloc]init];
-//    _tableView.separatorColor = [UIColor clearColor];
+    _tableView.separatorColor = [UIColor lightGrayColor];
     [self getData];
     
     writeComment = [[[NSBundle mainBundle] loadNibNamed:@"WriteComment" owner:self options:nil] objectAtIndex:0];
