@@ -5,6 +5,7 @@ UET Hackathon 2015 - SnapUET Team
 This is an application that helps parents interact with school.
 
 All library we use in this project:
+
 1. MagicalRecord: https://github.com/magicalpanda/MagicalRecord
 2. Google Maps: https://developers.google.com/maps/documentation/ios-sdk/?hl=en
 3. MBProgressHUD: https://github.com/jdg/MBProgressHUD
