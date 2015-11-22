@@ -40,6 +40,9 @@
 }
 
 + (BOOL) isNumber:(NSString *)inputNumber {
+    if ([inputNumber isEqualToString:@"0"]) {
+        return NO;
+    }
     NSCharacterSet *numberic = [[NSCharacterSet characterSetWithCharactersInString:@"1234567890."] invertedSet];
     return [inputNumber rangeOfCharacterFromSet:numberic].location == NSNotFound;
 }
