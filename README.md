@@ -3,6 +3,7 @@ UET Hackathon 2015 - SnapUET Team
 **Ứng dụng BabeSchool**
 
 This is an application that helps parents interact with school.
+Note: Install pod before run project!
 
 All library we use in this project:
 
@@ -15,3 +16,4 @@ All library we use in this project:
 7. Parse: https://parse.com/docs/ios/guide
 8. Sound Bank Player: https://github.com/hollance/SoundBankPlayer
 9. Live Stream: https://cloud.wowza.com
+10. Cocoapods: https://cocoapods.org/
